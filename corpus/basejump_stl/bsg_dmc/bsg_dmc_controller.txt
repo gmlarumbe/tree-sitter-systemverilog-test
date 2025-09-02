@@ -3135,111 +3135,107 @@ endmodule
                                       (primary
                                         (hierarchical_identifier
                                           (simple_identifier))))))))
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  left: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier))))
+                                  right: (expression
+                                    (primary
+                                      (mintypmax_expression
+                                        (expression
+                                          left: (expression
+                                            left: (expression
+                                              (primary
+                                                (hierarchical_identifier
+                                                  (simple_identifier))))
+                                            right: (expression
+                                              (primary
+                                                (hierarchical_identifier
+                                                  (simple_identifier)))))
+                                          right: (expression
+                                            left: (expression
+                                              (primary
+                                                (hierarchical_identifier
+                                                  (simple_identifier))))
+                                            right: (expression
+                                              (primary
+                                                (hierarchical_identifier
+                                                  (simple_identifier))))))))))
+                                right: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))))
                             (statement_or_null
                               (statement
                                 (statement_item
-                                  (conditional_statement
-                                    (cond_predicate
-                                      (expression
-                                        left: (expression
-                                          left: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier))))
-                                          right: (expression
-                                            (primary
-                                              (mintypmax_expression
-                                                (expression
-                                                  left: (expression
-                                                    left: (expression
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier))))
-                                                    right: (expression
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))))
-                                                  right: (expression
-                                                    left: (expression
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier))))
-                                                    right: (expression
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier))))))))))
-                                        right: (expression
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier))))))
+                                  (seq_block
                                     (statement_or_null
                                       (statement
                                         (statement_item
-                                          (seq_block
+                                          (conditional_statement
+                                            (cond_predicate
+                                              (expression
+                                                operator: (unary_operator)
+                                                argument: (primary
+                                                  (mintypmax_expression
+                                                    (expression
+                                                      left: (expression
+                                                        (primary
+                                                          (hierarchical_identifier
+                                                            (simple_identifier))))
+                                                      right: (expression
+                                                        (primary
+                                                          (hierarchical_identifier
+                                                            (simple_identifier)))))))))
                                             (statement_or_null
                                               (statement
                                                 (statement_item
-                                                  (conditional_statement
-                                                    (cond_predicate
-                                                      (expression
-                                                        operator: (unary_operator)
-                                                        argument: (primary
-                                                          (mintypmax_expression
-                                                            (expression
-                                                              left: (expression
-                                                                (primary
-                                                                  (hierarchical_identifier
-                                                                    (simple_identifier))))
-                                                              right: (expression
-                                                                (primary
-                                                                  (hierarchical_identifier
-                                                                    (simple_identifier)))))))))
-                                                    (statement_or_null
-                                                      (statement
-                                                        (statement_item
-                                                          (nonblocking_assignment
-                                                            (variable_lvalue
-                                                              (hierarchical_identifier
-                                                                (simple_identifier)))
-                                                            (expression
-                                                              left: (expression
-                                                                (primary
-                                                                  (hierarchical_identifier
-                                                                    (simple_identifier))))
-                                                              right: (expression
-                                                                (primary
-                                                                  (primary_literal
-                                                                    (integral_number
-                                                                      (decimal_number
-                                                                        (unsigned_number)))))))))))))))))))
-                                    (cond_predicate
-                                      (expression
-                                        left: (expression
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier))))
-                                        right: (expression
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (nonblocking_assignment
-                                            (variable_lvalue
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (expression
-                                              left: (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier))))
-                                              right: (expression
-                                                (primary
-                                                  (primary_literal
-                                                    (integral_number
-                                                      (decimal_number
-                                                        (unsigned_number)))))))))))))))))))))))))))
+                                                  (nonblocking_assignment
+                                                    (variable_lvalue
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))
+                                                    (expression
+                                                      left: (expression
+                                                        (primary
+                                                          (hierarchical_identifier
+                                                            (simple_identifier))))
+                                                      right: (expression
+                                                        (primary
+                                                          (primary_literal
+                                                            (integral_number
+                                                              (decimal_number
+                                                                (unsigned_number)))))))))))))))))))
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))
+                                right: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))))
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (nonblocking_assignment
+                                    (variable_lvalue
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (expression
+                                      left: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier))))
+                                      right: (expression
+                                        (primary
+                                          (primary_literal
+                                            (integral_number
+                                              (decimal_number
+                                                (unsigned_number)))))))))))))))))))))))
     (continuous_assign
       (list_of_net_assignments
         (net_assignment
@@ -4174,87 +4170,83 @@ endmodule
                                           (integral_number
                                             (decimal_number
                                               (unsigned_number))))))))))
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  left: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier))))
+                                  right: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier)))))
+                                right: (expression
+                                  left: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier))))
+                                  right: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier)))))))
                             (statement_or_null
                               (statement
                                 (statement_item
-                                  (conditional_statement
-                                    (cond_predicate
-                                      (expression
-                                        left: (expression
-                                          left: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier))))
-                                          right: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier)))))
-                                        right: (expression
-                                          left: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier))))
-                                          right: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier)))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (nonblocking_assignment
-                                            (variable_lvalue
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (expression
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)
-                                                  (simple_identifier))))))))
-                                    (cond_predicate
-                                      (expression
-                                        left: (expression
-                                          left: (expression
-                                            left: (expression
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier))))
-                                            right: (expression
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)))))
-                                          right: (expression
-                                            left: (expression
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier))))
-                                            right: (expression
-                                              (primary
-                                                (primary_literal
-                                                  (integral_number
-                                                    (decimal_number
-                                                      (unsigned_number))))))))
-                                        right: (expression
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (nonblocking_assignment
-                                            (variable_lvalue
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (expression
-                                              left: (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier))))
-                                              right: (expression
-                                                (primary
-                                                  (primary_literal
-                                                    (integral_number
-                                                      (decimal_number
-                                                        (unsigned_number)))))))))))))))))))))))))))
+                                  (nonblocking_assignment
+                                    (variable_lvalue
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier)
+                                          (simple_identifier))))))))
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  left: (expression
+                                    left: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier))))
+                                    right: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier)))))
+                                  right: (expression
+                                    left: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier))))
+                                    right: (expression
+                                      (primary
+                                        (primary_literal
+                                          (integral_number
+                                            (decimal_number
+                                              (unsigned_number))))))))
+                                right: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))))
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (nonblocking_assignment
+                                    (variable_lvalue
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (expression
+                                      left: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier))))
+                                      right: (expression
+                                        (primary
+                                          (primary_literal
+                                            (integral_number
+                                              (decimal_number
+                                                (unsigned_number)))))))))))))))))))))))
     (always_construct
       (always_keyword)
       (statement
@@ -4294,77 +4286,73 @@ endmodule
                                           (integral_number
                                             (decimal_number
                                               (unsigned_number))))))))))
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))
+                                right: (expression
+                                  left: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier))))
+                                  right: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier)
+                                        (simple_identifier)))))))
                             (statement_or_null
                               (statement
                                 (statement_item
-                                  (conditional_statement
-                                    (cond_predicate
-                                      (expression
-                                        left: (expression
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier))))
-                                        right: (expression
-                                          left: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier))))
-                                          right: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier)
-                                                (simple_identifier)))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (nonblocking_assignment
-                                            (variable_lvalue
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (expression
-                                              (primary
-                                                (primary_literal
-                                                  (integral_number
-                                                    (decimal_number
-                                                      (unsigned_number))))))))))
-                                    (cond_predicate
-                                      (expression
-                                        left: (expression
-                                          left: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier))))
-                                          right: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier)))))
-                                        right: (expression
-                                          left: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier))))
-                                          right: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier)))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (nonblocking_assignment
-                                            (variable_lvalue
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (expression
-                                              left: (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier))))
-                                              right: (expression
-                                                (primary
-                                                  (primary_literal
-                                                    (integral_number
-                                                      (decimal_number
-                                                        (unsigned_number)))))))))))))))))))))))))))
+                                  (nonblocking_assignment
+                                    (variable_lvalue
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (expression
+                                      (primary
+                                        (primary_literal
+                                          (integral_number
+                                            (decimal_number
+                                              (unsigned_number))))))))))
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  left: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier))))
+                                  right: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier)))))
+                                right: (expression
+                                  left: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier))))
+                                  right: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier)))))))
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (nonblocking_assignment
+                                    (variable_lvalue
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (expression
+                                      left: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier))))
+                                      right: (expression
+                                        (primary
+                                          (primary_literal
+                                            (integral_number
+                                              (decimal_number
+                                                (unsigned_number)))))))))))))))))))))))
     (always_construct
       (always_keyword)
       (statement
@@ -4843,11 +4831,15 @@ endmodule
                                             (decimal_number
                                               (unsigned_number))))))))))
                             (one_line_comment)
-                            (statement_or_null
-                              (statement
-                                (statement_item
-                                  (conditional_statement
-                                    (cond_predicate
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))
+                                right: (expression
+                                  (primary
+                                    (mintypmax_expression
                                       (expression
                                         left: (expression
                                           (primary
@@ -4855,66 +4847,58 @@ endmodule
                                               (simple_identifier))))
                                         right: (expression
                                           (primary
-                                            (mintypmax_expression
-                                              (expression
-                                                left: (expression
-                                                  (primary
-                                                    (hierarchical_identifier
-                                                      (simple_identifier))))
-                                                right: (expression
-                                                  (primary
-                                                    (hierarchical_identifier
-                                                      (simple_identifier)
-                                                      (simple_identifier))))))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (nonblocking_assignment
-                                            (variable_lvalue
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (expression
-                                              (primary
-                                                (primary_literal
-                                                  (integral_number
-                                                    (decimal_number
-                                                      (unsigned_number))))))))))
-                                    (cond_predicate
-                                      (expression
-                                        left: (expression
-                                          left: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier))))
-                                          right: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier)
-                                                (simple_identifier)))))
-                                        right: (expression
-                                          left: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier))))
-                                          right: (expression
-                                            (primary
-                                              (primary_literal
-                                                (integral_number
-                                                  (decimal_number
-                                                    (unsigned_number)))))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (nonblocking_assignment
-                                            (variable_lvalue
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (expression
-                                              (primary
-                                                (primary_literal
-                                                  (integral_number
-                                                    (decimal_number
-                                                      (unsigned_number))))))))))))))))))))))))))
+                                            (hierarchical_identifier
+                                              (simple_identifier)
+                                              (simple_identifier))))))))))
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (nonblocking_assignment
+                                    (variable_lvalue
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (expression
+                                      (primary
+                                        (primary_literal
+                                          (integral_number
+                                            (decimal_number
+                                              (unsigned_number))))))))))
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  left: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier))))
+                                  right: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier)
+                                        (simple_identifier)))))
+                                right: (expression
+                                  left: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier))))
+                                  right: (expression
+                                    (primary
+                                      (primary_literal
+                                        (integral_number
+                                          (decimal_number
+                                            (unsigned_number)))))))))
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (nonblocking_assignment
+                                    (variable_lvalue
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (expression
+                                      (primary
+                                        (primary_literal
+                                          (integral_number
+                                            (decimal_number
+                                              (unsigned_number))))))))))))))))))))))
     (one_line_comment)
     (continuous_assign
       (list_of_net_assignments
@@ -4992,115 +4976,111 @@ endmodule
                                           (integral_number
                                             (decimal_number
                                               (unsigned_number))))))))))
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  left: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier))))
+                                  right: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier)))))
+                                right: (expression
+                                  left: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier))))
+                                  right: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier)))))))
                             (statement_or_null
                               (statement
                                 (statement_item
-                                  (conditional_statement
-                                    (cond_predicate
-                                      (expression
-                                        left: (expression
-                                          left: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier))))
-                                          right: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier)))))
-                                        right: (expression
-                                          left: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier))))
-                                          right: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier)))))))
+                                  (seq_block
                                     (statement_or_null
                                       (statement
                                         (statement_item
-                                          (seq_block
+                                          (conditional_statement
+                                            (cond_predicate
+                                              (expression
+                                                operator: (unary_operator)
+                                                argument: (primary
+                                                  (hierarchical_identifier
+                                                    (simple_identifier)))))
                                             (statement_or_null
                                               (statement
                                                 (statement_item
-                                                  (conditional_statement
-                                                    (cond_predicate
-                                                      (expression
-                                                        operator: (unary_operator)
-                                                        argument: (primary
-                                                          (hierarchical_identifier
-                                                            (simple_identifier)))))
-                                                    (statement_or_null
-                                                      (statement
-                                                        (statement_item
-                                                          (nonblocking_assignment
-                                                            (variable_lvalue
-                                                              (hierarchical_identifier
-                                                                (simple_identifier)))
-                                                            (expression
-                                                              (primary
-                                                                (primary_literal
-                                                                  (integral_number
-                                                                    (decimal_number
-                                                                      (unsigned_number))))))))))
-                                                    (statement_or_null
-                                                      (statement
-                                                        (statement_item
-                                                          (nonblocking_assignment
-                                                            (variable_lvalue
-                                                              (hierarchical_identifier
-                                                                (simple_identifier)))
-                                                            (expression
-                                                              (primary
-                                                                (primary_literal
-                                                                  (integral_number
-                                                                    (decimal_number
-                                                                      (unsigned_number))))))))))))))))))
-                                    (cond_predicate
-                                      (expression
-                                        left: (expression
-                                          left: (expression
-                                            left: (expression
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier))))
-                                            right: (expression
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)))))
-                                          right: (expression
-                                            left: (expression
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier))))
-                                            right: (expression
-                                              (primary
-                                                (primary_literal
-                                                  (integral_number
-                                                    (decimal_number
-                                                      (unsigned_number))))))))
-                                        right: (expression
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (nonblocking_assignment
-                                            (variable_lvalue
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (expression
-                                              left: (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier))))
-                                              right: (expression
-                                                (primary
-                                                  (primary_literal
-                                                    (integral_number
-                                                      (decimal_number
-                                                        (unsigned_number)))))))))))))))))))))))))))
+                                                  (nonblocking_assignment
+                                                    (variable_lvalue
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))
+                                                    (expression
+                                                      (primary
+                                                        (primary_literal
+                                                          (integral_number
+                                                            (decimal_number
+                                                              (unsigned_number))))))))))
+                                            (statement_or_null
+                                              (statement
+                                                (statement_item
+                                                  (nonblocking_assignment
+                                                    (variable_lvalue
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))
+                                                    (expression
+                                                      (primary
+                                                        (primary_literal
+                                                          (integral_number
+                                                            (decimal_number
+                                                              (unsigned_number))))))))))))))))))
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  left: (expression
+                                    left: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier))))
+                                    right: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier)))))
+                                  right: (expression
+                                    left: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier))))
+                                    right: (expression
+                                      (primary
+                                        (primary_literal
+                                          (integral_number
+                                            (decimal_number
+                                              (unsigned_number))))))))
+                                right: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))))
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (nonblocking_assignment
+                                    (variable_lvalue
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (expression
+                                      left: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier))))
+                                      right: (expression
+                                        (primary
+                                          (primary_literal
+                                            (integral_number
+                                              (decimal_number
+                                                (unsigned_number)))))))))))))))))))))))
     (always_construct
       (always_keyword)
       (statement
@@ -5140,11 +5120,20 @@ endmodule
                                           (integral_number
                                             (decimal_number
                                               (unsigned_number))))))))))
-                            (statement_or_null
-                              (statement
-                                (statement_item
-                                  (conditional_statement
-                                    (cond_predicate
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  left: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier))))
+                                  right: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier)))))
+                                right: (expression
+                                  (primary
+                                    (mintypmax_expression
                                       (expression
                                         left: (expression
                                           left: (expression
@@ -5156,141 +5145,115 @@ endmodule
                                               (hierarchical_identifier
                                                 (simple_identifier)))))
                                         right: (expression
-                                          (primary
-                                            (mintypmax_expression
+                                          left: (expression
+                                            (primary
+                                              (hierarchical_identifier
+                                                (simple_identifier))))
+                                          right: (expression
+                                            (primary
+                                              (hierarchical_identifier
+                                                (simple_identifier)))))))))))
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (seq_block
+                                    (statement_or_null
+                                      (statement
+                                        (statement_item
+                                          (conditional_statement
+                                            (cond_predicate
                                               (expression
                                                 left: (expression
-                                                  left: (expression
-                                                    (primary
-                                                      (hierarchical_identifier
-                                                        (simple_identifier))))
-                                                  right: (expression
-                                                    (primary
-                                                      (hierarchical_identifier
-                                                        (simple_identifier)))))
+                                                  (primary
+                                                    (hierarchical_identifier
+                                                      (simple_identifier))
+                                                    (select
+                                                      (bit_select
+                                                        (expression
+                                                          (primary
+                                                            (hierarchical_identifier
+                                                              (simple_identifier))))))))
                                                 right: (expression
                                                   left: (expression
                                                     (primary
                                                       (hierarchical_identifier
-                                                        (simple_identifier))))
+                                                        (simple_identifier))
+                                                      (select
+                                                        (bit_select
+                                                          (expression
+                                                            (primary
+                                                              (hierarchical_identifier
+                                                                (simple_identifier))))))))
                                                   right: (expression
                                                     (primary
                                                       (hierarchical_identifier
-                                                        (simple_identifier)))))))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (seq_block
+                                                        (simple_identifier)))))))
                                             (statement_or_null
                                               (statement
                                                 (statement_item
-                                                  (conditional_statement
-                                                    (cond_predicate
+                                                  (nonblocking_assignment
+                                                    (variable_lvalue
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))
+                                                    (expression
+                                                      (primary
+                                                        (primary_literal
+                                                          (integral_number
+                                                            (decimal_number
+                                                              (unsigned_number))))))))))
+                                            (cond_predicate
+                                              (expression
+                                                (primary
+                                                  (hierarchical_identifier
+                                                    (simple_identifier))
+                                                  (select
+                                                    (bit_select
                                                       (expression
-                                                        left: (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier))
-                                                            (select
-                                                              (bit_select
-                                                                (expression
-                                                                  (primary
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier))))))))
-                                                        right: (expression
-                                                          left: (expression
-                                                            (primary
-                                                              (hierarchical_identifier
-                                                                (simple_identifier))
-                                                              (select
-                                                                (bit_select
-                                                                  (expression
-                                                                    (primary
-                                                                      (hierarchical_identifier
-                                                                        (simple_identifier))))))))
-                                                          right: (expression
-                                                            (primary
-                                                              (hierarchical_identifier
-                                                                (simple_identifier)))))))
-                                                    (statement_or_null
-                                                      (statement
-                                                        (statement_item
-                                                          (nonblocking_assignment
-                                                            (variable_lvalue
-                                                              (hierarchical_identifier
-                                                                (simple_identifier)))
-                                                            (expression
-                                                              (primary
-                                                                (primary_literal
-                                                                  (integral_number
-                                                                    (decimal_number
-                                                                      (unsigned_number))))))))))
-                                                    (statement_or_null
-                                                      (statement
-                                                        (statement_item
-                                                          (conditional_statement
-                                                            (cond_predicate
-                                                              (expression
-                                                                (primary
-                                                                  (hierarchical_identifier
-                                                                    (simple_identifier))
-                                                                  (select
-                                                                    (bit_select
-                                                                      (expression
-                                                                        (primary
-                                                                          (hierarchical_identifier
-                                                                            (simple_identifier)))))))))
-                                                            (statement_or_null
-                                                              (statement
-                                                                (statement_item
-                                                                  (nonblocking_assignment
-                                                                    (variable_lvalue
-                                                                      (hierarchical_identifier
-                                                                        (simple_identifier)))
-                                                                    (expression
-                                                                      (primary
-                                                                        (primary_literal
-                                                                          (integral_number
-                                                                            (decimal_number
-                                                                              (unsigned_number))))))))))
-                                                            (statement_or_null
-                                                              (statement
-                                                                (statement_item
-                                                                  (nonblocking_assignment
-                                                                    (variable_lvalue
-                                                                      (hierarchical_identifier
-                                                                        (simple_identifier)))
-                                                                    (expression
-                                                                      (primary
-                                                                        (primary_literal
-                                                                          (integral_number
-                                                                            (decimal_number
-                                                                              (unsigned_number))))))))))))))))))))))
-                                    (cond_predicate
-                                      (expression
-                                        left: (expression
+                                                        (primary
+                                                          (hierarchical_identifier
+                                                            (simple_identifier)))))))))
+                                            (statement_or_null
+                                              (statement
+                                                (statement_item
+                                                  (nonblocking_assignment
+                                                    (variable_lvalue
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))
+                                                    (expression
+                                                      (primary
+                                                        (primary_literal
+                                                          (integral_number
+                                                            (decimal_number
+                                                              (unsigned_number))))))))))
+                                            (statement_or_null
+                                              (statement
+                                                (statement_item
+                                                  (nonblocking_assignment
+                                                    (variable_lvalue
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))
+                                                    (expression
+                                                      (primary
+                                                        (primary_literal
+                                                          (integral_number
+                                                            (decimal_number
+                                                              (unsigned_number))))))))))))))))))
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  left: (expression
+                                    (primary
+                                      (mintypmax_expression
+                                        (expression
                                           left: (expression
-                                            (primary
-                                              (mintypmax_expression
-                                                (expression
-                                                  left: (expression
-                                                    left: (expression
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier))))
-                                                    right: (expression
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))))
-                                                  right: (expression
-                                                    left: (expression
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier))))
-                                                    right: (expression
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))))))))
+                                            left: (expression
+                                              (primary
+                                                (hierarchical_identifier
+                                                  (simple_identifier))))
+                                            right: (expression
+                                              (primary
+                                                (hierarchical_identifier
+                                                  (simple_identifier)))))
                                           right: (expression
                                             left: (expression
                                               (primary
@@ -5298,32 +5261,41 @@ endmodule
                                                   (simple_identifier))))
                                             right: (expression
                                               (primary
-                                                (primary_literal
-                                                  (integral_number
-                                                    (decimal_number
-                                                      (unsigned_number))))))))
-                                        right: (expression
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (nonblocking_assignment
-                                            (variable_lvalue
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (expression
-                                              left: (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier))))
-                                              right: (expression
-                                                (primary
-                                                  (primary_literal
-                                                    (integral_number
-                                                      (decimal_number
-                                                        (unsigned_number)))))))))))))))))))))))))))
+                                                (hierarchical_identifier
+                                                  (simple_identifier)))))))))
+                                  right: (expression
+                                    left: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier))))
+                                    right: (expression
+                                      (primary
+                                        (primary_literal
+                                          (integral_number
+                                            (decimal_number
+                                              (unsigned_number))))))))
+                                right: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))))
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (nonblocking_assignment
+                                    (variable_lvalue
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (expression
+                                      left: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier))))
+                                      right: (expression
+                                        (primary
+                                          (primary_literal
+                                            (integral_number
+                                              (decimal_number
+                                                (unsigned_number)))))))))))))))))))))))
     (always_construct
       (always_keyword)
       (statement
@@ -6625,86 +6597,74 @@ endmodule
                                           (primary
                                             (hierarchical_identifier
                                               (simple_identifier)))))))))
+                              (cond_predicate
+                                (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier)))))
                               (statement_or_null
                                 (statement
                                   (statement_item
-                                    (conditional_statement
-                                      (cond_predicate
+                                    (blocking_assignment
+                                      (operator_assignment
+                                        (variable_lvalue
+                                          (hierarchical_identifier
+                                            (simple_identifier)))
+                                        (assignment_operator)
                                         (expression
                                           (primary
                                             (hierarchical_identifier
-                                              (simple_identifier)))))
-                                      (statement_or_null
-                                        (statement
-                                          (statement_item
-                                            (blocking_assignment
-                                              (operator_assignment
-                                                (variable_lvalue
-                                                  (hierarchical_identifier
-                                                    (simple_identifier)))
-                                                (assignment_operator)
-                                                (expression
-                                                  (primary
-                                                    (hierarchical_identifier
-                                                      (simple_identifier)))))))))
-                                      (one_line_comment)
-                                      (statement_or_null
-                                        (statement
-                                          (statement_item
-                                            (conditional_statement
-                                              (cond_predicate
-                                                (expression
-                                                  (primary
-                                                    (hierarchical_identifier
-                                                      (simple_identifier)))))
-                                              (statement_or_null
-                                                (statement
-                                                  (statement_item
-                                                    (blocking_assignment
-                                                      (operator_assignment
-                                                        (variable_lvalue
-                                                          (hierarchical_identifier
-                                                            (simple_identifier)))
-                                                        (assignment_operator)
-                                                        (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)))))))))
-                                              (statement_or_null
-                                                (statement
-                                                  (statement_item
-                                                    (conditional_statement
-                                                      (cond_predicate
-                                                        (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)))))
-                                                      (statement_or_null
-                                                        (statement
-                                                          (statement_item
-                                                            (blocking_assignment
-                                                              (operator_assignment
-                                                                (variable_lvalue
-                                                                  (hierarchical_identifier
-                                                                    (simple_identifier)))
-                                                                (assignment_operator)
-                                                                (expression
-                                                                  (primary
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier)))))))))
-                                                      (statement_or_null
-                                                        (statement
-                                                          (statement_item
-                                                            (blocking_assignment
-                                                              (operator_assignment
-                                                                (variable_lvalue
-                                                                  (hierarchical_identifier
-                                                                    (simple_identifier)))
-                                                                (assignment_operator)
-                                                                (expression
-                                                                  (primary
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier))))))))))))))))))))))))))
+                                              (simple_identifier)))))))))
+                              (one_line_comment)
+                              (cond_predicate
+                                (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier)))))
+                              (statement_or_null
+                                (statement
+                                  (statement_item
+                                    (blocking_assignment
+                                      (operator_assignment
+                                        (variable_lvalue
+                                          (hierarchical_identifier
+                                            (simple_identifier)))
+                                        (assignment_operator)
+                                        (expression
+                                          (primary
+                                            (hierarchical_identifier
+                                              (simple_identifier)))))))))
+                              (cond_predicate
+                                (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier)))))
+                              (statement_or_null
+                                (statement
+                                  (statement_item
+                                    (blocking_assignment
+                                      (operator_assignment
+                                        (variable_lvalue
+                                          (hierarchical_identifier
+                                            (simple_identifier)))
+                                        (assignment_operator)
+                                        (expression
+                                          (primary
+                                            (hierarchical_identifier
+                                              (simple_identifier)))))))))
+                              (statement_or_null
+                                (statement
+                                  (statement_item
+                                    (blocking_assignment
+                                      (operator_assignment
+                                        (variable_lvalue
+                                          (hierarchical_identifier
+                                            (simple_identifier)))
+                                        (assignment_operator)
+                                        (expression
+                                          (primary
+                                            (hierarchical_identifier
+                                              (simple_identifier))))))))))))))
                     (case_item
                       (case_item_expression
                         (expression
@@ -8181,60 +8141,56 @@ endmodule
                                           (integral_number
                                             (decimal_number
                                               (unsigned_number))))))))))
+                            (cond_predicate
+                              (expression
+                                (primary
+                                  (hierarchical_identifier
+                                    (simple_identifier)))))
                             (statement_or_null
                               (statement
                                 (statement_item
-                                  (conditional_statement
-                                    (cond_predicate
-                                      (expression
+                                  (nonblocking_assignment
+                                    (variable_lvalue
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (expression
+                                      (primary
+                                        (primary_literal
+                                          (integral_number
+                                            (decimal_number
+                                              (unsigned_number))))))))))
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))
+                                right: (expression
+                                  (primary
+                                    (primary_literal
+                                      (integral_number
+                                        (hex_number
+                                          size: (unsigned_number)
+                                          base: (hex_base)
+                                          value: (hex_value))))))))
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (nonblocking_assignment
+                                    (variable_lvalue
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (expression
+                                      left: (expression
                                         (primary
                                           (hierarchical_identifier
-                                            (simple_identifier)))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (nonblocking_assignment
-                                            (variable_lvalue
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (expression
-                                              (primary
-                                                (primary_literal
-                                                  (integral_number
-                                                    (decimal_number
-                                                      (unsigned_number))))))))))
-                                    (cond_predicate
-                                      (expression
-                                        left: (expression
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier))))
-                                        right: (expression
-                                          (primary
-                                            (primary_literal
-                                              (integral_number
-                                                (hex_number
-                                                  size: (unsigned_number)
-                                                  base: (hex_base)
-                                                  value: (hex_value))))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (nonblocking_assignment
-                                            (variable_lvalue
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (expression
-                                              left: (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier))))
-                                              right: (expression
-                                                (primary
-                                                  (primary_literal
-                                                    (integral_number
-                                                      (decimal_number
-                                                        (unsigned_number)))))))))))))))))))))))))))
+                                            (simple_identifier))))
+                                      right: (expression
+                                        (primary
+                                          (primary_literal
+                                            (integral_number
+                                              (decimal_number
+                                                (unsigned_number)))))))))))))))))))))))
     (always_construct
       (always_keyword)
       (statement
@@ -8274,70 +8230,66 @@ endmodule
                                           (integral_number
                                             (decimal_number
                                               (unsigned_number))))))))))
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))
+                                right: (expression
+                                  left: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier))))
+                                  right: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier)))))))
                             (statement_or_null
                               (statement
                                 (statement_item
-                                  (conditional_statement
-                                    (cond_predicate
-                                      (expression
-                                        left: (expression
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier))))
-                                        right: (expression
-                                          left: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier))))
-                                          right: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier)))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (nonblocking_assignment
-                                            (variable_lvalue
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (expression
-                                              (primary
-                                                (primary_literal
-                                                  (integral_number
-                                                    (decimal_number
-                                                      (unsigned_number))))))))))
-                                    (cond_predicate
-                                      (expression
-                                        left: (expression
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier))))
-                                        right: (expression
-                                          (primary
-                                            (primary_literal
-                                              (integral_number
-                                                (hex_number
-                                                  size: (unsigned_number)
-                                                  base: (hex_base)
-                                                  value: (hex_value))))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (nonblocking_assignment
-                                            (variable_lvalue
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (expression
-                                              left: (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier))))
-                                              right: (expression
-                                                (primary
-                                                  (primary_literal
-                                                    (integral_number
-                                                      (decimal_number
-                                                        (unsigned_number)))))))))))))))))))))))))))
+                                  (nonblocking_assignment
+                                    (variable_lvalue
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (expression
+                                      (primary
+                                        (primary_literal
+                                          (integral_number
+                                            (decimal_number
+                                              (unsigned_number))))))))))
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))
+                                right: (expression
+                                  (primary
+                                    (primary_literal
+                                      (integral_number
+                                        (hex_number
+                                          size: (unsigned_number)
+                                          base: (hex_base)
+                                          value: (hex_value))))))))
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (nonblocking_assignment
+                                    (variable_lvalue
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (expression
+                                      left: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier))))
+                                      right: (expression
+                                        (primary
+                                          (primary_literal
+                                            (integral_number
+                                              (decimal_number
+                                                (unsigned_number)))))))))))))))))))))))
     (always_construct
       (always_keyword)
       (statement
@@ -8377,70 +8329,66 @@ endmodule
                                           (integral_number
                                             (decimal_number
                                               (unsigned_number))))))))))
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))
+                                right: (expression
+                                  left: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier))))
+                                  right: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier)))))))
                             (statement_or_null
                               (statement
                                 (statement_item
-                                  (conditional_statement
-                                    (cond_predicate
-                                      (expression
-                                        left: (expression
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier))))
-                                        right: (expression
-                                          left: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier))))
-                                          right: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier)))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (nonblocking_assignment
-                                            (variable_lvalue
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (expression
-                                              (primary
-                                                (primary_literal
-                                                  (integral_number
-                                                    (decimal_number
-                                                      (unsigned_number))))))))))
-                                    (cond_predicate
-                                      (expression
-                                        left: (expression
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier))))
-                                        right: (expression
-                                          (primary
-                                            (primary_literal
-                                              (integral_number
-                                                (hex_number
-                                                  size: (unsigned_number)
-                                                  base: (hex_base)
-                                                  value: (hex_value))))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (nonblocking_assignment
-                                            (variable_lvalue
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (expression
-                                              left: (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier))))
-                                              right: (expression
-                                                (primary
-                                                  (primary_literal
-                                                    (integral_number
-                                                      (decimal_number
-                                                        (unsigned_number)))))))))))))))))))))))))))
+                                  (nonblocking_assignment
+                                    (variable_lvalue
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (expression
+                                      (primary
+                                        (primary_literal
+                                          (integral_number
+                                            (decimal_number
+                                              (unsigned_number))))))))))
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))
+                                right: (expression
+                                  (primary
+                                    (primary_literal
+                                      (integral_number
+                                        (hex_number
+                                          size: (unsigned_number)
+                                          base: (hex_base)
+                                          value: (hex_value))))))))
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (nonblocking_assignment
+                                    (variable_lvalue
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (expression
+                                      left: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier))))
+                                      right: (expression
+                                        (primary
+                                          (primary_literal
+                                            (integral_number
+                                              (decimal_number
+                                                (unsigned_number)))))))))))))))))))))))
     (always_construct
       (always_keyword)
       (statement
@@ -8480,70 +8428,66 @@ endmodule
                                           (integral_number
                                             (decimal_number
                                               (unsigned_number))))))))))
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))
+                                right: (expression
+                                  left: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier))))
+                                  right: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier)))))))
                             (statement_or_null
                               (statement
                                 (statement_item
-                                  (conditional_statement
-                                    (cond_predicate
-                                      (expression
-                                        left: (expression
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier))))
-                                        right: (expression
-                                          left: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier))))
-                                          right: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier)))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (nonblocking_assignment
-                                            (variable_lvalue
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (expression
-                                              (primary
-                                                (primary_literal
-                                                  (integral_number
-                                                    (decimal_number
-                                                      (unsigned_number))))))))))
-                                    (cond_predicate
-                                      (expression
-                                        left: (expression
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier))))
-                                        right: (expression
-                                          (primary
-                                            (primary_literal
-                                              (integral_number
-                                                (hex_number
-                                                  size: (unsigned_number)
-                                                  base: (hex_base)
-                                                  value: (hex_value))))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (nonblocking_assignment
-                                            (variable_lvalue
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (expression
-                                              left: (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier))))
-                                              right: (expression
-                                                (primary
-                                                  (primary_literal
-                                                    (integral_number
-                                                      (decimal_number
-                                                        (unsigned_number)))))))))))))))))))))))))))
+                                  (nonblocking_assignment
+                                    (variable_lvalue
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (expression
+                                      (primary
+                                        (primary_literal
+                                          (integral_number
+                                            (decimal_number
+                                              (unsigned_number))))))))))
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))
+                                right: (expression
+                                  (primary
+                                    (primary_literal
+                                      (integral_number
+                                        (hex_number
+                                          size: (unsigned_number)
+                                          base: (hex_base)
+                                          value: (hex_value))))))))
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (nonblocking_assignment
+                                    (variable_lvalue
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (expression
+                                      left: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier))))
+                                      right: (expression
+                                        (primary
+                                          (primary_literal
+                                            (integral_number
+                                              (decimal_number
+                                                (unsigned_number)))))))))))))))))))))))
     (always_construct
       (always_keyword)
       (statement
@@ -8660,63 +8604,236 @@ endmodule
                                                   (integral_number
                                                     (decimal_number
                                                       (unsigned_number))))))))))))))
+                            (cond_predicate
+                              (expression
+                                (primary
+                                  (mintypmax_expression
+                                    (expression
+                                      left: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier))))
+                                      right: (expression
+                                        left: (expression
+                                          (primary
+                                            (hierarchical_identifier
+                                              (simple_identifier))
+                                            (select
+                                              (constant_range
+                                                (constant_expression
+                                                  (constant_primary
+                                                    (primary_literal
+                                                      (integral_number
+                                                        (decimal_number
+                                                          (unsigned_number))))))
+                                                (constant_expression
+                                                  (constant_primary
+                                                    (primary_literal
+                                                      (integral_number
+                                                        (decimal_number
+                                                          (unsigned_number))))))))))
+                                        right: (expression
+                                          (primary
+                                            (hierarchical_identifier
+                                              (simple_identifier))))))))))
                             (statement_or_null
                               (statement
                                 (statement_item
-                                  (conditional_statement
-                                    (cond_predicate
-                                      (expression
-                                        (primary
-                                          (mintypmax_expression
+                                  (seq_block
+                                    (statement_or_null
+                                      (statement
+                                        (statement_item
+                                          (nonblocking_assignment
+                                            (variable_lvalue
+                                              (hierarchical_identifier
+                                                (simple_identifier)))
+                                            (expression
+                                              (primary
+                                                (primary_literal
+                                                  (integral_number
+                                                    (decimal_number
+                                                      (unsigned_number))))))))))))))
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (seq_block
+                                    (statement_or_null
+                                      (statement
+                                        (statement_item
+                                          (nonblocking_assignment
+                                            (variable_lvalue
+                                              (hierarchical_identifier
+                                                (simple_identifier)))
+                                            (expression
+                                              (primary
+                                                (primary_literal
+                                                  (integral_number
+                                                    (decimal_number
+                                                      (unsigned_number))))))))))))))))))))))))))
+    (always_construct
+      (always_keyword)
+      (statement
+        (statement_item
+          (procedural_timing_control_statement
+            (event_control
+              (clocking_event
+                (event_expression
+                  (edge_identifier)
+                  (expression
+                    (primary
+                      (hierarchical_identifier
+                        (simple_identifier)))))))
+            (statement_or_null
+              (statement
+                (statement_item
+                  (seq_block
+                    (statement_or_null
+                      (statement
+                        (statement_item
+                          (conditional_statement
+                            (cond_predicate
+                              (expression
+                                (primary
+                                  (hierarchical_identifier
+                                    (simple_identifier)))))
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (seq_block
+                                    (statement_or_null
+                                      (statement
+                                        (statement_item
+                                          (nonblocking_assignment
+                                            (variable_lvalue
+                                              (hierarchical_identifier
+                                                (simple_identifier)))
+                                            (expression
+                                              (primary
+                                                (primary_literal
+                                                  (integral_number
+                                                    (decimal_number
+                                                      (unsigned_number))))))))))
+                                    (statement_or_null
+                                      (statement
+                                        (statement_item
+                                          (nonblocking_assignment
+                                            (variable_lvalue
+                                              (hierarchical_identifier
+                                                (simple_identifier)))
+                                            (expression
+                                              (primary
+                                                (primary_literal
+                                                  (integral_number
+                                                    (decimal_number
+                                                      (unsigned_number))))))))))))))
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))
+                                right: (expression
+                                  left: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier))
+                                      (select
+                                        (constant_range
+                                          (constant_expression
+                                            (constant_primary
+                                              (primary_literal
+                                                (integral_number
+                                                  (decimal_number
+                                                    (unsigned_number))))))
+                                          (constant_expression
+                                            (constant_primary
+                                              (primary_literal
+                                                (integral_number
+                                                  (decimal_number
+                                                    (unsigned_number))))))))))
+                                  right: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier)))))))
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (seq_block
+                                    (statement_or_null
+                                      (statement
+                                        (statement_item
+                                          (nonblocking_assignment
+                                            (variable_lvalue
+                                              (hierarchical_identifier
+                                                (simple_identifier)))
+                                            (expression
+                                              left: (expression
+                                                (primary
+                                                  (hierarchical_identifier
+                                                    (simple_identifier)
+                                                    (simple_identifier))))
+                                              right: (expression
+                                                (primary
+                                                  (primary_literal
+                                                    (integral_number
+                                                      (decimal_number
+                                                        (unsigned_number)))))))))))
+                                    (statement_or_null
+                                      (statement
+                                        (statement_item
+                                          (nonblocking_assignment
+                                            (variable_lvalue
+                                              (hierarchical_identifier
+                                                (simple_identifier)))
+                                            (expression
+                                              (primary
+                                                (primary_literal
+                                                  (integral_number
+                                                    (decimal_number
+                                                      (unsigned_number))))))))))))))
+                            (cond_predicate
+                              (expression
+                                (primary
+                                  (hierarchical_identifier
+                                    (simple_identifier)))))
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (seq_block
+                                    (statement_or_null
+                                      (statement
+                                        (statement_item
+                                          (nonblocking_assignment
+                                            (variable_lvalue
+                                              (hierarchical_identifier
+                                                (simple_identifier)))
                                             (expression
                                               left: (expression
                                                 (primary
                                                   (hierarchical_identifier
                                                     (simple_identifier))))
                                               right: (expression
+                                                (primary
+                                                  (primary_literal
+                                                    (integral_number
+                                                      (decimal_number
+                                                        (unsigned_number)))))))))))
+                                    (statement_or_null
+                                      (statement
+                                        (statement_item
+                                          (conditional_statement
+                                            (cond_predicate
+                                              (expression
                                                 left: (expression
                                                   (primary
                                                     (hierarchical_identifier
-                                                      (simple_identifier))
-                                                    (select
-                                                      (constant_range
-                                                        (constant_expression
-                                                          (constant_primary
-                                                            (primary_literal
-                                                              (integral_number
-                                                                (decimal_number
-                                                                  (unsigned_number))))))
-                                                        (constant_expression
-                                                          (constant_primary
-                                                            (primary_literal
-                                                              (integral_number
-                                                                (decimal_number
-                                                                  (unsigned_number))))))))))
+                                                      (simple_identifier))))
                                                 right: (expression
                                                   (primary
-                                                    (hierarchical_identifier
-                                                      (simple_identifier))))))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (seq_block
-                                            (statement_or_null
-                                              (statement
-                                                (statement_item
-                                                  (nonblocking_assignment
-                                                    (variable_lvalue
-                                                      (hierarchical_identifier
-                                                        (simple_identifier)))
-                                                    (expression
-                                                      (primary
-                                                        (primary_literal
-                                                          (integral_number
-                                                            (decimal_number
-                                                              (unsigned_number))))))))))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (seq_block
+                                                    (primary_literal
+                                                      (integral_number
+                                                        (decimal_number
+                                                          (unsigned_number))))))))
                                             (statement_or_null
                                               (statement
                                                 (statement_item
@@ -8786,152 +8903,58 @@ endmodule
                                                   (integral_number
                                                     (decimal_number
                                                       (unsigned_number))))))))))))))
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))
+                                right: (expression
+                                  left: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier))))
+                                  right: (expression
+                                    (primary
+                                      (primary_literal
+                                        (integral_number
+                                          (decimal_number
+                                            (unsigned_number)))))))))
                             (statement_or_null
                               (statement
                                 (statement_item
-                                  (conditional_statement
-                                    (cond_predicate
-                                      (expression
-                                        left: (expression
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier))))
-                                        right: (expression
-                                          left: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier))
-                                              (select
-                                                (constant_range
-                                                  (constant_expression
-                                                    (constant_primary
-                                                      (primary_literal
-                                                        (integral_number
-                                                          (decimal_number
-                                                            (unsigned_number))))))
-                                                  (constant_expression
-                                                    (constant_primary
-                                                      (primary_literal
-                                                        (integral_number
-                                                          (decimal_number
-                                                            (unsigned_number))))))))))
-                                          right: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier)))))))
+                                  (seq_block
                                     (statement_or_null
                                       (statement
                                         (statement_item
-                                          (seq_block
-                                            (statement_or_null
-                                              (statement
-                                                (statement_item
-                                                  (nonblocking_assignment
-                                                    (variable_lvalue
-                                                      (hierarchical_identifier
-                                                        (simple_identifier)))
-                                                    (expression
-                                                      left: (expression
-                                                        (primary
-                                                          (hierarchical_identifier
-                                                            (simple_identifier)
-                                                            (simple_identifier))))
-                                                      right: (expression
-                                                        (primary
-                                                          (primary_literal
-                                                            (integral_number
-                                                              (decimal_number
-                                                                (unsigned_number)))))))))))
-                                            (statement_or_null
-                                              (statement
-                                                (statement_item
-                                                  (nonblocking_assignment
-                                                    (variable_lvalue
-                                                      (hierarchical_identifier
-                                                        (simple_identifier)))
-                                                    (expression
-                                                      (primary
-                                                        (primary_literal
-                                                          (integral_number
-                                                            (decimal_number
-                                                              (unsigned_number))))))))))))))
-                                    (cond_predicate
-                                      (expression
-                                        (primary
-                                          (hierarchical_identifier
-                                            (simple_identifier)))))
+                                          (nonblocking_assignment
+                                            (variable_lvalue
+                                              (hierarchical_identifier
+                                                (simple_identifier)))
+                                            (expression
+                                              left: (expression
+                                                (primary
+                                                  (hierarchical_identifier
+                                                    (simple_identifier))))
+                                              right: (expression
+                                                (primary
+                                                  (primary_literal
+                                                    (integral_number
+                                                      (decimal_number
+                                                        (unsigned_number)))))))))))
                                     (statement_or_null
                                       (statement
                                         (statement_item
-                                          (seq_block
-                                            (statement_or_null
-                                              (statement
-                                                (statement_item
-                                                  (nonblocking_assignment
-                                                    (variable_lvalue
-                                                      (hierarchical_identifier
-                                                        (simple_identifier)))
-                                                    (expression
-                                                      left: (expression
-                                                        (primary
-                                                          (hierarchical_identifier
-                                                            (simple_identifier))))
-                                                      right: (expression
-                                                        (primary
-                                                          (primary_literal
-                                                            (integral_number
-                                                              (decimal_number
-                                                                (unsigned_number)))))))))))
-                                            (statement_or_null
-                                              (statement
-                                                (statement_item
-                                                  (conditional_statement
-                                                    (cond_predicate
-                                                      (expression
-                                                        left: (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier))))
-                                                        right: (expression
-                                                          (primary
-                                                            (primary_literal
-                                                              (integral_number
-                                                                (decimal_number
-                                                                  (unsigned_number))))))))
-                                                    (statement_or_null
-                                                      (statement
-                                                        (statement_item
-                                                          (nonblocking_assignment
-                                                            (variable_lvalue
-                                                              (hierarchical_identifier
-                                                                (simple_identifier)))
-                                                            (expression
-                                                              (primary
-                                                                (primary_literal
-                                                                  (integral_number
-                                                                    (decimal_number
-                                                                      (unsigned_number))))))))))))))))))))))))))))))))))
-    (always_construct
-      (always_keyword)
-      (statement
-        (statement_item
-          (procedural_timing_control_statement
-            (event_control
-              (clocking_event
-                (event_expression
-                  (edge_identifier)
-                  (expression
-                    (primary
-                      (hierarchical_identifier
-                        (simple_identifier)))))))
-            (statement_or_null
-              (statement
-                (statement_item
-                  (seq_block
-                    (statement_or_null
-                      (statement
-                        (statement_item
-                          (conditional_statement
+                                          (nonblocking_assignment
+                                            (variable_lvalue
+                                              (hierarchical_identifier
+                                                (simple_identifier)))
+                                            (expression
+                                              (primary
+                                                (primary_literal
+                                                  (integral_number
+                                                    (decimal_number
+                                                      (unsigned_number))))))))))))))
                             (cond_predicate
                               (expression
                                 (primary
@@ -8949,67 +8972,32 @@ endmodule
                                               (hierarchical_identifier
                                                 (simple_identifier)))
                                             (expression
-                                              (primary
-                                                (primary_literal
-                                                  (integral_number
-                                                    (decimal_number
-                                                      (unsigned_number))))))))))
+                                              left: (expression
+                                                (primary
+                                                  (hierarchical_identifier
+                                                    (simple_identifier))))
+                                              right: (expression
+                                                (primary
+                                                  (primary_literal
+                                                    (integral_number
+                                                      (decimal_number
+                                                        (unsigned_number)))))))))))
                                     (statement_or_null
                                       (statement
                                         (statement_item
-                                          (nonblocking_assignment
-                                            (variable_lvalue
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (expression
-                                              (primary
-                                                (primary_literal
-                                                  (integral_number
-                                                    (decimal_number
-                                                      (unsigned_number))))))))))))))
-                            (statement_or_null
-                              (statement
-                                (statement_item
-                                  (conditional_statement
-                                    (cond_predicate
-                                      (expression
-                                        left: (expression
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier))))
-                                        right: (expression
-                                          left: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier))))
-                                          right: (expression
-                                            (primary
-                                              (primary_literal
-                                                (integral_number
-                                                  (decimal_number
-                                                    (unsigned_number)))))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (seq_block
-                                            (statement_or_null
-                                              (statement
-                                                (statement_item
-                                                  (nonblocking_assignment
-                                                    (variable_lvalue
-                                                      (hierarchical_identifier
-                                                        (simple_identifier)))
-                                                    (expression
-                                                      left: (expression
-                                                        (primary
-                                                          (hierarchical_identifier
-                                                            (simple_identifier))))
-                                                      right: (expression
-                                                        (primary
-                                                          (primary_literal
-                                                            (integral_number
-                                                              (decimal_number
-                                                                (unsigned_number)))))))))))
+                                          (conditional_statement
+                                            (cond_predicate
+                                              (expression
+                                                left: (expression
+                                                  (primary
+                                                    (hierarchical_identifier
+                                                      (simple_identifier))))
+                                                right: (expression
+                                                  (primary
+                                                    (primary_literal
+                                                      (integral_number
+                                                        (decimal_number
+                                                          (unsigned_number))))))))
                                             (statement_or_null
                                               (statement
                                                 (statement_item
@@ -9022,63 +9010,7 @@ endmodule
                                                         (primary_literal
                                                           (integral_number
                                                             (decimal_number
-                                                              (unsigned_number))))))))))))))
-                                    (cond_predicate
-                                      (expression
-                                        (primary
-                                          (hierarchical_identifier
-                                            (simple_identifier)))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (seq_block
-                                            (statement_or_null
-                                              (statement
-                                                (statement_item
-                                                  (nonblocking_assignment
-                                                    (variable_lvalue
-                                                      (hierarchical_identifier
-                                                        (simple_identifier)))
-                                                    (expression
-                                                      left: (expression
-                                                        (primary
-                                                          (hierarchical_identifier
-                                                            (simple_identifier))))
-                                                      right: (expression
-                                                        (primary
-                                                          (primary_literal
-                                                            (integral_number
-                                                              (decimal_number
-                                                                (unsigned_number)))))))))))
-                                            (statement_or_null
-                                              (statement
-                                                (statement_item
-                                                  (conditional_statement
-                                                    (cond_predicate
-                                                      (expression
-                                                        left: (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier))))
-                                                        right: (expression
-                                                          (primary
-                                                            (primary_literal
-                                                              (integral_number
-                                                                (decimal_number
-                                                                  (unsigned_number))))))))
-                                                    (statement_or_null
-                                                      (statement
-                                                        (statement_item
-                                                          (nonblocking_assignment
-                                                            (variable_lvalue
-                                                              (hierarchical_identifier
-                                                                (simple_identifier)))
-                                                            (expression
-                                                              (primary
-                                                                (primary_literal
-                                                                  (integral_number
-                                                                    (decimal_number
-                                                                      (unsigned_number))))))))))))))))))))))))))))))))))
+                                                              (unsigned_number))))))))))))))))))))))))))))))
     (always_construct
       (always_keyword)
       (statement
@@ -9194,149 +9126,145 @@ endmodule
                                                       size: (unsigned_number)
                                                       base: (binary_base)
                                                       value: (binary_value))))))))))))))
+                            (cond_predicate
+                              (expression
+                                (primary
+                                  (hierarchical_identifier
+                                    (simple_identifier)))))
                             (statement_or_null
                               (statement
                                 (statement_item
-                                  (conditional_statement
-                                    (cond_predicate
-                                      (expression
-                                        (primary
-                                          (hierarchical_identifier
-                                            (simple_identifier)))))
+                                  (seq_block
                                     (statement_or_null
                                       (statement
                                         (statement_item
-                                          (seq_block
-                                            (statement_or_null
-                                              (statement
-                                                (statement_item
-                                                  (nonblocking_assignment
-                                                    (variable_lvalue
-                                                      (hierarchical_identifier
-                                                        (simple_identifier)))
-                                                    (expression
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier))
-                                                        (select
-                                                          (constant_range
-                                                            (constant_expression
-                                                              (constant_primary
-                                                                (primary_literal
-                                                                  (integral_number
-                                                                    (decimal_number
-                                                                      (unsigned_number))))))
-                                                            (constant_expression
-                                                              (constant_primary
-                                                                (primary_literal
-                                                                  (integral_number
-                                                                    (decimal_number
-                                                                      (unsigned_number))))))))))))))
-                                            (statement_or_null
-                                              (statement
-                                                (statement_item
-                                                  (nonblocking_assignment
-                                                    (variable_lvalue
-                                                      (hierarchical_identifier
-                                                        (simple_identifier)))
-                                                    (expression
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier))
-                                                        (select
-                                                          (constant_range
-                                                            (constant_expression
-                                                              (constant_primary
-                                                                (primary_literal
-                                                                  (integral_number
-                                                                    (decimal_number
-                                                                      (unsigned_number))))))
-                                                            (constant_expression
-                                                              (constant_primary
-                                                                (primary_literal
-                                                                  (integral_number
-                                                                    (decimal_number
-                                                                      (unsigned_number))))))))))))))
-                                            (statement_or_null
-                                              (statement
-                                                (statement_item
-                                                  (nonblocking_assignment
-                                                    (variable_lvalue
-                                                      (variable_lvalue
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))
-                                                      (variable_lvalue
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))
-                                                      (variable_lvalue
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))
-                                                      (variable_lvalue
-                                                        (hierarchical_identifier
-                                                          (simple_identifier))))
-                                                    (expression
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier))))))))))))
+                                          (nonblocking_assignment
+                                            (variable_lvalue
+                                              (hierarchical_identifier
+                                                (simple_identifier)))
+                                            (expression
+                                              (primary
+                                                (hierarchical_identifier
+                                                  (simple_identifier))
+                                                (select
+                                                  (constant_range
+                                                    (constant_expression
+                                                      (constant_primary
+                                                        (primary_literal
+                                                          (integral_number
+                                                            (decimal_number
+                                                              (unsigned_number))))))
+                                                    (constant_expression
+                                                      (constant_primary
+                                                        (primary_literal
+                                                          (integral_number
+                                                            (decimal_number
+                                                              (unsigned_number))))))))))))))
                                     (statement_or_null
                                       (statement
                                         (statement_item
-                                          (seq_block
-                                            (statement_or_null
-                                              (statement
-                                                (statement_item
-                                                  (nonblocking_assignment
-                                                    (variable_lvalue
-                                                      (variable_lvalue
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))
-                                                      (variable_lvalue
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))
-                                                      (variable_lvalue
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))
-                                                      (variable_lvalue
-                                                        (hierarchical_identifier
-                                                          (simple_identifier))))
-                                                    (expression
-                                                      (primary
+                                          (nonblocking_assignment
+                                            (variable_lvalue
+                                              (hierarchical_identifier
+                                                (simple_identifier)))
+                                            (expression
+                                              (primary
+                                                (hierarchical_identifier
+                                                  (simple_identifier))
+                                                (select
+                                                  (constant_range
+                                                    (constant_expression
+                                                      (constant_primary
                                                         (primary_literal
                                                           (integral_number
-                                                            (binary_number
-                                                              size: (unsigned_number)
-                                                              base: (binary_base)
-                                                              value: (binary_value))))))))))
-                                            (statement_or_null
-                                              (statement
-                                                (statement_item
-                                                  (nonblocking_assignment
-                                                    (variable_lvalue
-                                                      (hierarchical_identifier
-                                                        (simple_identifier)))
-                                                    (expression
-                                                      (primary
+                                                            (decimal_number
+                                                              (unsigned_number))))))
+                                                    (constant_expression
+                                                      (constant_primary
                                                         (primary_literal
                                                           (integral_number
-                                                            (binary_number
-                                                              size: (unsigned_number)
-                                                              base: (binary_base)
-                                                              value: (binary_value))))))))))
-                                            (statement_or_null
-                                              (statement
-                                                (statement_item
-                                                  (nonblocking_assignment
-                                                    (variable_lvalue
-                                                      (hierarchical_identifier
-                                                        (simple_identifier)))
-                                                    (expression
-                                                      (primary
-                                                        (primary_literal
-                                                          (integral_number
-                                                            (binary_number
-                                                              size: (unsigned_number)
-                                                              base: (binary_base)
-                                                              value: (binary_value))))))))))))))))))))))))))))))
+                                                            (decimal_number
+                                                              (unsigned_number))))))))))))))
+                                    (statement_or_null
+                                      (statement
+                                        (statement_item
+                                          (nonblocking_assignment
+                                            (variable_lvalue
+                                              (variable_lvalue
+                                                (hierarchical_identifier
+                                                  (simple_identifier)))
+                                              (variable_lvalue
+                                                (hierarchical_identifier
+                                                  (simple_identifier)))
+                                              (variable_lvalue
+                                                (hierarchical_identifier
+                                                  (simple_identifier)))
+                                              (variable_lvalue
+                                                (hierarchical_identifier
+                                                  (simple_identifier))))
+                                            (expression
+                                              (primary
+                                                (hierarchical_identifier
+                                                  (simple_identifier))))))))))))
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (seq_block
+                                    (statement_or_null
+                                      (statement
+                                        (statement_item
+                                          (nonblocking_assignment
+                                            (variable_lvalue
+                                              (variable_lvalue
+                                                (hierarchical_identifier
+                                                  (simple_identifier)))
+                                              (variable_lvalue
+                                                (hierarchical_identifier
+                                                  (simple_identifier)))
+                                              (variable_lvalue
+                                                (hierarchical_identifier
+                                                  (simple_identifier)))
+                                              (variable_lvalue
+                                                (hierarchical_identifier
+                                                  (simple_identifier))))
+                                            (expression
+                                              (primary
+                                                (primary_literal
+                                                  (integral_number
+                                                    (binary_number
+                                                      size: (unsigned_number)
+                                                      base: (binary_base)
+                                                      value: (binary_value))))))))))
+                                    (statement_or_null
+                                      (statement
+                                        (statement_item
+                                          (nonblocking_assignment
+                                            (variable_lvalue
+                                              (hierarchical_identifier
+                                                (simple_identifier)))
+                                            (expression
+                                              (primary
+                                                (primary_literal
+                                                  (integral_number
+                                                    (binary_number
+                                                      size: (unsigned_number)
+                                                      base: (binary_base)
+                                                      value: (binary_value))))))))))
+                                    (statement_or_null
+                                      (statement
+                                        (statement_item
+                                          (nonblocking_assignment
+                                            (variable_lvalue
+                                              (hierarchical_identifier
+                                                (simple_identifier)))
+                                            (expression
+                                              (primary
+                                                (primary_literal
+                                                  (integral_number
+                                                    (binary_number
+                                                      size: (unsigned_number)
+                                                      base: (binary_base)
+                                                      value: (binary_value))))))))))))))))))))))))))
     (always_construct
       (always_keyword)
       (statement
@@ -10298,42 +10226,125 @@ endmodule
                                       (primary
                                         (primary_literal
                                           (unbased_unsized_literal))))))))
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  left: (expression
+                                    left: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier))))
+                                    right: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier)))))
+                                  right: (expression
+                                    left: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier))))
+                                    right: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier))))))
+                                right: (expression
+                                  left: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier))))
+                                  right: (expression
+                                    (primary
+                                      (primary_literal
+                                        (integral_number
+                                          (decimal_number
+                                            (unsigned_number)))))))))
                             (statement_or_null
                               (statement
                                 (statement_item
-                                  (conditional_statement
-                                    (cond_predicate
-                                      (expression
-                                        left: (expression
-                                          left: (expression
-                                            left: (expression
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier))))
-                                            right: (expression
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)))))
-                                          right: (expression
-                                            left: (expression
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier))))
-                                            right: (expression
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier))))))
-                                        right: (expression
-                                          left: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier))))
-                                          right: (expression
-                                            (primary
-                                              (primary_literal
-                                                (integral_number
-                                                  (decimal_number
-                                                    (unsigned_number)))))))))
+                                  (nonblocking_assignment
+                                    (variable_lvalue
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (expression
+                                      left: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier)
+                                            (simple_identifier))))
+                                      right: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier)))))))))
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  left: (expression
+                                    left: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier))))
+                                    right: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier)))))
+                                  right: (expression
+                                    left: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier))))
+                                    right: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier))))))
+                                right: (expression
+                                  left: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier))))
+                                  right: (expression
+                                    (primary
+                                      (primary_literal
+                                        (integral_number
+                                          (decimal_number
+                                            (unsigned_number)))))))))
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (nonblocking_assignment
+                                    (variable_lvalue
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (expression
+                                      left: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier)
+                                            (simple_identifier))))
+                                      right: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier)))))))))
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  left: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier))))
+                                  right: (expression
+                                    (primary
+                                      (primary_literal
+                                        (integral_number
+                                          (decimal_number
+                                            (unsigned_number)))))))
+                                right: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))))
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (seq_block
                                     (statement_or_null
                                       (statement
                                         (statement_item
@@ -10345,106 +10356,15 @@ endmodule
                                               left: (expression
                                                 (primary
                                                   (hierarchical_identifier
-                                                    (simple_identifier)
                                                     (simple_identifier))))
                                               right: (expression
                                                 (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier)))))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (conditional_statement
-                                            (cond_predicate
-                                              (expression
-                                                left: (expression
-                                                  left: (expression
-                                                    left: (expression
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier))))
-                                                    right: (expression
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))))
-                                                  right: (expression
-                                                    left: (expression
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier))))
-                                                    right: (expression
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier))))))
-                                                right: (expression
-                                                  left: (expression
-                                                    (primary
-                                                      (hierarchical_identifier
-                                                        (simple_identifier))))
-                                                  right: (expression
-                                                    (primary
-                                                      (primary_literal
-                                                        (integral_number
-                                                          (decimal_number
-                                                            (unsigned_number)))))))))
-                                            (statement_or_null
-                                              (statement
-                                                (statement_item
-                                                  (nonblocking_assignment
-                                                    (variable_lvalue
-                                                      (hierarchical_identifier
-                                                        (simple_identifier)))
-                                                    (expression
-                                                      left: (expression
-                                                        (primary
-                                                          (hierarchical_identifier
-                                                            (simple_identifier)
-                                                            (simple_identifier))))
-                                                      right: (expression
-                                                        (primary
-                                                          (hierarchical_identifier
-                                                            (simple_identifier)))))))))
-                                            (cond_predicate
-                                              (expression
-                                                left: (expression
-                                                  left: (expression
-                                                    (primary
-                                                      (hierarchical_identifier
-                                                        (simple_identifier))))
-                                                  right: (expression
-                                                    (primary
-                                                      (primary_literal
-                                                        (integral_number
-                                                          (decimal_number
-                                                            (unsigned_number)))))))
-                                                right: (expression
-                                                  (primary
-                                                    (hierarchical_identifier
-                                                      (simple_identifier))))))
-                                            (statement_or_null
-                                              (statement
-                                                (statement_item
-                                                  (seq_block
-                                                    (statement_or_null
-                                                      (statement
-                                                        (statement_item
-                                                          (nonblocking_assignment
-                                                            (variable_lvalue
-                                                              (hierarchical_identifier
-                                                                (simple_identifier)))
-                                                            (expression
-                                                              left: (expression
-                                                                (primary
-                                                                  (hierarchical_identifier
-                                                                    (simple_identifier))))
-                                                              right: (expression
-                                                                (primary
-                                                                  (primary_literal
-                                                                    (integral_number
-                                                                      (binary_number
-                                                                        size: (unsigned_number)
-                                                                        base: (binary_base)
-                                                                        value: (binary_value)))))))))))))))))))))))))))))))))))
+                                                  (primary_literal
+                                                    (integral_number
+                                                      (binary_number
+                                                        size: (unsigned_number)
+                                                        base: (binary_base)
+                                                        value: (binary_value)))))))))))))))))))))))))))
     (continuous_assign
       (list_of_net_assignments
         (net_assignment

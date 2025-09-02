@@ -855,8 +855,8 @@ endmodule
                                       (primary_literal
                                         (string_literal
                                           (quoted_string
-                                            (quoted_string_item)))))))))))))
-                    (conditional_compilation_directive)))))))))
+                                            (quoted_string_item)))))))))))))))))))))
+    (conditional_compilation_directive)
     (one_line_comment)
     (one_line_comment)
     (always_construct

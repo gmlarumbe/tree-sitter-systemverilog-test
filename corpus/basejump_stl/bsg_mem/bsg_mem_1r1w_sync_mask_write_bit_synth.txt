@@ -746,8 +746,11 @@ endmodule
                                                   (expression
                                                     (primary
                                                       (primary_literal
-                                                        (unbased_unsized_literal))))))))))))
-                                  (conditional_compilation_directive)))))))))))))
+                                                        (unbased_unsized_literal))))))))))))))))
+                          (statement_or_null
+                            (statement
+                              (statement_item
+                                (conditional_compilation_directive))))))))))))
           (conditional_generate_construct
             (if_generate_construct
               (constant_expression

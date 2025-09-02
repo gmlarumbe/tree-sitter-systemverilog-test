@@ -680,26 +680,105 @@ endmodule
                                                           (primary
                                                             (hierarchical_identifier
                                                               (simple_identifier))))))))))))))))))))))
+                    (cond_predicate
+                      (expression
+                        left: (expression
+                          (primary
+                            (hierarchical_identifier
+                              (simple_identifier))))
+                        right: (expression
+                          (primary
+                            (primary_literal
+                              (integral_number
+                                (decimal_number
+                                  (unsigned_number))))))))
                     (statement_or_null
                       (statement
                         (statement_item
-                          (conditional_statement
-                            (cond_predicate
-                              (expression
-                                left: (expression
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier))))
-                                right: (expression
-                                  (primary
-                                    (primary_literal
-                                      (integral_number
-                                        (decimal_number
-                                          (unsigned_number))))))))
+                          (seq_block
                             (statement_or_null
                               (statement
                                 (statement_item
-                                  (seq_block
+                                  (blocking_assignment
+                                    (operator_assignment
+                                      (variable_lvalue
+                                        (hierarchical_identifier
+                                          (simple_identifier))
+                                        (select
+                                          (bit_select
+                                            (expression
+                                              left: (expression
+                                                (primary
+                                                  (hierarchical_identifier
+                                                    (simple_identifier))))
+                                              right: (expression
+                                                (primary
+                                                  (primary_literal
+                                                    (integral_number
+                                                      (decimal_number
+                                                        (unsigned_number))))))))))
+                                      (assignment_operator)
+                                      (expression
+                                        left: (expression
+                                          (primary
+                                            (primary_literal
+                                              (integral_number
+                                                (decimal_number
+                                                  (unsigned_number))))))
+                                        right: (expression
+                                          (primary
+                                            (hierarchical_identifier
+                                              (simple_identifier))
+                                            (select
+                                              (bit_select
+                                                (expression
+                                                  left: (expression
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier))))
+                                                  right: (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (decimal_number
+                                                            (unsigned_number)))))))))))))))))
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (loop_statement
+                                    (for_initialization
+                                      (for_variable_declaration
+                                        (data_type
+                                          (integer_atom_type))
+                                        (simple_identifier)
+                                        (expression
+                                          left: (expression
+                                            (primary
+                                              (hierarchical_identifier
+                                                (simple_identifier))))
+                                          right: (expression
+                                            (primary
+                                              (primary_literal
+                                                (integral_number
+                                                  (decimal_number
+                                                    (unsigned_number)))))))))
+                                    (expression
+                                      left: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier))))
+                                      right: (expression
+                                        (primary
+                                          (primary_literal
+                                            (integral_number
+                                              (decimal_number
+                                                (unsigned_number)))))))
+                                    (for_step
+                                      (inc_or_dec_expression
+                                        (inc_or_dec_operator)
+                                        (variable_lvalue
+                                          (hierarchical_identifier
+                                            (simple_identifier)))))
                                     (statement_or_null
                                       (statement
                                         (statement_item
@@ -711,25 +790,12 @@ endmodule
                                                 (select
                                                   (bit_select
                                                     (expression
-                                                      left: (expression
-                                                        (primary
-                                                          (hierarchical_identifier
-                                                            (simple_identifier))))
-                                                      right: (expression
-                                                        (primary
-                                                          (primary_literal
-                                                            (integral_number
-                                                              (decimal_number
-                                                                (unsigned_number))))))))))
+                                                      (primary
+                                                        (hierarchical_identifier
+                                                          (simple_identifier)))))))
                                               (assignment_operator)
                                               (expression
                                                 left: (expression
-                                                  (primary
-                                                    (primary_literal
-                                                      (integral_number
-                                                        (decimal_number
-                                                          (unsigned_number))))))
-                                                right: (expression
                                                   (primary
                                                     (hierarchical_identifier
                                                       (simple_identifier))
@@ -745,27 +811,43 @@ endmodule
                                                               (primary_literal
                                                                 (integral_number
                                                                   (decimal_number
-                                                                    (unsigned_number)))))))))))))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (loop_statement
-                                            (for_initialization
-                                              (for_variable_declaration
-                                                (data_type
-                                                  (integer_atom_type))
-                                                (simple_identifier)
-                                                (expression
-                                                  left: (expression
-                                                    (primary
-                                                      (hierarchical_identifier
-                                                        (simple_identifier))))
-                                                  right: (expression
-                                                    (primary
-                                                      (primary_literal
-                                                        (integral_number
-                                                          (decimal_number
-                                                            (unsigned_number)))))))))
+                                                                    (unsigned_number)))))))))))
+                                                right: (expression
+                                                  (primary
+                                                    (hierarchical_identifier
+                                                      (simple_identifier))
+                                                    (select
+                                                      (bit_select
+                                                        (expression
+                                                          (primary
+                                                            (hierarchical_identifier
+                                                              (simple_identifier))))))))))))))))))))))
+                    (cond_predicate
+                      (expression
+                        left: (expression
+                          (primary
+                            (hierarchical_identifier
+                              (simple_identifier))))
+                        right: (expression
+                          (primary
+                            (primary_literal
+                              (integral_number
+                                (decimal_number
+                                  (unsigned_number))))))))
+                    (statement_or_null
+                      (statement
+                        (statement_item
+                          (seq_block
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (blocking_assignment
+                                    (operator_assignment
+                                      (variable_lvalue
+                                        (hierarchical_identifier
+                                          (simple_identifier))
+                                        (select
+                                          (bit_select
                                             (expression
                                               left: (expression
                                                 (primary
@@ -776,72 +858,69 @@ endmodule
                                                   (primary_literal
                                                     (integral_number
                                                       (decimal_number
-                                                        (unsigned_number)))))))
-                                            (for_step
-                                              (inc_or_dec_expression
-                                                (inc_or_dec_operator)
-                                                (variable_lvalue
-                                                  (hierarchical_identifier
-                                                    (simple_identifier)))))
-                                            (statement_or_null
-                                              (statement
-                                                (statement_item
-                                                  (blocking_assignment
-                                                    (operator_assignment
-                                                      (variable_lvalue
-                                                        (hierarchical_identifier
-                                                          (simple_identifier))
-                                                        (select
-                                                          (bit_select
-                                                            (expression
-                                                              (primary
-                                                                (hierarchical_identifier
-                                                                  (simple_identifier)))))))
-                                                      (assignment_operator)
-                                                      (expression
-                                                        left: (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier))
-                                                            (select
-                                                              (bit_select
-                                                                (expression
-                                                                  left: (expression
-                                                                    (primary
-                                                                      (hierarchical_identifier
-                                                                        (simple_identifier))))
-                                                                  right: (expression
-                                                                    (primary
-                                                                      (primary_literal
-                                                                        (integral_number
-                                                                          (decimal_number
-                                                                            (unsigned_number)))))))))))
-                                                        right: (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier))
-                                                            (select
-                                                              (bit_select
-                                                                (expression
-                                                                  (primary
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier))))))))))))))))))))))
-                            (cond_predicate
-                              (expression
-                                left: (expression
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier))))
-                                right: (expression
-                                  (primary
-                                    (primary_literal
-                                      (integral_number
-                                        (decimal_number
-                                          (unsigned_number))))))))
+                                                        (unsigned_number))))))))))
+                                      (assignment_operator)
+                                      (expression
+                                        left: (expression
+                                          (primary
+                                            (primary_literal
+                                              (integral_number
+                                                (decimal_number
+                                                  (unsigned_number))))))
+                                        right: (expression
+                                          (primary
+                                            (hierarchical_identifier
+                                              (simple_identifier))
+                                            (select
+                                              (bit_select
+                                                (expression
+                                                  left: (expression
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier))))
+                                                  right: (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (decimal_number
+                                                            (unsigned_number)))))))))))))))))
                             (statement_or_null
                               (statement
                                 (statement_item
-                                  (seq_block
+                                  (loop_statement
+                                    (for_initialization
+                                      (for_variable_declaration
+                                        (data_type
+                                          (integer_atom_type))
+                                        (simple_identifier)
+                                        (expression
+                                          left: (expression
+                                            (primary
+                                              (hierarchical_identifier
+                                                (simple_identifier))))
+                                          right: (expression
+                                            (primary
+                                              (primary_literal
+                                                (integral_number
+                                                  (decimal_number
+                                                    (unsigned_number)))))))))
+                                    (expression
+                                      left: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier))))
+                                      right: (expression
+                                        (primary
+                                          (primary_literal
+                                            (integral_number
+                                              (decimal_number
+                                                (unsigned_number)))))))
+                                    (for_step
+                                      (inc_or_dec_expression
+                                        (inc_or_dec_operator)
+                                        (variable_lvalue
+                                          (hierarchical_identifier
+                                            (simple_identifier)))))
                                     (statement_or_null
                                       (statement
                                         (statement_item
@@ -853,25 +932,12 @@ endmodule
                                                 (select
                                                   (bit_select
                                                     (expression
-                                                      left: (expression
-                                                        (primary
-                                                          (hierarchical_identifier
-                                                            (simple_identifier))))
-                                                      right: (expression
-                                                        (primary
-                                                          (primary_literal
-                                                            (integral_number
-                                                              (decimal_number
-                                                                (unsigned_number))))))))))
+                                                      (primary
+                                                        (hierarchical_identifier
+                                                          (simple_identifier)))))))
                                               (assignment_operator)
                                               (expression
                                                 left: (expression
-                                                  (primary
-                                                    (primary_literal
-                                                      (integral_number
-                                                        (decimal_number
-                                                          (unsigned_number))))))
-                                                right: (expression
                                                   (primary
                                                     (hierarchical_identifier
                                                       (simple_identifier))
@@ -887,87 +953,17 @@ endmodule
                                                               (primary_literal
                                                                 (integral_number
                                                                   (decimal_number
-                                                                    (unsigned_number)))))))))))))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (loop_statement
-                                            (for_initialization
-                                              (for_variable_declaration
-                                                (data_type
-                                                  (integer_atom_type))
-                                                (simple_identifier)
-                                                (expression
-                                                  left: (expression
-                                                    (primary
-                                                      (hierarchical_identifier
-                                                        (simple_identifier))))
-                                                  right: (expression
-                                                    (primary
-                                                      (primary_literal
-                                                        (integral_number
-                                                          (decimal_number
-                                                            (unsigned_number)))))))))
-                                            (expression
-                                              left: (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier))))
-                                              right: (expression
-                                                (primary
-                                                  (primary_literal
-                                                    (integral_number
-                                                      (decimal_number
-                                                        (unsigned_number)))))))
-                                            (for_step
-                                              (inc_or_dec_expression
-                                                (inc_or_dec_operator)
-                                                (variable_lvalue
-                                                  (hierarchical_identifier
-                                                    (simple_identifier)))))
-                                            (statement_or_null
-                                              (statement
-                                                (statement_item
-                                                  (blocking_assignment
-                                                    (operator_assignment
-                                                      (variable_lvalue
-                                                        (hierarchical_identifier
-                                                          (simple_identifier))
-                                                        (select
-                                                          (bit_select
-                                                            (expression
-                                                              (primary
-                                                                (hierarchical_identifier
-                                                                  (simple_identifier)))))))
-                                                      (assignment_operator)
-                                                      (expression
-                                                        left: (expression
+                                                                    (unsigned_number)))))))))))
+                                                right: (expression
+                                                  (primary
+                                                    (hierarchical_identifier
+                                                      (simple_identifier))
+                                                    (select
+                                                      (bit_select
+                                                        (expression
                                                           (primary
                                                             (hierarchical_identifier
-                                                              (simple_identifier))
-                                                            (select
-                                                              (bit_select
-                                                                (expression
-                                                                  left: (expression
-                                                                    (primary
-                                                                      (hierarchical_identifier
-                                                                        (simple_identifier))))
-                                                                  right: (expression
-                                                                    (primary
-                                                                      (primary_literal
-                                                                        (integral_number
-                                                                          (decimal_number
-                                                                            (unsigned_number)))))))))))
-                                                        right: (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier))
-                                                            (select
-                                                              (bit_select
-                                                                (expression
-                                                                  (primary
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier))))))))))))))))))))))))))))))
+                                                              (simple_identifier))))))))))))))))))))))))))
             (one_line_comment)
             (statement_or_null
               (statement
@@ -1098,26 +1094,88 @@ endmodule
                                                           (primary
                                                             (hierarchical_identifier
                                                               (simple_identifier))))))))))))))))))))))
+                    (cond_predicate
+                      (expression
+                        left: (expression
+                          (primary
+                            (hierarchical_identifier
+                              (simple_identifier))))
+                        right: (expression
+                          (primary
+                            (primary_literal
+                              (integral_number
+                                (decimal_number
+                                  (unsigned_number))))))))
                     (statement_or_null
                       (statement
                         (statement_item
-                          (conditional_statement
-                            (cond_predicate
-                              (expression
-                                left: (expression
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier))))
-                                right: (expression
-                                  (primary
-                                    (primary_literal
-                                      (integral_number
-                                        (decimal_number
-                                          (unsigned_number))))))))
+                          (seq_block
                             (statement_or_null
                               (statement
                                 (statement_item
-                                  (seq_block
+                                  (blocking_assignment
+                                    (operator_assignment
+                                      (variable_lvalue
+                                        (hierarchical_identifier
+                                          (simple_identifier))
+                                        (select
+                                          (bit_select
+                                            (expression
+                                              (primary
+                                                (primary_literal
+                                                  (integral_number
+                                                    (decimal_number
+                                                      (unsigned_number)))))))))
+                                      (assignment_operator)
+                                      (expression
+                                        left: (expression
+                                          (primary
+                                            (primary_literal
+                                              (integral_number
+                                                (decimal_number
+                                                  (unsigned_number))))))
+                                        right: (expression
+                                          (primary
+                                            (hierarchical_identifier
+                                              (simple_identifier))
+                                            (select
+                                              (bit_select
+                                                (expression
+                                                  (primary
+                                                    (primary_literal
+                                                      (integral_number
+                                                        (decimal_number
+                                                          (unsigned_number))))))))))))))))
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (loop_statement
+                                    (for_initialization
+                                      (for_variable_declaration
+                                        (data_type
+                                          (integer_atom_type))
+                                        (simple_identifier)
+                                        (expression
+                                          (primary
+                                            (primary_literal
+                                              (integral_number
+                                                (decimal_number
+                                                  (unsigned_number))))))))
+                                    (expression
+                                      left: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier))))
+                                      right: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier)))))
+                                    (for_step
+                                      (inc_or_dec_expression
+                                        (inc_or_dec_operator)
+                                        (variable_lvalue
+                                          (hierarchical_identifier
+                                            (simple_identifier)))))
                                     (statement_or_null
                                       (statement
                                         (statement_item
@@ -1130,18 +1188,27 @@ endmodule
                                                   (bit_select
                                                     (expression
                                                       (primary
-                                                        (primary_literal
-                                                          (integral_number
-                                                            (decimal_number
-                                                              (unsigned_number)))))))))
+                                                        (hierarchical_identifier
+                                                          (simple_identifier)))))))
                                               (assignment_operator)
                                               (expression
                                                 left: (expression
                                                   (primary
-                                                    (primary_literal
-                                                      (integral_number
-                                                        (decimal_number
-                                                          (unsigned_number))))))
+                                                    (hierarchical_identifier
+                                                      (simple_identifier))
+                                                    (select
+                                                      (bit_select
+                                                        (expression
+                                                          left: (expression
+                                                            (primary
+                                                              (hierarchical_identifier
+                                                                (simple_identifier))))
+                                                          right: (expression
+                                                            (primary
+                                                              (primary_literal
+                                                                (integral_number
+                                                                  (decimal_number
+                                                                    (unsigned_number)))))))))))
                                                 right: (expression
                                                   (primary
                                                     (hierarchical_identifier
@@ -1150,99 +1217,90 @@ endmodule
                                                       (bit_select
                                                         (expression
                                                           (primary
-                                                            (primary_literal
-                                                              (integral_number
-                                                                (decimal_number
-                                                                  (unsigned_number))))))))))))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (loop_statement
-                                            (for_initialization
-                                              (for_variable_declaration
-                                                (data_type
-                                                  (integer_atom_type))
-                                                (simple_identifier)
+                                                            (hierarchical_identifier
+                                                              (simple_identifier))))))))))))))))))))))
+                    (cond_predicate
+                      (expression
+                        left: (expression
+                          (primary
+                            (hierarchical_identifier
+                              (simple_identifier))))
+                        right: (expression
+                          (primary
+                            (primary_literal
+                              (integral_number
+                                (decimal_number
+                                  (unsigned_number))))))))
+                    (statement_or_null
+                      (statement
+                        (statement_item
+                          (seq_block
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (blocking_assignment
+                                    (operator_assignment
+                                      (variable_lvalue
+                                        (hierarchical_identifier
+                                          (simple_identifier))
+                                        (select
+                                          (bit_select
+                                            (expression
+                                              (primary
+                                                (primary_literal
+                                                  (integral_number
+                                                    (decimal_number
+                                                      (unsigned_number)))))))))
+                                      (assignment_operator)
+                                      (expression
+                                        left: (expression
+                                          (primary
+                                            (primary_literal
+                                              (integral_number
+                                                (decimal_number
+                                                  (unsigned_number))))))
+                                        right: (expression
+                                          (primary
+                                            (hierarchical_identifier
+                                              (simple_identifier))
+                                            (select
+                                              (bit_select
                                                 (expression
                                                   (primary
                                                     (primary_literal
                                                       (integral_number
                                                         (decimal_number
-                                                          (unsigned_number))))))))
-                                            (expression
-                                              left: (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier))))
-                                              right: (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier)))))
-                                            (for_step
-                                              (inc_or_dec_expression
-                                                (inc_or_dec_operator)
-                                                (variable_lvalue
-                                                  (hierarchical_identifier
-                                                    (simple_identifier)))))
-                                            (statement_or_null
-                                              (statement
-                                                (statement_item
-                                                  (blocking_assignment
-                                                    (operator_assignment
-                                                      (variable_lvalue
-                                                        (hierarchical_identifier
-                                                          (simple_identifier))
-                                                        (select
-                                                          (bit_select
-                                                            (expression
-                                                              (primary
-                                                                (hierarchical_identifier
-                                                                  (simple_identifier)))))))
-                                                      (assignment_operator)
-                                                      (expression
-                                                        left: (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier))
-                                                            (select
-                                                              (bit_select
-                                                                (expression
-                                                                  left: (expression
-                                                                    (primary
-                                                                      (hierarchical_identifier
-                                                                        (simple_identifier))))
-                                                                  right: (expression
-                                                                    (primary
-                                                                      (primary_literal
-                                                                        (integral_number
-                                                                          (decimal_number
-                                                                            (unsigned_number)))))))))))
-                                                        right: (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier))
-                                                            (select
-                                                              (bit_select
-                                                                (expression
-                                                                  (primary
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier))))))))))))))))))))))
-                            (cond_predicate
-                              (expression
-                                left: (expression
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier))))
-                                right: (expression
-                                  (primary
-                                    (primary_literal
-                                      (integral_number
-                                        (decimal_number
-                                          (unsigned_number))))))))
+                                                          (unsigned_number))))))))))))))))
                             (statement_or_null
                               (statement
                                 (statement_item
-                                  (seq_block
+                                  (loop_statement
+                                    (for_initialization
+                                      (for_variable_declaration
+                                        (data_type
+                                          (integer_atom_type))
+                                        (simple_identifier)
+                                        (expression
+                                          (primary
+                                            (primary_literal
+                                              (integral_number
+                                                (decimal_number
+                                                  (unsigned_number))))))))
+                                    (expression
+                                      left: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier))))
+                                      right: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier)))))
+                                    (for_step
+                                      (inc_or_dec_expression
+                                        (inc_or_dec_operator)
+                                        (variable_lvalue
+                                          (hierarchical_identifier
+                                            (simple_identifier)))))
                                     (statement_or_null
                                       (statement
                                         (statement_item
@@ -1255,18 +1313,27 @@ endmodule
                                                   (bit_select
                                                     (expression
                                                       (primary
-                                                        (primary_literal
-                                                          (integral_number
-                                                            (decimal_number
-                                                              (unsigned_number)))))))))
+                                                        (hierarchical_identifier
+                                                          (simple_identifier)))))))
                                               (assignment_operator)
                                               (expression
                                                 left: (expression
                                                   (primary
-                                                    (primary_literal
-                                                      (integral_number
-                                                        (decimal_number
-                                                          (unsigned_number))))))
+                                                    (hierarchical_identifier
+                                                      (simple_identifier))
+                                                    (select
+                                                      (bit_select
+                                                        (expression
+                                                          left: (expression
+                                                            (primary
+                                                              (hierarchical_identifier
+                                                                (simple_identifier))))
+                                                          right: (expression
+                                                            (primary
+                                                              (primary_literal
+                                                                (integral_number
+                                                                  (decimal_number
+                                                                    (unsigned_number)))))))))))
                                                 right: (expression
                                                   (primary
                                                     (hierarchical_identifier
@@ -1275,83 +1342,8 @@ endmodule
                                                       (bit_select
                                                         (expression
                                                           (primary
-                                                            (primary_literal
-                                                              (integral_number
-                                                                (decimal_number
-                                                                  (unsigned_number))))))))))))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (loop_statement
-                                            (for_initialization
-                                              (for_variable_declaration
-                                                (data_type
-                                                  (integer_atom_type))
-                                                (simple_identifier)
-                                                (expression
-                                                  (primary
-                                                    (primary_literal
-                                                      (integral_number
-                                                        (decimal_number
-                                                          (unsigned_number))))))))
-                                            (expression
-                                              left: (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier))))
-                                              right: (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier)))))
-                                            (for_step
-                                              (inc_or_dec_expression
-                                                (inc_or_dec_operator)
-                                                (variable_lvalue
-                                                  (hierarchical_identifier
-                                                    (simple_identifier)))))
-                                            (statement_or_null
-                                              (statement
-                                                (statement_item
-                                                  (blocking_assignment
-                                                    (operator_assignment
-                                                      (variable_lvalue
-                                                        (hierarchical_identifier
-                                                          (simple_identifier))
-                                                        (select
-                                                          (bit_select
-                                                            (expression
-                                                              (primary
-                                                                (hierarchical_identifier
-                                                                  (simple_identifier)))))))
-                                                      (assignment_operator)
-                                                      (expression
-                                                        left: (expression
-                                                          (primary
                                                             (hierarchical_identifier
-                                                              (simple_identifier))
-                                                            (select
-                                                              (bit_select
-                                                                (expression
-                                                                  left: (expression
-                                                                    (primary
-                                                                      (hierarchical_identifier
-                                                                        (simple_identifier))))
-                                                                  right: (expression
-                                                                    (primary
-                                                                      (primary_literal
-                                                                        (integral_number
-                                                                          (decimal_number
-                                                                            (unsigned_number)))))))))))
-                                                        right: (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier))
-                                                            (select
-                                                              (bit_select
-                                                                (expression
-                                                                  (primary
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier))))))))))))))))))))))))))))))))))
+                                                              (simple_identifier))))))))))))))))))))))))))))))
     (always_construct
       (always_keyword)
       (statement

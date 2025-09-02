@@ -2898,55 +2898,51 @@ endmodule
                                                       size: (unsigned_number)
                                                       base: (hex_base)
                                                       value: (hex_value))))))))))))))
+                            (cond_predicate
+                              (expression
+                                left: (expression
+                                  left: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier))))
+                                  right: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier)))))
+                                right: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))))
                             (statement_or_null
                               (statement
                                 (statement_item
-                                  (conditional_statement
-                                    (cond_predicate
-                                      (expression
-                                        left: (expression
-                                          left: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier))))
-                                          right: (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier)))))
-                                        right: (expression
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (nonblocking_assignment
-                                            (variable_lvalue
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (expression
-                                              (primary
-                                                (primary_literal
-                                                  (integral_number
-                                                    (binary_number
-                                                      size: (unsigned_number)
-                                                      base: (binary_base)
-                                                      value: (binary_value))))))))))
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (nonblocking_assignment
-                                            (variable_lvalue
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (expression
-                                              (primary
-                                                (primary_literal
-                                                  (integral_number
-                                                    (binary_number
-                                                      size: (unsigned_number)
-                                                      base: (binary_base)
-                                                      value: (binary_value))))))))))))))))))))))))))
+                                  (nonblocking_assignment
+                                    (variable_lvalue
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (expression
+                                      (primary
+                                        (primary_literal
+                                          (integral_number
+                                            (binary_number
+                                              size: (unsigned_number)
+                                              base: (binary_base)
+                                              value: (binary_value))))))))))
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (nonblocking_assignment
+                                    (variable_lvalue
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (expression
+                                      (primary
+                                        (primary_literal
+                                          (integral_number
+                                            (binary_number
+                                              size: (unsigned_number)
+                                              base: (binary_base)
+                                              value: (binary_value))))))))))))))))))))))
     (one_line_comment)
     (always_construct
       (always_keyword)

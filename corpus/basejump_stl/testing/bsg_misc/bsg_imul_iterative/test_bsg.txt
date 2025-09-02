@@ -1724,8 +1724,11 @@ endmodule
                                                                                     (expression
                                                                                       (primary
                                                                                         (hierarchical_identifier
-                                                                                          (simple_identifier)))))))))))))))
-                                                              (conditional_compilation_directive)))))))))))))
+                                                                                          (simple_identifier)))))))))))))))))))
+                                                      (statement_or_null
+                                                        (statement
+                                                          (statement_item
+                                                            (conditional_compilation_directive))))))))))))
                                       (one_line_comment)))))))))
                       (one_line_comment)
                       (statement_or_null

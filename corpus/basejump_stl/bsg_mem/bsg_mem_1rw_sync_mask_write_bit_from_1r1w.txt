@@ -1178,8 +1178,8 @@ endmodule
                                   (expression
                                     (primary
                                       (hierarchical_identifier
-                                        (simple_identifier)))))))))))
-                    (conditional_compilation_directive)))))))))
+                                        (simple_identifier)))))))))))))))))))
+    (conditional_compilation_directive)
     (conditional_generate_construct
       (if_generate_construct
         (constant_expression

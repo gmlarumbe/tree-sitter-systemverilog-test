@@ -124,46 +124,42 @@ always_ff @(Clk, posedge Reset) // Alternative DDR coding style
                                         (integral_number
                                           (decimal_number
                                             (unsigned_number))))))))))
+                          (cond_predicate
+                            (expression
+                              operator: (unary_operator)
+                              argument: (primary
+                                (hierarchical_identifier
+                                  (simple_identifier)))))
+                          (one_line_comment)
                           (statement_or_null
                             (statement
                               (statement_item
-                                (conditional_statement
-                                  (cond_predicate
-                                    (expression
-                                      operator: (unary_operator)
-                                      argument: (primary
+                                (nonblocking_assignment
+                                  (variable_lvalue
+                                    (hierarchical_identifier
+                                      (simple_identifier)))
+                                  (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier))))))))
+                          (statement_or_null
+                            (statement
+                              (statement_item
+                                (nonblocking_assignment
+                                  (variable_lvalue
+                                    (hierarchical_identifier
+                                      (simple_identifier)))
+                                  (expression
+                                    left: (expression
+                                      (primary
                                         (hierarchical_identifier
-                                          (simple_identifier)))))
-                                  (one_line_comment)
-                                  (statement_or_null
-                                    (statement
-                                      (statement_item
-                                        (nonblocking_assignment
-                                          (variable_lvalue
-                                            (hierarchical_identifier
-                                              (simple_identifier)))
-                                          (expression
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier))))))))
-                                  (statement_or_null
-                                    (statement
-                                      (statement_item
-                                        (nonblocking_assignment
-                                          (variable_lvalue
-                                            (hierarchical_identifier
-                                              (simple_identifier)))
-                                          (expression
-                                            left: (expression
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier))))
-                                            right: (expression
-                                              (primary
-                                                (primary_literal
-                                                  (integral_number
-                                                    (decimal_number
-                                                      (unsigned_number)))))))))))))))))))))))))))
+                                          (simple_identifier))))
+                                    right: (expression
+                                      (primary
+                                        (primary_literal
+                                          (integral_number
+                                            (decimal_number
+                                              (unsigned_number)))))))))))))))))))))))
   (always_construct
     (always_keyword)
     (statement

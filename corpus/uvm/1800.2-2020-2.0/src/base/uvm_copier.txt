@@ -725,29 +725,67 @@ endclass
                                 (primary
                                   (hierarchical_identifier
                                     (simple_identifier))))))))
+                      (cond_predicate
+                        (expression
+                          operator: (unary_operator)
+                          argument: (primary
+                            (function_subroutine_call
+                              (subroutine_call
+                                (tf_call
+                                  (hierarchical_identifier
+                                    (simple_identifier)
+                                    (constant_bit_select
+                                      (constant_expression
+                                        (constant_primary
+                                          (simple_identifier))))
+                                    (simple_identifier))
+                                  (list_of_arguments
+                                    (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier)))))))))))
                       (statement_or_null
                         (statement
                           (statement_item
-                            (conditional_statement
-                              (cond_predicate
-                                (expression
-                                  operator: (unary_operator)
-                                  argument: (primary
-                                    (function_subroutine_call
-                                      (subroutine_call
-                                        (tf_call
-                                          (hierarchical_identifier
-                                            (simple_identifier)
-                                            (constant_bit_select
-                                              (constant_expression
-                                                (constant_primary
-                                                  (simple_identifier))))
-                                            (simple_identifier))
-                                          (list_of_arguments
-                                            (expression
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)))))))))))
+                            (jump_statement
+                              (expression
+                                (primary
+                                  (hierarchical_identifier
+                                    (simple_identifier))))))))
+                      (cond_predicate
+                        (expression
+                          operator: (unary_operator)
+                          argument: (primary
+                            (function_subroutine_call
+                              (subroutine_call
+                                (tf_call
+                                  (hierarchical_identifier
+                                    (simple_identifier)
+                                    (constant_bit_select
+                                      (constant_expression
+                                        (constant_primary
+                                          (simple_identifier)))
+                                      (constant_expression
+                                        (constant_primary
+                                          (simple_identifier))))
+                                    (simple_identifier))
+                                  (list_of_arguments
+                                    (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier)))))))))))
+                      (statement_or_null
+                        (statement
+                          (statement_item
+                            (jump_statement
+                              (expression
+                                (primary
+                                  (hierarchical_identifier
+                                    (simple_identifier))))))))
+                      (statement_or_null
+                        (statement
+                          (statement_item
+                            (seq_block
                               (statement_or_null
                                 (statement
                                   (statement_item
@@ -755,67 +793,21 @@ endclass
                                       (expression
                                         (primary
                                           (hierarchical_identifier
-                                            (simple_identifier))))))))
-                              (statement_or_null
-                                (statement
-                                  (statement_item
-                                    (conditional_statement
-                                      (cond_predicate
-                                        (expression
-                                          operator: (unary_operator)
-                                          argument: (primary
-                                            (function_subroutine_call
-                                              (subroutine_call
-                                                (tf_call
-                                                  (hierarchical_identifier
-                                                    (simple_identifier)
-                                                    (constant_bit_select
-                                                      (constant_expression
-                                                        (constant_primary
-                                                          (simple_identifier)))
-                                                      (constant_expression
-                                                        (constant_primary
-                                                          (simple_identifier))))
-                                                    (simple_identifier))
-                                                  (list_of_arguments
-                                                    (expression
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))))))))))
-                                      (statement_or_null
-                                        (statement
-                                          (statement_item
-                                            (jump_statement
+                                            (simple_identifier))
+                                          (select
+                                            (bit_select
                                               (expression
                                                 (primary
                                                   (hierarchical_identifier
-                                                    (simple_identifier))))))))
-                                      (statement_or_null
-                                        (statement
-                                          (statement_item
-                                            (seq_block
-                                              (statement_or_null
-                                                (statement
-                                                  (statement_item
-                                                    (jump_statement
-                                                      (expression
-                                                        (primary
-                                                          (hierarchical_identifier
-                                                            (simple_identifier))
-                                                          (select
-                                                            (bit_select
-                                                              (expression
-                                                                (primary
-                                                                  (hierarchical_identifier
-                                                                    (simple_identifier))))
-                                                              (expression
-                                                                (primary
-                                                                  (hierarchical_identifier
-                                                                    (simple_identifier))))
-                                                              (expression
-                                                                (primary
-                                                                  (hierarchical_identifier
-                                                                    (simple_identifier)))))))))))))))))))))))))))))))))
+                                                    (simple_identifier))))
+                                              (expression
+                                                (primary
+                                                  (hierarchical_identifier
+                                                    (simple_identifier))))
+                                              (expression
+                                                (primary
+                                                  (hierarchical_identifier
+                                                    (simple_identifier)))))))))))))))))))))))))
     (class_item
       (class_method
         (function_declaration

@@ -990,70 +990,66 @@ endmodule
                                     (primary
                                       (primary_literal
                                         (unbased_unsized_literal)))))))))
+                        (cond_predicate
+                          (expression
+                            (primary
+                              (hierarchical_identifier
+                                (simple_identifier)))))
                         (statement_or_null
                           (statement
                             (statement_item
-                              (conditional_statement
-                                (cond_predicate
+                              (blocking_assignment
+                                (operator_assignment
+                                  (variable_lvalue
+                                    (hierarchical_identifier
+                                      (simple_identifier))
+                                    (select
+                                      (bit_select
+                                        (expression
+                                          (primary
+                                            (hierarchical_identifier
+                                              (simple_identifier)))))))
+                                  (assignment_operator)
                                   (expression
                                     (primary
                                       (hierarchical_identifier
-                                        (simple_identifier)))))
-                                (statement_or_null
-                                  (statement
-                                    (statement_item
-                                      (blocking_assignment
-                                        (operator_assignment
-                                          (variable_lvalue
-                                            (hierarchical_identifier
-                                              (simple_identifier))
-                                            (select
-                                              (bit_select
-                                                (expression
-                                                  (primary
-                                                    (hierarchical_identifier
-                                                      (simple_identifier)))))))
-                                          (assignment_operator)
+                                        (simple_identifier))
+                                      (select
+                                        (bit_select
                                           (expression
                                             (primary
                                               (hierarchical_identifier
-                                                (simple_identifier))
-                                              (select
-                                                (bit_select
-                                                  (expression
-                                                    (primary
-                                                      (hierarchical_identifier
-                                                        (simple_identifier)))))))))))))
-                                (statement_or_null
-                                  (statement
-                                    (statement_item
-                                      (blocking_assignment
-                                        (operator_assignment
-                                          (variable_lvalue
+                                                (simple_identifier)))))))))))))
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (blocking_assignment
+                                (operator_assignment
+                                  (variable_lvalue
+                                    (hierarchical_identifier
+                                      (simple_identifier))
+                                    (select
+                                      (bit_select
+                                        (expression
+                                          (primary
                                             (hierarchical_identifier
-                                              (simple_identifier))
-                                            (select
-                                              (bit_select
-                                                (expression
-                                                  (primary
-                                                    (hierarchical_identifier
-                                                      (simple_identifier)))))))
-                                          (assignment_operator)
-                                          (expression
-                                            left: (expression
+                                              (simple_identifier)))))))
+                                  (assignment_operator)
+                                  (expression
+                                    left: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier))
+                                        (select
+                                          (bit_select
+                                            (expression
                                               (primary
                                                 (hierarchical_identifier
-                                                  (simple_identifier))
-                                                (select
-                                                  (bit_select
-                                                    (expression
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier))))))))
-                                            right: (expression
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier))))))))))))))))))))))))
+                                                  (simple_identifier))))))))
+                                    right: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier))))))))))))))))))))
     (continuous_assign
       (list_of_net_assignments
         (net_assignment

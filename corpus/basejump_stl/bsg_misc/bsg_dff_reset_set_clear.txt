@@ -224,68 +224,64 @@ endmodule
                               (primary
                                 (primary_literal
                                   (unbased_unsized_literal))))))))
+                    (cond_predicate
+                      (expression
+                        (primary
+                          (hierarchical_identifier
+                            (simple_identifier)))))
                     (statement_or_null
                       (statement
                         (statement_item
-                          (conditional_statement
-                            (cond_predicate
-                              (expression
+                          (nonblocking_assignment
+                            (variable_lvalue
+                              (hierarchical_identifier
+                                (simple_identifier)))
+                            (expression
+                              left: (expression
                                 (primary
-                                  (hierarchical_identifier
-                                    (simple_identifier)))))
-                            (statement_or_null
-                              (statement
-                                (statement_item
-                                  (nonblocking_assignment
-                                    (variable_lvalue
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
+                                  (mintypmax_expression
                                     (expression
                                       left: (expression
                                         (primary
-                                          (mintypmax_expression
-                                            (expression
-                                              left: (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier))))
-                                              right: (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier))))))))
-                                      right: (expression
-                                        (primary
-                                          (mintypmax_expression
-                                            (expression
-                                              operator: (unary_operator)
-                                              argument: (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier))))))))))))
-                            (statement_or_null
-                              (statement
-                                (statement_item
-                                  (nonblocking_assignment
-                                    (variable_lvalue
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (expression
-                                      left: (expression
-                                        (primary
-                                          (mintypmax_expression
-                                            (expression
-                                              left: (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier))))
-                                              right: (expression
-                                                operator: (unary_operator)
-                                                argument: (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier))))))))
+                                          (hierarchical_identifier
+                                            (simple_identifier))))
                                       right: (expression
                                         (primary
                                           (hierarchical_identifier
-                                            (simple_identifier)))))))))))))))))))))
+                                            (simple_identifier))))))))
+                              right: (expression
+                                (primary
+                                  (mintypmax_expression
+                                    (expression
+                                      operator: (unary_operator)
+                                      argument: (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier))))))))))))
+                    (statement_or_null
+                      (statement
+                        (statement_item
+                          (nonblocking_assignment
+                            (variable_lvalue
+                              (hierarchical_identifier
+                                (simple_identifier)))
+                            (expression
+                              left: (expression
+                                (primary
+                                  (mintypmax_expression
+                                    (expression
+                                      left: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier))))
+                                      right: (expression
+                                        operator: (unary_operator)
+                                        argument: (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier))))))))
+                              right: (expression
+                                (primary
+                                  (hierarchical_identifier
+                                    (simple_identifier)))))))))))))))))
     (continuous_assign
       (list_of_net_assignments
         (net_assignment

@@ -920,8 +920,8 @@ endmodule
                                           (expression
                                             (primary
                                               (hierarchical_identifier
-                                                (simple_identifier)))))))))))))))
-                    (conditional_compilation_directive))))))))))
+                                                (simple_identifier)))))))))))))))))))))))
+    (conditional_compilation_directive))
   (text_macro_usage
     (simple_identifier)
     (list_of_actual_arguments

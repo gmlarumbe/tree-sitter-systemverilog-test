@@ -2997,21 +2997,44 @@ endmodule
                                                                       (integral_number
                                                                         (decimal_number
                                                                           (unsigned_number))))))))))))))))))))))))))))
-                    (statement_or_null
-                      (statement
-                        (statement_item
-                          (conditional_statement
-                            (cond_predicate
+                    (cond_predicate
+                      (expression
+                        left: (expression
+                          (primary
+                            (mintypmax_expression
                               (expression
                                 left: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))
+                                right: (expression
+                                  (primary
+                                    (cast
+                                      (casting_type
+                                        (simple_identifier))
+                                      (expression
+                                        (primary
+                                          (function_subroutine_call
+                                            (subroutine_call
+                                              (method_call
+                                                (primary
+                                                  (hierarchical_identifier
+                                                    (simple_identifier)))
+                                                (method_call_body
+                                                  name: (simple_identifier))))))))))))))
+                        right: (expression
+                          (primary
+                            (mintypmax_expression
+                              (expression
+                                left: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))
+                                right: (expression
                                   (primary
                                     (mintypmax_expression
                                       (expression
                                         left: (expression
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier))))
-                                        right: (expression
                                           (primary
                                             (cast
                                               (casting_type
@@ -3025,139 +3048,15 @@ endmodule
                                                           (hierarchical_identifier
                                                             (simple_identifier)))
                                                         (method_call_body
-                                                          name: (simple_identifier))))))))))))))
-                                right: (expression
-                                  (primary
-                                    (mintypmax_expression
-                                      (expression
-                                        left: (expression
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier))))
+                                                          name: (simple_identifier))))))))))
                                         right: (expression
                                           (primary
-                                            (mintypmax_expression
-                                              (expression
-                                                left: (expression
-                                                  (primary
-                                                    (cast
-                                                      (casting_type
-                                                        (simple_identifier))
-                                                      (expression
-                                                        (primary
-                                                          (function_subroutine_call
-                                                            (subroutine_call
-                                                              (method_call
-                                                                (primary
-                                                                  (hierarchical_identifier
-                                                                    (simple_identifier)))
-                                                                (method_call_body
-                                                                  name: (simple_identifier))))))))))
-                                                right: (expression
-                                                  (primary
-                                                    (hierarchical_identifier
-                                                      (simple_identifier))))))))))))))
-                            (statement_or_null
-                              (statement
-                                (statement_item
-                                  (seq_block
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (conditional_statement
-                                            (cond_predicate
-                                              (expression
-                                                left: (expression
-                                                  (primary
-                                                    (function_subroutine_call
-                                                      (subroutine_call
-                                                        (method_call
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)))
-                                                          (method_call_body
-                                                            name: (simple_identifier)))))))
-                                                right: (expression
-                                                  (primary
-                                                    (primary_literal
-                                                      (integral_number
-                                                        (decimal_number
-                                                          (unsigned_number))))))))
-                                            (statement_or_null
-                                              (statement
-                                                (statement_item
-                                                  (seq_block
-                                                    (statement_or_null
-                                                      (statement
-                                                        (statement_item
-                                                          (blocking_assignment
-                                                            (operator_assignment
-                                                              (variable_lvalue
-                                                                (hierarchical_identifier
-                                                                  (simple_identifier)))
-                                                              (assignment_operator)
-                                                              (expression
-                                                                (primary
-                                                                  (hierarchical_identifier
-                                                                    (simple_identifier))
-                                                                  (select
-                                                                    (bit_select
-                                                                      (expression
-                                                                        left: (expression
-                                                                          left: (expression
-                                                                            (primary
-                                                                              (hierarchical_identifier
-                                                                                (simple_identifier))))
-                                                                          right: (expression
-                                                                            (primary
-                                                                              (function_subroutine_call
-                                                                                (subroutine_call
-                                                                                  (method_call
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))
-                                                                                    (method_call_body
-                                                                                      name: (simple_identifier))))))))
-                                                                        right: (expression
-                                                                          (primary
-                                                                            (primary_literal
-                                                                              (integral_number
-                                                                                (decimal_number
-                                                                                  (unsigned_number))))))))
-                                                                    (constant_range
-                                                                      (constant_expression
-                                                                        (constant_primary
-                                                                          (primary_literal
-                                                                            (integral_number
-                                                                              (decimal_number
-                                                                                (unsigned_number))))))
-                                                                      (constant_expression
-                                                                        (constant_primary
-                                                                          (primary_literal
-                                                                            (integral_number
-                                                                              (decimal_number
-                                                                                (unsigned_number)))))))))))))))))))
-                                            (statement_or_null
-                                              (statement
-                                                (statement_item
-                                                  (seq_block
-                                                    (statement_or_null
-                                                      (statement
-                                                        (statement_item
-                                                          (blocking_assignment
-                                                            (operator_assignment
-                                                              (variable_lvalue
-                                                                (hierarchical_identifier
-                                                                  (simple_identifier)))
-                                                              (assignment_operator)
-                                                              (expression
-                                                                (primary
-                                                                  (primary_literal
-                                                                    (integral_number
-                                                                      (binary_number
-                                                                        size: (unsigned_number)
-                                                                        base: (binary_base)
-                                                                        value: (binary_value)))))))))))))))))))))))
+                                            (hierarchical_identifier
+                                              (simple_identifier))))))))))))))
+                    (statement_or_null
+                      (statement
+                        (statement_item
+                          (seq_block
                             (statement_or_null
                               (statement
                                 (statement_item
@@ -3166,58 +3065,20 @@ endmodule
                                       (expression
                                         left: (expression
                                           (primary
-                                            (mintypmax_expression
-                                              (expression
-                                                left: (expression
+                                            (function_subroutine_call
+                                              (subroutine_call
+                                                (method_call
                                                   (primary
                                                     (hierarchical_identifier
-                                                      (simple_identifier))))
-                                                right: (expression
-                                                  (primary
-                                                    (cast
-                                                      (casting_type
-                                                        (simple_identifier))
-                                                      (expression
-                                                        (primary
-                                                          (function_subroutine_call
-                                                            (subroutine_call
-                                                              (method_call
-                                                                (primary
-                                                                  (hierarchical_identifier
-                                                                    (simple_identifier)))
-                                                                (method_call_body
-                                                                  name: (simple_identifier))))))))))))))
+                                                      (simple_identifier)))
+                                                  (method_call_body
+                                                    name: (simple_identifier)))))))
                                         right: (expression
                                           (primary
-                                            (mintypmax_expression
-                                              (expression
-                                                left: (expression
-                                                  (primary
-                                                    (hierarchical_identifier
-                                                      (simple_identifier))))
-                                                right: (expression
-                                                  (primary
-                                                    (mintypmax_expression
-                                                      (expression
-                                                        left: (expression
-                                                          (primary
-                                                            (cast
-                                                              (casting_type
-                                                                (simple_identifier))
-                                                              (expression
-                                                                (primary
-                                                                  (function_subroutine_call
-                                                                    (subroutine_call
-                                                                      (method_call
-                                                                        (primary
-                                                                          (hierarchical_identifier
-                                                                            (simple_identifier)))
-                                                                        (method_call_body
-                                                                          name: (simple_identifier))))))))))
-                                                        right: (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier))))))))))))))
+                                            (primary_literal
+                                              (integral_number
+                                                (decimal_number
+                                                  (unsigned_number))))))))
                                     (statement_or_null
                                       (statement
                                         (statement_item
@@ -3258,345 +3119,472 @@ endmodule
                                                                     (primary_literal
                                                                       (integral_number
                                                                         (decimal_number
-                                                                          (unsigned_number))))))))))))))))))))
+                                                                          (unsigned_number))))))))
+                                                            (constant_range
+                                                              (constant_expression
+                                                                (constant_primary
+                                                                  (primary_literal
+                                                                    (integral_number
+                                                                      (decimal_number
+                                                                        (unsigned_number))))))
+                                                              (constant_expression
+                                                                (constant_primary
+                                                                  (primary_literal
+                                                                    (integral_number
+                                                                      (decimal_number
+                                                                        (unsigned_number)))))))))))))))))))
                                     (statement_or_null
                                       (statement
                                         (statement_item
-                                          (conditional_statement
-                                            (cond_predicate
-                                              (expression
-                                                left: (expression
-                                                  (primary
-                                                    (mintypmax_expression
-                                                      (expression
-                                                        left: (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier))))
-                                                        right: (expression
-                                                          (primary
-                                                            (cast
-                                                              (casting_type
-                                                                (simple_identifier))
-                                                              (expression
-                                                                (primary
-                                                                  (function_subroutine_call
-                                                                    (subroutine_call
-                                                                      (method_call
-                                                                        (primary
-                                                                          (hierarchical_identifier
-                                                                            (simple_identifier)))
-                                                                        (method_call_body
-                                                                          name: (simple_identifier))))))))))))))
-                                                right: (expression
-                                                  (primary
-                                                    (mintypmax_expression
-                                                      (expression
-                                                        left: (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier))))
-                                                        right: (expression
-                                                          (primary
-                                                            (mintypmax_expression
-                                                              (expression
-                                                                left: (expression
-                                                                  (primary
-                                                                    (cast
-                                                                      (casting_type
-                                                                        (simple_identifier))
-                                                                      (expression
-                                                                        (primary
-                                                                          (function_subroutine_call
-                                                                            (subroutine_call
-                                                                              (method_call
-                                                                                (primary
-                                                                                  (hierarchical_identifier
-                                                                                    (simple_identifier)))
-                                                                                (method_call_body
-                                                                                  name: (simple_identifier))))))))))
-                                                                right: (expression
-                                                                  (primary
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier))))))))))))))
+                                          (seq_block
                                             (statement_or_null
                                               (statement
                                                 (statement_item
-                                                  (seq_block
-                                                    (statement_or_null
-                                                      (statement
-                                                        (statement_item
-                                                          (conditional_statement
-                                                            (cond_predicate
+                                                  (blocking_assignment
+                                                    (operator_assignment
+                                                      (variable_lvalue
+                                                        (hierarchical_identifier
+                                                          (simple_identifier)))
+                                                      (assignment_operator)
+                                                      (expression
+                                                        (primary
+                                                          (primary_literal
+                                                            (integral_number
+                                                              (binary_number
+                                                                size: (unsigned_number)
+                                                                base: (binary_base)
+                                                                value: (binary_value)))))))))))))))))))))))
+                    (cond_predicate
+                      (expression
+                        left: (expression
+                          (primary
+                            (mintypmax_expression
+                              (expression
+                                left: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))
+                                right: (expression
+                                  (primary
+                                    (cast
+                                      (casting_type
+                                        (simple_identifier))
+                                      (expression
+                                        (primary
+                                          (function_subroutine_call
+                                            (subroutine_call
+                                              (method_call
+                                                (primary
+                                                  (hierarchical_identifier
+                                                    (simple_identifier)))
+                                                (method_call_body
+                                                  name: (simple_identifier))))))))))))))
+                        right: (expression
+                          (primary
+                            (mintypmax_expression
+                              (expression
+                                left: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))
+                                right: (expression
+                                  (primary
+                                    (mintypmax_expression
+                                      (expression
+                                        left: (expression
+                                          (primary
+                                            (cast
+                                              (casting_type
+                                                (simple_identifier))
+                                              (expression
+                                                (primary
+                                                  (function_subroutine_call
+                                                    (subroutine_call
+                                                      (method_call
+                                                        (primary
+                                                          (hierarchical_identifier
+                                                            (simple_identifier)))
+                                                        (method_call_body
+                                                          name: (simple_identifier))))))))))
+                                        right: (expression
+                                          (primary
+                                            (hierarchical_identifier
+                                              (simple_identifier))))))))))))))
+                    (statement_or_null
+                      (statement
+                        (statement_item
+                          (seq_block
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (blocking_assignment
+                                    (operator_assignment
+                                      (variable_lvalue
+                                        (hierarchical_identifier
+                                          (simple_identifier)))
+                                      (assignment_operator)
+                                      (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier))
+                                          (select
+                                            (bit_select
+                                              (expression
+                                                left: (expression
+                                                  left: (expression
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier))))
+                                                  right: (expression
+                                                    (primary
+                                                      (function_subroutine_call
+                                                        (subroutine_call
+                                                          (method_call
+                                                            (primary
+                                                              (hierarchical_identifier
+                                                                (simple_identifier)))
+                                                            (method_call_body
+                                                              name: (simple_identifier))))))))
+                                                right: (expression
+                                                  (primary
+                                                    (primary_literal
+                                                      (integral_number
+                                                        (decimal_number
+                                                          (unsigned_number))))))))))))))))))))
+                    (cond_predicate
+                      (expression
+                        left: (expression
+                          (primary
+                            (mintypmax_expression
+                              (expression
+                                left: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))
+                                right: (expression
+                                  (primary
+                                    (cast
+                                      (casting_type
+                                        (simple_identifier))
+                                      (expression
+                                        (primary
+                                          (function_subroutine_call
+                                            (subroutine_call
+                                              (method_call
+                                                (primary
+                                                  (hierarchical_identifier
+                                                    (simple_identifier)))
+                                                (method_call_body
+                                                  name: (simple_identifier))))))))))))))
+                        right: (expression
+                          (primary
+                            (mintypmax_expression
+                              (expression
+                                left: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))
+                                right: (expression
+                                  (primary
+                                    (mintypmax_expression
+                                      (expression
+                                        left: (expression
+                                          (primary
+                                            (cast
+                                              (casting_type
+                                                (simple_identifier))
+                                              (expression
+                                                (primary
+                                                  (function_subroutine_call
+                                                    (subroutine_call
+                                                      (method_call
+                                                        (primary
+                                                          (hierarchical_identifier
+                                                            (simple_identifier)))
+                                                        (method_call_body
+                                                          name: (simple_identifier))))))))))
+                                        right: (expression
+                                          (primary
+                                            (hierarchical_identifier
+                                              (simple_identifier))))))))))))))
+                    (statement_or_null
+                      (statement
+                        (statement_item
+                          (seq_block
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (conditional_statement
+                                    (cond_predicate
+                                      (expression
+                                        left: (expression
+                                          (primary
+                                            (function_subroutine_call
+                                              (subroutine_call
+                                                (method_call
+                                                  (primary
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)))
+                                                  (method_call_body
+                                                    name: (simple_identifier)))))))
+                                        right: (expression
+                                          (primary
+                                            (primary_literal
+                                              (integral_number
+                                                (decimal_number
+                                                  (unsigned_number))))))))
+                                    (statement_or_null
+                                      (statement
+                                        (statement_item
+                                          (seq_block
+                                            (statement_or_null
+                                              (statement
+                                                (statement_item
+                                                  (blocking_assignment
+                                                    (operator_assignment
+                                                      (variable_lvalue
+                                                        (hierarchical_identifier
+                                                          (simple_identifier)))
+                                                      (assignment_operator)
+                                                      (expression
+                                                        (primary
+                                                          (hierarchical_identifier
+                                                            (simple_identifier))
+                                                          (select
+                                                            (bit_select
                                                               (expression
                                                                 left: (expression
-                                                                  (primary
-                                                                    (function_subroutine_call
-                                                                      (subroutine_call
-                                                                        (method_call
-                                                                          (primary
-                                                                            (hierarchical_identifier
-                                                                              (simple_identifier)))
-                                                                          (method_call_body
-                                                                            name: (simple_identifier)))))))
+                                                                  left: (expression
+                                                                    (primary
+                                                                      (hierarchical_identifier
+                                                                        (simple_identifier))))
+                                                                  right: (expression
+                                                                    (primary
+                                                                      (function_subroutine_call
+                                                                        (subroutine_call
+                                                                          (method_call
+                                                                            (primary
+                                                                              (hierarchical_identifier
+                                                                                (simple_identifier)))
+                                                                            (method_call_body
+                                                                              name: (simple_identifier))))))))
                                                                 right: (expression
                                                                   (primary
                                                                     (primary_literal
                                                                       (integral_number
                                                                         (decimal_number
                                                                           (unsigned_number))))))))
-                                                            (statement_or_null
-                                                              (statement
-                                                                (statement_item
-                                                                  (seq_block
-                                                                    (statement_or_null
-                                                                      (statement
-                                                                        (statement_item
-                                                                          (blocking_assignment
-                                                                            (operator_assignment
-                                                                              (variable_lvalue
-                                                                                (hierarchical_identifier
-                                                                                  (simple_identifier)))
-                                                                              (assignment_operator)
-                                                                              (expression
-                                                                                (primary
-                                                                                  (hierarchical_identifier
-                                                                                    (simple_identifier))
-                                                                                  (select
-                                                                                    (bit_select
-                                                                                      (expression
-                                                                                        left: (expression
-                                                                                          left: (expression
-                                                                                            (primary
-                                                                                              (hierarchical_identifier
-                                                                                                (simple_identifier))))
-                                                                                          right: (expression
-                                                                                            (primary
-                                                                                              (function_subroutine_call
-                                                                                                (subroutine_call
-                                                                                                  (method_call
-                                                                                                    (primary
-                                                                                                      (hierarchical_identifier
-                                                                                                        (simple_identifier)))
-                                                                                                    (method_call_body
-                                                                                                      name: (simple_identifier))))))))
-                                                                                        right: (expression
-                                                                                          (primary
-                                                                                            (primary_literal
-                                                                                              (integral_number
-                                                                                                (decimal_number
-                                                                                                  (unsigned_number))))))))
-                                                                                    (constant_range
-                                                                                      (constant_expression
-                                                                                        (constant_primary
-                                                                                          (primary_literal
-                                                                                            (integral_number
-                                                                                              (decimal_number
-                                                                                                (unsigned_number))))))
-                                                                                      (constant_expression
-                                                                                        (constant_primary
-                                                                                          (primary_literal
-                                                                                            (integral_number
-                                                                                              (decimal_number
-                                                                                                (unsigned_number)))))))))))))))))))
-                                                            (statement_or_null
-                                                              (statement
-                                                                (statement_item
-                                                                  (seq_block
-                                                                    (statement_or_null
-                                                                      (statement
-                                                                        (statement_item
-                                                                          (blocking_assignment
-                                                                            (operator_assignment
-                                                                              (variable_lvalue
-                                                                                (hierarchical_identifier
-                                                                                  (simple_identifier)))
-                                                                              (assignment_operator)
-                                                                              (expression
-                                                                                (primary
-                                                                                  (hierarchical_identifier
-                                                                                    (simple_identifier))
-                                                                                  (select
-                                                                                    (bit_select
-                                                                                      (expression
-                                                                                        left: (expression
-                                                                                          left: (expression
-                                                                                            (primary
-                                                                                              (hierarchical_identifier
-                                                                                                (simple_identifier))))
-                                                                                          right: (expression
-                                                                                            (primary
-                                                                                              (function_subroutine_call
-                                                                                                (subroutine_call
-                                                                                                  (method_call
-                                                                                                    (primary
-                                                                                                      (hierarchical_identifier
-                                                                                                        (simple_identifier)))
-                                                                                                    (method_call_body
-                                                                                                      name: (simple_identifier))))))))
-                                                                                        right: (expression
-                                                                                          (primary
-                                                                                            (primary_literal
-                                                                                              (integral_number
-                                                                                                (decimal_number
-                                                                                                  (unsigned_number))))))))))))))))))))))))))))
-                                            (cond_predicate
-                                              (expression
-                                                left: (expression
-                                                  (primary
-                                                    (mintypmax_expression
-                                                      (expression
-                                                        left: (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier))))
-                                                        right: (expression
-                                                          (primary
-                                                            (cast
-                                                              (casting_type
-                                                                (simple_identifier))
-                                                              (expression
-                                                                (primary
-                                                                  (function_subroutine_call
-                                                                    (subroutine_call
-                                                                      (method_call
-                                                                        (primary
-                                                                          (hierarchical_identifier
-                                                                            (simple_identifier)))
-                                                                        (method_call_body
-                                                                          name: (simple_identifier))))))))))))))
-                                                right: (expression
-                                                  (primary
-                                                    (mintypmax_expression
-                                                      (expression
-                                                        left: (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier))))
-                                                        right: (expression
-                                                          (primary
-                                                            (mintypmax_expression
-                                                              (expression
-                                                                left: (expression
-                                                                  (primary
-                                                                    (cast
-                                                                      (casting_type
-                                                                        (simple_identifier))
-                                                                      (expression
-                                                                        (primary
-                                                                          (function_subroutine_call
-                                                                            (subroutine_call
-                                                                              (method_call
-                                                                                (primary
-                                                                                  (hierarchical_identifier
-                                                                                    (simple_identifier)))
-                                                                                (method_call_body
-                                                                                  name: (simple_identifier))))))))))
-                                                                right: (expression
-                                                                  (primary
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier))))))))))))))
+                                                            (constant_range
+                                                              (constant_expression
+                                                                (constant_primary
+                                                                  (primary_literal
+                                                                    (integral_number
+                                                                      (decimal_number
+                                                                        (unsigned_number))))))
+                                                              (constant_expression
+                                                                (constant_primary
+                                                                  (primary_literal
+                                                                    (integral_number
+                                                                      (decimal_number
+                                                                        (unsigned_number)))))))))))))))))))
+                                    (statement_or_null
+                                      (statement
+                                        (statement_item
+                                          (seq_block
                                             (statement_or_null
                                               (statement
                                                 (statement_item
-                                                  (seq_block
-                                                    (statement_or_null
-                                                      (statement
-                                                        (statement_item
-                                                          (conditional_statement
-                                                            (cond_predicate
+                                                  (blocking_assignment
+                                                    (operator_assignment
+                                                      (variable_lvalue
+                                                        (hierarchical_identifier
+                                                          (simple_identifier)))
+                                                      (assignment_operator)
+                                                      (expression
+                                                        (primary
+                                                          (hierarchical_identifier
+                                                            (simple_identifier))
+                                                          (select
+                                                            (bit_select
                                                               (expression
                                                                 left: (expression
+                                                                  left: (expression
+                                                                    (primary
+                                                                      (hierarchical_identifier
+                                                                        (simple_identifier))))
+                                                                  right: (expression
+                                                                    (primary
+                                                                      (function_subroutine_call
+                                                                        (subroutine_call
+                                                                          (method_call
+                                                                            (primary
+                                                                              (hierarchical_identifier
+                                                                                (simple_identifier)))
+                                                                            (method_call_body
+                                                                              name: (simple_identifier))))))))
+                                                                right: (expression
                                                                   (primary
-                                                                    (function_subroutine_call
-                                                                      (subroutine_call
-                                                                        (method_call
-                                                                          (primary
-                                                                            (hierarchical_identifier
-                                                                              (simple_identifier)))
-                                                                          (method_call_body
-                                                                            name: (simple_identifier)))))))
+                                                                    (primary_literal
+                                                                      (integral_number
+                                                                        (decimal_number
+                                                                          (unsigned_number))))))))))))))))))))))))))))
+                    (cond_predicate
+                      (expression
+                        left: (expression
+                          (primary
+                            (mintypmax_expression
+                              (expression
+                                left: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))
+                                right: (expression
+                                  (primary
+                                    (cast
+                                      (casting_type
+                                        (simple_identifier))
+                                      (expression
+                                        (primary
+                                          (function_subroutine_call
+                                            (subroutine_call
+                                              (method_call
+                                                (primary
+                                                  (hierarchical_identifier
+                                                    (simple_identifier)))
+                                                (method_call_body
+                                                  name: (simple_identifier))))))))))))))
+                        right: (expression
+                          (primary
+                            (mintypmax_expression
+                              (expression
+                                left: (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))
+                                right: (expression
+                                  (primary
+                                    (mintypmax_expression
+                                      (expression
+                                        left: (expression
+                                          (primary
+                                            (cast
+                                              (casting_type
+                                                (simple_identifier))
+                                              (expression
+                                                (primary
+                                                  (function_subroutine_call
+                                                    (subroutine_call
+                                                      (method_call
+                                                        (primary
+                                                          (hierarchical_identifier
+                                                            (simple_identifier)))
+                                                        (method_call_body
+                                                          name: (simple_identifier))))))))))
+                                        right: (expression
+                                          (primary
+                                            (hierarchical_identifier
+                                              (simple_identifier))))))))))))))
+                    (statement_or_null
+                      (statement
+                        (statement_item
+                          (seq_block
+                            (statement_or_null
+                              (statement
+                                (statement_item
+                                  (conditional_statement
+                                    (cond_predicate
+                                      (expression
+                                        left: (expression
+                                          (primary
+                                            (function_subroutine_call
+                                              (subroutine_call
+                                                (method_call
+                                                  (primary
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)))
+                                                  (method_call_body
+                                                    name: (simple_identifier)))))))
+                                        right: (expression
+                                          (primary
+                                            (primary_literal
+                                              (integral_number
+                                                (decimal_number
+                                                  (unsigned_number))))))))
+                                    (statement_or_null
+                                      (statement
+                                        (statement_item
+                                          (seq_block
+                                            (statement_or_null
+                                              (statement
+                                                (statement_item
+                                                  (blocking_assignment
+                                                    (operator_assignment
+                                                      (variable_lvalue
+                                                        (hierarchical_identifier
+                                                          (simple_identifier)))
+                                                      (assignment_operator)
+                                                      (expression
+                                                        (primary
+                                                          (hierarchical_identifier
+                                                            (simple_identifier))
+                                                          (select
+                                                            (bit_select
+                                                              (expression
+                                                                left: (expression
+                                                                  left: (expression
+                                                                    (primary
+                                                                      (hierarchical_identifier
+                                                                        (simple_identifier))))
+                                                                  right: (expression
+                                                                    (primary
+                                                                      (function_subroutine_call
+                                                                        (subroutine_call
+                                                                          (method_call
+                                                                            (primary
+                                                                              (hierarchical_identifier
+                                                                                (simple_identifier)))
+                                                                            (method_call_body
+                                                                              name: (simple_identifier))))))))
                                                                 right: (expression
                                                                   (primary
                                                                     (primary_literal
                                                                       (integral_number
                                                                         (decimal_number
                                                                           (unsigned_number))))))))
-                                                            (statement_or_null
-                                                              (statement
-                                                                (statement_item
-                                                                  (seq_block
-                                                                    (statement_or_null
-                                                                      (statement
-                                                                        (statement_item
-                                                                          (blocking_assignment
-                                                                            (operator_assignment
-                                                                              (variable_lvalue
-                                                                                (hierarchical_identifier
-                                                                                  (simple_identifier)))
-                                                                              (assignment_operator)
-                                                                              (expression
-                                                                                (primary
-                                                                                  (hierarchical_identifier
-                                                                                    (simple_identifier))
-                                                                                  (select
-                                                                                    (bit_select
-                                                                                      (expression
-                                                                                        left: (expression
-                                                                                          left: (expression
-                                                                                            (primary
-                                                                                              (hierarchical_identifier
-                                                                                                (simple_identifier))))
-                                                                                          right: (expression
-                                                                                            (primary
-                                                                                              (function_subroutine_call
-                                                                                                (subroutine_call
-                                                                                                  (method_call
-                                                                                                    (primary
-                                                                                                      (hierarchical_identifier
-                                                                                                        (simple_identifier)))
-                                                                                                    (method_call_body
-                                                                                                      name: (simple_identifier))))))))
-                                                                                        right: (expression
-                                                                                          (primary
-                                                                                            (primary_literal
-                                                                                              (integral_number
-                                                                                                (decimal_number
-                                                                                                  (unsigned_number))))))))
-                                                                                    (constant_range
-                                                                                      (constant_expression
-                                                                                        (constant_primary
-                                                                                          (primary_literal
-                                                                                            (integral_number
-                                                                                              (decimal_number
-                                                                                                (unsigned_number))))))
-                                                                                      (constant_expression
-                                                                                        (constant_primary
-                                                                                          (primary_literal
-                                                                                            (integral_number
-                                                                                              (decimal_number
-                                                                                                (unsigned_number)))))))))))))))))))
-                                                            (statement_or_null
-                                                              (statement
-                                                                (statement_item
-                                                                  (seq_block
-                                                                    (statement_or_null
-                                                                      (statement
-                                                                        (statement_item
-                                                                          (blocking_assignment
-                                                                            (operator_assignment
-                                                                              (variable_lvalue
-                                                                                (hierarchical_identifier
-                                                                                  (simple_identifier)))
-                                                                              (assignment_operator)
-                                                                              (expression
-                                                                                (primary
-                                                                                  (primary_literal
-                                                                                    (integral_number
-                                                                                      (binary_number
-                                                                                        size: (unsigned_number)
-                                                                                        base: (binary_base)
-                                                                                        value: (binary_value)))))))))))))))))))))))))))))))))))))))
+                                                            (constant_range
+                                                              (constant_expression
+                                                                (constant_primary
+                                                                  (primary_literal
+                                                                    (integral_number
+                                                                      (decimal_number
+                                                                        (unsigned_number))))))
+                                                              (constant_expression
+                                                                (constant_primary
+                                                                  (primary_literal
+                                                                    (integral_number
+                                                                      (decimal_number
+                                                                        (unsigned_number)))))))))))))))))))
+                                    (statement_or_null
+                                      (statement
+                                        (statement_item
+                                          (seq_block
+                                            (statement_or_null
+                                              (statement
+                                                (statement_item
+                                                  (blocking_assignment
+                                                    (operator_assignment
+                                                      (variable_lvalue
+                                                        (hierarchical_identifier
+                                                          (simple_identifier)))
+                                                      (assignment_operator)
+                                                      (expression
+                                                        (primary
+                                                          (primary_literal
+                                                            (integral_number
+                                                              (binary_number
+                                                                size: (unsigned_number)
+                                                                base: (binary_base)
+                                                                value: (binary_value)))))))))))))))))))))))))))
             (one_line_comment)
             (statement_or_null
               (statement
@@ -3792,207 +3780,237 @@ endmodule
                                                                         (primary
                                                                           (hierarchical_identifier
                                                                             (simple_identifier)))))))))))))))))))))
+                                    (cond_predicate
+                                      (expression
+                                        left: (expression
+                                          (primary
+                                            (mintypmax_expression
+                                              (expression
+                                                left: (expression
+                                                  (primary
+                                                    (hierarchical_identifier
+                                                      (simple_identifier))))
+                                                right: (expression
+                                                  (primary
+                                                    (cast
+                                                      (casting_type
+                                                        (simple_identifier))
+                                                      (expression
+                                                        (primary
+                                                          (function_subroutine_call
+                                                            (subroutine_call
+                                                              (method_call
+                                                                (primary
+                                                                  (hierarchical_identifier
+                                                                    (simple_identifier)))
+                                                                (method_call_body
+                                                                  name: (simple_identifier))))))))))))))
+                                        right: (expression
+                                          (primary
+                                            (mintypmax_expression
+                                              (expression
+                                                left: (expression
+                                                  (primary
+                                                    (hierarchical_identifier
+                                                      (simple_identifier))))
+                                                right: (expression
+                                                  (primary
+                                                    (mintypmax_expression
+                                                      (expression
+                                                        left: (expression
+                                                          (primary
+                                                            (cast
+                                                              (casting_type
+                                                                (simple_identifier))
+                                                              (expression
+                                                                (primary
+                                                                  (function_subroutine_call
+                                                                    (subroutine_call
+                                                                      (method_call
+                                                                        (primary
+                                                                          (hierarchical_identifier
+                                                                            (simple_identifier)))
+                                                                        (method_call_body
+                                                                          name: (simple_identifier))))))))))
+                                                        right: (expression
+                                                          (primary
+                                                            (hierarchical_identifier
+                                                              (simple_identifier))))))))))))))
                                     (statement_or_null
                                       (statement
                                         (statement_item
-                                          (conditional_statement
-                                            (cond_predicate
-                                              (expression
-                                                left: (expression
-                                                  (primary
-                                                    (mintypmax_expression
-                                                      (expression
-                                                        left: (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier))))
-                                                        right: (expression
-                                                          (primary
-                                                            (cast
-                                                              (casting_type
-                                                                (simple_identifier))
-                                                              (expression
-                                                                (primary
-                                                                  (function_subroutine_call
-                                                                    (subroutine_call
-                                                                      (method_call
-                                                                        (primary
-                                                                          (hierarchical_identifier
-                                                                            (simple_identifier)))
-                                                                        (method_call_body
-                                                                          name: (simple_identifier))))))))))))))
-                                                right: (expression
-                                                  (primary
-                                                    (mintypmax_expression
-                                                      (expression
-                                                        left: (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier))))
-                                                        right: (expression
-                                                          (primary
-                                                            (mintypmax_expression
-                                                              (expression
-                                                                left: (expression
-                                                                  (primary
-                                                                    (cast
-                                                                      (casting_type
-                                                                        (simple_identifier))
-                                                                      (expression
-                                                                        (primary
-                                                                          (function_subroutine_call
-                                                                            (subroutine_call
-                                                                              (method_call
-                                                                                (primary
-                                                                                  (hierarchical_identifier
-                                                                                    (simple_identifier)))
-                                                                                (method_call_body
-                                                                                  name: (simple_identifier))))))))))
-                                                                right: (expression
-                                                                  (primary
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier))))))))))))))
+                                          (seq_block
                                             (statement_or_null
                                               (statement
                                                 (statement_item
-                                                  (seq_block
+                                                  (conditional_statement
+                                                    (cond_predicate
+                                                      (expression
+                                                        left: (expression
+                                                          (primary
+                                                            (function_subroutine_call
+                                                              (subroutine_call
+                                                                (method_call
+                                                                  (primary
+                                                                    (hierarchical_identifier
+                                                                      (simple_identifier)))
+                                                                  (method_call_body
+                                                                    name: (simple_identifier)))))))
+                                                        right: (expression
+                                                          (primary
+                                                            (primary_literal
+                                                              (integral_number
+                                                                (decimal_number
+                                                                  (unsigned_number))))))))
                                                     (statement_or_null
                                                       (statement
                                                         (statement_item
-                                                          (conditional_statement
-                                                            (cond_predicate
-                                                              (expression
-                                                                left: (expression
-                                                                  (primary
-                                                                    (function_subroutine_call
-                                                                      (subroutine_call
-                                                                        (method_call
-                                                                          (primary
-                                                                            (hierarchical_identifier
-                                                                              (simple_identifier)))
-                                                                          (method_call_body
-                                                                            name: (simple_identifier)))))))
-                                                                right: (expression
-                                                                  (primary
-                                                                    (primary_literal
-                                                                      (integral_number
-                                                                        (decimal_number
-                                                                          (unsigned_number))))))))
+                                                          (seq_block
                                                             (statement_or_null
                                                               (statement
                                                                 (statement_item
-                                                                  (seq_block
-                                                                    (statement_or_null
-                                                                      (statement
-                                                                        (statement_item
-                                                                          (blocking_assignment
-                                                                            (operator_assignment
-                                                                              (variable_lvalue
-                                                                                (hierarchical_identifier
-                                                                                  (simple_identifier))
-                                                                                (select
-                                                                                  (bit_select
-                                                                                    (expression
-                                                                                      left: (expression
-                                                                                        left: (expression
+                                                                  (blocking_assignment
+                                                                    (operator_assignment
+                                                                      (variable_lvalue
+                                                                        (hierarchical_identifier
+                                                                          (simple_identifier))
+                                                                        (select
+                                                                          (bit_select
+                                                                            (expression
+                                                                              left: (expression
+                                                                                left: (expression
+                                                                                  (primary
+                                                                                    (hierarchical_identifier
+                                                                                      (simple_identifier))))
+                                                                                right: (expression
+                                                                                  (primary
+                                                                                    (function_subroutine_call
+                                                                                      (subroutine_call
+                                                                                        (method_call
                                                                                           (primary
                                                                                             (hierarchical_identifier
-                                                                                              (simple_identifier))))
-                                                                                        right: (expression
-                                                                                          (primary
-                                                                                            (function_subroutine_call
-                                                                                              (subroutine_call
-                                                                                                (method_call
-                                                                                                  (primary
-                                                                                                    (hierarchical_identifier
-                                                                                                      (simple_identifier)))
-                                                                                                  (method_call_body
-                                                                                                    name: (simple_identifier))))))))
-                                                                                      right: (expression
-                                                                                        (primary
-                                                                                          (primary_literal
-                                                                                            (integral_number
-                                                                                              (decimal_number
-                                                                                                (unsigned_number))))))))
-                                                                                  (constant_range
-                                                                                    (constant_expression
-                                                                                      (constant_primary
-                                                                                        (primary_literal
-                                                                                          (integral_number
-                                                                                            (decimal_number
-                                                                                              (unsigned_number))))))
-                                                                                    (constant_expression
-                                                                                      (constant_primary
-                                                                                        (primary_literal
-                                                                                          (integral_number
-                                                                                            (decimal_number
-                                                                                              (unsigned_number)))))))))
-                                                                              (assignment_operator)
-                                                                              (expression
-                                                                                (primary
-                                                                                  (hierarchical_identifier
-                                                                                    (simple_identifier)))))))))))))
-                                                            (statement_or_null
-                                                              (statement
-                                                                (statement_item
-                                                                  (seq_block
-                                                                    (statement_or_null
-                                                                      (statement
-                                                                        (statement_item
-                                                                          (blocking_assignment
-                                                                            (operator_assignment
-                                                                              (variable_lvalue
-                                                                                (hierarchical_identifier
-                                                                                  (simple_identifier)))
-                                                                              (assignment_operator)
-                                                                              (expression
+                                                                                              (simple_identifier)))
+                                                                                          (method_call_body
+                                                                                            name: (simple_identifier))))))))
+                                                                              right: (expression
                                                                                 (primary
                                                                                   (primary_literal
                                                                                     (integral_number
-                                                                                      (binary_number
-                                                                                        size: (unsigned_number)
-                                                                                        base: (binary_base)
-                                                                                        value: (binary_value)))))))))))))))))))))))
-                                            (cond_predicate
+                                                                                      (decimal_number
+                                                                                        (unsigned_number))))))))
+                                                                          (constant_range
+                                                                            (constant_expression
+                                                                              (constant_primary
+                                                                                (primary_literal
+                                                                                  (integral_number
+                                                                                    (decimal_number
+                                                                                      (unsigned_number))))))
+                                                                            (constant_expression
+                                                                              (constant_primary
+                                                                                (primary_literal
+                                                                                  (integral_number
+                                                                                    (decimal_number
+                                                                                      (unsigned_number)))))))))
+                                                                      (assignment_operator)
+                                                                      (expression
+                                                                        (primary
+                                                                          (hierarchical_identifier
+                                                                            (simple_identifier)))))))))))))
+                                                    (statement_or_null
+                                                      (statement
+                                                        (statement_item
+                                                          (seq_block
+                                                            (statement_or_null
+                                                              (statement
+                                                                (statement_item
+                                                                  (blocking_assignment
+                                                                    (operator_assignment
+                                                                      (variable_lvalue
+                                                                        (hierarchical_identifier
+                                                                          (simple_identifier)))
+                                                                      (assignment_operator)
+                                                                      (expression
+                                                                        (primary
+                                                                          (primary_literal
+                                                                            (integral_number
+                                                                              (binary_number
+                                                                                size: (unsigned_number)
+                                                                                base: (binary_base)
+                                                                                value: (binary_value)))))))))))))))))))))))
+                                    (cond_predicate
+                                      (expression
+                                        left: (expression
+                                          (primary
+                                            (mintypmax_expression
                                               (expression
                                                 left: (expression
                                                   (primary
-                                                    (mintypmax_expression
-                                                      (expression
-                                                        left: (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier))))
-                                                        right: (expression
-                                                          (primary
-                                                            (cast
-                                                              (casting_type
-                                                                (simple_identifier))
-                                                              (expression
-                                                                (primary
-                                                                  (function_subroutine_call
-                                                                    (subroutine_call
-                                                                      (method_call
-                                                                        (primary
-                                                                          (hierarchical_identifier
-                                                                            (simple_identifier)))
-                                                                        (method_call_body
-                                                                          name: (simple_identifier))))))))))))))
+                                                    (hierarchical_identifier
+                                                      (simple_identifier))))
                                                 right: (expression
                                                   (primary
-                                                    (mintypmax_expression
+                                                    (cast
+                                                      (casting_type
+                                                        (simple_identifier))
                                                       (expression
-                                                        left: (expression
+                                                        (primary
+                                                          (function_subroutine_call
+                                                            (subroutine_call
+                                                              (method_call
+                                                                (primary
+                                                                  (hierarchical_identifier
+                                                                    (simple_identifier)))
+                                                                (method_call_body
+                                                                  name: (simple_identifier))))))))))))))
+                                        right: (expression
+                                          (primary
+                                            (mintypmax_expression
+                                              (expression
+                                                left: (expression
+                                                  (primary
+                                                    (hierarchical_identifier
+                                                      (simple_identifier))))
+                                                right: (expression
+                                                  left: (expression
+                                                    (primary
+                                                      (cast
+                                                        (casting_type
+                                                          (simple_identifier))
+                                                        (expression
                                                           (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier))))
-                                                        right: (expression
-                                                          left: (expression
-                                                            (primary
-                                                              (cast
-                                                                (casting_type
-                                                                  (simple_identifier))
-                                                                (expression
+                                                            (function_subroutine_call
+                                                              (subroutine_call
+                                                                (method_call
+                                                                  (primary
+                                                                    (hierarchical_identifier
+                                                                      (simple_identifier)))
+                                                                  (method_call_body
+                                                                    name: (simple_identifier))))))))))
+                                                  right: (expression
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))))))))))
+                                    (statement_or_null
+                                      (statement
+                                        (statement_item
+                                          (seq_block
+                                            (statement_or_null
+                                              (statement
+                                                (statement_item
+                                                  (blocking_assignment
+                                                    (operator_assignment
+                                                      (variable_lvalue
+                                                        (hierarchical_identifier
+                                                          (simple_identifier))
+                                                        (select
+                                                          (bit_select
+                                                            (expression
+                                                              left: (expression
+                                                                left: (expression
+                                                                  (primary
+                                                                    (hierarchical_identifier
+                                                                      (simple_identifier))))
+                                                                right: (expression
                                                                   (primary
                                                                     (function_subroutine_call
                                                                       (subroutine_call
@@ -4001,52 +4019,18 @@ endmodule
                                                                             (hierarchical_identifier
                                                                               (simple_identifier)))
                                                                           (method_call_body
-                                                                            name: (simple_identifier))))))))))
-                                                          right: (expression
-                                                            (primary
-                                                              (hierarchical_identifier
-                                                                (simple_identifier)))))))))))
-                                            (statement_or_null
-                                              (statement
-                                                (statement_item
-                                                  (seq_block
-                                                    (statement_or_null
-                                                      (statement
-                                                        (statement_item
-                                                          (blocking_assignment
-                                                            (operator_assignment
-                                                              (variable_lvalue
-                                                                (hierarchical_identifier
-                                                                  (simple_identifier))
-                                                                (select
-                                                                  (bit_select
-                                                                    (expression
-                                                                      left: (expression
-                                                                        left: (expression
-                                                                          (primary
-                                                                            (hierarchical_identifier
-                                                                              (simple_identifier))))
-                                                                        right: (expression
-                                                                          (primary
-                                                                            (function_subroutine_call
-                                                                              (subroutine_call
-                                                                                (method_call
-                                                                                  (primary
-                                                                                    (hierarchical_identifier
-                                                                                      (simple_identifier)))
-                                                                                  (method_call_body
-                                                                                    name: (simple_identifier))))))))
-                                                                      right: (expression
-                                                                        (primary
-                                                                          (primary_literal
-                                                                            (integral_number
-                                                                              (decimal_number
-                                                                                (unsigned_number))))))))))
-                                                              (assignment_operator)
-                                                              (expression
+                                                                            name: (simple_identifier))))))))
+                                                              right: (expression
                                                                 (primary
-                                                                  (hierarchical_identifier
-                                                                    (simple_identifier)))))))))))))))))))))))))))))))))
+                                                                  (primary_literal
+                                                                    (integral_number
+                                                                      (decimal_number
+                                                                        (unsigned_number))))))))))
+                                                      (assignment_operator)
+                                                      (expression
+                                                        (primary
+                                                          (hierarchical_identifier
+                                                            (simple_identifier)))))))))))))))))))))))))))))
     (one_line_comment)
     (always_construct
       (always_keyword)

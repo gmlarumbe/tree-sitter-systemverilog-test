@@ -12686,136 +12686,235 @@ endfunction
                                               (string_literal
                                                 (quoted_string
                                                   (quoted_string_item))))))))))))))))))
+                (cond_predicate
+                  (expression
+                    left: (expression
+                      (primary
+                        (hierarchical_identifier
+                          (simple_identifier))))
+                    right: (expression
+                      (primary))))
                 (statement_or_null
                   (statement
                     (statement_item
-                      (conditional_statement
-                        (cond_predicate
-                          (expression
-                            left: (expression
-                              (primary
-                                (hierarchical_identifier
-                                  (simple_identifier))))
-                            right: (expression
-                              (primary))))
+                      (seq_block
                         (statement_or_null
                           (statement
                             (statement_item
-                              (seq_block
-                                (statement_or_null
-                                  (statement
-                                    (statement_item
-                                      (text_macro_usage
-                                        (simple_identifier)
-                                        (list_of_actual_arguments
-                                          (actual_argument
-                                            (param_expression
-                                              (mintypmax_expression
-                                                (expression
-                                                  (primary
-                                                    (primary_literal
-                                                      (string_literal
-                                                        (quoted_string
-                                                          (quoted_string_item)))))))))
-                                          (actual_argument
-                                            (param_expression
-                                              (mintypmax_expression
-                                                (expression
-                                                  (primary
-                                                    (primary_literal
-                                                      (string_literal
-                                                        (quoted_string
-                                                          (quoted_string_item))))))))))))))))))
+                              (text_macro_usage
+                                (simple_identifier)
+                                (list_of_actual_arguments
+                                  (actual_argument
+                                    (param_expression
+                                      (mintypmax_expression
+                                        (expression
+                                          (primary
+                                            (primary_literal
+                                              (string_literal
+                                                (quoted_string
+                                                  (quoted_string_item)))))))))
+                                  (actual_argument
+                                    (param_expression
+                                      (mintypmax_expression
+                                        (expression
+                                          (primary
+                                            (primary_literal
+                                              (string_literal
+                                                (quoted_string
+                                                  (quoted_string_item))))))))))))))))))
+                (cond_predicate
+                  (expression
+                    operator: (unary_operator)
+                    argument: (primary
+                      (function_subroutine_call
+                        (subroutine_call
+                          (tf_call
+                            (hierarchical_identifier
+                              (simple_identifier)
+                              (simple_identifier))))))))
+                (statement_or_null
+                  (statement
+                    (statement_item
+                      (seq_block
                         (statement_or_null
                           (statement
                             (statement_item
-                              (conditional_statement
-                                (cond_predicate
+                              (text_macro_usage
+                                (simple_identifier)
+                                (list_of_actual_arguments
+                                  (actual_argument
+                                    (param_expression
+                                      (mintypmax_expression
+                                        (expression
+                                          (primary
+                                            (primary_literal
+                                              (string_literal
+                                                (quoted_string
+                                                  (quoted_string_item)))))))))
+                                  (actual_argument
+                                    (param_expression
+                                      (mintypmax_expression
+                                        (expression
+                                          (primary
+                                            (primary_literal
+                                              (string_literal
+                                                (quoted_string
+                                                  (quoted_string_item))))))))))))))))))
+                (cond_predicate
+                  (expression
+                    left: (expression
+                      left: (expression
+                        (primary
+                          (hierarchical_identifier
+                            (simple_identifier))))
+                      right: (expression
+                        (primary)))
+                    right: (expression
+                      left: (expression
+                        (primary
+                          (hierarchical_identifier
+                            (simple_identifier))))
+                      right: (expression
+                        (primary)))))
+                (statement_or_null
+                  (statement
+                    (statement_item
+                      (seq_block
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (text_macro_usage
+                                (simple_identifier)
+                                (list_of_actual_arguments
+                                  (actual_argument
+                                    (param_expression
+                                      (mintypmax_expression
+                                        (expression
+                                          (primary
+                                            (primary_literal
+                                              (string_literal
+                                                (quoted_string
+                                                  (quoted_string_item)))))))))
+                                  (actual_argument
+                                    (param_expression
+                                      (mintypmax_expression
+                                        (expression
+                                          (primary
+                                            (primary_literal
+                                              (string_literal
+                                                (quoted_string
+                                                  (quoted_string_item))))))))))))))))))
+                (cond_predicate
+                  (expression
+                    left: (expression
+                      (primary
+                        (hierarchical_identifier
+                          (simple_identifier))))
+                    right: (expression
+                      (primary))))
+                (statement_or_null
+                  (statement
+                    (statement_item
+                      (seq_block
+                        (one_line_comment)
+                        (block_item_declaration
+                          (data_declaration
+                            (data_type_or_implicit
+                              (data_type
+                                (simple_identifier)))
+                            (list_of_variable_decl_assignments
+                              (variable_decl_assignment
+                                name: (simple_identifier)))))
+                        (block_item_declaration
+                          (data_declaration
+                            (data_type_or_implicit
+                              (data_type
+                                (simple_identifier)))
+                            (list_of_variable_decl_assignments
+                              (variable_decl_assignment
+                                name: (simple_identifier)
+                                (queue_dimension)))))
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (subroutine_call_statement
+                                (subroutine_call
+                                  (method_call
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (method_call_body
+                                      (queue_method_call
+                                        (queue_method_name)
+                                        (list_of_arguments
+                                          (expression
+                                            (primary)))))))))))
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (blocking_assignment
+                                (operator_assignment
+                                  (variable_lvalue
+                                    (hierarchical_identifier
+                                      (simple_identifier))
+                                    (select
+                                      (bit_select
+                                        (expression
+                                          (primary)))))
+                                  (assignment_operator)
                                   (expression
-                                    operator: (unary_operator)
-                                    argument: (primary
-                                      (function_subroutine_call
-                                        (subroutine_call
-                                          (tf_call
+                                    (primary
+                                      (primary_literal
+                                        (integral_number
+                                          (decimal_number
+                                            (unsigned_number)))))))))))
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (loop_statement
+                                (expression
+                                  (primary
+                                    (function_subroutine_call
+                                      (subroutine_call
+                                        (method_call
+                                          (primary
                                             (hierarchical_identifier
-                                              (simple_identifier)
-                                              (simple_identifier))))))))
+                                              (simple_identifier)))
+                                          (method_call_body
+                                            (array_or_queue_method_call
+                                              (array_or_queue_method_name))))))))
                                 (statement_or_null
                                   (statement
                                     (statement_item
                                       (seq_block
+                                        (block_item_declaration
+                                          (data_declaration
+                                            (data_type_or_implicit
+                                              (data_type
+                                                (simple_identifier)))
+                                            (list_of_variable_decl_assignments
+                                              (variable_decl_assignment
+                                                name: (simple_identifier)))))
                                         (statement_or_null
                                           (statement
                                             (statement_item
-                                              (text_macro_usage
-                                                (simple_identifier)
-                                                (list_of_actual_arguments
-                                                  (actual_argument
-                                                    (param_expression
-                                                      (mintypmax_expression
-                                                        (expression
-                                                          (primary
-                                                            (primary_literal
-                                                              (string_literal
-                                                                (quoted_string
-                                                                  (quoted_string_item)))))))))
-                                                  (actual_argument
-                                                    (param_expression
-                                                      (mintypmax_expression
-                                                        (expression
-                                                          (primary
-                                                            (primary_literal
-                                                              (string_literal
-                                                                (quoted_string
-                                                                  (quoted_string_item))))))))))))))))))
-                                (statement_or_null
-                                  (statement
-                                    (statement_item
-                                      (conditional_statement
-                                        (cond_predicate
-                                          (expression
-                                            left: (expression
-                                              left: (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier))))
-                                              right: (expression
-                                                (primary)))
-                                            right: (expression
-                                              left: (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier))))
-                                              right: (expression
-                                                (primary)))))
-                                        (statement_or_null
-                                          (statement
-                                            (statement_item
-                                              (seq_block
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (text_macro_usage
-                                                        (simple_identifier)
-                                                        (list_of_actual_arguments
-                                                          (actual_argument
-                                                            (param_expression
-                                                              (mintypmax_expression
-                                                                (expression
-                                                                  (primary
-                                                                    (primary_literal
-                                                                      (string_literal
-                                                                        (quoted_string
-                                                                          (quoted_string_item)))))))))
-                                                          (actual_argument
-                                                            (param_expression
-                                                              (mintypmax_expression
-                                                                (expression
-                                                                  (primary
-                                                                    (primary_literal
-                                                                      (string_literal
-                                                                        (quoted_string
-                                                                          (quoted_string_item))))))))))))))))))
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (function_subroutine_call
+                                                        (subroutine_call
+                                                          (method_call
+                                                            (primary
+                                                              (hierarchical_identifier
+                                                                (simple_identifier)))
+                                                            (method_call_body
+                                                              (queue_method_call
+                                                                (queue_method_name)))))))))))))
                                         (statement_or_null
                                           (statement
                                             (statement_item
@@ -12825,6 +12924,7 @@ endfunction
                                                     left: (expression
                                                       (primary
                                                         (hierarchical_identifier
+                                                          (simple_identifier)
                                                           (simple_identifier))))
                                                     right: (expression
                                                       (primary))))
@@ -12832,64 +12932,44 @@ endfunction
                                                   (statement
                                                     (statement_item
                                                       (seq_block
-                                                        (one_line_comment)
-                                                        (block_item_declaration
-                                                          (data_declaration
-                                                            (data_type_or_implicit
-                                                              (data_type
-                                                                (simple_identifier)))
-                                                            (list_of_variable_decl_assignments
-                                                              (variable_decl_assignment
-                                                                name: (simple_identifier)))))
-                                                        (block_item_declaration
-                                                          (data_declaration
-                                                            (data_type_or_implicit
-                                                              (data_type
-                                                                (simple_identifier)))
-                                                            (list_of_variable_decl_assignments
-                                                              (variable_decl_assignment
-                                                                name: (simple_identifier)
-                                                                (queue_dimension)))))
                                                         (statement_or_null
                                                           (statement
                                                             (statement_item
                                                               (subroutine_call_statement
                                                                 (subroutine_call
-                                                                  (method_call
-                                                                    (primary
-                                                                      (hierarchical_identifier
-                                                                        (simple_identifier)))
-                                                                    (method_call_body
-                                                                      (queue_method_call
-                                                                        (queue_method_name)
-                                                                        (list_of_arguments
-                                                                          (expression
-                                                                            (primary)))))))))))
-                                                        (statement_or_null
-                                                          (statement
-                                                            (statement_item
-                                                              (blocking_assignment
-                                                                (operator_assignment
-                                                                  (variable_lvalue
+                                                                  (tf_call
                                                                     (hierarchical_identifier
                                                                       (simple_identifier))
-                                                                    (select
-                                                                      (bit_select
-                                                                        (expression
-                                                                          (primary)))))
-                                                                  (assignment_operator)
-                                                                  (expression
-                                                                    (primary
-                                                                      (primary_literal
-                                                                        (integral_number
-                                                                          (decimal_number
-                                                                            (unsigned_number)))))))))))
-                                                        (statement_or_null
-                                                          (statement
-                                                            (statement_item
-                                                              (loop_statement
+                                                                    (list_of_arguments
+                                                                      (expression
+                                                                        (primary
+                                                                          (hierarchical_identifier
+                                                                            (simple_identifier))))
+                                                                      (expression
+                                                                        (primary
+                                                                          (hierarchical_identifier
+                                                                            (simple_identifier)
+                                                                            (simple_identifier)))))))))))))))))))
+                                        (statement_or_null
+                                          (statement
+                                            (statement_item
+                                              (loop_statement
+                                                (hierarchical_identifier
+                                                  (simple_identifier)
+                                                  (simple_identifier))
+                                                (loop_variables
+                                                  (simple_identifier))
+                                                (statement
+                                                  (statement_item
+                                                    (seq_block
+                                                      (statement_or_null
+                                                        (statement
+                                                          (statement_item
+                                                            (conditional_statement
+                                                              (cond_predicate
                                                                 (expression
-                                                                  (primary
+                                                                  operator: (unary_operator)
+                                                                  argument: (primary
                                                                     (function_subroutine_call
                                                                       (subroutine_call
                                                                         (method_call
@@ -12897,446 +12977,350 @@ endfunction
                                                                             (hierarchical_identifier
                                                                               (simple_identifier)))
                                                                           (method_call_body
-                                                                            (array_or_queue_method_call
-                                                                              (array_or_queue_method_name))))))))
-                                                                (statement_or_null
-                                                                  (statement
-                                                                    (statement_item
-                                                                      (seq_block
-                                                                        (block_item_declaration
-                                                                          (data_declaration
-                                                                            (data_type_or_implicit
-                                                                              (data_type
-                                                                                (simple_identifier)))
-                                                                            (list_of_variable_decl_assignments
-                                                                              (variable_decl_assignment
-                                                                                name: (simple_identifier)))))
-                                                                        (statement_or_null
-                                                                          (statement
-                                                                            (statement_item
-                                                                              (blocking_assignment
-                                                                                (operator_assignment
-                                                                                  (variable_lvalue
+                                                                            (associative_array_method_call
+                                                                              (associative_array_method_name)
+                                                                              (list_of_arguments
+                                                                                (expression
+                                                                                  (primary
+                                                                                    (hierarchical_identifier
+                                                                                      (simple_identifier)))))))))))))
+                                                              (statement_or_null
+                                                                (statement
+                                                                  (statement_item
+                                                                    (seq_block
+                                                                      (statement_or_null
+                                                                        (statement
+                                                                          (statement_item
+                                                                            (subroutine_call_statement
+                                                                              (subroutine_call
+                                                                                (method_call
+                                                                                  (primary
                                                                                     (hierarchical_identifier
                                                                                       (simple_identifier)))
-                                                                                  (assignment_operator)
-                                                                                  (expression
-                                                                                    (primary
-                                                                                      (function_subroutine_call
-                                                                                        (subroutine_call
-                                                                                          (method_call
-                                                                                            (primary
-                                                                                              (hierarchical_identifier
-                                                                                                (simple_identifier)))
-                                                                                            (method_call_body
-                                                                                              (queue_method_call
-                                                                                                (queue_method_name)))))))))))))
-                                                                        (statement_or_null
-                                                                          (statement
-                                                                            (statement_item
-                                                                              (conditional_statement
-                                                                                (cond_predicate
-                                                                                  (expression
-                                                                                    left: (expression
-                                                                                      (primary
-                                                                                        (hierarchical_identifier
-                                                                                          (simple_identifier)
-                                                                                          (simple_identifier))))
-                                                                                    right: (expression
-                                                                                      (primary))))
-                                                                                (statement_or_null
-                                                                                  (statement
-                                                                                    (statement_item
-                                                                                      (seq_block
-                                                                                        (statement_or_null
-                                                                                          (statement
-                                                                                            (statement_item
-                                                                                              (subroutine_call_statement
-                                                                                                (subroutine_call
-                                                                                                  (tf_call
-                                                                                                    (hierarchical_identifier
-                                                                                                      (simple_identifier))
-                                                                                                    (list_of_arguments
-                                                                                                      (expression
-                                                                                                        (primary
-                                                                                                          (hierarchical_identifier
-                                                                                                            (simple_identifier))))
-                                                                                                      (expression
-                                                                                                        (primary
-                                                                                                          (hierarchical_identifier
-                                                                                                            (simple_identifier)
-                                                                                                            (simple_identifier)))))))))))))))))))
-                                                                        (statement_or_null
-                                                                          (statement
-                                                                            (statement_item
-                                                                              (loop_statement
-                                                                                (hierarchical_identifier
-                                                                                  (simple_identifier)
-                                                                                  (simple_identifier))
-                                                                                (loop_variables
-                                                                                  (simple_identifier))
-                                                                                (statement
-                                                                                  (statement_item
-                                                                                    (seq_block
-                                                                                      (statement_or_null
-                                                                                        (statement
-                                                                                          (statement_item
-                                                                                            (conditional_statement
-                                                                                              (cond_predicate
-                                                                                                (expression
-                                                                                                  operator: (unary_operator)
-                                                                                                  argument: (primary
-                                                                                                    (function_subroutine_call
-                                                                                                      (subroutine_call
-                                                                                                        (method_call
-                                                                                                          (primary
-                                                                                                            (hierarchical_identifier
-                                                                                                              (simple_identifier)))
-                                                                                                          (method_call_body
-                                                                                                            (associative_array_method_call
-                                                                                                              (associative_array_method_name)
-                                                                                                              (list_of_arguments
-                                                                                                                (expression
-                                                                                                                  (primary
-                                                                                                                    (hierarchical_identifier
-                                                                                                                      (simple_identifier)))))))))))))
-                                                                                              (statement_or_null
-                                                                                                (statement
-                                                                                                  (statement_item
-                                                                                                    (seq_block
-                                                                                                      (statement_or_null
-                                                                                                        (statement
-                                                                                                          (statement_item
-                                                                                                            (subroutine_call_statement
-                                                                                                              (subroutine_call
-                                                                                                                (method_call
-                                                                                                                  (primary
-                                                                                                                    (hierarchical_identifier
-                                                                                                                      (simple_identifier)))
-                                                                                                                  (method_call_body
-                                                                                                                    (queue_method_call
-                                                                                                                      (queue_method_name)
-                                                                                                                      (list_of_arguments
-                                                                                                                        (expression
-                                                                                                                          (primary
-                                                                                                                            (hierarchical_identifier
-                                                                                                                              (simple_identifier)))))))))))))
-                                                                                                      (statement_or_null
-                                                                                                        (statement
-                                                                                                          (statement_item
-                                                                                                            (blocking_assignment
-                                                                                                              (operator_assignment
-                                                                                                                (variable_lvalue
-                                                                                                                  (hierarchical_identifier
-                                                                                                                    (simple_identifier))
-                                                                                                                  (select
-                                                                                                                    (bit_select
-                                                                                                                      (expression
-                                                                                                                        (primary
-                                                                                                                          (hierarchical_identifier
-                                                                                                                            (simple_identifier)))))))
-                                                                                                                (assignment_operator)
-                                                                                                                (expression
-                                                                                                                  (primary
-                                                                                                                    (primary_literal
-                                                                                                                      (integral_number
-                                                                                                                        (decimal_number
-                                                                                                                          (unsigned_number))))))))))))))))))))))))))))))))))))))
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (seq_block
-                                                        (one_line_comment)
-                                                        (one_line_comment)
-                                                        (block_item_declaration
-                                                          (data_declaration
-                                                            (data_type_or_implicit
-                                                              (data_type
-                                                                (simple_identifier)))
-                                                            (list_of_variable_decl_assignments
-                                                              (variable_decl_assignment
-                                                                name: (simple_identifier))
-                                                              (variable_decl_assignment
-                                                                name: (simple_identifier)))))
-                                                        (block_item_declaration
-                                                          (data_declaration
-                                                            (data_type_or_implicit
-                                                              (data_type
-                                                                (integer_atom_type)))
-                                                            (list_of_variable_decl_assignments
-                                                              (variable_decl_assignment
-                                                                name: (simple_identifier)
-                                                                (queue_dimension))
-                                                              (variable_decl_assignment
-                                                                name: (simple_identifier)
-                                                                (queue_dimension)))))
-                                                        (statement_or_null
-                                                          (statement
-                                                            (statement_item
-                                                              (conditional_statement
-                                                                (cond_predicate
-                                                                  (expression
-                                                                    left: (expression
-                                                                      (primary
-                                                                        (hierarchical_identifier
-                                                                          (simple_identifier))))
-                                                                    right: (expression
-                                                                      (primary))))
-                                                                (statement_or_null
-                                                                  (statement
-                                                                    (statement_item
-                                                                      (blocking_assignment
-                                                                        (operator_assignment
-                                                                          (variable_lvalue
-                                                                            (hierarchical_identifier
-                                                                              (simple_identifier)))
-                                                                          (assignment_operator)
-                                                                          (expression
-                                                                            (primary
-                                                                              (hierarchical_identifier
-                                                                                (simple_identifier)))))))))))))
-                                                        (statement_or_null
-                                                          (statement
-                                                            (statement_item
-                                                              (blocking_assignment
-                                                                (operator_assignment
-                                                                  (variable_lvalue
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier)))
-                                                                  (assignment_operator)
-                                                                  (expression
-                                                                    (primary
-                                                                      (function_subroutine_call
-                                                                        (subroutine_call
-                                                                          (tf_call
-                                                                            (hierarchical_identifier
-                                                                              (simple_identifier))
-                                                                            (list_of_arguments
-                                                                              (expression
-                                                                                (primary
+                                                                                  (method_call_body
+                                                                                    (queue_method_call
+                                                                                      (queue_method_name)
+                                                                                      (list_of_arguments
+                                                                                        (expression
+                                                                                          (primary
+                                                                                            (hierarchical_identifier
+                                                                                              (simple_identifier)))))))))))))
+                                                                      (statement_or_null
+                                                                        (statement
+                                                                          (statement_item
+                                                                            (blocking_assignment
+                                                                              (operator_assignment
+                                                                                (variable_lvalue
                                                                                   (hierarchical_identifier
-                                                                                    (simple_identifier)))))))))))))))
-                                                        (statement_or_null
-                                                          (statement
-                                                            (statement_item
-                                                              (blocking_assignment
-                                                                (operator_assignment
-                                                                  (variable_lvalue
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier)))
-                                                                  (assignment_operator)
-                                                                  (expression
-                                                                    (primary
-                                                                      (function_subroutine_call
-                                                                        (subroutine_call
-                                                                          (method_call
-                                                                            (primary
-                                                                              (hierarchical_identifier
-                                                                                (simple_identifier)))
-                                                                            (method_call_body
-                                                                              (array_manipulation_call
-                                                                                (array_method_name)
-                                                                                (list_of_arguments
-                                                                                  (expression
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))))))))))))))))
-                                                        (statement_or_null
-                                                          (statement
-                                                            (statement_item
-                                                              (conditional_statement
-                                                                (cond_predicate
-                                                                  (expression
-                                                                    left: (expression
-                                                                      left: (expression
-                                                                        (primary
-                                                                          (hierarchical_identifier
-                                                                            (simple_identifier))))
-                                                                      right: (expression
-                                                                        (primary)))
-                                                                    right: (expression
-                                                                      left: (expression
-                                                                        (primary
-                                                                          (hierarchical_identifier
-                                                                            (simple_identifier))))
-                                                                      right: (expression
-                                                                        (primary)))))
-                                                                (statement_or_null
-                                                                  (statement
-                                                                    (statement_item
-                                                                      (jump_statement))))))))
-                                                        (statement_or_null
-                                                          (statement
-                                                            (statement_item
-                                                              (blocking_assignment
-                                                                (operator_assignment
-                                                                  (variable_lvalue
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier)))
-                                                                  (assignment_operator)
-                                                                  (expression
-                                                                    (primary
-                                                                      (function_subroutine_call
-                                                                        (subroutine_call
-                                                                          (method_call
-                                                                            (primary
-                                                                              (function_subroutine_call
-                                                                                (subroutine_call
-                                                                                  (method_call
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))
-                                                                                    (method_call_body
-                                                                                      name: (simple_identifier))))))
-                                                                            (method_call_body
-                                                                              (array_manipulation_call
-                                                                                (array_method_name)
-                                                                                (list_of_arguments
-                                                                                  (expression
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))))
+                                                                                    (simple_identifier))
+                                                                                  (select
+                                                                                    (bit_select
+                                                                                      (expression
+                                                                                        (primary
+                                                                                          (hierarchical_identifier
+                                                                                            (simple_identifier)))))))
+                                                                                (assignment_operator)
                                                                                 (expression
-                                                                                  left: (expression
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier))))
-                                                                                  right: (expression
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))))))))))))))))
-                                                        (statement_or_null
-                                                          (statement
-                                                            (statement_item
-                                                              (blocking_assignment
-                                                                (operator_assignment
-                                                                  (variable_lvalue
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier)))
-                                                                  (assignment_operator)
-                                                                  (expression
-                                                                    (primary
-                                                                      (function_subroutine_call
-                                                                        (subroutine_call
-                                                                          (method_call
-                                                                            (primary
-                                                                              (function_subroutine_call
-                                                                                (subroutine_call
-                                                                                  (method_call
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))
-                                                                                    (method_call_body
-                                                                                      name: (simple_identifier))))))
-                                                                            (method_call_body
-                                                                              (array_manipulation_call
-                                                                                (array_method_name)
-                                                                                (list_of_arguments
-                                                                                  (expression
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))))
-                                                                                (expression
-                                                                                  left: (expression
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier))))
-                                                                                  right: (expression
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))))))))))))))))
-                                                        (statement_or_null
-                                                          (statement
-                                                            (statement_item
-                                                              (conditional_statement
-                                                                (cond_predicate
-                                                                  (expression
-                                                                    left: (expression
-                                                                      (primary
-                                                                        (function_subroutine_call
-                                                                          (subroutine_call
-                                                                            (method_call
-                                                                              (primary
-                                                                                (hierarchical_identifier
-                                                                                  (simple_identifier)))
-                                                                              (method_call_body
-                                                                                (array_or_queue_method_call
-                                                                                  (array_or_queue_method_name))))))))
-                                                                    right: (expression
-                                                                      (primary
-                                                                        (primary_literal
-                                                                          (integral_number
-                                                                            (decimal_number
-                                                                              (unsigned_number))))))))
-                                                                (statement_or_null
-                                                                  (statement
-                                                                    (statement_item
-                                                                      (subroutine_call_statement
-                                                                        (subroutine_call
-                                                                          (method_call
-                                                                            (primary
-                                                                              (function_subroutine_call
-                                                                                (subroutine_call
-                                                                                  (method_call
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))
-                                                                                    (method_call_body
-                                                                                      name: (simple_identifier))))))
-                                                                            (method_call_body
-                                                                              (queue_method_call
-                                                                                (queue_method_name)
-                                                                                (list_of_arguments
-                                                                                  (expression
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))))))))))))))))
-                                                        (statement_or_null
-                                                          (statement
-                                                            (statement_item
-                                                              (conditional_statement
-                                                                (cond_predicate
-                                                                  (expression
-                                                                    left: (expression
-                                                                      (primary
-                                                                        (function_subroutine_call
-                                                                          (subroutine_call
-                                                                            (method_call
-                                                                              (primary
-                                                                                (hierarchical_identifier
-                                                                                  (simple_identifier)))
-                                                                              (method_call_body
-                                                                                (array_or_queue_method_call
-                                                                                  (array_or_queue_method_name))))))))
-                                                                    right: (expression
-                                                                      (primary
-                                                                        (primary_literal
-                                                                          (integral_number
-                                                                            (decimal_number
-                                                                              (unsigned_number))))))))
-                                                                (statement_or_null
-                                                                  (statement
-                                                                    (statement_item
-                                                                      (subroutine_call_statement
-                                                                        (subroutine_call
-                                                                          (method_call
-                                                                            (primary
-                                                                              (function_subroutine_call
-                                                                                (subroutine_call
-                                                                                  (method_call
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))
-                                                                                    (method_call_body
-                                                                                      name: (simple_identifier))))))
-                                                                            (method_call_body
-                                                                              (queue_method_call
-                                                                                (queue_method_name)
-                                                                                (list_of_arguments
-                                                                                  (expression
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier))))))))))))))))))))))))))))))))))))))))))))
+                                                                                  (primary
+                                                                                    (primary_literal
+                                                                                      (integral_number
+                                                                                        (decimal_number
+                                                                                          (unsigned_number))))))))))))))))))))))))))))))))))))))
+                (statement_or_null
+                  (statement
+                    (statement_item
+                      (seq_block
+                        (one_line_comment)
+                        (one_line_comment)
+                        (block_item_declaration
+                          (data_declaration
+                            (data_type_or_implicit
+                              (data_type
+                                (simple_identifier)))
+                            (list_of_variable_decl_assignments
+                              (variable_decl_assignment
+                                name: (simple_identifier))
+                              (variable_decl_assignment
+                                name: (simple_identifier)))))
+                        (block_item_declaration
+                          (data_declaration
+                            (data_type_or_implicit
+                              (data_type
+                                (integer_atom_type)))
+                            (list_of_variable_decl_assignments
+                              (variable_decl_assignment
+                                name: (simple_identifier)
+                                (queue_dimension))
+                              (variable_decl_assignment
+                                name: (simple_identifier)
+                                (queue_dimension)))))
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (conditional_statement
+                                (cond_predicate
+                                  (expression
+                                    left: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier))))
+                                    right: (expression
+                                      (primary))))
+                                (statement_or_null
+                                  (statement
+                                    (statement_item
+                                      (blocking_assignment
+                                        (operator_assignment
+                                          (variable_lvalue
+                                            (hierarchical_identifier
+                                              (simple_identifier)))
+                                          (assignment_operator)
+                                          (expression
+                                            (primary
+                                              (hierarchical_identifier
+                                                (simple_identifier)))))))))))))
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (blocking_assignment
+                                (operator_assignment
+                                  (variable_lvalue
+                                    (hierarchical_identifier
+                                      (simple_identifier)))
+                                  (assignment_operator)
+                                  (expression
+                                    (primary
+                                      (function_subroutine_call
+                                        (subroutine_call
+                                          (tf_call
+                                            (hierarchical_identifier
+                                              (simple_identifier))
+                                            (list_of_arguments
+                                              (expression
+                                                (primary
+                                                  (hierarchical_identifier
+                                                    (simple_identifier)))))))))))))))
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (blocking_assignment
+                                (operator_assignment
+                                  (variable_lvalue
+                                    (hierarchical_identifier
+                                      (simple_identifier)))
+                                  (assignment_operator)
+                                  (expression
+                                    (primary
+                                      (function_subroutine_call
+                                        (subroutine_call
+                                          (method_call
+                                            (primary
+                                              (hierarchical_identifier
+                                                (simple_identifier)))
+                                            (method_call_body
+                                              (array_manipulation_call
+                                                (array_method_name)
+                                                (list_of_arguments
+                                                  (expression
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))))))))))))))))
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (conditional_statement
+                                (cond_predicate
+                                  (expression
+                                    left: (expression
+                                      left: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier))))
+                                      right: (expression
+                                        (primary)))
+                                    right: (expression
+                                      left: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier))))
+                                      right: (expression
+                                        (primary)))))
+                                (statement_or_null
+                                  (statement
+                                    (statement_item
+                                      (jump_statement))))))))
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (blocking_assignment
+                                (operator_assignment
+                                  (variable_lvalue
+                                    (hierarchical_identifier
+                                      (simple_identifier)))
+                                  (assignment_operator)
+                                  (expression
+                                    (primary
+                                      (function_subroutine_call
+                                        (subroutine_call
+                                          (method_call
+                                            (primary
+                                              (function_subroutine_call
+                                                (subroutine_call
+                                                  (method_call
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))
+                                                    (method_call_body
+                                                      name: (simple_identifier))))))
+                                            (method_call_body
+                                              (array_manipulation_call
+                                                (array_method_name)
+                                                (list_of_arguments
+                                                  (expression
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))))
+                                                (expression
+                                                  left: (expression
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier))))
+                                                  right: (expression
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))))))))))))))))
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (blocking_assignment
+                                (operator_assignment
+                                  (variable_lvalue
+                                    (hierarchical_identifier
+                                      (simple_identifier)))
+                                  (assignment_operator)
+                                  (expression
+                                    (primary
+                                      (function_subroutine_call
+                                        (subroutine_call
+                                          (method_call
+                                            (primary
+                                              (function_subroutine_call
+                                                (subroutine_call
+                                                  (method_call
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))
+                                                    (method_call_body
+                                                      name: (simple_identifier))))))
+                                            (method_call_body
+                                              (array_manipulation_call
+                                                (array_method_name)
+                                                (list_of_arguments
+                                                  (expression
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))))
+                                                (expression
+                                                  left: (expression
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier))))
+                                                  right: (expression
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))))))))))))))))
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (conditional_statement
+                                (cond_predicate
+                                  (expression
+                                    left: (expression
+                                      (primary
+                                        (function_subroutine_call
+                                          (subroutine_call
+                                            (method_call
+                                              (primary
+                                                (hierarchical_identifier
+                                                  (simple_identifier)))
+                                              (method_call_body
+                                                (array_or_queue_method_call
+                                                  (array_or_queue_method_name))))))))
+                                    right: (expression
+                                      (primary
+                                        (primary_literal
+                                          (integral_number
+                                            (decimal_number
+                                              (unsigned_number))))))))
+                                (statement_or_null
+                                  (statement
+                                    (statement_item
+                                      (subroutine_call_statement
+                                        (subroutine_call
+                                          (method_call
+                                            (primary
+                                              (function_subroutine_call
+                                                (subroutine_call
+                                                  (method_call
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))
+                                                    (method_call_body
+                                                      name: (simple_identifier))))))
+                                            (method_call_body
+                                              (queue_method_call
+                                                (queue_method_name)
+                                                (list_of_arguments
+                                                  (expression
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))))))))))))))))
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (conditional_statement
+                                (cond_predicate
+                                  (expression
+                                    left: (expression
+                                      (primary
+                                        (function_subroutine_call
+                                          (subroutine_call
+                                            (method_call
+                                              (primary
+                                                (hierarchical_identifier
+                                                  (simple_identifier)))
+                                              (method_call_body
+                                                (array_or_queue_method_call
+                                                  (array_or_queue_method_name))))))))
+                                    right: (expression
+                                      (primary
+                                        (primary_literal
+                                          (integral_number
+                                            (decimal_number
+                                              (unsigned_number))))))))
+                                (statement_or_null
+                                  (statement
+                                    (statement_item
+                                      (subroutine_call_statement
+                                        (subroutine_call
+                                          (method_call
+                                            (primary
+                                              (function_subroutine_call
+                                                (subroutine_call
+                                                  (method_call
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))
+                                                    (method_call_body
+                                                      name: (simple_identifier))))))
+                                            (method_call_body
+                                              (queue_method_call
+                                                (queue_method_name)
+                                                (list_of_arguments
+                                                  (expression
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier))))))))))))))))))))))))))))
   (one_line_comment)
   (one_line_comment)
   (function_declaration
@@ -13409,136 +13393,235 @@ endfunction
                                               (string_literal
                                                 (quoted_string
                                                   (quoted_string_item))))))))))))))))))
+                (cond_predicate
+                  (expression
+                    left: (expression
+                      (primary
+                        (hierarchical_identifier
+                          (simple_identifier))))
+                    right: (expression
+                      (primary))))
                 (statement_or_null
                   (statement
                     (statement_item
-                      (conditional_statement
-                        (cond_predicate
-                          (expression
-                            left: (expression
-                              (primary
-                                (hierarchical_identifier
-                                  (simple_identifier))))
-                            right: (expression
-                              (primary))))
+                      (seq_block
                         (statement_or_null
                           (statement
                             (statement_item
-                              (seq_block
-                                (statement_or_null
-                                  (statement
-                                    (statement_item
-                                      (text_macro_usage
-                                        (simple_identifier)
-                                        (list_of_actual_arguments
-                                          (actual_argument
-                                            (param_expression
-                                              (mintypmax_expression
-                                                (expression
-                                                  (primary
-                                                    (primary_literal
-                                                      (string_literal
-                                                        (quoted_string
-                                                          (quoted_string_item)))))))))
-                                          (actual_argument
-                                            (param_expression
-                                              (mintypmax_expression
-                                                (expression
-                                                  (primary
-                                                    (primary_literal
-                                                      (string_literal
-                                                        (quoted_string
-                                                          (quoted_string_item))))))))))))))))))
+                              (text_macro_usage
+                                (simple_identifier)
+                                (list_of_actual_arguments
+                                  (actual_argument
+                                    (param_expression
+                                      (mintypmax_expression
+                                        (expression
+                                          (primary
+                                            (primary_literal
+                                              (string_literal
+                                                (quoted_string
+                                                  (quoted_string_item)))))))))
+                                  (actual_argument
+                                    (param_expression
+                                      (mintypmax_expression
+                                        (expression
+                                          (primary
+                                            (primary_literal
+                                              (string_literal
+                                                (quoted_string
+                                                  (quoted_string_item))))))))))))))))))
+                (cond_predicate
+                  (expression
+                    operator: (unary_operator)
+                    argument: (primary
+                      (function_subroutine_call
+                        (subroutine_call
+                          (tf_call
+                            (hierarchical_identifier
+                              (simple_identifier)
+                              (simple_identifier))))))))
+                (statement_or_null
+                  (statement
+                    (statement_item
+                      (seq_block
                         (statement_or_null
                           (statement
                             (statement_item
-                              (conditional_statement
-                                (cond_predicate
+                              (text_macro_usage
+                                (simple_identifier)
+                                (list_of_actual_arguments
+                                  (actual_argument
+                                    (param_expression
+                                      (mintypmax_expression
+                                        (expression
+                                          (primary
+                                            (primary_literal
+                                              (string_literal
+                                                (quoted_string
+                                                  (quoted_string_item)))))))))
+                                  (actual_argument
+                                    (param_expression
+                                      (mintypmax_expression
+                                        (expression
+                                          (primary
+                                            (primary_literal
+                                              (string_literal
+                                                (quoted_string
+                                                  (quoted_string_item))))))))))))))))))
+                (cond_predicate
+                  (expression
+                    left: (expression
+                      left: (expression
+                        (primary
+                          (hierarchical_identifier
+                            (simple_identifier))))
+                      right: (expression
+                        (primary)))
+                    right: (expression
+                      left: (expression
+                        (primary
+                          (hierarchical_identifier
+                            (simple_identifier))))
+                      right: (expression
+                        (primary)))))
+                (statement_or_null
+                  (statement
+                    (statement_item
+                      (seq_block
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (text_macro_usage
+                                (simple_identifier)
+                                (list_of_actual_arguments
+                                  (actual_argument
+                                    (param_expression
+                                      (mintypmax_expression
+                                        (expression
+                                          (primary
+                                            (primary_literal
+                                              (string_literal
+                                                (quoted_string
+                                                  (quoted_string_item)))))))))
+                                  (actual_argument
+                                    (param_expression
+                                      (mintypmax_expression
+                                        (expression
+                                          (primary
+                                            (primary_literal
+                                              (string_literal
+                                                (quoted_string
+                                                  (quoted_string_item))))))))))))))))))
+                (cond_predicate
+                  (expression
+                    left: (expression
+                      (primary
+                        (hierarchical_identifier
+                          (simple_identifier))))
+                    right: (expression
+                      (primary))))
+                (statement_or_null
+                  (statement
+                    (statement_item
+                      (seq_block
+                        (one_line_comment)
+                        (block_item_declaration
+                          (data_declaration
+                            (data_type_or_implicit
+                              (data_type
+                                (simple_identifier)))
+                            (list_of_variable_decl_assignments
+                              (variable_decl_assignment
+                                name: (simple_identifier)))))
+                        (block_item_declaration
+                          (data_declaration
+                            (data_type_or_implicit
+                              (data_type
+                                (simple_identifier)))
+                            (list_of_variable_decl_assignments
+                              (variable_decl_assignment
+                                name: (simple_identifier)
+                                (queue_dimension)))))
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (subroutine_call_statement
+                                (subroutine_call
+                                  (method_call
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (method_call_body
+                                      (queue_method_call
+                                        (queue_method_name)
+                                        (list_of_arguments
+                                          (expression
+                                            (primary)))))))))))
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (blocking_assignment
+                                (operator_assignment
+                                  (variable_lvalue
+                                    (hierarchical_identifier
+                                      (simple_identifier))
+                                    (select
+                                      (bit_select
+                                        (expression
+                                          (primary)))))
+                                  (assignment_operator)
                                   (expression
-                                    operator: (unary_operator)
-                                    argument: (primary
-                                      (function_subroutine_call
-                                        (subroutine_call
-                                          (tf_call
+                                    (primary
+                                      (primary_literal
+                                        (integral_number
+                                          (decimal_number
+                                            (unsigned_number)))))))))))
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (loop_statement
+                                (expression
+                                  (primary
+                                    (function_subroutine_call
+                                      (subroutine_call
+                                        (method_call
+                                          (primary
                                             (hierarchical_identifier
-                                              (simple_identifier)
-                                              (simple_identifier))))))))
+                                              (simple_identifier)))
+                                          (method_call_body
+                                            (array_or_queue_method_call
+                                              (array_or_queue_method_name))))))))
                                 (statement_or_null
                                   (statement
                                     (statement_item
                                       (seq_block
+                                        (block_item_declaration
+                                          (data_declaration
+                                            (data_type_or_implicit
+                                              (data_type
+                                                (simple_identifier)))
+                                            (list_of_variable_decl_assignments
+                                              (variable_decl_assignment
+                                                name: (simple_identifier)))))
                                         (statement_or_null
                                           (statement
                                             (statement_item
-                                              (text_macro_usage
-                                                (simple_identifier)
-                                                (list_of_actual_arguments
-                                                  (actual_argument
-                                                    (param_expression
-                                                      (mintypmax_expression
-                                                        (expression
-                                                          (primary
-                                                            (primary_literal
-                                                              (string_literal
-                                                                (quoted_string
-                                                                  (quoted_string_item)))))))))
-                                                  (actual_argument
-                                                    (param_expression
-                                                      (mintypmax_expression
-                                                        (expression
-                                                          (primary
-                                                            (primary_literal
-                                                              (string_literal
-                                                                (quoted_string
-                                                                  (quoted_string_item))))))))))))))))))
-                                (statement_or_null
-                                  (statement
-                                    (statement_item
-                                      (conditional_statement
-                                        (cond_predicate
-                                          (expression
-                                            left: (expression
-                                              left: (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier))))
-                                              right: (expression
-                                                (primary)))
-                                            right: (expression
-                                              left: (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier))))
-                                              right: (expression
-                                                (primary)))))
-                                        (statement_or_null
-                                          (statement
-                                            (statement_item
-                                              (seq_block
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (text_macro_usage
-                                                        (simple_identifier)
-                                                        (list_of_actual_arguments
-                                                          (actual_argument
-                                                            (param_expression
-                                                              (mintypmax_expression
-                                                                (expression
-                                                                  (primary
-                                                                    (primary_literal
-                                                                      (string_literal
-                                                                        (quoted_string
-                                                                          (quoted_string_item)))))))))
-                                                          (actual_argument
-                                                            (param_expression
-                                                              (mintypmax_expression
-                                                                (expression
-                                                                  (primary
-                                                                    (primary_literal
-                                                                      (string_literal
-                                                                        (quoted_string
-                                                                          (quoted_string_item))))))))))))))))))
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (function_subroutine_call
+                                                        (subroutine_call
+                                                          (method_call
+                                                            (primary
+                                                              (hierarchical_identifier
+                                                                (simple_identifier)))
+                                                            (method_call_body
+                                                              (queue_method_call
+                                                                (queue_method_name)))))))))))))
                                         (statement_or_null
                                           (statement
                                             (statement_item
@@ -13548,71 +13631,48 @@ endfunction
                                                     left: (expression
                                                       (primary
                                                         (hierarchical_identifier
+                                                          (simple_identifier)
                                                           (simple_identifier))))
                                                     right: (expression
                                                       (primary))))
                                                 (statement_or_null
                                                   (statement
                                                     (statement_item
-                                                      (seq_block
-                                                        (one_line_comment)
-                                                        (block_item_declaration
-                                                          (data_declaration
-                                                            (data_type_or_implicit
-                                                              (data_type
-                                                                (simple_identifier)))
-                                                            (list_of_variable_decl_assignments
-                                                              (variable_decl_assignment
-                                                                name: (simple_identifier)))))
-                                                        (block_item_declaration
-                                                          (data_declaration
-                                                            (data_type_or_implicit
-                                                              (data_type
-                                                                (simple_identifier)))
-                                                            (list_of_variable_decl_assignments
-                                                              (variable_decl_assignment
-                                                                name: (simple_identifier)
-                                                                (queue_dimension)))))
-                                                        (statement_or_null
-                                                          (statement
-                                                            (statement_item
-                                                              (subroutine_call_statement
-                                                                (subroutine_call
-                                                                  (method_call
-                                                                    (primary
-                                                                      (hierarchical_identifier
-                                                                        (simple_identifier)))
-                                                                    (method_call_body
-                                                                      (queue_method_call
-                                                                        (queue_method_name)
-                                                                        (list_of_arguments
-                                                                          (expression
-                                                                            (primary)))))))))))
-                                                        (statement_or_null
-                                                          (statement
-                                                            (statement_item
-                                                              (blocking_assignment
-                                                                (operator_assignment
-                                                                  (variable_lvalue
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier))
-                                                                    (select
-                                                                      (bit_select
-                                                                        (expression
-                                                                          (primary)))))
-                                                                  (assignment_operator)
-                                                                  (expression
-                                                                    (primary
-                                                                      (primary_literal
-                                                                        (integral_number
-                                                                          (decimal_number
-                                                                            (unsigned_number)))))))))))
-                                                        (statement_or_null
-                                                          (statement
-                                                            (statement_item
-                                                              (loop_statement
+                                                      (subroutine_call_statement
+                                                        (subroutine_call
+                                                          (tf_call
+                                                            (hierarchical_identifier
+                                                              (simple_identifier))
+                                                            (list_of_arguments
+                                                              (expression
+                                                                (primary
+                                                                  (hierarchical_identifier
+                                                                    (simple_identifier))))
+                                                              (expression
+                                                                (primary
+                                                                  (hierarchical_identifier
+                                                                    (simple_identifier)
+                                                                    (simple_identifier)))))))))))))))
+                                        (statement_or_null
+                                          (statement
+                                            (statement_item
+                                              (loop_statement
+                                                (hierarchical_identifier
+                                                  (simple_identifier)
+                                                  (simple_identifier))
+                                                (loop_variables
+                                                  (simple_identifier))
+                                                (statement
+                                                  (statement_item
+                                                    (seq_block
+                                                      (statement_or_null
+                                                        (statement
+                                                          (statement_item
+                                                            (conditional_statement
+                                                              (cond_predicate
                                                                 (expression
-                                                                  (primary
+                                                                  operator: (unary_operator)
+                                                                  argument: (primary
                                                                     (function_subroutine_call
                                                                       (subroutine_call
                                                                         (method_call
@@ -13620,444 +13680,352 @@ endfunction
                                                                             (hierarchical_identifier
                                                                               (simple_identifier)))
                                                                           (method_call_body
-                                                                            (array_or_queue_method_call
-                                                                              (array_or_queue_method_name))))))))
-                                                                (statement_or_null
-                                                                  (statement
-                                                                    (statement_item
-                                                                      (seq_block
-                                                                        (block_item_declaration
-                                                                          (data_declaration
-                                                                            (data_type_or_implicit
-                                                                              (data_type
-                                                                                (simple_identifier)))
-                                                                            (list_of_variable_decl_assignments
-                                                                              (variable_decl_assignment
-                                                                                name: (simple_identifier)))))
-                                                                        (statement_or_null
-                                                                          (statement
-                                                                            (statement_item
-                                                                              (blocking_assignment
-                                                                                (operator_assignment
-                                                                                  (variable_lvalue
+                                                                            (associative_array_method_call
+                                                                              (associative_array_method_name)
+                                                                              (list_of_arguments
+                                                                                (expression
+                                                                                  (primary
+                                                                                    (hierarchical_identifier
+                                                                                      (simple_identifier)))))))))))))
+                                                              (statement_or_null
+                                                                (statement
+                                                                  (statement_item
+                                                                    (seq_block
+                                                                      (statement_or_null
+                                                                        (statement
+                                                                          (statement_item
+                                                                            (subroutine_call_statement
+                                                                              (subroutine_call
+                                                                                (method_call
+                                                                                  (primary
                                                                                     (hierarchical_identifier
                                                                                       (simple_identifier)))
-                                                                                  (assignment_operator)
-                                                                                  (expression
-                                                                                    (primary
-                                                                                      (function_subroutine_call
-                                                                                        (subroutine_call
-                                                                                          (method_call
-                                                                                            (primary
-                                                                                              (hierarchical_identifier
-                                                                                                (simple_identifier)))
-                                                                                            (method_call_body
-                                                                                              (queue_method_call
-                                                                                                (queue_method_name)))))))))))))
-                                                                        (statement_or_null
-                                                                          (statement
-                                                                            (statement_item
-                                                                              (conditional_statement
-                                                                                (cond_predicate
-                                                                                  (expression
-                                                                                    left: (expression
-                                                                                      (primary
-                                                                                        (hierarchical_identifier
-                                                                                          (simple_identifier)
-                                                                                          (simple_identifier))))
-                                                                                    right: (expression
-                                                                                      (primary))))
-                                                                                (statement_or_null
-                                                                                  (statement
-                                                                                    (statement_item
-                                                                                      (subroutine_call_statement
-                                                                                        (subroutine_call
-                                                                                          (tf_call
+                                                                                  (method_call_body
+                                                                                    (queue_method_call
+                                                                                      (queue_method_name)
+                                                                                      (list_of_arguments
+                                                                                        (expression
+                                                                                          (primary
                                                                                             (hierarchical_identifier
-                                                                                              (simple_identifier))
-                                                                                            (list_of_arguments
-                                                                                              (expression
-                                                                                                (primary
-                                                                                                  (hierarchical_identifier
-                                                                                                    (simple_identifier))))
-                                                                                              (expression
-                                                                                                (primary
-                                                                                                  (hierarchical_identifier
-                                                                                                    (simple_identifier)
-                                                                                                    (simple_identifier)))))))))))))))
-                                                                        (statement_or_null
-                                                                          (statement
-                                                                            (statement_item
-                                                                              (loop_statement
-                                                                                (hierarchical_identifier
-                                                                                  (simple_identifier)
-                                                                                  (simple_identifier))
-                                                                                (loop_variables
-                                                                                  (simple_identifier))
-                                                                                (statement
-                                                                                  (statement_item
-                                                                                    (seq_block
-                                                                                      (statement_or_null
-                                                                                        (statement
-                                                                                          (statement_item
-                                                                                            (conditional_statement
-                                                                                              (cond_predicate
-                                                                                                (expression
-                                                                                                  operator: (unary_operator)
-                                                                                                  argument: (primary
-                                                                                                    (function_subroutine_call
-                                                                                                      (subroutine_call
-                                                                                                        (method_call
-                                                                                                          (primary
-                                                                                                            (hierarchical_identifier
-                                                                                                              (simple_identifier)))
-                                                                                                          (method_call_body
-                                                                                                            (associative_array_method_call
-                                                                                                              (associative_array_method_name)
-                                                                                                              (list_of_arguments
-                                                                                                                (expression
-                                                                                                                  (primary
-                                                                                                                    (hierarchical_identifier
-                                                                                                                      (simple_identifier)))))))))))))
-                                                                                              (statement_or_null
-                                                                                                (statement
-                                                                                                  (statement_item
-                                                                                                    (seq_block
-                                                                                                      (statement_or_null
-                                                                                                        (statement
-                                                                                                          (statement_item
-                                                                                                            (subroutine_call_statement
-                                                                                                              (subroutine_call
-                                                                                                                (method_call
-                                                                                                                  (primary
-                                                                                                                    (hierarchical_identifier
-                                                                                                                      (simple_identifier)))
-                                                                                                                  (method_call_body
-                                                                                                                    (queue_method_call
-                                                                                                                      (queue_method_name)
-                                                                                                                      (list_of_arguments
-                                                                                                                        (expression
-                                                                                                                          (primary
-                                                                                                                            (hierarchical_identifier
-                                                                                                                              (simple_identifier)))))))))))))
-                                                                                                      (statement_or_null
-                                                                                                        (statement
-                                                                                                          (statement_item
-                                                                                                            (blocking_assignment
-                                                                                                              (operator_assignment
-                                                                                                                (variable_lvalue
-                                                                                                                  (hierarchical_identifier
-                                                                                                                    (simple_identifier))
-                                                                                                                  (select
-                                                                                                                    (bit_select
-                                                                                                                      (expression
-                                                                                                                        (primary
-                                                                                                                          (hierarchical_identifier
-                                                                                                                            (simple_identifier)))))))
-                                                                                                                (assignment_operator)
-                                                                                                                (expression
-                                                                                                                  (primary
-                                                                                                                    (primary_literal
-                                                                                                                      (integral_number
-                                                                                                                        (decimal_number
-                                                                                                                          (unsigned_number))))))))))))))))))))))))))))))))))))))
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (seq_block
-                                                        (one_line_comment)
-                                                        (one_line_comment)
-                                                        (block_item_declaration
-                                                          (data_declaration
-                                                            (data_type_or_implicit
-                                                              (data_type
-                                                                (simple_identifier)))
-                                                            (list_of_variable_decl_assignments
-                                                              (variable_decl_assignment
-                                                                name: (simple_identifier))
-                                                              (variable_decl_assignment
-                                                                name: (simple_identifier)))))
-                                                        (block_item_declaration
-                                                          (data_declaration
-                                                            (data_type_or_implicit
-                                                              (data_type
-                                                                (integer_atom_type)))
-                                                            (list_of_variable_decl_assignments
-                                                              (variable_decl_assignment
-                                                                name: (simple_identifier)
-                                                                (queue_dimension))
-                                                              (variable_decl_assignment
-                                                                name: (simple_identifier)
-                                                                (queue_dimension)))))
-                                                        (statement_or_null
-                                                          (statement
-                                                            (statement_item
-                                                              (conditional_statement
-                                                                (cond_predicate
-                                                                  (expression
-                                                                    left: (expression
-                                                                      (primary
-                                                                        (hierarchical_identifier
-                                                                          (simple_identifier))))
-                                                                    right: (expression
-                                                                      (primary))))
-                                                                (statement_or_null
-                                                                  (statement
-                                                                    (statement_item
-                                                                      (blocking_assignment
-                                                                        (operator_assignment
-                                                                          (variable_lvalue
-                                                                            (hierarchical_identifier
-                                                                              (simple_identifier)))
-                                                                          (assignment_operator)
-                                                                          (expression
-                                                                            (primary
-                                                                              (hierarchical_identifier
-                                                                                (simple_identifier)))))))))))))
-                                                        (statement_or_null
-                                                          (statement
-                                                            (statement_item
-                                                              (blocking_assignment
-                                                                (operator_assignment
-                                                                  (variable_lvalue
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier)))
-                                                                  (assignment_operator)
-                                                                  (expression
-                                                                    (primary
-                                                                      (function_subroutine_call
-                                                                        (subroutine_call
-                                                                          (tf_call
-                                                                            (hierarchical_identifier
-                                                                              (simple_identifier))
-                                                                            (list_of_arguments
-                                                                              (expression
-                                                                                (primary
+                                                                                              (simple_identifier)))))))))))))
+                                                                      (statement_or_null
+                                                                        (statement
+                                                                          (statement_item
+                                                                            (blocking_assignment
+                                                                              (operator_assignment
+                                                                                (variable_lvalue
                                                                                   (hierarchical_identifier
-                                                                                    (simple_identifier)))))))))))))))
-                                                        (statement_or_null
-                                                          (statement
-                                                            (statement_item
-                                                              (blocking_assignment
-                                                                (operator_assignment
-                                                                  (variable_lvalue
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier)))
-                                                                  (assignment_operator)
-                                                                  (expression
-                                                                    (primary
-                                                                      (function_subroutine_call
-                                                                        (subroutine_call
-                                                                          (method_call
-                                                                            (primary
-                                                                              (hierarchical_identifier
-                                                                                (simple_identifier)))
-                                                                            (method_call_body
-                                                                              (array_manipulation_call
-                                                                                (array_method_name)
-                                                                                (list_of_arguments
-                                                                                  (expression
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))))))))))))))))
-                                                        (statement_or_null
-                                                          (statement
-                                                            (statement_item
-                                                              (conditional_statement
-                                                                (cond_predicate
-                                                                  (expression
-                                                                    left: (expression
-                                                                      left: (expression
-                                                                        (primary
-                                                                          (hierarchical_identifier
-                                                                            (simple_identifier))))
-                                                                      right: (expression
-                                                                        (primary)))
-                                                                    right: (expression
-                                                                      left: (expression
-                                                                        (primary
-                                                                          (hierarchical_identifier
-                                                                            (simple_identifier))))
-                                                                      right: (expression
-                                                                        (primary)))))
-                                                                (statement_or_null
-                                                                  (statement
-                                                                    (statement_item
-                                                                      (jump_statement))))))))
-                                                        (statement_or_null
-                                                          (statement
-                                                            (statement_item
-                                                              (blocking_assignment
-                                                                (operator_assignment
-                                                                  (variable_lvalue
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier)))
-                                                                  (assignment_operator)
-                                                                  (expression
-                                                                    (primary
-                                                                      (function_subroutine_call
-                                                                        (subroutine_call
-                                                                          (method_call
-                                                                            (primary
-                                                                              (function_subroutine_call
-                                                                                (subroutine_call
-                                                                                  (method_call
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))
-                                                                                    (method_call_body
-                                                                                      name: (simple_identifier))))))
-                                                                            (method_call_body
-                                                                              (array_manipulation_call
-                                                                                (array_method_name)
-                                                                                (list_of_arguments
-                                                                                  (expression
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))))
+                                                                                    (simple_identifier))
+                                                                                  (select
+                                                                                    (bit_select
+                                                                                      (expression
+                                                                                        (primary
+                                                                                          (hierarchical_identifier
+                                                                                            (simple_identifier)))))))
+                                                                                (assignment_operator)
                                                                                 (expression
-                                                                                  left: (expression
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier))))
-                                                                                  right: (expression
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))))))))))))))))
-                                                        (statement_or_null
-                                                          (statement
-                                                            (statement_item
-                                                              (blocking_assignment
-                                                                (operator_assignment
-                                                                  (variable_lvalue
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier)))
-                                                                  (assignment_operator)
-                                                                  (expression
-                                                                    (primary
-                                                                      (function_subroutine_call
-                                                                        (subroutine_call
-                                                                          (method_call
-                                                                            (primary
-                                                                              (function_subroutine_call
-                                                                                (subroutine_call
-                                                                                  (method_call
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))
-                                                                                    (method_call_body
-                                                                                      name: (simple_identifier))))))
-                                                                            (method_call_body
-                                                                              (array_manipulation_call
-                                                                                (array_method_name)
-                                                                                (list_of_arguments
-                                                                                  (expression
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))))
-                                                                                (expression
-                                                                                  left: (expression
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier))))
-                                                                                  right: (expression
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))))))))))))))))
-                                                        (statement_or_null
-                                                          (statement
-                                                            (statement_item
-                                                              (conditional_statement
-                                                                (cond_predicate
-                                                                  (expression
-                                                                    (primary
-                                                                      (function_subroutine_call
-                                                                        (subroutine_call
-                                                                          (method_call
-                                                                            (primary
-                                                                              (hierarchical_identifier
-                                                                                (simple_identifier)))
-                                                                            (method_call_body
-                                                                              (array_or_queue_method_call
-                                                                                (array_or_queue_method_name)))))))))
-                                                                (statement_or_null
-                                                                  (statement
-                                                                    (statement_item
-                                                                      (subroutine_call_statement
-                                                                        (subroutine_call
-                                                                          (method_call
-                                                                            (primary
-                                                                              (function_subroutine_call
-                                                                                (subroutine_call
-                                                                                  (method_call
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))
-                                                                                    (method_call_body
-                                                                                      name: (simple_identifier))))))
-                                                                            (method_call_body
-                                                                              (array_or_queue_method_call
-                                                                                (array_or_queue_method_name)
-                                                                                (list_of_arguments
-                                                                                  (expression
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier))
-                                                                                      (select
-                                                                                        (bit_select
-                                                                                          (expression
-                                                                                            (primary
-                                                                                              (primary_literal
-                                                                                                (integral_number
-                                                                                                  (decimal_number
-                                                                                                    (unsigned_number)))))))))))))))))))))))
-                                                        (statement_or_null
-                                                          (statement
-                                                            (statement_item
-                                                              (conditional_statement
-                                                                (cond_predicate
-                                                                  (expression
-                                                                    (primary
-                                                                      (function_subroutine_call
-                                                                        (subroutine_call
-                                                                          (method_call
-                                                                            (primary
-                                                                              (hierarchical_identifier
-                                                                                (simple_identifier)))
-                                                                            (method_call_body
-                                                                              (array_or_queue_method_call
-                                                                                (array_or_queue_method_name)))))))))
-                                                                (statement_or_null
-                                                                  (statement
-                                                                    (statement_item
-                                                                      (subroutine_call_statement
-                                                                        (subroutine_call
-                                                                          (method_call
-                                                                            (primary
-                                                                              (function_subroutine_call
-                                                                                (subroutine_call
-                                                                                  (method_call
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))
-                                                                                    (method_call_body
-                                                                                      name: (simple_identifier))))))
-                                                                            (method_call_body
-                                                                              (array_or_queue_method_call
-                                                                                (array_or_queue_method_name)
-                                                                                (list_of_arguments
-                                                                                  (expression
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier))
-                                                                                      (select
-                                                                                        (bit_select
-                                                                                          (expression
-                                                                                            (primary
-                                                                                              (primary_literal
-                                                                                                (integral_number
-                                                                                                  (decimal_number
-                                                                                                    (unsigned_number))))))))))))))))))))))))))))))))))))))))))))))))))
+                                                                                  (primary
+                                                                                    (primary_literal
+                                                                                      (integral_number
+                                                                                        (decimal_number
+                                                                                          (unsigned_number))))))))))))))))))))))))))))))))))))))
+                (statement_or_null
+                  (statement
+                    (statement_item
+                      (seq_block
+                        (one_line_comment)
+                        (one_line_comment)
+                        (block_item_declaration
+                          (data_declaration
+                            (data_type_or_implicit
+                              (data_type
+                                (simple_identifier)))
+                            (list_of_variable_decl_assignments
+                              (variable_decl_assignment
+                                name: (simple_identifier))
+                              (variable_decl_assignment
+                                name: (simple_identifier)))))
+                        (block_item_declaration
+                          (data_declaration
+                            (data_type_or_implicit
+                              (data_type
+                                (integer_atom_type)))
+                            (list_of_variable_decl_assignments
+                              (variable_decl_assignment
+                                name: (simple_identifier)
+                                (queue_dimension))
+                              (variable_decl_assignment
+                                name: (simple_identifier)
+                                (queue_dimension)))))
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (conditional_statement
+                                (cond_predicate
+                                  (expression
+                                    left: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier))))
+                                    right: (expression
+                                      (primary))))
+                                (statement_or_null
+                                  (statement
+                                    (statement_item
+                                      (blocking_assignment
+                                        (operator_assignment
+                                          (variable_lvalue
+                                            (hierarchical_identifier
+                                              (simple_identifier)))
+                                          (assignment_operator)
+                                          (expression
+                                            (primary
+                                              (hierarchical_identifier
+                                                (simple_identifier)))))))))))))
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (blocking_assignment
+                                (operator_assignment
+                                  (variable_lvalue
+                                    (hierarchical_identifier
+                                      (simple_identifier)))
+                                  (assignment_operator)
+                                  (expression
+                                    (primary
+                                      (function_subroutine_call
+                                        (subroutine_call
+                                          (tf_call
+                                            (hierarchical_identifier
+                                              (simple_identifier))
+                                            (list_of_arguments
+                                              (expression
+                                                (primary
+                                                  (hierarchical_identifier
+                                                    (simple_identifier)))))))))))))))
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (blocking_assignment
+                                (operator_assignment
+                                  (variable_lvalue
+                                    (hierarchical_identifier
+                                      (simple_identifier)))
+                                  (assignment_operator)
+                                  (expression
+                                    (primary
+                                      (function_subroutine_call
+                                        (subroutine_call
+                                          (method_call
+                                            (primary
+                                              (hierarchical_identifier
+                                                (simple_identifier)))
+                                            (method_call_body
+                                              (array_manipulation_call
+                                                (array_method_name)
+                                                (list_of_arguments
+                                                  (expression
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))))))))))))))))
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (conditional_statement
+                                (cond_predicate
+                                  (expression
+                                    left: (expression
+                                      left: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier))))
+                                      right: (expression
+                                        (primary)))
+                                    right: (expression
+                                      left: (expression
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier))))
+                                      right: (expression
+                                        (primary)))))
+                                (statement_or_null
+                                  (statement
+                                    (statement_item
+                                      (jump_statement))))))))
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (blocking_assignment
+                                (operator_assignment
+                                  (variable_lvalue
+                                    (hierarchical_identifier
+                                      (simple_identifier)))
+                                  (assignment_operator)
+                                  (expression
+                                    (primary
+                                      (function_subroutine_call
+                                        (subroutine_call
+                                          (method_call
+                                            (primary
+                                              (function_subroutine_call
+                                                (subroutine_call
+                                                  (method_call
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))
+                                                    (method_call_body
+                                                      name: (simple_identifier))))))
+                                            (method_call_body
+                                              (array_manipulation_call
+                                                (array_method_name)
+                                                (list_of_arguments
+                                                  (expression
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))))
+                                                (expression
+                                                  left: (expression
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier))))
+                                                  right: (expression
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))))))))))))))))
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (blocking_assignment
+                                (operator_assignment
+                                  (variable_lvalue
+                                    (hierarchical_identifier
+                                      (simple_identifier)))
+                                  (assignment_operator)
+                                  (expression
+                                    (primary
+                                      (function_subroutine_call
+                                        (subroutine_call
+                                          (method_call
+                                            (primary
+                                              (function_subroutine_call
+                                                (subroutine_call
+                                                  (method_call
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))
+                                                    (method_call_body
+                                                      name: (simple_identifier))))))
+                                            (method_call_body
+                                              (array_manipulation_call
+                                                (array_method_name)
+                                                (list_of_arguments
+                                                  (expression
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))))
+                                                (expression
+                                                  left: (expression
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier))))
+                                                  right: (expression
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))))))))))))))))
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (conditional_statement
+                                (cond_predicate
+                                  (expression
+                                    (primary
+                                      (function_subroutine_call
+                                        (subroutine_call
+                                          (method_call
+                                            (primary
+                                              (hierarchical_identifier
+                                                (simple_identifier)))
+                                            (method_call_body
+                                              (array_or_queue_method_call
+                                                (array_or_queue_method_name)))))))))
+                                (statement_or_null
+                                  (statement
+                                    (statement_item
+                                      (subroutine_call_statement
+                                        (subroutine_call
+                                          (method_call
+                                            (primary
+                                              (function_subroutine_call
+                                                (subroutine_call
+                                                  (method_call
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))
+                                                    (method_call_body
+                                                      name: (simple_identifier))))))
+                                            (method_call_body
+                                              (array_or_queue_method_call
+                                                (array_or_queue_method_name)
+                                                (list_of_arguments
+                                                  (expression
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier))
+                                                      (select
+                                                        (bit_select
+                                                          (expression
+                                                            (primary
+                                                              (primary_literal
+                                                                (integral_number
+                                                                  (decimal_number
+                                                                    (unsigned_number)))))))))))))))))))))))
+                        (statement_or_null
+                          (statement
+                            (statement_item
+                              (conditional_statement
+                                (cond_predicate
+                                  (expression
+                                    (primary
+                                      (function_subroutine_call
+                                        (subroutine_call
+                                          (method_call
+                                            (primary
+                                              (hierarchical_identifier
+                                                (simple_identifier)))
+                                            (method_call_body
+                                              (array_or_queue_method_call
+                                                (array_or_queue_method_name)))))))))
+                                (statement_or_null
+                                  (statement
+                                    (statement_item
+                                      (subroutine_call_statement
+                                        (subroutine_call
+                                          (method_call
+                                            (primary
+                                              (function_subroutine_call
+                                                (subroutine_call
+                                                  (method_call
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))
+                                                    (method_call_body
+                                                      name: (simple_identifier))))))
+                                            (method_call_body
+                                              (array_or_queue_method_call
+                                                (array_or_queue_method_name)
+                                                (list_of_arguments
+                                                  (expression
+                                                    (primary
+                                                      (hierarchical_identifier
+                                                        (simple_identifier))
+                                                      (select
+                                                        (bit_select
+                                                          (expression
+                                                            (primary
+                                                              (primary_literal
+                                                                (integral_number
+                                                                  (decimal_number
+                                                                    (unsigned_number))))))))))))))))))))))))))))))))))
   (one_line_comment)
   (one_line_comment)
   (task_declaration

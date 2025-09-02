@@ -2003,51 +2003,47 @@ endmodule
                                           (integral_number
                                             (decimal_number
                                               (unsigned_number))))))))))))))
+                    (cond_predicate
+                      (expression
+                        left: (expression
+                          (primary
+                            (hierarchical_identifier
+                              (simple_identifier))))
+                        right: (expression
+                          (primary
+                            (hierarchical_identifier
+                              (simple_identifier))))))
                     (statement_or_null
                       (statement
                         (statement_item
-                          (conditional_statement
-                            (cond_predicate
-                              (expression
-                                left: (expression
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier))))
-                                right: (expression
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier))))))
+                          (seq_block
                             (statement_or_null
                               (statement
                                 (statement_item
-                                  (seq_block
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (nonblocking_assignment
-                                            (variable_lvalue
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (expression
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier))))))))))))
+                                  (nonblocking_assignment
+                                    (variable_lvalue
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier))))))))))))
+                    (statement_or_null
+                      (statement
+                        (statement_item
+                          (seq_block
+                            (one_line_comment)
                             (statement_or_null
                               (statement
                                 (statement_item
-                                  (seq_block
-                                    (one_line_comment)
-                                    (statement_or_null
-                                      (statement
-                                        (statement_item
-                                          (nonblocking_assignment
-                                            (variable_lvalue
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (expression
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier))))))))))))))))))))))))
+                                  (nonblocking_assignment
+                                    (variable_lvalue
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
+                                    (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier))))))))))))))))))))
     (continuous_assign
       (list_of_net_assignments
         (net_assignment

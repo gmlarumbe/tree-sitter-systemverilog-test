@@ -3276,36 +3276,36 @@ endmodule // bsg_mem_banked_crossbar
                                                                     (expression
                                                                       (primary
                                                                         (hierarchical_identifier
-                                                                          (simple_identifier)))))))))))))))
-                                              (statement_or_null
-                                                (statement
-                                                  (statement_item
-                                                    (subroutine_call_statement
-                                                      (subroutine_call
-                                                        (system_tf_call
-                                                          (system_tf_identifier)
-                                                          (list_of_arguments
-                                                            (expression
-                                                              (primary
-                                                                (primary_literal
-                                                                  (string_literal
-                                                                    (quoted_string
-                                                                      (quoted_string_item))))))
-                                                            (expression
-                                                              left: (expression
+                                                                          (simple_identifier)))))))))))))))))))
+                                      (statement_or_null
+                                        (statement
+                                          (statement_item
+                                            (subroutine_call_statement
+                                              (subroutine_call
+                                                (system_tf_call
+                                                  (system_tf_identifier)
+                                                  (list_of_arguments
+                                                    (expression
+                                                      (primary
+                                                        (primary_literal
+                                                          (string_literal
+                                                            (quoted_string
+                                                              (quoted_string_item))))))
+                                                    (expression
+                                                      left: (expression
+                                                        (primary
+                                                          (hierarchical_identifier
+                                                            (simple_identifier))
+                                                          (select
+                                                            (bit_select
+                                                              (expression
                                                                 (primary
                                                                   (hierarchical_identifier
-                                                                    (simple_identifier))
-                                                                  (select
-                                                                    (bit_select
-                                                                      (expression
-                                                                        (primary
-                                                                          (hierarchical_identifier
-                                                                            (simple_identifier))))))))
-                                                              right: (expression
-                                                                (primary
-                                                                  (hierarchical_identifier
-                                                                    (simple_identifier)))))))))))))))))))))))))))))))
+                                                                    (simple_identifier))))))))
+                                                      right: (expression
+                                                        (primary
+                                                          (hierarchical_identifier
+                                                            (simple_identifier)))))))))))))))))))))))))))
         (conditional_compilation_directive)
         (one_line_comment)
         (module_instantiation

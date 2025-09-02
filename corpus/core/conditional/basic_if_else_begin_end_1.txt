@@ -59,50 +59,46 @@ endmodule
                                               (integral_number
                                                 (decimal_number
                                                   (unsigned_number)))))))))))))))
+                      (cond_predicate
+                        (expression
+                          (primary
+                            (hierarchical_identifier
+                              (simple_identifier)))))
                       (statement_or_null
                         (statement
                           (statement_item
-                            (conditional_statement
-                              (cond_predicate
-                                (expression
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))))
+                            (seq_block
                               (statement_or_null
                                 (statement
                                   (statement_item
-                                    (seq_block
-                                      (statement_or_null
-                                        (statement
-                                          (statement_item
-                                            (blocking_assignment
-                                              (operator_assignment
-                                                (variable_lvalue
-                                                  (hierarchical_identifier
-                                                    (simple_identifier)))
-                                                (assignment_operator)
-                                                (expression
-                                                  (primary
-                                                    (primary_literal
-                                                      (integral_number
-                                                        (decimal_number
-                                                          (unsigned_number)))))))))))))))
+                                    (blocking_assignment
+                                      (operator_assignment
+                                        (variable_lvalue
+                                          (hierarchical_identifier
+                                            (simple_identifier)))
+                                        (assignment_operator)
+                                        (expression
+                                          (primary
+                                            (primary_literal
+                                              (integral_number
+                                                (decimal_number
+                                                  (unsigned_number)))))))))))))))
+                      (statement_or_null
+                        (statement
+                          (statement_item
+                            (seq_block
                               (statement_or_null
                                 (statement
                                   (statement_item
-                                    (seq_block
-                                      (statement_or_null
-                                        (statement
-                                          (statement_item
-                                            (blocking_assignment
-                                              (operator_assignment
-                                                (variable_lvalue
-                                                  (hierarchical_identifier
-                                                    (simple_identifier)))
-                                                (assignment_operator)
-                                                (expression
-                                                  (primary
-                                                    (primary_literal
-                                                      (integral_number
-                                                        (decimal_number
-                                                          (unsigned_number))))))))))))))))))))))))))))))
+                                    (blocking_assignment
+                                      (operator_assignment
+                                        (variable_lvalue
+                                          (hierarchical_identifier
+                                            (simple_identifier)))
+                                        (assignment_operator)
+                                        (expression
+                                          (primary
+                                            (primary_literal
+                                              (integral_number
+                                                (decimal_number
+                                                  (unsigned_number))))))))))))))))))))))))))

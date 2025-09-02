@@ -1135,8 +1135,8 @@ endmodule // bsg_tag_master
                                                         (simple_identifier)))
                                                     (method_call_body
                                                       (enum_method_call
-                                                        (enum_method_name)))))))))))))))
-                            (conditional_compilation_directive)))))))))))))
+                                                        (enum_method_name)))))))))))))))))))))))))))
+    (conditional_compilation_directive)
     (always_construct
       (always_keyword)
       (statement

@@ -2209,119 +2209,115 @@ endtask : send_resp
                                                         (integral_number
                                                           (decimal_number
                                                             (unsigned_number)))))))))))))))
+                                (cond_predicate
+                                  (expression
+                                    left: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier)
+                                          (simple_identifier)
+                                          (simple_identifier))))
+                                    right: (expression
+                                      (primary
+                                        (primary_literal
+                                          (integral_number
+                                            (binary_number
+                                              size: (unsigned_number)
+                                              base: (binary_base)
+                                              value: (binary_value))))))))
                                 (statement_or_null
                                   (statement
                                     (statement_item
-                                      (conditional_statement
-                                        (cond_predicate
-                                          (expression
-                                            left: (expression
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)
-                                                  (simple_identifier)
-                                                  (simple_identifier))))
-                                            right: (expression
-                                              (primary
-                                                (primary_literal
-                                                  (integral_number
-                                                    (binary_number
-                                                      size: (unsigned_number)
-                                                      base: (binary_base)
-                                                      value: (binary_value))))))))
+                                      (seq_block
                                         (statement_or_null
                                           (statement
                                             (statement_item
-                                              (seq_block
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (decimal_number
-                                                                    (unsigned_number)))))))))))
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (decimal_number
-                                                                    (unsigned_number)))))))))))
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (binary_number
-                                                                    size: (unsigned_number)
-                                                                    base: (binary_base)
-                                                                    value: (binary_value)))))))))))
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (decimal_number
-                                                                    (unsigned_number)))))))))))))))
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (decimal_number
+                                                            (unsigned_number)))))))))))
                                         (statement_or_null
                                           (statement
                                             (statement_item
-                                              (seq_block
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (decimal_number
-                                                                    (unsigned_number))))))))))))))))))))))))))))
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (decimal_number
+                                                            (unsigned_number)))))))))))
+                                        (statement_or_null
+                                          (statement
+                                            (statement_item
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (binary_number
+                                                            size: (unsigned_number)
+                                                            base: (binary_base)
+                                                            value: (binary_value)))))))))))
+                                        (statement_or_null
+                                          (statement
+                                            (statement_item
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (decimal_number
+                                                            (unsigned_number)))))))))))))))
+                                (statement_or_null
+                                  (statement
+                                    (statement_item
+                                      (seq_block
+                                        (statement_or_null
+                                          (statement
+                                            (statement_item
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (decimal_number
+                                                            (unsigned_number))))))))))))))))))))))))
               (case_inside_item
                 (range_list
                   (value_range
@@ -2427,119 +2423,115 @@ endtask : send_resp
                                                         (integral_number
                                                           (decimal_number
                                                             (unsigned_number)))))))))))))))
+                                (cond_predicate
+                                  (expression
+                                    left: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier)
+                                          (simple_identifier)
+                                          (simple_identifier))))
+                                    right: (expression
+                                      (primary
+                                        (primary_literal
+                                          (integral_number
+                                            (binary_number
+                                              size: (unsigned_number)
+                                              base: (binary_base)
+                                              value: (binary_value))))))))
                                 (statement_or_null
                                   (statement
                                     (statement_item
-                                      (conditional_statement
-                                        (cond_predicate
-                                          (expression
-                                            left: (expression
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)
-                                                  (simple_identifier)
-                                                  (simple_identifier))))
-                                            right: (expression
-                                              (primary
-                                                (primary_literal
-                                                  (integral_number
-                                                    (binary_number
-                                                      size: (unsigned_number)
-                                                      base: (binary_base)
-                                                      value: (binary_value))))))))
+                                      (seq_block
                                         (statement_or_null
                                           (statement
                                             (statement_item
-                                              (seq_block
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (decimal_number
-                                                                    (unsigned_number)))))))))))
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (decimal_number
-                                                                    (unsigned_number)))))))))))
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (binary_number
-                                                                    size: (unsigned_number)
-                                                                    base: (binary_base)
-                                                                    value: (binary_value)))))))))))
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (decimal_number
-                                                                    (unsigned_number)))))))))))))))
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (decimal_number
+                                                            (unsigned_number)))))))))))
                                         (statement_or_null
                                           (statement
                                             (statement_item
-                                              (seq_block
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (decimal_number
-                                                                    (unsigned_number))))))))))))))))))))))))))))
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (decimal_number
+                                                            (unsigned_number)))))))))))
+                                        (statement_or_null
+                                          (statement
+                                            (statement_item
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (binary_number
+                                                            size: (unsigned_number)
+                                                            base: (binary_base)
+                                                            value: (binary_value)))))))))))
+                                        (statement_or_null
+                                          (statement
+                                            (statement_item
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (decimal_number
+                                                            (unsigned_number)))))))))))))))
+                                (statement_or_null
+                                  (statement
+                                    (statement_item
+                                      (seq_block
+                                        (statement_or_null
+                                          (statement
+                                            (statement_item
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (decimal_number
+                                                            (unsigned_number))))))))))))))))))))))))
               (case_inside_item
                 (range_list
                   (value_range
@@ -2645,119 +2637,115 @@ endtask : send_resp
                                                         (integral_number
                                                           (decimal_number
                                                             (unsigned_number)))))))))))))))
+                                (cond_predicate
+                                  (expression
+                                    left: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier)
+                                          (simple_identifier)
+                                          (simple_identifier))))
+                                    right: (expression
+                                      (primary
+                                        (primary_literal
+                                          (integral_number
+                                            (binary_number
+                                              size: (unsigned_number)
+                                              base: (binary_base)
+                                              value: (binary_value))))))))
                                 (statement_or_null
                                   (statement
                                     (statement_item
-                                      (conditional_statement
-                                        (cond_predicate
-                                          (expression
-                                            left: (expression
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)
-                                                  (simple_identifier)
-                                                  (simple_identifier))))
-                                            right: (expression
-                                              (primary
-                                                (primary_literal
-                                                  (integral_number
-                                                    (binary_number
-                                                      size: (unsigned_number)
-                                                      base: (binary_base)
-                                                      value: (binary_value))))))))
+                                      (seq_block
                                         (statement_or_null
                                           (statement
                                             (statement_item
-                                              (seq_block
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (decimal_number
-                                                                    (unsigned_number)))))))))))
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (decimal_number
-                                                                    (unsigned_number)))))))))))
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (binary_number
-                                                                    size: (unsigned_number)
-                                                                    base: (binary_base)
-                                                                    value: (binary_value)))))))))))
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (decimal_number
-                                                                    (unsigned_number)))))))))))))))
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (decimal_number
+                                                            (unsigned_number)))))))))))
                                         (statement_or_null
                                           (statement
                                             (statement_item
-                                              (seq_block
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (decimal_number
-                                                                    (unsigned_number))))))))))))))))))))))))))))
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (decimal_number
+                                                            (unsigned_number)))))))))))
+                                        (statement_or_null
+                                          (statement
+                                            (statement_item
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (binary_number
+                                                            size: (unsigned_number)
+                                                            base: (binary_base)
+                                                            value: (binary_value)))))))))))
+                                        (statement_or_null
+                                          (statement
+                                            (statement_item
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (decimal_number
+                                                            (unsigned_number)))))))))))))))
+                                (statement_or_null
+                                  (statement
+                                    (statement_item
+                                      (seq_block
+                                        (statement_or_null
+                                          (statement
+                                            (statement_item
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (decimal_number
+                                                            (unsigned_number))))))))))))))))))))))))
               (case_inside_item
                 (range_list
                   (value_range
@@ -2863,119 +2851,115 @@ endtask : send_resp
                                                         (integral_number
                                                           (decimal_number
                                                             (unsigned_number)))))))))))))))
+                                (cond_predicate
+                                  (expression
+                                    left: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier)
+                                          (simple_identifier)
+                                          (simple_identifier))))
+                                    right: (expression
+                                      (primary
+                                        (primary_literal
+                                          (integral_number
+                                            (binary_number
+                                              size: (unsigned_number)
+                                              base: (binary_base)
+                                              value: (binary_value))))))))
                                 (statement_or_null
                                   (statement
                                     (statement_item
-                                      (conditional_statement
-                                        (cond_predicate
-                                          (expression
-                                            left: (expression
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)
-                                                  (simple_identifier)
-                                                  (simple_identifier))))
-                                            right: (expression
-                                              (primary
-                                                (primary_literal
-                                                  (integral_number
-                                                    (binary_number
-                                                      size: (unsigned_number)
-                                                      base: (binary_base)
-                                                      value: (binary_value))))))))
+                                      (seq_block
                                         (statement_or_null
                                           (statement
                                             (statement_item
-                                              (seq_block
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (decimal_number
-                                                                    (unsigned_number)))))))))))
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (decimal_number
-                                                                    (unsigned_number)))))))))))
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (binary_number
-                                                                    size: (unsigned_number)
-                                                                    base: (binary_base)
-                                                                    value: (binary_value)))))))))))
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (decimal_number
-                                                                    (unsigned_number)))))))))))))))
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (decimal_number
+                                                            (unsigned_number)))))))))))
                                         (statement_or_null
                                           (statement
                                             (statement_item
-                                              (seq_block
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (decimal_number
-                                                                    (unsigned_number))))))))))))))))))))))))))))
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (decimal_number
+                                                            (unsigned_number)))))))))))
+                                        (statement_or_null
+                                          (statement
+                                            (statement_item
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (binary_number
+                                                            size: (unsigned_number)
+                                                            base: (binary_base)
+                                                            value: (binary_value)))))))))))
+                                        (statement_or_null
+                                          (statement
+                                            (statement_item
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (decimal_number
+                                                            (unsigned_number)))))))))))))))
+                                (statement_or_null
+                                  (statement
+                                    (statement_item
+                                      (seq_block
+                                        (statement_or_null
+                                          (statement
+                                            (statement_item
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (decimal_number
+                                                            (unsigned_number))))))))))))))))))))))))
               (case_inside_item
                 (range_list
                   (value_range
@@ -3081,119 +3065,115 @@ endtask : send_resp
                                                         (integral_number
                                                           (decimal_number
                                                             (unsigned_number)))))))))))))))
+                                (cond_predicate
+                                  (expression
+                                    left: (expression
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier)
+                                          (simple_identifier)
+                                          (simple_identifier))))
+                                    right: (expression
+                                      (primary
+                                        (primary_literal
+                                          (integral_number
+                                            (binary_number
+                                              size: (unsigned_number)
+                                              base: (binary_base)
+                                              value: (binary_value))))))))
                                 (statement_or_null
                                   (statement
                                     (statement_item
-                                      (conditional_statement
-                                        (cond_predicate
-                                          (expression
-                                            left: (expression
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)
-                                                  (simple_identifier)
-                                                  (simple_identifier))))
-                                            right: (expression
-                                              (primary
-                                                (primary_literal
-                                                  (integral_number
-                                                    (binary_number
-                                                      size: (unsigned_number)
-                                                      base: (binary_base)
-                                                      value: (binary_value))))))))
+                                      (seq_block
                                         (statement_or_null
                                           (statement
                                             (statement_item
-                                              (seq_block
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (decimal_number
-                                                                    (unsigned_number)))))))))))
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (decimal_number
-                                                                    (unsigned_number)))))))))))
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (binary_number
-                                                                    size: (unsigned_number)
-                                                                    base: (binary_base)
-                                                                    value: (binary_value)))))))))))
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (decimal_number
-                                                                    (unsigned_number)))))))))))))))
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (decimal_number
+                                                            (unsigned_number)))))))))))
                                         (statement_or_null
                                           (statement
                                             (statement_item
-                                              (seq_block
-                                                (statement_or_null
-                                                  (statement
-                                                    (statement_item
-                                                      (blocking_assignment
-                                                        (operator_assignment
-                                                          (variable_lvalue
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)
-                                                              (simple_identifier)))
-                                                          (assignment_operator)
-                                                          (expression
-                                                            (primary
-                                                              (primary_literal
-                                                                (integral_number
-                                                                  (decimal_number
-                                                                    (unsigned_number))))))))))))))))))))))))))))
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (decimal_number
+                                                            (unsigned_number)))))))))))
+                                        (statement_or_null
+                                          (statement
+                                            (statement_item
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (binary_number
+                                                            size: (unsigned_number)
+                                                            base: (binary_base)
+                                                            value: (binary_value)))))))))))
+                                        (statement_or_null
+                                          (statement
+                                            (statement_item
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (decimal_number
+                                                            (unsigned_number)))))))))))))))
+                                (statement_or_null
+                                  (statement
+                                    (statement_item
+                                      (seq_block
+                                        (statement_or_null
+                                          (statement
+                                            (statement_item
+                                              (blocking_assignment
+                                                (operator_assignment
+                                                  (variable_lvalue
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)))
+                                                  (assignment_operator)
+                                                  (expression
+                                                    (primary
+                                                      (primary_literal
+                                                        (integral_number
+                                                          (decimal_number
+                                                            (unsigned_number))))))))))))))))))))))))
               (case_inside_item
                 (statement_or_null
                   (statement
