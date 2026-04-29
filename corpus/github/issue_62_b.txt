@@ -1,0 +1,25 @@
+============================================
+github/issue_62_b
+:error
+============================================
+
+module foo2 (clk, rst,);
+endmodule: foo2
+
+----
+
+(source_file
+  (module_declaration
+    (module_nonansi_header
+      (module_keyword)
+      name: (simple_identifier)
+      (list_of_ports
+        (port
+          (simple_identifier))
+        (port
+          (simple_identifier))
+        (port
+          (simple_identifier))))
+    (simple_identifier)))
+
+(MISSING simple_identifier)

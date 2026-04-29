@@ -1,0 +1,32 @@
+============================================
+github/issue_62_a
+:error
+============================================
+
+module foo (
+    input clk,
+    input rst,
+);
+endmodule: foo
+
+----
+
+(source_file
+  (module_declaration
+    (module_ansi_header
+      (module_keyword)
+      name: (simple_identifier)
+      (list_of_port_declarations
+        (ansi_port_declaration
+          (net_port_header
+            (port_direction))
+          port_name: (simple_identifier))
+        (ansi_port_declaration
+          (net_port_header
+            (port_direction))
+          port_name: (simple_identifier))
+        (ansi_port_declaration
+          port_name: (simple_identifier))))
+    (simple_identifier)))
+
+(MISSING simple_identifier)
