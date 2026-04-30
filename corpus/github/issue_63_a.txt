@@ -1,0 +1,23 @@
+============================================
+github/issue_63_a
+:error
+============================================
+
+` define foo "foo"
+
+----
+
+(source_file
+  (ERROR
+    (port_declaration
+      (interface_port_declaration
+        (simple_identifier)
+        (list_of_interface_identifiers
+          (simple_identifier))))
+    (primary
+      (primary_literal
+        (string_literal
+          (quoted_string
+            (quoted_string_item)))))))
+
+(ERROR)

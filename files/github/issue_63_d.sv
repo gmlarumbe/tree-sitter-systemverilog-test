@@ -1,0 +1,3 @@
+`foo (A)
+
+// Correct syntax
