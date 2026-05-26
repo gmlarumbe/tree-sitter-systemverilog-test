@@ -5330,17 +5330,18 @@ endmodule
                       (expression
                         (primary
                           (multiple_concatenation
-                            (expression
-                              (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (system_tf_call
-                                      (system_tf_identifier)
-                                      (list_of_arguments
-                                        (expression
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier))))))))))
+                            (constant_expression
+                              (constant_primary
+                                (constant_function_call
+                                  (function_subroutine_call
+                                    (subroutine_call
+                                      (system_tf_call
+                                        (system_tf_identifier)
+                                        (list_of_arguments
+                                          (expression
+                                            (primary
+                                              (hierarchical_identifier
+                                                (simple_identifier)))))))))))
                             (concatenation
                               (expression
                                 (primary

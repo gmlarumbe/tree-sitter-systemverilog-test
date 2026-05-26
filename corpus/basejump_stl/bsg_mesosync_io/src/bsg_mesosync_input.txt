@@ -2170,10 +2170,9 @@ endmodule
             left: (expression
               (primary
                 (multiple_concatenation
-                  (expression
-                    (primary
-                      (hierarchical_identifier
-                        (simple_identifier))))
+                  (constant_expression
+                    (constant_primary
+                      (simple_identifier)))
                   (concatenation
                     (expression
                       left: (expression
@@ -2215,10 +2214,9 @@ endmodule
                               operator: (unary_operator)
                               argument: (primary
                                 (multiple_concatenation
-                                  (expression
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier))))
+                                  (constant_expression
+                                    (constant_primary
+                                      (simple_identifier)))
                                   (concatenation
                                     (expression
                                       (primary

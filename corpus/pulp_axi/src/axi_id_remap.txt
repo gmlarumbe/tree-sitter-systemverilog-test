@@ -1949,10 +1949,9 @@ endmodule
                 (expression
                   (primary
                     (multiple_concatenation
-                      (expression
-                        (primary
-                          (hierarchical_identifier
-                            (simple_identifier))))
+                      (constant_expression
+                        (constant_primary
+                          (simple_identifier)))
                       (concatenation
                         (expression
                           (primary
@@ -1980,10 +1979,9 @@ endmodule
                 (expression
                   (primary
                     (multiple_concatenation
-                      (expression
-                        (primary
-                          (hierarchical_identifier
-                            (simple_identifier))))
+                      (constant_expression
+                        (constant_primary
+                          (simple_identifier)))
                       (concatenation
                         (expression
                           (primary
@@ -2878,9 +2876,14 @@ endmodule
                                               (concatenation
                                                 (expression
                                                   (primary
-                                                    (hierarchical_identifier
-                                                      (simple_identifier)
-                                                      (simple_identifier))))
+                                                    (function_subroutine_call
+                                                      (subroutine_call
+                                                        (method_call
+                                                          (primary
+                                                            (hierarchical_identifier
+                                                              (simple_identifier)))
+                                                          (method_call_body
+                                                            name: (simple_identifier)))))))
                                                 (expression
                                                   (primary
                                                     (function_subroutine_call
@@ -2943,9 +2946,14 @@ endmodule
                                               (concatenation
                                                 (expression
                                                   (primary
-                                                    (hierarchical_identifier
-                                                      (simple_identifier)
-                                                      (simple_identifier))))
+                                                    (function_subroutine_call
+                                                      (subroutine_call
+                                                        (method_call
+                                                          (primary
+                                                            (hierarchical_identifier
+                                                              (simple_identifier)))
+                                                          (method_call_body
+                                                            name: (simple_identifier)))))))
                                                 (expression
                                                   (primary
                                                     (function_subroutine_call
@@ -2988,9 +2996,14 @@ endmodule
                                               (concatenation
                                                 (expression
                                                   (primary
-                                                    (hierarchical_identifier
-                                                      (simple_identifier)
-                                                      (simple_identifier))))
+                                                    (function_subroutine_call
+                                                      (subroutine_call
+                                                        (method_call
+                                                          (primary
+                                                            (hierarchical_identifier
+                                                              (simple_identifier)))
+                                                          (method_call_body
+                                                            name: (simple_identifier)))))))
                                                 (expression
                                                   (primary
                                                     (function_subroutine_call
@@ -3381,9 +3394,14 @@ endmodule
                                             (concatenation
                                               (expression
                                                 (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier)
-                                                    (simple_identifier))))
+                                                  (function_subroutine_call
+                                                    (subroutine_call
+                                                      (method_call
+                                                        (primary
+                                                          (hierarchical_identifier
+                                                            (simple_identifier)))
+                                                        (method_call_body
+                                                          name: (simple_identifier)))))))
                                               (expression
                                                 (primary
                                                   (function_subroutine_call

@@ -1067,8 +1067,8 @@ endmodule // bsg_assembler_out
             left: (expression
               (primary
                 (multiple_concatenation
-                  (expression
-                    (primary
+                  (constant_expression
+                    (constant_primary
                       (primary_literal
                         (integral_number
                           (decimal_number
@@ -1186,8 +1186,8 @@ endmodule // bsg_assembler_out
                   left: (expression
                     (primary
                       (multiple_concatenation
-                        (expression
-                          (primary
+                        (constant_expression
+                          (constant_primary
                             (primary_literal
                               (integral_number
                                 (decimal_number
@@ -1270,8 +1270,8 @@ endmodule // bsg_assembler_out
                   left: (expression
                     (primary
                       (multiple_concatenation
-                        (expression
-                          (primary
+                        (constant_expression
+                          (constant_primary
                             (primary_literal
                               (integral_number
                                 (decimal_number
@@ -1896,8 +1896,8 @@ endmodule // bsg_assembler_out
                   left: (expression
                     (primary
                       (multiple_concatenation
-                        (expression
-                          (primary
+                        (constant_expression
+                          (constant_primary
                             (primary_literal
                               (integral_number
                                 (decimal_number
@@ -1951,8 +1951,8 @@ endmodule // bsg_assembler_out
                   left: (expression
                     (primary
                       (multiple_concatenation
-                        (expression
-                          (primary
+                        (constant_expression
+                          (constant_primary
                             (primary_literal
                               (integral_number
                                 (decimal_number

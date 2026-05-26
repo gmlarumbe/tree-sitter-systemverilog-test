@@ -759,9 +759,14 @@ endtask : watchdog_timer
                     (expression
                       left: (expression
                         (primary
-                          (hierarchical_identifier
-                            (simple_identifier)
-                            (simple_identifier))))
+                          (function_subroutine_call
+                            (subroutine_call
+                              (method_call
+                                (primary
+                                  (hierarchical_identifier
+                                    (simple_identifier)))
+                                (method_call_body
+                                  name: (simple_identifier)))))))
                       right: (expression
                         (primary
                           (primary_literal
@@ -774,9 +779,14 @@ endtask : watchdog_timer
                     (expression
                       left: (expression
                         (primary
-                          (hierarchical_identifier
-                            (simple_identifier)
-                            (simple_identifier))))
+                          (function_subroutine_call
+                            (subroutine_call
+                              (method_call
+                                (primary
+                                  (hierarchical_identifier
+                                    (simple_identifier)))
+                                (method_call_body
+                                  name: (simple_identifier)))))))
                       right: (expression
                         (primary
                           (primary_literal

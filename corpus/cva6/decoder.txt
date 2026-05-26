@@ -5701,10 +5701,20 @@ endmodule
                                                                                               (concatenation
                                                                                                 (expression
                                                                                                   (primary
-                                                                                                    (hierarchical_identifier
-                                                                                                      (simple_identifier)
-                                                                                                      (simple_identifier)
-                                                                                                      (simple_identifier))))
+                                                                                                    (function_subroutine_call
+                                                                                                      (subroutine_call
+                                                                                                        (method_call
+                                                                                                          (primary
+                                                                                                            (function_subroutine_call
+                                                                                                              (subroutine_call
+                                                                                                                (method_call
+                                                                                                                  (primary
+                                                                                                                    (hierarchical_identifier
+                                                                                                                      (simple_identifier)))
+                                                                                                                  (method_call_body
+                                                                                                                    name: (simple_identifier))))))
+                                                                                                          (method_call_body
+                                                                                                            name: (simple_identifier)))))))
                                                                                                 (expression
                                                                                                   (primary
                                                                                                     (function_subroutine_call
@@ -9955,10 +9965,20 @@ endmodule
                                                                             (concatenation
                                                                               (expression
                                                                                 (primary
-                                                                                  (hierarchical_identifier
-                                                                                    (simple_identifier)
-                                                                                    (simple_identifier)
-                                                                                    (simple_identifier))))
+                                                                                  (function_subroutine_call
+                                                                                    (subroutine_call
+                                                                                      (method_call
+                                                                                        (primary
+                                                                                          (function_subroutine_call
+                                                                                            (subroutine_call
+                                                                                              (method_call
+                                                                                                (primary
+                                                                                                  (hierarchical_identifier
+                                                                                                    (simple_identifier)))
+                                                                                                (method_call_body
+                                                                                                  name: (simple_identifier))))))
+                                                                                        (method_call_body
+                                                                                          name: (simple_identifier)))))))
                                                                               (expression
                                                                                 (primary
                                                                                   (function_subroutine_call
@@ -10772,10 +10792,20 @@ endmodule
                                                                                             (concatenation
                                                                                               (expression
                                                                                                 (primary
-                                                                                                  (hierarchical_identifier
-                                                                                                    (simple_identifier)
-                                                                                                    (simple_identifier)
-                                                                                                    (simple_identifier))))
+                                                                                                  (function_subroutine_call
+                                                                                                    (subroutine_call
+                                                                                                      (method_call
+                                                                                                        (primary
+                                                                                                          (function_subroutine_call
+                                                                                                            (subroutine_call
+                                                                                                              (method_call
+                                                                                                                (primary
+                                                                                                                  (hierarchical_identifier
+                                                                                                                    (simple_identifier)))
+                                                                                                                (method_call_body
+                                                                                                                  name: (simple_identifier))))))
+                                                                                                        (method_call_body
+                                                                                                          name: (simple_identifier)))))))
                                                                                               (expression
                                                                                                 (primary
                                                                                                   (function_subroutine_call
@@ -11848,10 +11878,20 @@ endmodule
                                                                                             (concatenation
                                                                                               (expression
                                                                                                 (primary
-                                                                                                  (hierarchical_identifier
-                                                                                                    (simple_identifier)
-                                                                                                    (simple_identifier)
-                                                                                                    (simple_identifier))))
+                                                                                                  (function_subroutine_call
+                                                                                                    (subroutine_call
+                                                                                                      (method_call
+                                                                                                        (primary
+                                                                                                          (function_subroutine_call
+                                                                                                            (subroutine_call
+                                                                                                              (method_call
+                                                                                                                (primary
+                                                                                                                  (hierarchical_identifier
+                                                                                                                    (simple_identifier)))
+                                                                                                                (method_call_body
+                                                                                                                  name: (simple_identifier))))))
+                                                                                                        (method_call_body
+                                                                                                          name: (simple_identifier)))))))
                                                                                               (expression
                                                                                                 (primary
                                                                                                   (function_subroutine_call
@@ -11988,9 +12028,14 @@ endmodule
                                                                             (concatenation
                                                                               (expression
                                                                                 (primary
-                                                                                  (hierarchical_identifier
-                                                                                    (simple_identifier)
-                                                                                    (simple_identifier))))
+                                                                                  (function_subroutine_call
+                                                                                    (subroutine_call
+                                                                                      (method_call
+                                                                                        (primary
+                                                                                          (hierarchical_identifier
+                                                                                            (simple_identifier)))
+                                                                                        (method_call_body
+                                                                                          name: (simple_identifier)))))))
                                                                               (expression
                                                                                 (primary
                                                                                   (function_subroutine_call
@@ -12257,10 +12302,20 @@ endmodule
                                                                             (concatenation
                                                                               (expression
                                                                                 (primary
-                                                                                  (hierarchical_identifier
-                                                                                    (simple_identifier)
-                                                                                    (simple_identifier)
-                                                                                    (simple_identifier))))
+                                                                                  (function_subroutine_call
+                                                                                    (subroutine_call
+                                                                                      (method_call
+                                                                                        (primary
+                                                                                          (function_subroutine_call
+                                                                                            (subroutine_call
+                                                                                              (method_call
+                                                                                                (primary
+                                                                                                  (hierarchical_identifier
+                                                                                                    (simple_identifier)))
+                                                                                                (method_call_body
+                                                                                                  name: (simple_identifier))))))
+                                                                                        (method_call_body
+                                                                                          name: (simple_identifier)))))))
                                                                               (expression
                                                                                 (primary
                                                                                   (function_subroutine_call
@@ -12737,10 +12792,20 @@ endmodule
                                                                                             (concatenation
                                                                                               (expression
                                                                                                 (primary
-                                                                                                  (hierarchical_identifier
-                                                                                                    (simple_identifier)
-                                                                                                    (simple_identifier)
-                                                                                                    (simple_identifier))))
+                                                                                                  (function_subroutine_call
+                                                                                                    (subroutine_call
+                                                                                                      (method_call
+                                                                                                        (primary
+                                                                                                          (function_subroutine_call
+                                                                                                            (subroutine_call
+                                                                                                              (method_call
+                                                                                                                (primary
+                                                                                                                  (hierarchical_identifier
+                                                                                                                    (simple_identifier)))
+                                                                                                                (method_call_body
+                                                                                                                  name: (simple_identifier))))))
+                                                                                                        (method_call_body
+                                                                                                          name: (simple_identifier)))))))
                                                                                               (expression
                                                                                                 (primary
                                                                                                   (function_subroutine_call
@@ -22297,10 +22362,20 @@ endmodule
                                                                             (concatenation
                                                                               (expression
                                                                                 (primary
-                                                                                  (hierarchical_identifier
-                                                                                    (simple_identifier)
-                                                                                    (simple_identifier)
-                                                                                    (simple_identifier))))
+                                                                                  (function_subroutine_call
+                                                                                    (subroutine_call
+                                                                                      (method_call
+                                                                                        (primary
+                                                                                          (function_subroutine_call
+                                                                                            (subroutine_call
+                                                                                              (method_call
+                                                                                                (primary
+                                                                                                  (hierarchical_identifier
+                                                                                                    (simple_identifier)))
+                                                                                                (method_call_body
+                                                                                                  name: (simple_identifier))))))
+                                                                                        (method_call_body
+                                                                                          name: (simple_identifier)))))))
                                                                               (expression
                                                                                 (primary
                                                                                   (function_subroutine_call
@@ -23467,14 +23542,14 @@ endmodule
                             (expression
                               (primary
                                 (multiple_concatenation
-                                  (expression
-                                    left: (expression
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)
+                                  (constant_expression
+                                    left: (constant_expression
+                                      (constant_primary
+                                        (simple_identifier)
+                                        (constant_select
                                           (simple_identifier))))
-                                    right: (expression
-                                      (primary
+                                    right: (constant_expression
+                                      (constant_primary
                                         (primary_literal
                                           (integral_number
                                             (decimal_number
@@ -23525,14 +23600,14 @@ endmodule
                             (expression
                               (primary
                                 (multiple_concatenation
-                                  (expression
-                                    left: (expression
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)
+                                  (constant_expression
+                                    left: (constant_expression
+                                      (constant_primary
+                                        (simple_identifier)
+                                        (constant_select
                                           (simple_identifier))))
-                                    right: (expression
-                                      (primary
+                                    right: (constant_expression
+                                      (constant_primary
                                         (primary_literal
                                           (integral_number
                                             (decimal_number
@@ -23601,14 +23676,14 @@ endmodule
                             (expression
                               (primary
                                 (multiple_concatenation
-                                  (expression
-                                    left: (expression
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)
+                                  (constant_expression
+                                    left: (constant_expression
+                                      (constant_primary
+                                        (simple_identifier)
+                                        (constant_select
                                           (simple_identifier))))
-                                    right: (expression
-                                      (primary
+                                    right: (constant_expression
+                                      (constant_primary
                                         (primary_literal
                                           (integral_number
                                             (decimal_number
@@ -23709,14 +23784,14 @@ endmodule
                             (expression
                               (primary
                                 (multiple_concatenation
-                                  (expression
-                                    left: (expression
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)
+                                  (constant_expression
+                                    left: (constant_expression
+                                      (constant_primary
+                                        (simple_identifier)
+                                        (constant_select
                                           (simple_identifier))))
-                                    right: (expression
-                                      (primary
+                                    right: (constant_expression
+                                      (constant_primary
                                         (primary_literal
                                           (integral_number
                                             (decimal_number
@@ -23796,14 +23871,14 @@ endmodule
                                             (expression
                                               (primary
                                                 (multiple_concatenation
-                                                  (expression
-                                                    left: (expression
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)
+                                                  (constant_expression
+                                                    left: (constant_expression
+                                                      (constant_primary
+                                                        (simple_identifier)
+                                                        (constant_select
                                                           (simple_identifier))))
-                                                    right: (expression
-                                                      (primary
+                                                    right: (constant_expression
+                                                      (constant_primary
                                                         (primary_literal
                                                           (integral_number
                                                             (decimal_number
@@ -23858,14 +23933,14 @@ endmodule
                                             (expression
                                               (primary
                                                 (multiple_concatenation
-                                                  (expression
-                                                    left: (expression
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)
+                                                  (constant_expression
+                                                    left: (constant_expression
+                                                      (constant_primary
+                                                        (simple_identifier)
+                                                        (constant_select
                                                           (simple_identifier))))
-                                                    right: (expression
-                                                      (primary
+                                                    right: (constant_expression
+                                                      (constant_primary
                                                         (primary_literal
                                                           (integral_number
                                                             (decimal_number
@@ -24188,14 +24263,14 @@ endmodule
                                               (expression
                                                 (primary
                                                   (multiple_concatenation
-                                                    (expression
-                                                      left: (expression
-                                                        (primary
-                                                          (hierarchical_identifier
-                                                            (simple_identifier)
+                                                    (constant_expression
+                                                      left: (constant_expression
+                                                        (constant_primary
+                                                          (simple_identifier)
+                                                          (constant_select
                                                             (simple_identifier))))
-                                                      right: (expression
-                                                        (primary
+                                                      right: (constant_expression
+                                                        (constant_primary
                                                           (primary_literal
                                                             (integral_number
                                                               (decimal_number
@@ -24260,14 +24335,14 @@ endmodule
                                               (expression
                                                 (primary
                                                   (multiple_concatenation
-                                                    (expression
-                                                      left: (expression
-                                                        (primary
-                                                          (hierarchical_identifier
-                                                            (simple_identifier)
+                                                    (constant_expression
+                                                      left: (constant_expression
+                                                        (constant_primary
+                                                          (simple_identifier)
+                                                          (constant_select
                                                             (simple_identifier))))
-                                                      right: (expression
-                                                        (primary
+                                                      right: (constant_expression
+                                                        (constant_primary
                                                           (primary_literal
                                                             (integral_number
                                                               (decimal_number
@@ -24323,10 +24398,10 @@ endmodule
                                         (expression
                                           (primary
                                             (multiple_concatenation
-                                              (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier)
+                                              (constant_expression
+                                                (constant_primary
+                                                  (simple_identifier)
+                                                  (constant_select
                                                     (simple_identifier))))
                                               (concatenation
                                                 (expression
@@ -24561,14 +24636,14 @@ endmodule
                                                         (expression
                                                           (primary
                                                             (multiple_concatenation
-                                                              (expression
-                                                                left: (expression
-                                                                  (primary
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier)
+                                                              (constant_expression
+                                                                left: (constant_expression
+                                                                  (constant_primary
+                                                                    (simple_identifier)
+                                                                    (constant_select
                                                                       (simple_identifier))))
-                                                                right: (expression
-                                                                  (primary
+                                                                right: (constant_expression
+                                                                  (constant_primary
                                                                     (primary_literal
                                                                       (integral_number
                                                                         (decimal_number
@@ -24592,14 +24667,14 @@ endmodule
                                                         (expression
                                                           (primary
                                                             (multiple_concatenation
-                                                              (expression
-                                                                left: (expression
-                                                                  (primary
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier)
+                                                              (constant_expression
+                                                                left: (constant_expression
+                                                                  (constant_primary
+                                                                    (simple_identifier)
+                                                                    (constant_select
                                                                       (simple_identifier))))
-                                                                right: (expression
-                                                                  (primary
+                                                                right: (constant_expression
+                                                                  (constant_primary
                                                                     (primary_literal
                                                                       (integral_number
                                                                         (decimal_number
@@ -24653,14 +24728,14 @@ endmodule
                                                         (expression
                                                           (primary
                                                             (multiple_concatenation
-                                                              (expression
-                                                                left: (expression
-                                                                  (primary
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier)
+                                                              (constant_expression
+                                                                left: (constant_expression
+                                                                  (constant_primary
+                                                                    (simple_identifier)
+                                                                    (constant_select
                                                                       (simple_identifier))))
-                                                                right: (expression
-                                                                  (primary
+                                                                right: (constant_expression
+                                                                  (constant_primary
                                                                     (primary_literal
                                                                       (integral_number
                                                                         (decimal_number
@@ -24684,14 +24759,14 @@ endmodule
                                                         (expression
                                                           (primary
                                                             (multiple_concatenation
-                                                              (expression
-                                                                left: (expression
-                                                                  (primary
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier)
+                                                              (constant_expression
+                                                                left: (constant_expression
+                                                                  (constant_primary
+                                                                    (simple_identifier)
+                                                                    (constant_select
                                                                       (simple_identifier))))
-                                                                right: (expression
-                                                                  (primary
+                                                                right: (constant_expression
+                                                                  (constant_primary
                                                                     (primary_literal
                                                                       (integral_number
                                                                         (decimal_number

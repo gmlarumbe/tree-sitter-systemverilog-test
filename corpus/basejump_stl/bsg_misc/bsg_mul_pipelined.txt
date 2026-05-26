@@ -5336,8 +5336,8 @@ endmodule
                         operator: (unary_operator)
                         argument: (primary
                           (multiple_concatenation
-                            (expression
-                              (primary
+                            (constant_expression
+                              (constant_primary
                                 (primary_literal
                                   (integral_number
                                     (decimal_number
@@ -8844,8 +8844,8 @@ endmodule
                 (expression
                   (primary
                     (multiple_concatenation
-                      (expression
-                        (primary
+                      (constant_expression
+                        (constant_primary
                           (primary_literal
                             (integral_number
                               (decimal_number
@@ -10351,10 +10351,9 @@ endmodule
                       connection: (expression
                         (primary
                           (multiple_concatenation
-                            (expression
-                              (primary
-                                (hierarchical_identifier
-                                  (simple_identifier))))
+                            (constant_expression
+                              (constant_primary
+                                (simple_identifier)))
                             (concatenation
                               (expression
                                 (primary

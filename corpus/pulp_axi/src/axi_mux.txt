@@ -3676,10 +3676,9 @@ endmodule
                 (expression
                   (primary
                     (multiple_concatenation
-                      (expression
-                        (primary
-                          (hierarchical_identifier
-                            (simple_identifier))))
+                      (constant_expression
+                        (constant_primary
+                          (simple_identifier)))
                       (concatenation
                         (expression
                           (primary
@@ -4024,10 +4023,9 @@ endmodule
                 (expression
                   (primary
                     (multiple_concatenation
-                      (expression
-                        (primary
-                          (hierarchical_identifier
-                            (simple_identifier))))
+                      (constant_expression
+                        (constant_primary
+                          (simple_identifier)))
                       (concatenation
                         (expression
                           (primary

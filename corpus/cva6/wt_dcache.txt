@@ -3116,13 +3116,13 @@ endmodule  // wt_dcache
                     (expression
                       (primary
                         (multiple_concatenation
-                          (expression
-                            (primary
-                              (concatenation
-                                (expression
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)
+                          (constant_expression
+                            (constant_primary
+                              (constant_concatenation
+                                (constant_expression
+                                  (constant_primary
+                                    (simple_identifier)
+                                    (constant_select
                                       (simple_identifier)))))))
                           (concatenation
                             (expression
@@ -3146,13 +3146,13 @@ endmodule  // wt_dcache
                     (expression
                       (primary
                         (multiple_concatenation
-                          (expression
-                            (primary
-                              (concatenation
-                                (expression
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)
+                          (constant_expression
+                            (constant_primary
+                              (constant_concatenation
+                                (constant_expression
+                                  (constant_primary
+                                    (simple_identifier)
+                                    (constant_select
                                       (simple_identifier)))))))
                           (concatenation
                             (expression
@@ -3176,13 +3176,13 @@ endmodule  // wt_dcache
                     (expression
                       (primary
                         (multiple_concatenation
-                          (expression
-                            (primary
-                              (concatenation
-                                (expression
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)
+                          (constant_expression
+                            (constant_primary
+                              (constant_concatenation
+                                (constant_expression
+                                  (constant_primary
+                                    (simple_identifier)
+                                    (constant_select
                                       (simple_identifier)))))))
                           (concatenation
                             (expression
@@ -3206,13 +3206,13 @@ endmodule  // wt_dcache
                     (expression
                       (primary
                         (multiple_concatenation
-                          (expression
-                            (primary
-                              (concatenation
-                                (expression
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)
+                          (constant_expression
+                            (constant_primary
+                              (constant_concatenation
+                                (constant_expression
+                                  (constant_primary
+                                    (simple_identifier)
+                                    (constant_select
                                       (simple_identifier)))))))
                           (concatenation
                             (expression
@@ -3272,13 +3272,13 @@ endmodule  // wt_dcache
                     (expression
                       (primary
                         (multiple_concatenation
-                          (expression
-                            (primary
-                              (concatenation
-                                (expression
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)
+                          (constant_expression
+                            (constant_primary
+                              (constant_concatenation
+                                (constant_expression
+                                  (constant_primary
+                                    (simple_identifier)
+                                    (constant_select
                                       (simple_identifier)))))))
                           (concatenation
                             (expression
@@ -3302,13 +3302,13 @@ endmodule  // wt_dcache
                     (expression
                       (primary
                         (multiple_concatenation
-                          (expression
-                            (primary
-                              (concatenation
-                                (expression
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)
+                          (constant_expression
+                            (constant_primary
+                              (constant_concatenation
+                                (constant_expression
+                                  (constant_primary
+                                    (simple_identifier)
+                                    (constant_select
                                       (simple_identifier)))))))
                           (concatenation
                             (expression
@@ -3332,13 +3332,12 @@ endmodule  // wt_dcache
                     (expression
                       (primary
                         (multiple_concatenation
-                          (expression
-                            (primary
-                              (concatenation
-                                (expression
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))))))
+                          (constant_expression
+                            (constant_primary
+                              (constant_concatenation
+                                (constant_expression
+                                  (constant_primary
+                                    (simple_identifier))))))
                           (concatenation
                             (expression
                               (primary
@@ -3361,13 +3360,13 @@ endmodule  // wt_dcache
                     (expression
                       (primary
                         (multiple_concatenation
-                          (expression
-                            (primary
-                              (concatenation
-                                (expression
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)
+                          (constant_expression
+                            (constant_primary
+                              (constant_concatenation
+                                (constant_expression
+                                  (constant_primary
+                                    (simple_identifier)
+                                    (constant_select
                                       (simple_identifier)))))))
                           (concatenation
                             (expression

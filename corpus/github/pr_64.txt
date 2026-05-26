@@ -1,0 +1,132 @@
+============================================
+github/pr_64
+============================================
+
+string s;
+int n = 4;
+
+s = {n{"ab"}};
+s = {"foo", obj.method_call()};
+s = {n{"foo", obj.method_call()}};
+assign x = {4{2'b10}};
+
+----
+
+(source_file
+  (data_declaration
+    (data_type_or_implicit
+      (data_type))
+    (list_of_variable_decl_assignments
+      (variable_decl_assignment
+        name: (simple_identifier))))
+  (data_declaration
+    (data_type_or_implicit
+      (data_type
+        (integer_atom_type)))
+    (list_of_variable_decl_assignments
+      (variable_decl_assignment
+        name: (simple_identifier)
+        (expression
+          (primary
+            (primary_literal
+              (integral_number
+                (decimal_number
+                  (unsigned_number)))))))))
+  (statement
+    (statement_item
+      (blocking_assignment
+        (operator_assignment
+          (variable_lvalue
+            (hierarchical_identifier
+              (simple_identifier)))
+          (assignment_operator)
+          (expression
+            (primary
+              (multiple_concatenation
+                (constant_expression
+                  (constant_primary
+                    (simple_identifier)))
+                (concatenation
+                  (expression
+                    (primary
+                      (primary_literal
+                        (string_literal
+                          (quoted_string
+                            (quoted_string_item))))))))))))))
+  (statement
+    (statement_item
+      (blocking_assignment
+        (operator_assignment
+          (variable_lvalue
+            (hierarchical_identifier
+              (simple_identifier)))
+          (assignment_operator)
+          (expression
+            (primary
+              (concatenation
+                (expression
+                  (primary
+                    (primary_literal
+                      (string_literal
+                        (quoted_string
+                          (quoted_string_item))))))
+                (expression
+                  (primary
+                    (function_subroutine_call
+                      (subroutine_call
+                        (tf_call
+                          (hierarchical_identifier
+                            (simple_identifier)
+                            (simple_identifier))))))))))))))
+  (statement
+    (statement_item
+      (blocking_assignment
+        (operator_assignment
+          (variable_lvalue
+            (hierarchical_identifier
+              (simple_identifier)))
+          (assignment_operator)
+          (expression
+            (primary
+              (multiple_concatenation
+                (constant_expression
+                  (constant_primary
+                    (simple_identifier)))
+                (concatenation
+                  (expression
+                    (primary
+                      (primary_literal
+                        (string_literal
+                          (quoted_string
+                            (quoted_string_item))))))
+                  (expression
+                    (primary
+                      (function_subroutine_call
+                        (subroutine_call
+                          (tf_call
+                            (hierarchical_identifier
+                              (simple_identifier)
+                              (simple_identifier)))))))))))))))
+  (continuous_assign
+    (list_of_net_assignments
+      (net_assignment
+        (net_lvalue
+          (simple_identifier))
+        (expression
+          (primary
+            (multiple_concatenation
+              (constant_expression
+                (constant_primary
+                  (primary_literal
+                    (integral_number
+                      (decimal_number
+                        (unsigned_number))))))
+              (concatenation
+                (expression
+                  (primary
+                    (primary_literal
+                      (integral_number
+                        (binary_number
+                          size: (unsigned_number)
+                          base: (binary_base)
+                          value: (binary_value))))))))))))))

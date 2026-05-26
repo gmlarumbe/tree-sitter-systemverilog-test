@@ -2183,10 +2183,9 @@ endmodule
               (expression
                 (primary
                   (multiple_concatenation
-                    (expression
-                      (primary
-                        (hierarchical_identifier
-                          (simple_identifier))))
+                    (constant_expression
+                      (constant_primary
+                        (simple_identifier)))
                     (concatenation
                       (expression
                         (primary
@@ -2245,16 +2244,15 @@ endmodule
                       (expression
                         (primary
                           (multiple_concatenation
-                            (expression
-                              (primary
-                                (mintypmax_expression
-                                  (expression
-                                    left: (expression
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier))))
-                                    right: (expression
-                                      (primary
+                            (constant_expression
+                              (constant_primary
+                                (constant_mintypmax_expression
+                                  (constant_expression
+                                    left: (constant_expression
+                                      (constant_primary
+                                        (simple_identifier)))
+                                    right: (constant_expression
+                                      (constant_primary
                                         (primary_literal
                                           (integral_number
                                             (decimal_number
@@ -2296,10 +2294,9 @@ endmodule
           (expression
             (primary
               (multiple_concatenation
-                (expression
-                  (primary
-                    (hierarchical_identifier
-                      (simple_identifier))))
+                (constant_expression
+                  (constant_primary
+                    (simple_identifier)))
                 (concatenation
                   (expression
                     (primary
@@ -2318,10 +2315,9 @@ endmodule
             right: (expression
               (primary
                 (multiple_concatenation
-                  (expression
-                    (primary
-                      (hierarchical_identifier
-                        (simple_identifier))))
+                  (constant_expression
+                    (constant_primary
+                      (simple_identifier)))
                   (concatenation
                     (expression
                       (primary
@@ -2461,13 +2457,12 @@ endmodule
                             (expression
                               (primary
                                 (multiple_concatenation
-                                  (expression
-                                    (primary
-                                      (mintypmax_expression
-                                        (expression
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier)))))))
+                                  (constant_expression
+                                    (constant_primary
+                                      (constant_mintypmax_expression
+                                        (constant_expression
+                                          (constant_primary
+                                            (simple_identifier))))))
                                   (concatenation
                                     (expression
                                       (primary
@@ -2911,10 +2906,9 @@ endmodule
                                                               (expression
                                                                 (primary
                                                                   (multiple_concatenation
-                                                                    (expression
-                                                                      (primary
-                                                                        (hierarchical_identifier
-                                                                          (simple_identifier))))
+                                                                    (constant_expression
+                                                                      (constant_primary
+                                                                        (simple_identifier)))
                                                                     (concatenation
                                                                       (expression
                                                                         (primary

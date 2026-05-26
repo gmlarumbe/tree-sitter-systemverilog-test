@@ -3721,23 +3721,23 @@ endmodule  // wt_dcache_wbuffer
                               (expression
                                 (primary
                                   (multiple_concatenation
-                                    (expression
-                                      left: (expression
-                                        left: (expression
-                                          (primary
+                                    (constant_expression
+                                      left: (constant_expression
+                                        left: (constant_expression
+                                          (constant_primary
                                             (primary_literal
                                               (integral_number
                                                 (decimal_number
                                                   (unsigned_number))))))
-                                        right: (expression
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier)
-                                              (simple_identifier)))))
-                                      right: (expression
-                                        (primary
-                                          (hierarchical_identifier
+                                        right: (constant_expression
+                                          (constant_primary
                                             (simple_identifier)
+                                            (constant_select
+                                              (simple_identifier)))))
+                                      right: (constant_expression
+                                        (constant_primary
+                                          (simple_identifier)
+                                          (constant_select
                                             (simple_identifier)))))
                                     (concatenation
                                       (expression
@@ -3755,10 +3755,10 @@ endmodule  // wt_dcache_wbuffer
                               (expression
                                 (primary
                                   (multiple_concatenation
-                                    (expression
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)
+                                    (constant_expression
+                                      (constant_primary
+                                        (simple_identifier)
+                                        (constant_select
                                           (simple_identifier))))
                                     (concatenation
                                       (expression
@@ -3811,23 +3811,23 @@ endmodule  // wt_dcache_wbuffer
                               (expression
                                 (primary
                                   (multiple_concatenation
-                                    (expression
-                                      left: (expression
-                                        left: (expression
-                                          (primary
+                                    (constant_expression
+                                      left: (constant_expression
+                                        left: (constant_expression
+                                          (constant_primary
                                             (primary_literal
                                               (integral_number
                                                 (decimal_number
                                                   (unsigned_number))))))
-                                        right: (expression
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier)
-                                              (simple_identifier)))))
-                                      right: (expression
-                                        (primary
-                                          (hierarchical_identifier
+                                        right: (constant_expression
+                                          (constant_primary
                                             (simple_identifier)
+                                            (constant_select
+                                              (simple_identifier)))))
+                                      right: (constant_expression
+                                        (constant_primary
+                                          (simple_identifier)
+                                          (constant_select
                                             (simple_identifier)))))
                                     (concatenation
                                       (expression
@@ -3846,10 +3846,10 @@ endmodule  // wt_dcache_wbuffer
                               (expression
                                 (primary
                                   (multiple_concatenation
-                                    (expression
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)
+                                    (constant_expression
+                                      (constant_primary
+                                        (simple_identifier)
+                                        (constant_select
                                           (simple_identifier))))
                                     (concatenation
                                       (expression
@@ -3949,10 +3949,10 @@ endmodule  // wt_dcache_wbuffer
                     (expression
                       (primary
                         (multiple_concatenation
-                          (expression
-                            (primary
-                              (hierarchical_identifier
-                                (simple_identifier)
+                          (constant_expression
+                            (constant_primary
+                              (simple_identifier)
+                              (constant_select
                                 (simple_identifier))))
                           (concatenation
                             (expression
@@ -4054,9 +4054,14 @@ endmodule  // wt_dcache_wbuffer
               (concatenation
                 (expression
                   (primary
-                    (hierarchical_identifier
-                      (simple_identifier)
-                      (simple_identifier))))
+                    (function_subroutine_call
+                      (subroutine_call
+                        (method_call
+                          (primary
+                            (hierarchical_identifier
+                              (simple_identifier)))
+                          (method_call_body
+                            name: (simple_identifier)))))))
                 (expression
                   (primary
                     (hierarchical_identifier
@@ -5027,10 +5032,10 @@ endmodule  // wt_dcache_wbuffer
                 (expression
                   (primary
                     (multiple_concatenation
-                      (expression
-                        (primary
-                          (hierarchical_identifier
-                            (simple_identifier)
+                      (constant_expression
+                        (constant_primary
+                          (simple_identifier)
+                          (constant_select
                             (simple_identifier))))
                       (concatenation
                         (expression
@@ -5199,10 +5204,10 @@ endmodule  // wt_dcache_wbuffer
                 (expression
                   (primary
                     (multiple_concatenation
-                      (expression
-                        (primary
-                          (hierarchical_identifier
-                            (simple_identifier)
+                      (constant_expression
+                        (constant_primary
+                          (simple_identifier)
+                          (constant_select
                             (simple_identifier))))
                       (concatenation
                         (expression
@@ -5427,10 +5432,10 @@ endmodule  // wt_dcache_wbuffer
                           (expression
                             (primary
                               (multiple_concatenation
-                                (expression
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)
+                                (constant_expression
+                                  (constant_primary
+                                    (simple_identifier)
+                                    (constant_select
                                       (simple_identifier))))
                                 (concatenation
                                   (expression
@@ -5587,9 +5592,14 @@ endmodule  // wt_dcache_wbuffer
                             (concatenation
                               (expression
                                 (primary
-                                  (hierarchical_identifier
-                                    (simple_identifier)
-                                    (simple_identifier))))
+                                  (function_subroutine_call
+                                    (subroutine_call
+                                      (method_call
+                                        (primary
+                                          (hierarchical_identifier
+                                            (simple_identifier)))
+                                        (method_call_body
+                                          name: (simple_identifier)))))))
                               (expression
                                 (primary
                                   (hierarchical_identifier
@@ -6973,9 +6983,14 @@ endmodule  // wt_dcache_wbuffer
                                                           (concatenation
                                                             (expression
                                                               (primary
-                                                                (hierarchical_identifier
-                                                                  (simple_identifier)
-                                                                  (simple_identifier))))
+                                                                (function_subroutine_call
+                                                                  (subroutine_call
+                                                                    (method_call
+                                                                      (primary
+                                                                        (hierarchical_identifier
+                                                                          (simple_identifier)))
+                                                                      (method_call_body
+                                                                        name: (simple_identifier)))))))
                                                             (expression
                                                               (primary
                                                                 (hierarchical_identifier

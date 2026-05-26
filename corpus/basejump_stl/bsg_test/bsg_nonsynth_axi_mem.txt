@@ -2537,10 +2537,10 @@ endmodule
           (expression
             (primary
               (multiple_concatenation
-                (expression
-                  (primary
-                    (mintypmax_expression
-                      (expression
+                (constant_expression
+                  (constant_primary
+                    (constant_mintypmax_expression
+                      (constant_expression
                         (text_macro_usage
                           (simple_identifier)
                           (list_of_actual_arguments

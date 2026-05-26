@@ -1349,8 +1349,8 @@ endpackage
                         (expression
                           (primary
                             (multiple_concatenation
-                              (expression
-                                (primary
+                              (constant_expression
+                                (constant_primary
                                   (primary_literal
                                     (integral_number
                                       (decimal_number
@@ -1368,8 +1368,8 @@ endpackage
                         (expression
                           (primary
                             (multiple_concatenation
-                              (expression
-                                (primary
+                              (constant_expression
+                                (constant_primary
                                   (primary_literal
                                     (integral_number
                                       (decimal_number

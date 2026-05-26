@@ -2952,10 +2952,9 @@ endpackage: tb_axi_dw_pkg
                                                   (expression
                                                     (primary
                                                       (multiple_concatenation
-                                                        (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier))))
+                                                        (constant_expression
+                                                          (constant_primary
+                                                            (simple_identifier)))
                                                         (concatenation
                                                           (expression
                                                             (primary
@@ -3036,10 +3035,9 @@ endpackage: tb_axi_dw_pkg
                                                   (expression
                                                     (primary
                                                       (multiple_concatenation
-                                                        (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier))))
+                                                        (constant_expression
+                                                          (constant_primary
+                                                            (simple_identifier)))
                                                         (concatenation
                                                           (expression
                                                             (primary
@@ -3319,10 +3317,9 @@ endpackage: tb_axi_dw_pkg
                                                   (expression
                                                     (primary
                                                       (multiple_concatenation
-                                                        (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier))))
+                                                        (constant_expression
+                                                          (constant_primary
+                                                            (simple_identifier)))
                                                         (concatenation
                                                           (expression
                                                             (primary
@@ -7198,8 +7195,8 @@ endpackage: tb_axi_dw_pkg
                                                                                           (expression
                                                                                             (primary
                                                                                               (multiple_concatenation
-                                                                                                (expression
-                                                                                                  (primary
+                                                                                                (constant_expression
+                                                                                                  (constant_primary
                                                                                                     (primary_literal
                                                                                                       (integral_number
                                                                                                         (decimal_number
@@ -8390,10 +8387,9 @@ endpackage: tb_axi_dw_pkg
                                                           (expression
                                                             (primary
                                                               (multiple_concatenation
-                                                                (expression
-                                                                  (primary
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier))))
+                                                                (constant_expression
+                                                                  (constant_primary
+                                                                    (simple_identifier)))
                                                                 (concatenation
                                                                   (expression
                                                                     (primary
@@ -8416,10 +8412,9 @@ endpackage: tb_axi_dw_pkg
                                                           (expression
                                                             (primary
                                                               (multiple_concatenation
-                                                                (expression
-                                                                  (primary
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier))))
+                                                                (constant_expression
+                                                                  (constant_primary
+                                                                    (simple_identifier)))
                                                                 (concatenation
                                                                   (expression
                                                                     (primary
@@ -11491,8 +11486,8 @@ endpackage: tb_axi_dw_pkg
                                                                                           (expression
                                                                                             (primary
                                                                                               (multiple_concatenation
-                                                                                                (expression
-                                                                                                  (primary
+                                                                                                (constant_expression
+                                                                                                  (constant_primary
                                                                                                     (primary_literal
                                                                                                       (integral_number
                                                                                                         (decimal_number
@@ -13807,8 +13802,8 @@ endpackage: tb_axi_dw_pkg
                                                                           (expression
                                                                             (primary
                                                                               (multiple_concatenation
-                                                                                (expression
-                                                                                  (primary
+                                                                                (constant_expression
+                                                                                  (constant_primary
                                                                                     (primary_literal
                                                                                       (integral_number
                                                                                         (decimal_number
