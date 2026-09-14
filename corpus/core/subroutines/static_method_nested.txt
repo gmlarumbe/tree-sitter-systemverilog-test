@@ -3,7 +3,7 @@ core/subroutines/static_method_nested
 ============================================
 
 function void foo;
-    package_scope::class_type1::class_type2::member[a].a().method();
+    package_scope::class_type1::class_type2::member[a].a.method();
 endfunction
 
 ----
@@ -21,25 +21,18 @@ endfunction
                 (subroutine_call
                   (method_call
                     (primary
-                      (function_subroutine_call
-                        (subroutine_call
-                          (method_call
-                            (primary
-                              (class_qualifier
-                                (class_scope
-                                  (class_type
-                                    (simple_identifier)
-                                    (simple_identifier)
-                                    (simple_identifier))))
-                              (hierarchical_identifier
-                                (simple_identifier))
-                              (select
-                                (bit_select
-                                  (expression
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))))))
-                            (method_call_body
-                              name: (simple_identifier))))))
+                      (class_qualifier
+                        (class_scope
+                          (class_type
+                            (simple_identifier)
+                            (simple_identifier)
+                            (simple_identifier))))
+                      (hierarchical_identifier
+                        (simple_identifier)
+                        (constant_bit_select
+                          (constant_expression
+                            (constant_primary
+                              (simple_identifier))))
+                        (simple_identifier)))
                     (method_call_body
                       name: (simple_identifier))))))))))))
