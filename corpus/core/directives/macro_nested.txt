@@ -1,0 +1,40 @@
+============================================
+core/directives/macro_nested
+============================================
+
+`BSG_SAFE_CLOG2(`BSG_MAX(num_req_lp*num_cache_p,4))
+
+----
+
+(source_file
+  (text_macro_usage
+    (simple_identifier)
+    (list_of_actual_arguments
+      (actual_argument
+        (param_expression
+          (mintypmax_expression
+            (expression
+              (text_macro_usage
+                (simple_identifier)
+                (list_of_actual_arguments
+                  (actual_argument
+                    (param_expression
+                      (mintypmax_expression
+                        (expression
+                          left: (expression
+                            (primary
+                              (hierarchical_identifier
+                                (simple_identifier))))
+                          right: (expression
+                            (primary
+                              (hierarchical_identifier
+                                (simple_identifier))))))))
+                  (actual_argument
+                    (param_expression
+                      (mintypmax_expression
+                        (expression
+                          (primary
+                            (primary_literal
+                              (integral_number
+                                (decimal_number
+                                  (unsigned_number))))))))))))))))))
