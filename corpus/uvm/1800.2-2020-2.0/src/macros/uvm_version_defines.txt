@@ -112,8 +112,10 @@ uvm/1800.2-2020-2.0/src/macros/uvm_version_defines
       (simple_identifier)))
   (text_macro_definition
     (text_macro_name
-      (simple_identifier))
-    (macro_text))
+      (simple_identifier)))
+  (text_macro_definition
+    (text_macro_name
+      (simple_identifier)))
   (text_macro_definition
     (text_macro_name
       (simple_identifier)))
