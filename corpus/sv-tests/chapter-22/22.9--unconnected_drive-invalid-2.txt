@@ -35,7 +35,6 @@ sv-tests/chapter-22/22.9--unconnected_drive-invalid-2
   (block_comment)
   (ERROR
     (simple_identifier))
-  (text_macro_usage
-    (simple_identifier)))
+  (nounconnected_drive_compiler_directive))
 
 (ERROR)

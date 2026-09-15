@@ -43,5 +43,4 @@ endmodule
       (module_keyword)
       name: (simple_identifier)
       (list_of_ports)))
-  (text_macro_usage
-    (simple_identifier)))
+  (nounconnected_drive_compiler_directive))
