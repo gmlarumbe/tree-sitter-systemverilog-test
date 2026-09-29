@@ -1,0 +1,54 @@
+============================================
+github/issue_77
+============================================
+
+class C;
+    rand int a, b;
+    constraint c { if (a) { `ifdef X
+        b < a;
+    `endif } }
+endclass
+
+----
+
+(source_file
+  (class_declaration
+    name: (simple_identifier)
+    (class_item
+      (class_property
+        (random_qualifier)
+        (data_declaration
+          (data_type_or_implicit
+            (data_type
+              (integer_atom_type)))
+          (list_of_variable_decl_assignments
+            (variable_decl_assignment
+              name: (simple_identifier))
+            (variable_decl_assignment
+              name: (simple_identifier))))))
+    (class_item
+      (constraint_declaration
+        (simple_identifier)
+        (constraint_block
+          (constraint_block_item
+            (constraint_expression
+              (expression
+                (primary
+                  (hierarchical_identifier
+                    (simple_identifier))))
+              (constraint_set
+                (conditional_compilation_directive
+                  (ifdef_condition
+                    (simple_identifier)))
+                (constraint_expression
+                  (expression_or_dist
+                    (expression
+                      left: (expression
+                        (primary
+                          (hierarchical_identifier
+                            (simple_identifier))))
+                      right: (expression
+                        (primary
+                          (hierarchical_identifier
+                            (simple_identifier)))))))
+                (conditional_compilation_directive)))))))))

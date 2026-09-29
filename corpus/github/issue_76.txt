@@ -1,0 +1,43 @@
+============================================
+github/issue_76
+============================================
+
+module m;
+    initial std::randomize(a.b);
+    initial std::randomize(top.regs[i].value);
+endmodule
+
+----
+
+(source_file
+  (module_declaration
+    (module_ansi_header
+      (module_keyword)
+      name: (simple_identifier))
+    (initial_construct
+      (statement_or_null
+        (statement
+          (statement_item
+            (subroutine_call_statement
+              (subroutine_call
+                (randomize_call
+                  (variable_identifier_list
+                    (hierarchical_identifier
+                      (simple_identifier)
+                      (simple_identifier))))))))))
+    (initial_construct
+      (statement_or_null
+        (statement
+          (statement_item
+            (subroutine_call_statement
+              (subroutine_call
+                (randomize_call
+                  (variable_identifier_list
+                    (hierarchical_identifier
+                      (simple_identifier)
+                      (simple_identifier)
+                      (constant_bit_select
+                        (constant_expression
+                          (constant_primary
+                            (simple_identifier))))
+                      (simple_identifier))))))))))))
