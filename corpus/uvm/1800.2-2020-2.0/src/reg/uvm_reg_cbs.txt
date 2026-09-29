@@ -1372,20 +1372,19 @@ endclass
                             (hierarchical_identifier
                               (simple_identifier)))
                           (method_call_body
-                            (array_or_queue_method_call
-                              (array_or_queue_method_name)
-                              (list_of_arguments
-                                (expression
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier))))
-                                (expression
-                                  (primary
-                                    (function_subroutine_call
-                                      (subroutine_call
-                                        (tf_call
-                                          (hierarchical_identifier
-                                            (simple_identifier)))))))))))))))))
+                            name: (simple_identifier)
+                            arguments: (list_of_arguments
+                              (expression
+                                (primary
+                                  (hierarchical_identifier
+                                    (simple_identifier))))
+                              (expression
+                                (primary
+                                  (function_subroutine_call
+                                    (subroutine_call
+                                      (tf_call
+                                        (hierarchical_identifier
+                                          (simple_identifier))))))))))))))))
             (function_statement_or_null
               (function_statement
                 (statement
@@ -1423,26 +1422,25 @@ endclass
                                           (hierarchical_identifier
                                             (simple_identifier)))
                                         (method_call_body
-                                          (array_or_queue_method_call
-                                            (array_or_queue_method_name)
-                                            (list_of_arguments
-                                              (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier))
-                                                  (select
-                                                    (bit_select
-                                                      (expression
-                                                        (primary
-                                                          (hierarchical_identifier
-                                                            (simple_identifier))))))))
-                                              (expression
-                                                (primary
-                                                  (function_subroutine_call
-                                                    (subroutine_call
-                                                      (tf_call
+                                          name: (simple_identifier)
+                                          arguments: (list_of_arguments
+                                            (expression
+                                              (primary
+                                                (hierarchical_identifier
+                                                  (simple_identifier))
+                                                (select
+                                                  (bit_select
+                                                    (expression
+                                                      (primary
                                                         (hierarchical_identifier
-                                                          (simple_identifier)))))))))))))))))))))))))))))
+                                                          (simple_identifier))))))))
+                                            (expression
+                                              (primary
+                                                (function_subroutine_call
+                                                  (subroutine_call
+                                                    (tf_call
+                                                      (hierarchical_identifier
+                                                        (simple_identifier))))))))))))))))))))))))))))
   (one_line_comment)
   (one_line_comment)
   (one_line_comment)
@@ -1987,20 +1985,19 @@ endclass
                             (hierarchical_identifier
                               (simple_identifier)))
                           (method_call_body
-                            (array_or_queue_method_call
-                              (array_or_queue_method_name)
-                              (list_of_arguments
-                                (expression
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier))))
-                                (expression
-                                  (primary
-                                    (function_subroutine_call
-                                      (subroutine_call
-                                        (tf_call
-                                          (hierarchical_identifier
-                                            (simple_identifier)))))))))))))))))
+                            name: (simple_identifier)
+                            arguments: (list_of_arguments
+                              (expression
+                                (primary
+                                  (hierarchical_identifier
+                                    (simple_identifier))))
+                              (expression
+                                (primary
+                                  (function_subroutine_call
+                                    (subroutine_call
+                                      (tf_call
+                                        (hierarchical_identifier
+                                          (simple_identifier))))))))))))))))
             (function_statement_or_null
               (function_statement
                 (statement
@@ -2038,23 +2035,22 @@ endclass
                                           (hierarchical_identifier
                                             (simple_identifier)))
                                         (method_call_body
-                                          (array_or_queue_method_call
-                                            (array_or_queue_method_name)
-                                            (list_of_arguments
-                                              (expression
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier))
-                                                  (select
-                                                    (bit_select
-                                                      (expression
-                                                        (primary
-                                                          (hierarchical_identifier
-                                                            (simple_identifier))))))))
-                                              (expression
-                                                (primary
-                                                  (function_subroutine_call
-                                                    (subroutine_call
-                                                      (tf_call
+                                          name: (simple_identifier)
+                                          arguments: (list_of_arguments
+                                            (expression
+                                              (primary
+                                                (hierarchical_identifier
+                                                  (simple_identifier))
+                                                (select
+                                                  (bit_select
+                                                    (expression
+                                                      (primary
                                                         (hierarchical_identifier
-                                                          (simple_identifier))))))))))))))))))))))))))))))
+                                                          (simple_identifier))))))))
+                                            (expression
+                                              (primary
+                                                (function_subroutine_call
+                                                  (subroutine_call
+                                                    (tf_call
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))))))))))))))))))))))))))))

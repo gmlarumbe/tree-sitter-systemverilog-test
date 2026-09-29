@@ -485,15 +485,90 @@ endfunction : new
                     (function_subroutine_call
                       (subroutine_call
                         (method_call
-                          (primary
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier))))))
+                          (class_type
+                            (simple_identifier)
+                            (simple_identifier))
+                          (method_call_body
+                            name: (simple_identifier)
+                            arguments: (list_of_arguments
+                              (expression
+                                (primary
+                                  (primary_literal
+                                    (string_literal
+                                      (quoted_string
+                                        (quoted_string_item)))))))))))))))))))
+    (function_statement_or_null
+      (function_statement
+        (statement
+          (statement_item
+            (blocking_assignment
+              (operator_assignment
+                (variable_lvalue
+                  (hierarchical_identifier
+                    (simple_identifier)))
+                (assignment_operator)
+                (expression
+                  (primary
+                    (function_subroutine_call
+                      (subroutine_call
+                        (method_call
+                          (class_type
+                            (simple_identifier)
+                            (simple_identifier))
+                          (method_call_body
+                            name: (simple_identifier)
+                            arguments: (list_of_arguments
+                              (expression
+                                (primary
+                                  (primary_literal
+                                    (string_literal
+                                      (quoted_string
+                                        (quoted_string_item)))))))))))))))))))
+    (function_statement_or_null
+      (function_statement
+        (statement
+          (statement_item
+            (blocking_assignment
+              (operator_assignment
+                (variable_lvalue
+                  (hierarchical_identifier
+                    (simple_identifier)))
+                (assignment_operator)
+                (expression
+                  (primary
+                    (function_subroutine_call
+                      (subroutine_call
+                        (method_call
+                          (class_type
+                            (simple_identifier)
+                            (simple_identifier))
+                          (method_call_body
+                            name: (simple_identifier)
+                            arguments: (list_of_arguments
+                              (expression
+                                (primary
+                                  (primary_literal
+                                    (string_literal
+                                      (quoted_string
+                                        (quoted_string_item)))))))))))))))))))
+    (function_statement_or_null
+      (function_statement
+        (statement
+          (statement_item
+            (blocking_assignment
+              (operator_assignment
+                (variable_lvalue
+                  (hierarchical_identifier
+                    (simple_identifier)))
+                (assignment_operator)
+                (expression
+                  (primary
+                    (function_subroutine_call
+                      (subroutine_call
+                        (method_call
+                          (class_type
+                            (simple_identifier)
+                            (simple_identifier))
                           (method_call_body
                             name: (simple_identifier)
                             arguments: (list_of_arguments
@@ -519,14 +594,13 @@ endfunction : new
                       (subroutine_call
                         (method_call
                           (primary
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier))))))
+                            (class_qualifier
+                              (class_scope
+                                (class_type
+                                  (simple_identifier)
+                                  (parameter_value_assignment))))
+                            (hierarchical_identifier
+                              (simple_identifier)))
                           (method_call_body
                             name: (simple_identifier)
                             arguments: (list_of_arguments
@@ -551,15 +625,9 @@ endfunction : new
                     (function_subroutine_call
                       (subroutine_call
                         (method_call
-                          (primary
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier))))))
+                          (class_type
+                            (simple_identifier)
+                            (simple_identifier))
                           (method_call_body
                             name: (simple_identifier)
                             arguments: (list_of_arguments
@@ -584,114 +652,9 @@ endfunction : new
                     (function_subroutine_call
                       (subroutine_call
                         (method_call
-                          (primary
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier))))))
-                          (method_call_body
-                            name: (simple_identifier)
-                            arguments: (list_of_arguments
-                              (expression
-                                (primary
-                                  (primary_literal
-                                    (string_literal
-                                      (quoted_string
-                                        (quoted_string_item)))))))))))))))))))
-    (function_statement_or_null
-      (function_statement
-        (statement
-          (statement_item
-            (blocking_assignment
-              (operator_assignment
-                (variable_lvalue
-                  (hierarchical_identifier
-                    (simple_identifier)))
-                (assignment_operator)
-                (expression
-                  (primary
-                    (function_subroutine_call
-                      (subroutine_call
-                        (method_call
-                          (primary
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (class_type
-                                    (simple_identifier)
-                                    (parameter_value_assignment))
-                                  (method_call_body
-                                    name: (simple_identifier))))))
-                          (method_call_body
-                            name: (simple_identifier)
-                            arguments: (list_of_arguments
-                              (expression
-                                (primary
-                                  (primary_literal
-                                    (string_literal
-                                      (quoted_string
-                                        (quoted_string_item)))))))))))))))))))
-    (function_statement_or_null
-      (function_statement
-        (statement
-          (statement_item
-            (blocking_assignment
-              (operator_assignment
-                (variable_lvalue
-                  (hierarchical_identifier
-                    (simple_identifier)))
-                (assignment_operator)
-                (expression
-                  (primary
-                    (function_subroutine_call
-                      (subroutine_call
-                        (method_call
-                          (primary
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier))))))
-                          (method_call_body
-                            name: (simple_identifier)
-                            arguments: (list_of_arguments
-                              (expression
-                                (primary
-                                  (primary_literal
-                                    (string_literal
-                                      (quoted_string
-                                        (quoted_string_item)))))))))))))))))))
-    (function_statement_or_null
-      (function_statement
-        (statement
-          (statement_item
-            (blocking_assignment
-              (operator_assignment
-                (variable_lvalue
-                  (hierarchical_identifier
-                    (simple_identifier)))
-                (assignment_operator)
-                (expression
-                  (primary
-                    (function_subroutine_call
-                      (subroutine_call
-                        (method_call
-                          (primary
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier))))))
+                          (class_type
+                            (simple_identifier)
+                            (simple_identifier))
                           (method_call_body
                             name: (simple_identifier)
                             arguments: (list_of_arguments

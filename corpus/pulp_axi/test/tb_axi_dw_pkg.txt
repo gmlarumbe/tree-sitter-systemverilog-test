@@ -2848,14 +2848,10 @@ endpackage: tb_axi_dw_pkg
                                                 (bit_select
                                                   (expression
                                                     (primary
-                                                      (function_subroutine_call
-                                                        (subroutine_call
-                                                          (method_call
-                                                            (primary
-                                                              (hierarchical_identifier
-                                                                (simple_identifier)))
-                                                            (method_call_body
-                                                              name: (simple_identifier))))))))))))
+                                                      (package_scope
+                                                        (simple_identifier))
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))))))))
                                         (statement_or_null
                                           (statement
                                             (statement_item
@@ -3213,14 +3209,10 @@ endpackage: tb_axi_dw_pkg
                                                 (bit_select
                                                   (expression
                                                     (primary
-                                                      (function_subroutine_call
-                                                        (subroutine_call
-                                                          (method_call
-                                                            (primary
-                                                              (hierarchical_identifier
-                                                                (simple_identifier)))
-                                                            (method_call_body
-                                                              name: (simple_identifier))))))))))))
+                                                      (package_scope
+                                                        (simple_identifier))
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)))))))))
                                         (statement_or_null
                                           (statement
                                             (statement_item
@@ -6041,14 +6033,10 @@ endpackage: tb_axi_dw_pkg
                                                           (case_item_expression
                                                             (expression
                                                               (primary
-                                                                (function_subroutine_call
-                                                                  (subroutine_call
-                                                                    (method_call
-                                                                      (primary
-                                                                        (hierarchical_identifier
-                                                                          (simple_identifier)))
-                                                                      (method_call_body
-                                                                        name: (simple_identifier))))))))
+                                                                (package_scope
+                                                                  (simple_identifier))
+                                                                (hierarchical_identifier
+                                                                  (simple_identifier)))))
                                                           (statement_or_null
                                                             (statement
                                                               (statement_item
@@ -6107,14 +6095,10 @@ endpackage: tb_axi_dw_pkg
                                                           (case_item_expression
                                                             (expression
                                                               (primary
-                                                                (function_subroutine_call
-                                                                  (subroutine_call
-                                                                    (method_call
-                                                                      (primary
-                                                                        (hierarchical_identifier
-                                                                          (simple_identifier)))
-                                                                      (method_call_body
-                                                                        name: (simple_identifier))))))))
+                                                                (package_scope
+                                                                  (simple_identifier))
+                                                                (hierarchical_identifier
+                                                                  (simple_identifier)))))
                                                           (statement_or_null
                                                             (statement
                                                               (statement_item
@@ -6301,14 +6285,10 @@ endpackage: tb_axi_dw_pkg
                                                           (case_item_expression
                                                             (expression
                                                               (primary
-                                                                (function_subroutine_call
-                                                                  (subroutine_call
-                                                                    (method_call
-                                                                      (primary
-                                                                        (hierarchical_identifier
-                                                                          (simple_identifier)))
-                                                                      (method_call_body
-                                                                        name: (simple_identifier))))))))
+                                                                (package_scope
+                                                                  (simple_identifier))
+                                                                (hierarchical_identifier
+                                                                  (simple_identifier)))))
                                                           (statement_or_null
                                                             (statement
                                                               (statement_item
@@ -7075,14 +7055,10 @@ endpackage: tb_axi_dw_pkg
                                                                       (simple_identifier))))
                                                                 right: (expression
                                                                   (primary
-                                                                    (function_subroutine_call
-                                                                      (subroutine_call
-                                                                        (method_call
-                                                                          (primary
-                                                                            (hierarchical_identifier
-                                                                              (simple_identifier)))
-                                                                          (method_call_body
-                                                                            name: (simple_identifier))))))))
+                                                                    (package_scope
+                                                                      (simple_identifier))
+                                                                    (hierarchical_identifier
+                                                                      (simple_identifier)))))
                                                               (one_line_comment)
                                                               right: (expression
                                                                 left: (expression
@@ -7547,14 +7523,10 @@ endpackage: tb_axi_dw_pkg
                                                           (case_item_expression
                                                             (expression
                                                               (primary
-                                                                (function_subroutine_call
-                                                                  (subroutine_call
-                                                                    (method_call
-                                                                      (primary
-                                                                        (hierarchical_identifier
-                                                                          (simple_identifier)))
-                                                                      (method_call_body
-                                                                        name: (simple_identifier))))))))
+                                                                (package_scope
+                                                                  (simple_identifier))
+                                                                (hierarchical_identifier
+                                                                  (simple_identifier)))))
                                                           (statement_or_null
                                                             (statement
                                                               (statement_item
@@ -7613,14 +7585,10 @@ endpackage: tb_axi_dw_pkg
                                                           (case_item_expression
                                                             (expression
                                                               (primary
-                                                                (function_subroutine_call
-                                                                  (subroutine_call
-                                                                    (method_call
-                                                                      (primary
-                                                                        (hierarchical_identifier
-                                                                          (simple_identifier)))
-                                                                      (method_call_body
-                                                                        name: (simple_identifier))))))))
+                                                                (package_scope
+                                                                  (simple_identifier))
+                                                                (hierarchical_identifier
+                                                                  (simple_identifier)))))
                                                           (statement_or_null
                                                             (statement
                                                               (statement_item
@@ -7807,14 +7775,10 @@ endpackage: tb_axi_dw_pkg
                                                           (case_item_expression
                                                             (expression
                                                               (primary
-                                                                (function_subroutine_call
-                                                                  (subroutine_call
-                                                                    (method_call
-                                                                      (primary
-                                                                        (hierarchical_identifier
-                                                                          (simple_identifier)))
-                                                                      (method_call_body
-                                                                        name: (simple_identifier))))))))
+                                                                (package_scope
+                                                                  (simple_identifier))
+                                                                (hierarchical_identifier
+                                                                  (simple_identifier)))))
                                                           (statement_or_null
                                                             (statement
                                                               (statement_item
@@ -9392,14 +9356,10 @@ endpackage: tb_axi_dw_pkg
                                           (case_item_expression
                                             (expression
                                               (primary
-                                                (function_subroutine_call
-                                                  (subroutine_call
-                                                    (method_call
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))
-                                                      (method_call_body
-                                                        name: (simple_identifier))))))))
+                                                (package_scope
+                                                  (simple_identifier))
+                                                (hierarchical_identifier
+                                                  (simple_identifier)))))
                                           (statement_or_null
                                             (statement
                                               (statement_item
@@ -9934,14 +9894,10 @@ endpackage: tb_axi_dw_pkg
                                                                                                                 (simple_identifier))))
                                                                                                           (expression
                                                                                                             (primary
-                                                                                                              (function_subroutine_call
-                                                                                                                (subroutine_call
-                                                                                                                  (method_call
-                                                                                                                    (primary
-                                                                                                                      (hierarchical_identifier
-                                                                                                                        (simple_identifier)))
-                                                                                                                    (method_call_body
-                                                                                                                      name: (simple_identifier)))))))
+                                                                                                              (package_scope
+                                                                                                                (simple_identifier))
+                                                                                                              (hierarchical_identifier
+                                                                                                                (simple_identifier))))
                                                                                                           (expression
                                                                                                             left: (expression
                                                                                                               (primary
@@ -10156,14 +10112,10 @@ endpackage: tb_axi_dw_pkg
                                                                                                                                 (simple_identifier))))
                                                                                                                           (expression
                                                                                                                             (primary
-                                                                                                                              (function_subroutine_call
-                                                                                                                                (subroutine_call
-                                                                                                                                  (method_call
-                                                                                                                                    (primary
-                                                                                                                                      (hierarchical_identifier
-                                                                                                                                        (simple_identifier)))
-                                                                                                                                    (method_call_body
-                                                                                                                                      name: (simple_identifier)))))))
+                                                                                                                              (package_scope
+                                                                                                                                (simple_identifier))
+                                                                                                                              (hierarchical_identifier
+                                                                                                                                (simple_identifier))))
                                                                                                                           (expression
                                                                                                                             left: (expression
                                                                                                                               (primary
@@ -10181,14 +10133,10 @@ endpackage: tb_axi_dw_pkg
                                           (case_item_expression
                                             (expression
                                               (primary
-                                                (function_subroutine_call
-                                                  (subroutine_call
-                                                    (method_call
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))
-                                                      (method_call_body
-                                                        name: (simple_identifier))))))))
+                                                (package_scope
+                                                  (simple_identifier))
+                                                (hierarchical_identifier
+                                                  (simple_identifier)))))
                                           (statement_or_null
                                             (statement
                                               (statement_item
@@ -10398,14 +10346,10 @@ endpackage: tb_axi_dw_pkg
                                                                                             (assignment_operator)
                                                                                             (expression
                                                                                               (primary
-                                                                                                (function_subroutine_call
-                                                                                                  (subroutine_call
-                                                                                                    (method_call
-                                                                                                      (primary
-                                                                                                        (hierarchical_identifier
-                                                                                                          (simple_identifier)))
-                                                                                                      (method_call_body
-                                                                                                        name: (simple_identifier))))))))))))
+                                                                                                (package_scope
+                                                                                                  (simple_identifier))
+                                                                                                (hierarchical_identifier
+                                                                                                  (simple_identifier)))))))))
                                                                                   (statement_or_null
                                                                                     (statement
                                                                                       (statement_item
@@ -10597,14 +10541,10 @@ endpackage: tb_axi_dw_pkg
                                           (case_item_expression
                                             (expression
                                               (primary
-                                                (function_subroutine_call
-                                                  (subroutine_call
-                                                    (method_call
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))
-                                                      (method_call_body
-                                                        name: (simple_identifier))))))))
+                                                (package_scope
+                                                  (simple_identifier))
+                                                (hierarchical_identifier
+                                                  (simple_identifier)))))
                                           (statement_or_null
                                             (statement
                                               (statement_item
@@ -11770,14 +11710,10 @@ endpackage: tb_axi_dw_pkg
                                           (case_item_expression
                                             (expression
                                               (primary
-                                                (function_subroutine_call
-                                                  (subroutine_call
-                                                    (method_call
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))
-                                                      (method_call_body
-                                                        name: (simple_identifier))))))))
+                                                (package_scope
+                                                  (simple_identifier))
+                                                (hierarchical_identifier
+                                                  (simple_identifier)))))
                                           (statement_or_null
                                             (statement
                                               (statement_item
@@ -12312,14 +12248,10 @@ endpackage: tb_axi_dw_pkg
                                                                                                                 (simple_identifier))))
                                                                                                           (expression
                                                                                                             (primary
-                                                                                                              (function_subroutine_call
-                                                                                                                (subroutine_call
-                                                                                                                  (method_call
-                                                                                                                    (primary
-                                                                                                                      (hierarchical_identifier
-                                                                                                                        (simple_identifier)))
-                                                                                                                    (method_call_body
-                                                                                                                      name: (simple_identifier)))))))
+                                                                                                              (package_scope
+                                                                                                                (simple_identifier))
+                                                                                                              (hierarchical_identifier
+                                                                                                                (simple_identifier))))
                                                                                                           (expression
                                                                                                             left: (expression
                                                                                                               (primary
@@ -12534,14 +12466,10 @@ endpackage: tb_axi_dw_pkg
                                                                                                                                 (simple_identifier))))
                                                                                                                           (expression
                                                                                                                             (primary
-                                                                                                                              (function_subroutine_call
-                                                                                                                                (subroutine_call
-                                                                                                                                  (method_call
-                                                                                                                                    (primary
-                                                                                                                                      (hierarchical_identifier
-                                                                                                                                        (simple_identifier)))
-                                                                                                                                    (method_call_body
-                                                                                                                                      name: (simple_identifier)))))))
+                                                                                                                              (package_scope
+                                                                                                                                (simple_identifier))
+                                                                                                                              (hierarchical_identifier
+                                                                                                                                (simple_identifier))))
                                                                                                                           (expression
                                                                                                                             left: (expression
                                                                                                                               (primary
@@ -12559,14 +12487,10 @@ endpackage: tb_axi_dw_pkg
                                           (case_item_expression
                                             (expression
                                               (primary
-                                                (function_subroutine_call
-                                                  (subroutine_call
-                                                    (method_call
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))
-                                                      (method_call_body
-                                                        name: (simple_identifier))))))))
+                                                (package_scope
+                                                  (simple_identifier))
+                                                (hierarchical_identifier
+                                                  (simple_identifier)))))
                                           (statement_or_null
                                             (statement
                                               (statement_item
@@ -12776,14 +12700,10 @@ endpackage: tb_axi_dw_pkg
                                                                                             (assignment_operator)
                                                                                             (expression
                                                                                               (primary
-                                                                                                (function_subroutine_call
-                                                                                                  (subroutine_call
-                                                                                                    (method_call
-                                                                                                      (primary
-                                                                                                        (hierarchical_identifier
-                                                                                                          (simple_identifier)))
-                                                                                                      (method_call_body
-                                                                                                        name: (simple_identifier))))))))))))
+                                                                                                (package_scope
+                                                                                                  (simple_identifier))
+                                                                                                (hierarchical_identifier
+                                                                                                  (simple_identifier)))))))))
                                                                                   (statement_or_null
                                                                                     (statement
                                                                                       (statement_item
@@ -12975,14 +12895,10 @@ endpackage: tb_axi_dw_pkg
                                           (case_item_expression
                                             (expression
                                               (primary
-                                                (function_subroutine_call
-                                                  (subroutine_call
-                                                    (method_call
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))
-                                                      (method_call_body
-                                                        name: (simple_identifier))))))))
+                                                (package_scope
+                                                  (simple_identifier))
+                                                (hierarchical_identifier
+                                                  (simple_identifier)))))
                                           (statement_or_null
                                             (statement
                                               (statement_item

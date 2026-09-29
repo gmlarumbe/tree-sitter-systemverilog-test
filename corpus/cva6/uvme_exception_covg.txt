@@ -798,25 +798,17 @@ endtask : run_phase
               (covergroup_value_range
                 (expression
                   (primary
-                    (function_subroutine_call
-                      (subroutine_call
-                        (method_call
-                          (primary
-                            (hierarchical_identifier
-                              (simple_identifier)))
-                          (method_call_body
-                            name: (simple_identifier))))))))
+                    (package_scope
+                      (simple_identifier))
+                    (hierarchical_identifier
+                      (simple_identifier)))))
               (covergroup_value_range
                 (expression
                   (primary
-                    (function_subroutine_call
-                      (subroutine_call
-                        (method_call
-                          (primary
-                            (hierarchical_identifier
-                              (simple_identifier)))
-                          (method_call_body
-                            name: (simple_identifier)))))))))))))
+                    (package_scope
+                      (simple_identifier))
+                    (hierarchical_identifier
+                      (simple_identifier))))))))))
     (coverage_spec_or_option
       (cover_point
         name: (simple_identifier)
@@ -839,14 +831,10 @@ endtask : run_phase
               (covergroup_value_range
                 (expression
                   (primary
-                    (function_subroutine_call
-                      (subroutine_call
-                        (method_call
-                          (primary
-                            (hierarchical_identifier
-                              (simple_identifier)))
-                          (method_call_body
-                            name: (simple_identifier)))))))))))))
+                    (package_scope
+                      (simple_identifier))
+                    (hierarchical_identifier
+                      (simple_identifier))))))))))
     (coverage_spec_or_option
       (cover_point
         name: (simple_identifier)
@@ -869,14 +857,10 @@ endtask : run_phase
               (covergroup_value_range
                 (expression
                   (primary
-                    (function_subroutine_call
-                      (subroutine_call
-                        (method_call
-                          (primary
-                            (hierarchical_identifier
-                              (simple_identifier)))
-                          (method_call_body
-                            name: (simple_identifier)))))))))))))
+                    (package_scope
+                      (simple_identifier))
+                    (hierarchical_identifier
+                      (simple_identifier))))))))))
     (coverage_spec_or_option
       (cover_point
         name: (simple_identifier)
@@ -893,14 +877,10 @@ endtask : run_phase
               (covergroup_value_range
                 (expression
                   (primary
-                    (function_subroutine_call
-                      (subroutine_call
-                        (method_call
-                          (primary
-                            (hierarchical_identifier
-                              (simple_identifier)))
-                          (method_call_body
-                            name: (simple_identifier)))))))))))))
+                    (package_scope
+                      (simple_identifier))
+                    (hierarchical_identifier
+                      (simple_identifier))))))))))
     (coverage_spec_or_option
       (cover_point
         name: (simple_identifier)
@@ -963,24 +943,16 @@ endtask : run_phase
               (covergroup_value_range
                 (expression
                   (primary
-                    (function_subroutine_call
-                      (subroutine_call
-                        (method_call
-                          (primary
-                            (hierarchical_identifier
-                              (simple_identifier)))
-                          (method_call_body
-                            name: (simple_identifier)))))))
+                    (package_scope
+                      (simple_identifier))
+                    (hierarchical_identifier
+                      (simple_identifier))))
                 (expression
                   (primary
-                    (function_subroutine_call
-                      (subroutine_call
-                        (method_call
-                          (primary
-                            (hierarchical_identifier
-                              (simple_identifier)))
-                          (method_call_body
-                            name: (simple_identifier)))))))))
+                    (package_scope
+                      (simple_identifier))
+                    (hierarchical_identifier
+                      (simple_identifier))))))
             (expression
               left: (expression
                 (primary
@@ -1014,24 +986,16 @@ endtask : run_phase
               (covergroup_value_range
                 (expression
                   (primary
-                    (function_subroutine_call
-                      (subroutine_call
-                        (method_call
-                          (primary
-                            (hierarchical_identifier
-                              (simple_identifier)))
-                          (method_call_body
-                            name: (simple_identifier)))))))
+                    (package_scope
+                      (simple_identifier))
+                    (hierarchical_identifier
+                      (simple_identifier))))
                 (expression
                   (primary
-                    (function_subroutine_call
-                      (subroutine_call
-                        (method_call
-                          (primary
-                            (hierarchical_identifier
-                              (simple_identifier)))
-                          (method_call_body
-                            name: (simple_identifier)))))))))
+                    (package_scope
+                      (simple_identifier))
+                    (hierarchical_identifier
+                      (simple_identifier))))))
             (expression
               left: (expression
                 (primary
@@ -1099,14 +1063,10 @@ endtask : run_phase
               (covergroup_value_range
                 (expression
                   (primary
-                    (function_subroutine_call
-                      (subroutine_call
-                        (method_call
-                          (primary
-                            (hierarchical_identifier
-                              (simple_identifier)))
-                          (method_call_body
-                            name: (simple_identifier)))))))))))))
+                    (package_scope
+                      (simple_identifier))
+                    (hierarchical_identifier
+                      (simple_identifier))))))))))
     (coverage_spec_or_option
       (cover_point
         name: (simple_identifier)
@@ -1123,14 +1083,10 @@ endtask : run_phase
               (covergroup_value_range
                 (expression
                   (primary
-                    (function_subroutine_call
-                      (subroutine_call
-                        (method_call
-                          (primary
-                            (hierarchical_identifier
-                              (simple_identifier)))
-                          (method_call_body
-                            name: (simple_identifier)))))))))))))
+                    (package_scope
+                      (simple_identifier))
+                    (hierarchical_identifier
+                      (simple_identifier))))))))))
     (coverage_spec_or_option
       (cover_point
         name: (simple_identifier)

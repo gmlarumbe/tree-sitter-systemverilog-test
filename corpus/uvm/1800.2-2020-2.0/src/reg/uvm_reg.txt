@@ -2841,15 +2841,9 @@ endfunction
                                     (function_subroutine_call
                                       (subroutine_call
                                         (method_call
-                                          (primary
-                                            (function_subroutine_call
-                                              (subroutine_call
-                                                (method_call
-                                                  (primary
-                                                    (hierarchical_identifier
-                                                      (simple_identifier)))
-                                                  (method_call_body
-                                                    name: (simple_identifier))))))
+                                          (class_type
+                                            (simple_identifier)
+                                            (simple_identifier))
                                           (method_call_body
                                             name: (simple_identifier)
                                             arguments: (list_of_arguments
@@ -13439,15 +13433,9 @@ endfunction
                     (function_subroutine_call
                       (subroutine_call
                         (method_call
-                          (primary
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier))))))
+                          (class_type
+                            (simple_identifier)
+                            (simple_identifier))
                           (method_call_body
                             name: (simple_identifier)
                             arguments: (list_of_arguments
@@ -16272,15 +16260,9 @@ endfunction
                     (function_subroutine_call
                       (subroutine_call
                         (method_call
-                          (primary
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier))))))
+                          (class_type
+                            (simple_identifier)
+                            (simple_identifier))
                           (method_call_body
                             name: (simple_identifier)
                             arguments: (list_of_arguments
@@ -21232,15 +21214,9 @@ endfunction
                     (function_subroutine_call
                       (subroutine_call
                         (method_call
-                          (primary
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier))))))
+                          (class_type
+                            (simple_identifier)
+                            (simple_identifier))
                           (method_call_body
                             name: (simple_identifier)
                             arguments: (list_of_arguments
@@ -21833,15 +21809,9 @@ endfunction
                     (function_subroutine_call
                       (subroutine_call
                         (method_call
-                          (primary
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier))))))
+                          (class_type
+                            (simple_identifier)
+                            (simple_identifier))
                           (method_call_body
                             name: (simple_identifier)
                             arguments: (list_of_arguments
@@ -23580,14 +23550,10 @@ endfunction
                                                                       (simple_identifier)))))))
                                                           right: (expression
                                                             (primary
-                                                              (function_subroutine_call
-                                                                (subroutine_call
-                                                                  (method_call
-                                                                    (primary
-                                                                      (hierarchical_identifier
-                                                                        (simple_identifier)))
-                                                                    (method_call_body
-                                                                      name: (simple_identifier)))))))))
+                                                              (package_scope
+                                                                (simple_identifier))
+                                                              (hierarchical_identifier
+                                                                (simple_identifier))))))
                                                       (statement_or_null
                                                         (statement
                                                           (statement_item

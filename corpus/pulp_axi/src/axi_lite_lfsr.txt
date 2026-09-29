@@ -904,14 +904,10 @@ endmodule : axi_opt_lfsr
               (simple_identifier)))
           (expression
             (primary
-              (function_subroutine_call
-                (subroutine_call
-                  (method_call
-                    (primary
-                      (hierarchical_identifier
-                        (simple_identifier)))
-                    (method_call_body
-                      name: (simple_identifier))))))))))
+              (package_scope
+                (simple_identifier))
+              (hierarchical_identifier
+                (simple_identifier)))))))
     (continuous_assign
       (list_of_net_assignments
         (net_assignment
@@ -1012,14 +1008,10 @@ endmodule : axi_opt_lfsr
               (simple_identifier)))
           (expression
             (primary
-              (function_subroutine_call
-                (subroutine_call
-                  (method_call
-                    (primary
-                      (hierarchical_identifier
-                        (simple_identifier)))
-                    (method_call_body
-                      name: (simple_identifier))))))))))
+              (package_scope
+                (simple_identifier))
+              (hierarchical_identifier
+                (simple_identifier)))))))
     (continuous_assign
       (list_of_net_assignments
         (net_assignment

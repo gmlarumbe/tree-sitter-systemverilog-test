@@ -4571,14 +4571,10 @@ endfunction
                                                               (quoted_string_item))))))
                                                     (expression
                                                       (primary
-                                                        (function_subroutine_call
-                                                          (subroutine_call
-                                                            (method_call
-                                                              (primary
-                                                                (hierarchical_identifier
-                                                                  (simple_identifier)))
-                                                              (method_call_body
-                                                                name: (simple_identifier)))))))
+                                                        (package_scope
+                                                          (simple_identifier))
+                                                        (hierarchical_identifier
+                                                          (simple_identifier))))
                                                     (expression
                                                       (primary
                                                         (primary_literal
@@ -4726,14 +4722,10 @@ endfunction
                                                               (quoted_string_item))))))
                                                     (expression
                                                       (primary
-                                                        (function_subroutine_call
-                                                          (subroutine_call
-                                                            (method_call
-                                                              (primary
-                                                                (hierarchical_identifier
-                                                                  (simple_identifier)))
-                                                              (method_call_body
-                                                                name: (simple_identifier)))))))
+                                                        (package_scope
+                                                          (simple_identifier))
+                                                        (hierarchical_identifier
+                                                          (simple_identifier))))
                                                     (expression
                                                       (primary
                                                         (primary_literal
@@ -5235,14 +5227,10 @@ endfunction
                                                                     (quoted_string_item))))))
                                                           (expression
                                                             (primary
-                                                              (function_subroutine_call
-                                                                (subroutine_call
-                                                                  (method_call
-                                                                    (primary
-                                                                      (hierarchical_identifier
-                                                                        (simple_identifier)))
-                                                                    (method_call_body
-                                                                      name: (simple_identifier)))))))
+                                                              (package_scope
+                                                                (simple_identifier))
+                                                              (hierarchical_identifier
+                                                                (simple_identifier))))
                                                           (expression
                                                             (primary
                                                               (primary_literal
@@ -5296,14 +5284,10 @@ endfunction
                                                                     (quoted_string_item))))))
                                                           (expression
                                                             (primary
-                                                              (function_subroutine_call
-                                                                (subroutine_call
-                                                                  (method_call
-                                                                    (primary
-                                                                      (hierarchical_identifier
-                                                                        (simple_identifier)))
-                                                                    (method_call_body
-                                                                      name: (simple_identifier)))))))
+                                                              (package_scope
+                                                                (simple_identifier))
+                                                              (hierarchical_identifier
+                                                                (simple_identifier))))
                                                           (expression
                                                             (primary
                                                               (primary_literal

@@ -282,14 +282,10 @@ endclass
                                 (simple_identifier))))
                           right: (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))))
                       (statement_or_null
                         (statement
                           (statement_item
@@ -601,47 +597,31 @@ endclass
                               (value_range
                                 (expression
                                   (primary
-                                    (function_subroutine_call
-                                      (subroutine_call
-                                        (method_call
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier)))
-                                          (method_call_body
-                                            name: (simple_identifier))))))))
+                                    (package_scope
+                                      (simple_identifier))
+                                    (hierarchical_identifier
+                                      (simple_identifier)))))
                               (value_range
                                 (expression
                                   (primary
-                                    (function_subroutine_call
-                                      (subroutine_call
-                                        (method_call
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier)))
-                                          (method_call_body
-                                            name: (simple_identifier))))))))
+                                    (package_scope
+                                      (simple_identifier))
+                                    (hierarchical_identifier
+                                      (simple_identifier)))))
                               (value_range
                                 (expression
                                   (primary
-                                    (function_subroutine_call
-                                      (subroutine_call
-                                        (method_call
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier)))
-                                          (method_call_body
-                                            name: (simple_identifier))))))))
+                                    (package_scope
+                                      (simple_identifier))
+                                    (hierarchical_identifier
+                                      (simple_identifier)))))
                               (value_range
                                 (expression
                                   (primary
-                                    (function_subroutine_call
-                                      (subroutine_call
-                                        (method_call
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier)))
-                                          (method_call_body
-                                            name: (simple_identifier))))))))))))
+                                    (package_scope
+                                      (simple_identifier))
+                                    (hierarchical_identifier
+                                      (simple_identifier)))))))))
                       (statement_or_null
                         (statement
                           (statement_item
@@ -762,25 +742,17 @@ endclass
                                                                             (value_range
                                                                               (expression
                                                                                 (primary
-                                                                                  (function_subroutine_call
-                                                                                    (subroutine_call
-                                                                                      (method_call
-                                                                                        (primary
-                                                                                          (hierarchical_identifier
-                                                                                            (simple_identifier)))
-                                                                                        (method_call_body
-                                                                                          name: (simple_identifier))))))))
+                                                                                  (package_scope
+                                                                                    (simple_identifier))
+                                                                                  (hierarchical_identifier
+                                                                                    (simple_identifier)))))
                                                                             (value_range
                                                                               (expression
                                                                                 (primary
-                                                                                  (function_subroutine_call
-                                                                                    (subroutine_call
-                                                                                      (method_call
-                                                                                        (primary
-                                                                                          (hierarchical_identifier
-                                                                                            (simple_identifier)))
-                                                                                        (method_call_body
-                                                                                          name: (simple_identifier))))))))))))
+                                                                                  (package_scope
+                                                                                    (simple_identifier))
+                                                                                  (hierarchical_identifier
+                                                                                    (simple_identifier)))))))))
                                                                     (statement_or_null
                                                                       (statement
                                                                         (statement_item
@@ -825,25 +797,17 @@ endclass
                                                                             (value_range
                                                                               (expression
                                                                                 (primary
-                                                                                  (function_subroutine_call
-                                                                                    (subroutine_call
-                                                                                      (method_call
-                                                                                        (primary
-                                                                                          (hierarchical_identifier
-                                                                                            (simple_identifier)))
-                                                                                        (method_call_body
-                                                                                          name: (simple_identifier))))))))
+                                                                                  (package_scope
+                                                                                    (simple_identifier))
+                                                                                  (hierarchical_identifier
+                                                                                    (simple_identifier)))))
                                                                             (value_range
                                                                               (expression
                                                                                 (primary
-                                                                                  (function_subroutine_call
-                                                                                    (subroutine_call
-                                                                                      (method_call
-                                                                                        (primary
-                                                                                          (hierarchical_identifier
-                                                                                            (simple_identifier)))
-                                                                                        (method_call_body
-                                                                                          name: (simple_identifier))))))))))))
+                                                                                  (package_scope
+                                                                                    (simple_identifier))
+                                                                                  (hierarchical_identifier
+                                                                                    (simple_identifier)))))))))
                                                                     (statement_or_null
                                                                       (statement
                                                                         (statement_item

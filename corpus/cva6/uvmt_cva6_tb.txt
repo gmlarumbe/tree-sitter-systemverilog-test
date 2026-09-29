@@ -560,14 +560,10 @@ endmodule : uvmt_cva6_tb
                             arguments: (list_of_arguments
                               (expression
                                 (primary
-                                  (function_subroutine_call
-                                    (subroutine_call
-                                      (method_call
-                                        (primary
-                                          (hierarchical_identifier
-                                            (simple_identifier)))
-                                        (method_call_body
-                                          name: (simple_identifier))))))))))))))))))))
+                                  (package_scope
+                                    (simple_identifier))
+                                  (hierarchical_identifier
+                                    (simple_identifier)))))))))))))))))
     (local_parameter_declaration
       (list_of_param_assignments
         (param_assignment

@@ -1590,29 +1590,28 @@ endtask : run_phase
                                 (subroutine_call
                                   (method_call
                                     (primary
-                                      (function_subroutine_call
-                                        (subroutine_call
-                                          (method_call
-                                            (class_type
-                                              (simple_identifier)
-                                              (parameter_value_assignment
-                                                (list_of_parameter_value_assignments
-                                                  (ordered_parameter_assignment
-                                                    (param_expression
-                                                      (mintypmax_expression
-                                                        (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)))))))
-                                                  (ordered_parameter_assignment
-                                                    (param_expression
-                                                      (mintypmax_expression
-                                                        (expression
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier))))))))))
-                                            (method_call_body
-                                              name: (simple_identifier))))))
+                                      (class_qualifier
+                                        (class_scope
+                                          (class_type
+                                            (simple_identifier)
+                                            (parameter_value_assignment
+                                              (list_of_parameter_value_assignments
+                                                (ordered_parameter_assignment
+                                                  (param_expression
+                                                    (mintypmax_expression
+                                                      (expression
+                                                        (primary
+                                                          (hierarchical_identifier
+                                                            (simple_identifier)))))))
+                                                (ordered_parameter_assignment
+                                                  (param_expression
+                                                    (mintypmax_expression
+                                                      (expression
+                                                        (primary
+                                                          (hierarchical_identifier
+                                                            (simple_identifier))))))))))))
+                                      (hierarchical_identifier
+                                        (simple_identifier)))
                                     (method_call_body
                                       name: (simple_identifier)
                                       arguments: (list_of_arguments
@@ -1659,14 +1658,10 @@ endtask : run_phase
                               (simple_identifier))))
                         right: (expression
                           (primary
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (hierarchical_identifier
+                              (simple_identifier)))))
                       right: (expression
                         (primary
                           (function_subroutine_call
@@ -1712,14 +1707,10 @@ endtask : run_phase
                                                   (enum_method_name))))))))
                                     right: (expression
                                       (primary
-                                        (function_subroutine_call
-                                          (subroutine_call
-                                            (method_call
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)))
-                                              (method_call_body
-                                                name: (simple_identifier)))))))))
+                                        (package_scope
+                                          (simple_identifier))
+                                        (hierarchical_identifier
+                                          (simple_identifier))))))
                                 (statement_or_null
                                   (statement
                                     (statement_item
@@ -1817,14 +1808,10 @@ endtask : run_phase
                                                   (enum_method_name))))))))
                                     right: (expression
                                       (primary
-                                        (function_subroutine_call
-                                          (subroutine_call
-                                            (method_call
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)))
-                                              (method_call_body
-                                                name: (simple_identifier)))))))))
+                                        (package_scope
+                                          (simple_identifier))
+                                        (hierarchical_identifier
+                                          (simple_identifier))))))
                                 (statement_or_null
                                   (statement
                                     (statement_item
@@ -1929,14 +1916,10 @@ endtask : run_phase
                                                   (enum_method_name))))))))
                                     right: (expression
                                       (primary
-                                        (function_subroutine_call
-                                          (subroutine_call
-                                            (method_call
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)))
-                                              (method_call_body
-                                                name: (simple_identifier)))))))))
+                                        (package_scope
+                                          (simple_identifier))
+                                        (hierarchical_identifier
+                                          (simple_identifier))))))
                                 (statement_or_null
                                   (statement
                                     (statement_item
@@ -2050,14 +2033,10 @@ endtask : run_phase
                                                   (enum_method_name))))))))
                                     right: (expression
                                       (primary
-                                        (function_subroutine_call
-                                          (subroutine_call
-                                            (method_call
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)))
-                                              (method_call_body
-                                                name: (simple_identifier)))))))))
+                                        (package_scope
+                                          (simple_identifier))
+                                        (hierarchical_identifier
+                                          (simple_identifier))))))
                                 (statement_or_null
                                   (statement
                                     (statement_item
@@ -2155,14 +2134,10 @@ endtask : run_phase
                                                   (enum_method_name))))))))
                                     right: (expression
                                       (primary
-                                        (function_subroutine_call
-                                          (subroutine_call
-                                            (method_call
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)))
-                                              (method_call_body
-                                                name: (simple_identifier)))))))))
+                                        (package_scope
+                                          (simple_identifier))
+                                        (hierarchical_identifier
+                                          (simple_identifier))))))
                                 (statement_or_null
                                   (statement
                                     (statement_item
@@ -2276,14 +2251,10 @@ endtask : run_phase
                                                   (enum_method_name))))))))
                                     right: (expression
                                       (primary
-                                        (function_subroutine_call
-                                          (subroutine_call
-                                            (method_call
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)))
-                                              (method_call_body
-                                                name: (simple_identifier)))))))))
+                                        (package_scope
+                                          (simple_identifier))
+                                        (hierarchical_identifier
+                                          (simple_identifier))))))
                                 (statement_or_null
                                   (statement
                                     (statement_item
@@ -2960,14 +2931,10 @@ endtask : run_phase
                                               (simple_identifier))))
                                         right: (expression
                                           (primary
-                                            (function_subroutine_call
-                                              (subroutine_call
-                                                (method_call
-                                                  (primary
-                                                    (hierarchical_identifier
-                                                      (simple_identifier)))
-                                                  (method_call_body
-                                                    name: (simple_identifier))))))))
+                                            (package_scope
+                                              (simple_identifier))
+                                            (hierarchical_identifier
+                                              (simple_identifier)))))
                                       right: (expression
                                         (primary
                                           (function_subroutine_call
@@ -3016,36 +2983,24 @@ endtask : run_phase
                                                         (value_range
                                                           (expression
                                                             (primary
-                                                              (function_subroutine_call
-                                                                (subroutine_call
-                                                                  (method_call
-                                                                    (primary
-                                                                      (hierarchical_identifier
-                                                                        (simple_identifier)))
-                                                                    (method_call_body
-                                                                      name: (simple_identifier))))))))
+                                                              (package_scope
+                                                                (simple_identifier))
+                                                              (hierarchical_identifier
+                                                                (simple_identifier)))))
                                                         (value_range
                                                           (expression
                                                             (primary
-                                                              (function_subroutine_call
-                                                                (subroutine_call
-                                                                  (method_call
-                                                                    (primary
-                                                                      (hierarchical_identifier
-                                                                        (simple_identifier)))
-                                                                    (method_call_body
-                                                                      name: (simple_identifier))))))))
+                                                              (package_scope
+                                                                (simple_identifier))
+                                                              (hierarchical_identifier
+                                                                (simple_identifier)))))
                                                         (value_range
                                                           (expression
                                                             (primary
-                                                              (function_subroutine_call
-                                                                (subroutine_call
-                                                                  (method_call
-                                                                    (primary
-                                                                      (hierarchical_identifier
-                                                                        (simple_identifier)))
-                                                                    (method_call_body
-                                                                      name: (simple_identifier))))))))))))
+                                                              (package_scope
+                                                                (simple_identifier))
+                                                              (hierarchical_identifier
+                                                                (simple_identifier)))))))))
                                                 (statement_or_null
                                                   (statement
                                                     (statement_item
@@ -3221,14 +3176,10 @@ endtask : run_phase
                                                   (enum_method_name))))))))
                                     right: (expression
                                       (primary
-                                        (function_subroutine_call
-                                          (subroutine_call
-                                            (method_call
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)))
-                                              (method_call_body
-                                                name: (simple_identifier)))))))))
+                                        (package_scope
+                                          (simple_identifier))
+                                        (hierarchical_identifier
+                                          (simple_identifier))))))
                                 (statement_or_null
                                   (statement
                                     (statement_item
@@ -4491,14 +4442,10 @@ endtask : run_phase
                                                                   (enum_method_name))))))))
                                                     right: (expression
                                                       (primary
-                                                        (function_subroutine_call
-                                                          (subroutine_call
-                                                            (method_call
-                                                              (primary
-                                                                (hierarchical_identifier
-                                                                  (simple_identifier)))
-                                                              (method_call_body
-                                                                name: (simple_identifier)))))))))
+                                                        (package_scope
+                                                          (simple_identifier))
+                                                        (hierarchical_identifier
+                                                          (simple_identifier))))))
                                                 (statement_or_null
                                                   (statement
                                                     (statement_item
@@ -4579,14 +4526,10 @@ endtask : run_phase
                                                                   (enum_method_name))))))))
                                                     right: (expression
                                                       (primary
-                                                        (function_subroutine_call
-                                                          (subroutine_call
-                                                            (method_call
-                                                              (primary
-                                                                (hierarchical_identifier
-                                                                  (simple_identifier)))
-                                                              (method_call_body
-                                                                name: (simple_identifier)))))))))
+                                                        (package_scope
+                                                          (simple_identifier))
+                                                        (hierarchical_identifier
+                                                          (simple_identifier))))))
                                                 (statement_or_null
                                                   (statement
                                                     (statement_item
@@ -4674,14 +4617,10 @@ endtask : run_phase
                                                                   (enum_method_name))))))))
                                                     right: (expression
                                                       (primary
-                                                        (function_subroutine_call
-                                                          (subroutine_call
-                                                            (method_call
-                                                              (primary
-                                                                (hierarchical_identifier
-                                                                  (simple_identifier)))
-                                                              (method_call_body
-                                                                name: (simple_identifier)))))))))
+                                                        (package_scope
+                                                          (simple_identifier))
+                                                        (hierarchical_identifier
+                                                          (simple_identifier))))))
                                                 (statement_or_null
                                                   (statement
                                                     (statement_item
@@ -4778,14 +4717,10 @@ endtask : run_phase
                                                                   (enum_method_name))))))))
                                                     right: (expression
                                                       (primary
-                                                        (function_subroutine_call
-                                                          (subroutine_call
-                                                            (method_call
-                                                              (primary
-                                                                (hierarchical_identifier
-                                                                  (simple_identifier)))
-                                                              (method_call_body
-                                                                name: (simple_identifier)))))))))
+                                                        (package_scope
+                                                          (simple_identifier))
+                                                        (hierarchical_identifier
+                                                          (simple_identifier))))))
                                                 (statement_or_null
                                                   (statement
                                                     (statement_item
@@ -4866,14 +4801,10 @@ endtask : run_phase
                                                                   (enum_method_name))))))))
                                                     right: (expression
                                                       (primary
-                                                        (function_subroutine_call
-                                                          (subroutine_call
-                                                            (method_call
-                                                              (primary
-                                                                (hierarchical_identifier
-                                                                  (simple_identifier)))
-                                                              (method_call_body
-                                                                name: (simple_identifier)))))))))
+                                                        (package_scope
+                                                          (simple_identifier))
+                                                        (hierarchical_identifier
+                                                          (simple_identifier))))))
                                                 (statement_or_null
                                                   (statement
                                                     (statement_item
@@ -4970,14 +4901,10 @@ endtask : run_phase
                                                                   (enum_method_name))))))))
                                                     right: (expression
                                                       (primary
-                                                        (function_subroutine_call
-                                                          (subroutine_call
-                                                            (method_call
-                                                              (primary
-                                                                (hierarchical_identifier
-                                                                  (simple_identifier)))
-                                                              (method_call_body
-                                                                name: (simple_identifier)))))))))
+                                                        (package_scope
+                                                          (simple_identifier))
+                                                        (hierarchical_identifier
+                                                          (simple_identifier))))))
                                                 (statement_or_null
                                                   (statement
                                                     (statement_item
@@ -5063,14 +4990,10 @@ endtask : run_phase
                               (simple_identifier))))
                         right: (expression
                           (primary
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (hierarchical_identifier
+                              (simple_identifier)))))
                       right: (expression
                         (primary
                           (function_subroutine_call
@@ -5116,14 +5039,10 @@ endtask : run_phase
                                                   (enum_method_name))))))))
                                     right: (expression
                                       (primary
-                                        (function_subroutine_call
-                                          (subroutine_call
-                                            (method_call
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)))
-                                              (method_call_body
-                                                name: (simple_identifier)))))))))
+                                        (package_scope
+                                          (simple_identifier))
+                                        (hierarchical_identifier
+                                          (simple_identifier))))))
                                 (statement_or_null
                                   (statement
                                     (statement_item
@@ -5221,14 +5140,10 @@ endtask : run_phase
                                                   (enum_method_name))))))))
                                     right: (expression
                                       (primary
-                                        (function_subroutine_call
-                                          (subroutine_call
-                                            (method_call
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)))
-                                              (method_call_body
-                                                name: (simple_identifier)))))))))
+                                        (package_scope
+                                          (simple_identifier))
+                                        (hierarchical_identifier
+                                          (simple_identifier))))))
                                 (statement_or_null
                                   (statement
                                     (statement_item
@@ -5333,14 +5248,10 @@ endtask : run_phase
                                                   (enum_method_name))))))))
                                     right: (expression
                                       (primary
-                                        (function_subroutine_call
-                                          (subroutine_call
-                                            (method_call
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)))
-                                              (method_call_body
-                                                name: (simple_identifier)))))))))
+                                        (package_scope
+                                          (simple_identifier))
+                                        (hierarchical_identifier
+                                          (simple_identifier))))))
                                 (statement_or_null
                                   (statement
                                     (statement_item
@@ -5454,14 +5365,10 @@ endtask : run_phase
                                                   (enum_method_name))))))))
                                     right: (expression
                                       (primary
-                                        (function_subroutine_call
-                                          (subroutine_call
-                                            (method_call
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)))
-                                              (method_call_body
-                                                name: (simple_identifier)))))))))
+                                        (package_scope
+                                          (simple_identifier))
+                                        (hierarchical_identifier
+                                          (simple_identifier))))))
                                 (statement_or_null
                                   (statement
                                     (statement_item
@@ -5559,14 +5466,10 @@ endtask : run_phase
                                                   (enum_method_name))))))))
                                     right: (expression
                                       (primary
-                                        (function_subroutine_call
-                                          (subroutine_call
-                                            (method_call
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)))
-                                              (method_call_body
-                                                name: (simple_identifier)))))))))
+                                        (package_scope
+                                          (simple_identifier))
+                                        (hierarchical_identifier
+                                          (simple_identifier))))))
                                 (statement_or_null
                                   (statement
                                     (statement_item
@@ -5680,14 +5583,10 @@ endtask : run_phase
                                                   (enum_method_name))))))))
                                     right: (expression
                                       (primary
-                                        (function_subroutine_call
-                                          (subroutine_call
-                                            (method_call
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)))
-                                              (method_call_body
-                                                name: (simple_identifier)))))))))
+                                        (package_scope
+                                          (simple_identifier))
+                                        (hierarchical_identifier
+                                          (simple_identifier))))))
                                 (statement_or_null
                                   (statement
                                     (statement_item

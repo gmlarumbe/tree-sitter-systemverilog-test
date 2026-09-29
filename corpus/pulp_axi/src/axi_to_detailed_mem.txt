@@ -5798,14 +5798,10 @@ endmodule
                             (simple_identifier))))
                       (expression
                         (primary
-                          (function_subroutine_call
-                            (subroutine_call
-                              (method_call
-                                (primary
-                                  (hierarchical_identifier
-                                    (simple_identifier)))
-                                (method_call_body
-                                  name: (simple_identifier)))))))
+                          (package_scope
+                            (simple_identifier))
+                          (hierarchical_identifier
+                            (simple_identifier))))
                       (expression
                         (conditional_expression
                           (expression
@@ -5814,24 +5810,16 @@ endmodule
                                 (simple_identifier))))
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))))))
                   (simple_identifier)
                   (expression
                     (primary
@@ -5882,14 +5870,10 @@ endmodule
                             (simple_identifier))))
                       (expression
                         (primary
-                          (function_subroutine_call
-                            (subroutine_call
-                              (method_call
-                                (primary
-                                  (hierarchical_identifier
-                                    (simple_identifier)))
-                                (method_call_body
-                                  name: (simple_identifier)))))))
+                          (package_scope
+                            (simple_identifier))
+                          (hierarchical_identifier
+                            (simple_identifier))))
                       (expression
                         (conditional_expression
                           (expression
@@ -5898,24 +5882,16 @@ endmodule
                                 (simple_identifier))))
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))))))
                   (simple_identifier)
                   (expression
                     (primary
@@ -6584,14 +6560,10 @@ endmodule
                           (simple_identifier))))
                     right: (expression
                       (primary
-                        (function_subroutine_call
-                          (subroutine_call
-                            (method_call
-                              (primary
-                                (hierarchical_identifier
-                                  (simple_identifier)))
-                              (method_call_body
-                                name: (simple_identifier)))))))))))))
+                        (package_scope
+                          (simple_identifier))
+                        (hierarchical_identifier
+                          (simple_identifier))))))))))
         (action_block
           (statement_or_null
             (statement
@@ -6660,14 +6632,10 @@ endmodule
                           (simple_identifier))))
                     right: (expression
                       (primary
-                        (function_subroutine_call
-                          (subroutine_call
-                            (method_call
-                              (primary
-                                (hierarchical_identifier
-                                  (simple_identifier)))
-                              (method_call_body
-                                name: (simple_identifier)))))))))))))
+                        (package_scope
+                          (simple_identifier))
+                        (hierarchical_identifier
+                          (simple_identifier))))))))))
         (action_block
           (statement_or_null
             (statement

@@ -1156,15 +1156,9 @@ endfunction: connect_coverage_model
                                                       (function_subroutine_call
                                                         (subroutine_call
                                                           (method_call
-                                                            (primary
-                                                              (function_subroutine_call
-                                                                (subroutine_call
-                                                                  (method_call
-                                                                    (primary
-                                                                      (hierarchical_identifier
-                                                                        (simple_identifier)))
-                                                                    (method_call_body
-                                                                      name: (simple_identifier))))))
+                                                            (class_type
+                                                              (simple_identifier)
+                                                              (simple_identifier))
                                                             (method_call_body
                                                               name: (simple_identifier)
                                                               arguments: (list_of_arguments
@@ -1379,15 +1373,9 @@ endfunction: connect_coverage_model
                                       (function_subroutine_call
                                         (subroutine_call
                                           (method_call
-                                            (primary
-                                              (function_subroutine_call
-                                                (subroutine_call
-                                                  (method_call
-                                                    (primary
-                                                      (hierarchical_identifier
-                                                        (simple_identifier)))
-                                                    (method_call_body
-                                                      name: (simple_identifier))))))
+                                            (class_type
+                                              (simple_identifier)
+                                              (simple_identifier))
                                             (method_call_body
                                               name: (simple_identifier)
                                               arguments: (list_of_arguments
@@ -1414,22 +1402,21 @@ endfunction: connect_coverage_model
                                         (subroutine_call
                                           (method_call
                                             (primary
-                                              (function_subroutine_call
-                                                (subroutine_call
-                                                  (method_call
-                                                    (class_type
-                                                      (simple_identifier)
-                                                      (parameter_value_assignment
-                                                        (list_of_parameter_value_assignments
-                                                          (ordered_parameter_assignment
-                                                            (param_expression
-                                                              (mintypmax_expression
-                                                                (expression
-                                                                  (primary
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier))))))))))
-                                                    (method_call_body
-                                                      name: (simple_identifier))))))
+                                              (class_qualifier
+                                                (class_scope
+                                                  (class_type
+                                                    (simple_identifier)
+                                                    (parameter_value_assignment
+                                                      (list_of_parameter_value_assignments
+                                                        (ordered_parameter_assignment
+                                                          (param_expression
+                                                            (mintypmax_expression
+                                                              (expression
+                                                                (primary
+                                                                  (hierarchical_identifier
+                                                                    (simple_identifier))))))))))))
+                                              (hierarchical_identifier
+                                                (simple_identifier)))
                                             (method_call_body
                                               name: (simple_identifier)
                                               arguments: (list_of_arguments
@@ -1455,15 +1442,9 @@ endfunction: connect_coverage_model
                                       (function_subroutine_call
                                         (subroutine_call
                                           (method_call
-                                            (primary
-                                              (function_subroutine_call
-                                                (subroutine_call
-                                                  (method_call
-                                                    (primary
-                                                      (hierarchical_identifier
-                                                        (simple_identifier)))
-                                                    (method_call_body
-                                                      name: (simple_identifier))))))
+                                            (class_type
+                                              (simple_identifier)
+                                              (simple_identifier))
                                             (method_call_body
                                               name: (simple_identifier)
                                               arguments: (list_of_arguments
@@ -2471,15 +2452,67 @@ endfunction: connect_coverage_model
                       (function_subroutine_call
                         (subroutine_call
                           (method_call
-                            (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier))))))
+                            (class_type
+                              (simple_identifier)
+                              (simple_identifier))
+                            (method_call_body
+                              name: (simple_identifier)
+                              arguments: (list_of_arguments
+                                (expression
+                                  (primary
+                                    (primary_literal
+                                      (string_literal
+                                        (quoted_string
+                                          (quoted_string_item))))))
+                                (expression
+                                  (primary)))))))))))))))
+      (function_statement_or_null
+        (function_statement
+          (statement
+            (statement_item
+              (blocking_assignment
+                (operator_assignment
+                  (variable_lvalue
+                    (hierarchical_identifier
+                      (simple_identifier)))
+                  (assignment_operator)
+                  (expression
+                    (primary
+                      (function_subroutine_call
+                        (subroutine_call
+                          (method_call
+                            (class_type
+                              (simple_identifier)
+                              (simple_identifier))
+                            (method_call_body
+                              name: (simple_identifier)
+                              arguments: (list_of_arguments
+                                (expression
+                                  (primary
+                                    (primary_literal
+                                      (string_literal
+                                        (quoted_string
+                                          (quoted_string_item))))))
+                                (expression
+                                  (primary)))))))))))))))
+      (function_statement_or_null
+        (function_statement
+          (statement
+            (statement_item
+              (blocking_assignment
+                (operator_assignment
+                  (variable_lvalue
+                    (hierarchical_identifier
+                      (simple_identifier)))
+                  (assignment_operator)
+                  (expression
+                    (primary
+                      (function_subroutine_call
+                        (subroutine_call
+                          (method_call
+                            (class_type
+                              (simple_identifier)
+                              (simple_identifier))
                             (method_call_body
                               name: (simple_identifier)
                               arguments: (list_of_arguments
@@ -2507,14 +2540,28 @@ endfunction: connect_coverage_model
                         (subroutine_call
                           (method_call
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier))))))
+                              (class_qualifier
+                                (class_scope
+                                  (class_type
+                                    (simple_identifier)
+                                    (parameter_value_assignment
+                                      (list_of_parameter_value_assignments
+                                        (ordered_parameter_assignment
+                                          (param_expression
+                                            (mintypmax_expression
+                                              (expression
+                                                (primary
+                                                  (hierarchical_identifier
+                                                    (simple_identifier)))))))
+                                        (ordered_parameter_assignment
+                                          (param_expression
+                                            (mintypmax_expression
+                                              (expression
+                                                (primary
+                                                  (hierarchical_identifier
+                                                    (simple_identifier))))))))))))
+                              (hierarchical_identifier
+                                (simple_identifier)))
                             (method_call_body
                               name: (simple_identifier)
                               arguments: (list_of_arguments
@@ -2542,14 +2589,28 @@ endfunction: connect_coverage_model
                         (subroutine_call
                           (method_call
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier))))))
+                              (class_qualifier
+                                (class_scope
+                                  (class_type
+                                    (simple_identifier)
+                                    (parameter_value_assignment
+                                      (list_of_parameter_value_assignments
+                                        (ordered_parameter_assignment
+                                          (param_expression
+                                            (mintypmax_expression
+                                              (expression
+                                                (primary
+                                                  (hierarchical_identifier
+                                                    (simple_identifier)))))))
+                                        (ordered_parameter_assignment
+                                          (param_expression
+                                            (mintypmax_expression
+                                              (expression
+                                                (primary
+                                                  (hierarchical_identifier
+                                                    (simple_identifier))))))))))))
+                              (hierarchical_identifier
+                                (simple_identifier)))
                             (method_call_body
                               name: (simple_identifier)
                               arguments: (list_of_arguments
@@ -2576,30 +2637,9 @@ endfunction: connect_coverage_model
                       (function_subroutine_call
                         (subroutine_call
                           (method_call
-                            (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (class_type
-                                      (simple_identifier)
-                                      (parameter_value_assignment
-                                        (list_of_parameter_value_assignments
-                                          (ordered_parameter_assignment
-                                            (param_expression
-                                              (mintypmax_expression
-                                                (expression
-                                                  (primary
-                                                    (hierarchical_identifier
-                                                      (simple_identifier)))))))
-                                          (ordered_parameter_assignment
-                                            (param_expression
-                                              (mintypmax_expression
-                                                (expression
-                                                  (primary
-                                                    (hierarchical_identifier
-                                                      (simple_identifier))))))))))
-                                    (method_call_body
-                                      name: (simple_identifier))))))
+                            (class_type
+                              (simple_identifier)
+                              (simple_identifier))
                             (method_call_body
                               name: (simple_identifier)
                               arguments: (list_of_arguments
@@ -2626,100 +2666,9 @@ endfunction: connect_coverage_model
                       (function_subroutine_call
                         (subroutine_call
                           (method_call
-                            (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (class_type
-                                      (simple_identifier)
-                                      (parameter_value_assignment
-                                        (list_of_parameter_value_assignments
-                                          (ordered_parameter_assignment
-                                            (param_expression
-                                              (mintypmax_expression
-                                                (expression
-                                                  (primary
-                                                    (hierarchical_identifier
-                                                      (simple_identifier)))))))
-                                          (ordered_parameter_assignment
-                                            (param_expression
-                                              (mintypmax_expression
-                                                (expression
-                                                  (primary
-                                                    (hierarchical_identifier
-                                                      (simple_identifier))))))))))
-                                    (method_call_body
-                                      name: (simple_identifier))))))
-                            (method_call_body
-                              name: (simple_identifier)
-                              arguments: (list_of_arguments
-                                (expression
-                                  (primary
-                                    (primary_literal
-                                      (string_literal
-                                        (quoted_string
-                                          (quoted_string_item))))))
-                                (expression
-                                  (primary)))))))))))))))
-      (function_statement_or_null
-        (function_statement
-          (statement
-            (statement_item
-              (blocking_assignment
-                (operator_assignment
-                  (variable_lvalue
-                    (hierarchical_identifier
-                      (simple_identifier)))
-                  (assignment_operator)
-                  (expression
-                    (primary
-                      (function_subroutine_call
-                        (subroutine_call
-                          (method_call
-                            (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier))))))
-                            (method_call_body
-                              name: (simple_identifier)
-                              arguments: (list_of_arguments
-                                (expression
-                                  (primary
-                                    (primary_literal
-                                      (string_literal
-                                        (quoted_string
-                                          (quoted_string_item))))))
-                                (expression
-                                  (primary)))))))))))))))
-      (function_statement_or_null
-        (function_statement
-          (statement
-            (statement_item
-              (blocking_assignment
-                (operator_assignment
-                  (variable_lvalue
-                    (hierarchical_identifier
-                      (simple_identifier)))
-                  (assignment_operator)
-                  (expression
-                    (primary
-                      (function_subroutine_call
-                        (subroutine_call
-                          (method_call
-                            (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier))))))
+                            (class_type
+                              (simple_identifier)
+                              (simple_identifier))
                             (method_call_body
                               name: (simple_identifier)
                               arguments: (list_of_arguments
@@ -2769,29 +2718,28 @@ endfunction: connect_coverage_model
                                         (subroutine_call
                                           (method_call
                                             (primary
-                                              (function_subroutine_call
-                                                (subroutine_call
-                                                  (method_call
-                                                    (class_type
-                                                      (simple_identifier)
-                                                      (parameter_value_assignment
-                                                        (list_of_parameter_value_assignments
-                                                          (ordered_parameter_assignment
-                                                            (param_expression
-                                                              (mintypmax_expression
-                                                                (expression
-                                                                  (primary
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier)))))))
-                                                          (ordered_parameter_assignment
-                                                            (param_expression
-                                                              (mintypmax_expression
-                                                                (expression
-                                                                  (primary
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier))))))))))
-                                                    (method_call_body
-                                                      name: (simple_identifier))))))
+                                              (class_qualifier
+                                                (class_scope
+                                                  (class_type
+                                                    (simple_identifier)
+                                                    (parameter_value_assignment
+                                                      (list_of_parameter_value_assignments
+                                                        (ordered_parameter_assignment
+                                                          (param_expression
+                                                            (mintypmax_expression
+                                                              (expression
+                                                                (primary
+                                                                  (hierarchical_identifier
+                                                                    (simple_identifier)))))))
+                                                        (ordered_parameter_assignment
+                                                          (param_expression
+                                                            (mintypmax_expression
+                                                              (expression
+                                                                (primary
+                                                                  (hierarchical_identifier
+                                                                    (simple_identifier))))))))))))
+                                              (hierarchical_identifier
+                                                (simple_identifier)))
                                             (method_call_body
                                               name: (simple_identifier)
                                               arguments: (list_of_arguments
@@ -2832,15 +2780,9 @@ endfunction: connect_coverage_model
                                       (function_subroutine_call
                                         (subroutine_call
                                           (method_call
-                                            (primary
-                                              (function_subroutine_call
-                                                (subroutine_call
-                                                  (method_call
-                                                    (primary
-                                                      (hierarchical_identifier
-                                                        (simple_identifier)))
-                                                    (method_call_body
-                                                      name: (simple_identifier))))))
+                                            (class_type
+                                              (simple_identifier)
+                                              (simple_identifier))
                                             (method_call_body
                                               name: (simple_identifier)
                                               arguments: (list_of_arguments
@@ -2887,15 +2829,9 @@ endfunction: connect_coverage_model
                                       (function_subroutine_call
                                         (subroutine_call
                                           (method_call
-                                            (primary
-                                              (function_subroutine_call
-                                                (subroutine_call
-                                                  (method_call
-                                                    (primary
-                                                      (hierarchical_identifier
-                                                        (simple_identifier)))
-                                                    (method_call_body
-                                                      name: (simple_identifier))))))
+                                            (class_type
+                                              (simple_identifier)
+                                              (simple_identifier))
                                             (method_call_body
                                               name: (simple_identifier)
                                               arguments: (list_of_arguments
@@ -2936,15 +2872,9 @@ endfunction: connect_coverage_model
                                       (function_subroutine_call
                                         (subroutine_call
                                           (method_call
-                                            (primary
-                                              (function_subroutine_call
-                                                (subroutine_call
-                                                  (method_call
-                                                    (primary
-                                                      (hierarchical_identifier
-                                                        (simple_identifier)))
-                                                    (method_call_body
-                                                      name: (simple_identifier))))))
+                                            (class_type
+                                              (simple_identifier)
+                                              (simple_identifier))
                                             (method_call_body
                                               name: (simple_identifier)
                                               arguments: (list_of_arguments
@@ -2979,15 +2909,9 @@ endfunction: connect_coverage_model
                       (function_subroutine_call
                         (subroutine_call
                           (method_call
-                            (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier))))))
+                            (class_type
+                              (simple_identifier)
+                              (simple_identifier))
                             (method_call_body
                               name: (simple_identifier)
                               arguments: (list_of_arguments
@@ -3608,15 +3532,9 @@ endfunction: connect_coverage_model
                                                     (function_subroutine_call
                                                       (subroutine_call
                                                         (method_call
-                                                          (primary
-                                                            (function_subroutine_call
-                                                              (subroutine_call
-                                                                (method_call
-                                                                  (primary
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier)))
-                                                                  (method_call_body
-                                                                    name: (simple_identifier))))))
+                                                          (class_type
+                                                            (simple_identifier)
+                                                            (simple_identifier))
                                                           (method_call_body
                                                             name: (simple_identifier)
                                                             arguments: (list_of_arguments
@@ -3687,15 +3605,9 @@ endfunction: connect_coverage_model
                                                     (function_subroutine_call
                                                       (subroutine_call
                                                         (method_call
-                                                          (primary
-                                                            (function_subroutine_call
-                                                              (subroutine_call
-                                                                (method_call
-                                                                  (primary
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier)))
-                                                                  (method_call_body
-                                                                    name: (simple_identifier))))))
+                                                          (class_type
+                                                            (simple_identifier)
+                                                            (simple_identifier))
                                                           (method_call_body
                                                             name: (simple_identifier)
                                                             arguments: (list_of_arguments
@@ -3746,15 +3658,9 @@ endfunction: connect_coverage_model
                                     (function_subroutine_call
                                       (subroutine_call
                                         (method_call
-                                          (primary
-                                            (function_subroutine_call
-                                              (subroutine_call
-                                                (method_call
-                                                  (primary
-                                                    (hierarchical_identifier
-                                                      (simple_identifier)))
-                                                  (method_call_body
-                                                    name: (simple_identifier))))))
+                                          (class_type
+                                            (simple_identifier)
+                                            (simple_identifier))
                                           (method_call_body
                                             name: (simple_identifier)
                                             arguments: (list_of_arguments

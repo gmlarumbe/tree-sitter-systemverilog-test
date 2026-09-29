@@ -539,15 +539,9 @@ endmodule  // wt_l15_adapter
                   (constant_mintypmax_expression
                     (constant_expression
                       (constant_primary
-                        (constant_function_call
-                          (function_subroutine_call
-                            (subroutine_call
-                              (method_call
-                                (primary
-                                  (hierarchical_identifier
-                                    (simple_identifier)))
-                                (method_call_body
-                                  name: (simple_identifier))))))))))))))
+                        (package_scope
+                          (simple_identifier))
+                        (simple_identifier)))))))))
         (parameter_port_declaration
           (parameter_declaration
             (type_parameter_declaration
@@ -910,15 +904,9 @@ endmodule  // wt_l15_adapter
                         (constant_expression
                           left: (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier)))
                           right: (constant_expression
                             (constant_primary
                               (primary_literal
@@ -1681,15 +1669,9 @@ endmodule  // wt_l15_adapter
                 (simple_identifier))))
           right: (constant_expression
             (constant_primary
-              (constant_function_call
-                (function_subroutine_call
-                  (subroutine_call
-                    (method_call
-                      (primary
-                        (hierarchical_identifier
-                          (simple_identifier)))
-                      (method_call_body
-                        name: (simple_identifier)))))))))
+              (package_scope
+                (simple_identifier))
+              (simple_identifier))))
         (generate_block
           (continuous_assign
             (list_of_net_assignments
@@ -1722,15 +1704,9 @@ endmodule  // wt_l15_adapter
                       (simple_identifier))))
                 right: (constant_expression
                   (constant_primary
-                    (constant_function_call
-                      (function_subroutine_call
-                        (subroutine_call
-                          (method_call
-                            (primary
-                              (hierarchical_identifier
-                                (simple_identifier)))
-                            (method_call_body
-                              name: (simple_identifier)))))))))
+                    (package_scope
+                      (simple_identifier))
+                    (simple_identifier))))
               (generate_block
                 (continuous_assign
                   (list_of_net_assignments

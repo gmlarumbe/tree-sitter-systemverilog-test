@@ -215,14 +215,10 @@ endfunction : cva6pkg_to_core_cntrl_cfg
                           arguments: (list_of_arguments
                             (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier))))))))))))))))))
+                                (package_scope
+                                  (simple_identifier))
+                                (hierarchical_identifier
+                                  (simple_identifier)))))))))))))))
       (block_item_declaration
         (data_declaration
           (data_type_or_implicit
@@ -279,14 +275,10 @@ endfunction : cva6pkg_to_core_cntrl_cfg
                   (assignment_operator)
                   (expression
                     (primary
-                      (function_subroutine_call
-                        (subroutine_call
-                          (method_call
-                            (primary
-                              (hierarchical_identifier
-                                (simple_identifier)))
-                            (method_call_body
-                              name: (simple_identifier)))))))))))))
+                      (package_scope
+                        (simple_identifier))
+                      (hierarchical_identifier
+                        (simple_identifier))))))))))
       (function_statement_or_null
         (function_statement
           (statement
@@ -300,14 +292,10 @@ endfunction : cva6pkg_to_core_cntrl_cfg
                   (assignment_operator)
                   (expression
                     (primary
-                      (function_subroutine_call
-                        (subroutine_call
-                          (method_call
-                            (primary
-                              (hierarchical_identifier
-                                (simple_identifier)))
-                            (method_call_body
-                              name: (simple_identifier)))))))))))))
+                      (package_scope
+                        (simple_identifier))
+                      (hierarchical_identifier
+                        (simple_identifier))))))))))
       (function_statement_or_null
         (function_statement
           (statement

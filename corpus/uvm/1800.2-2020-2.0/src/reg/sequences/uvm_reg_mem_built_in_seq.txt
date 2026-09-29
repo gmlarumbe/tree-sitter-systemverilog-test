@@ -497,15 +497,9 @@ endclass: uvm_reg_mem_built_in_seq
                                         (function_subroutine_call
                                           (subroutine_call
                                             (method_call
-                                              (primary
-                                                (function_subroutine_call
-                                                  (subroutine_call
-                                                    (method_call
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))
-                                                      (method_call_body
-                                                        name: (simple_identifier))))))
+                                              (class_type
+                                                (simple_identifier)
+                                                (simple_identifier))
                                               (method_call_body
                                                 name: (simple_identifier)
                                                 arguments: (list_of_arguments
@@ -720,15 +714,9 @@ endclass: uvm_reg_mem_built_in_seq
                                         (function_subroutine_call
                                           (subroutine_call
                                             (method_call
-                                              (primary
-                                                (function_subroutine_call
-                                                  (subroutine_call
-                                                    (method_call
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))
-                                                      (method_call_body
-                                                        name: (simple_identifier))))))
+                                              (class_type
+                                                (simple_identifier)
+                                                (simple_identifier))
                                               (method_call_body
                                                 name: (simple_identifier)
                                                 arguments: (list_of_arguments
@@ -943,15 +931,9 @@ endclass: uvm_reg_mem_built_in_seq
                                         (function_subroutine_call
                                           (subroutine_call
                                             (method_call
-                                              (primary
-                                                (function_subroutine_call
-                                                  (subroutine_call
-                                                    (method_call
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))
-                                                      (method_call_body
-                                                        name: (simple_identifier))))))
+                                              (class_type
+                                                (simple_identifier)
+                                                (simple_identifier))
                                               (method_call_body
                                                 name: (simple_identifier)
                                                 arguments: (list_of_arguments
@@ -1215,15 +1197,9 @@ endclass: uvm_reg_mem_built_in_seq
                                         (function_subroutine_call
                                           (subroutine_call
                                             (method_call
-                                              (primary
-                                                (function_subroutine_call
-                                                  (subroutine_call
-                                                    (method_call
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))
-                                                      (method_call_body
-                                                        name: (simple_identifier))))))
+                                              (class_type
+                                                (simple_identifier)
+                                                (simple_identifier))
                                               (method_call_body
                                                 name: (simple_identifier)
                                                 arguments: (list_of_arguments
@@ -1438,15 +1414,9 @@ endclass: uvm_reg_mem_built_in_seq
                                         (function_subroutine_call
                                           (subroutine_call
                                             (method_call
-                                              (primary
-                                                (function_subroutine_call
-                                                  (subroutine_call
-                                                    (method_call
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))
-                                                      (method_call_body
-                                                        name: (simple_identifier))))))
+                                              (class_type
+                                                (simple_identifier)
+                                                (simple_identifier))
                                               (method_call_body
                                                 name: (simple_identifier)
                                                 arguments: (list_of_arguments
@@ -1661,15 +1631,9 @@ endclass: uvm_reg_mem_built_in_seq
                                         (function_subroutine_call
                                           (subroutine_call
                                             (method_call
-                                              (primary
-                                                (function_subroutine_call
-                                                  (subroutine_call
-                                                    (method_call
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))
-                                                      (method_call_body
-                                                        name: (simple_identifier))))))
+                                              (class_type
+                                                (simple_identifier)
+                                                (simple_identifier))
                                               (method_call_body
                                                 name: (simple_identifier)
                                                 arguments: (list_of_arguments

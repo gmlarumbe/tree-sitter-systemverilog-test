@@ -1620,14 +1620,10 @@ endmodule
                               (concatenation
                                 (expression
                                   (primary
-                                    (function_subroutine_call
-                                      (subroutine_call
-                                        (method_call
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier)))
-                                          (method_call_body
-                                            name: (simple_identifier)))))))))))))))))))
+                                    (package_scope
+                                      (simple_identifier))
+                                    (hierarchical_identifier
+                                      (simple_identifier))))))))))))))))
         (function_statement_or_null
           (function_statement
             (statement
@@ -1671,14 +1667,10 @@ endmodule
                           (list_of_arguments
                             (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))))))))))))
+                                (package_scope
+                                  (simple_identifier))
+                                (hierarchical_identifier
+                                  (simple_identifier))))))))))))))))
     (local_parameter_declaration
       (type_parameter_declaration
         (list_of_type_assignments
@@ -2093,15 +2085,9 @@ endmodule
               (constant_expression
                 left: (constant_expression
                   (constant_primary
-                    (constant_function_call
-                      (function_subroutine_call
-                        (subroutine_call
-                          (method_call
-                            (primary
-                              (hierarchical_identifier
-                                (simple_identifier)))
-                            (method_call_body
-                              name: (simple_identifier))))))))
+                    (package_scope
+                      (simple_identifier))
+                    (simple_identifier)))
                 right: (constant_expression
                   (constant_primary
                     (primary_literal
@@ -2555,15 +2541,9 @@ endmodule
               (constant_expression
                 left: (constant_expression
                   (constant_primary
-                    (constant_function_call
-                      (function_subroutine_call
-                        (subroutine_call
-                          (method_call
-                            (primary
-                              (hierarchical_identifier
-                                (simple_identifier)))
-                            (method_call_body
-                              name: (simple_identifier))))))))
+                    (package_scope
+                      (simple_identifier))
+                    (simple_identifier)))
                 right: (constant_expression
                   (constant_primary
                     (primary_literal
@@ -2595,47 +2575,31 @@ endmodule
                           (simple_identifier)
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))
                           (simple_identifier)
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))
                           (simple_identifier)
                           (expression
                             left: (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))
+                                (package_scope
+                                  (simple_identifier))
+                                (hierarchical_identifier
+                                  (simple_identifier))))
                             right: (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier))))))))))))
+                                (package_scope
+                                  (simple_identifier))
+                                (hierarchical_identifier
+                                  (simple_identifier)))))))))
                   (expression
                     (primary
                       (assignment_pattern_expression
@@ -2643,47 +2607,31 @@ endmodule
                           (simple_identifier)
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))
                           (simple_identifier)
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))
                           (simple_identifier)
                           (expression
                             left: (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))
+                                (package_scope
+                                  (simple_identifier))
+                                (hierarchical_identifier
+                                  (simple_identifier))))
                             right: (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier))))))))))))
+                                (package_scope
+                                  (simple_identifier))
+                                (hierarchical_identifier
+                                  (simple_identifier)))))))))
                   (expression
                     (primary
                       (assignment_pattern_expression
@@ -2691,47 +2639,31 @@ endmodule
                           (simple_identifier)
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))
                           (simple_identifier)
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))
                           (simple_identifier)
                           (expression
                             left: (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))
+                                (package_scope
+                                  (simple_identifier))
+                                (hierarchical_identifier
+                                  (simple_identifier))))
                             right: (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier))))))))))))
+                                (package_scope
+                                  (simple_identifier))
+                                (hierarchical_identifier
+                                  (simple_identifier)))))))))
                   (expression
                     (primary
                       (assignment_pattern_expression
@@ -2739,47 +2671,31 @@ endmodule
                           (simple_identifier)
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))
                           (simple_identifier)
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))
                           (simple_identifier)
                           (expression
                             left: (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))
+                                (package_scope
+                                  (simple_identifier))
+                                (hierarchical_identifier
+                                  (simple_identifier))))
                             right: (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier))))))))))))
+                                (package_scope
+                                  (simple_identifier))
+                                (hierarchical_identifier
+                                  (simple_identifier)))))))))
                   (expression
                     (primary
                       (assignment_pattern_expression
@@ -2787,47 +2703,31 @@ endmodule
                           (simple_identifier)
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))
                           (simple_identifier)
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))
                           (simple_identifier)
                           (expression
                             left: (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))
+                                (package_scope
+                                  (simple_identifier))
+                                (hierarchical_identifier
+                                  (simple_identifier))))
                             right: (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier))))))))))))
+                                (package_scope
+                                  (simple_identifier))
+                                (hierarchical_identifier
+                                  (simple_identifier)))))))))
                   (expression
                     (primary
                       (assignment_pattern_expression
@@ -2835,47 +2735,31 @@ endmodule
                           (simple_identifier)
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))
                           (simple_identifier)
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))
                           (simple_identifier)
                           (expression
                             left: (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))
+                                (package_scope
+                                  (simple_identifier))
+                                (hierarchical_identifier
+                                  (simple_identifier))))
                             right: (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier))))))))))))
+                                (package_scope
+                                  (simple_identifier))
+                                (hierarchical_identifier
+                                  (simple_identifier)))))))))
                   (expression
                     (primary
                       (assignment_pattern_expression
@@ -2883,47 +2767,31 @@ endmodule
                           (simple_identifier)
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))
                           (simple_identifier)
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))
                           (simple_identifier)
                           (expression
                             left: (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))
+                                (package_scope
+                                  (simple_identifier))
+                                (hierarchical_identifier
+                                  (simple_identifier))))
                             right: (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier))))))))))))
+                                (package_scope
+                                  (simple_identifier))
+                                (hierarchical_identifier
+                                  (simple_identifier)))))))))
                   (expression
                     (primary
                       (assignment_pattern_expression
@@ -2931,47 +2799,31 @@ endmodule
                           (simple_identifier)
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))
                           (simple_identifier)
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))
                           (simple_identifier)
                           (expression
                             left: (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))
+                                (package_scope
+                                  (simple_identifier))
+                                (hierarchical_identifier
+                                  (simple_identifier))))
                             right: (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier))))))))))))
+                                (package_scope
+                                  (simple_identifier))
+                                (hierarchical_identifier
+                                  (simple_identifier)))))))))
                   (expression
                     (primary
                       (assignment_pattern_expression
@@ -2979,47 +2831,31 @@ endmodule
                           (simple_identifier)
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))
                           (simple_identifier)
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))
                           (simple_identifier)
                           (expression
                             left: (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))
+                                (package_scope
+                                  (simple_identifier))
+                                (hierarchical_identifier
+                                  (simple_identifier))))
                             right: (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier))))))))))))
+                                (package_scope
+                                  (simple_identifier))
+                                (hierarchical_identifier
+                                  (simple_identifier)))))))))
                   (expression
                     (primary
                       (assignment_pattern_expression
@@ -3027,47 +2863,31 @@ endmodule
                           (simple_identifier)
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))
                           (simple_identifier)
                           (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (package_scope
+                                (simple_identifier))
+                              (hierarchical_identifier
+                                (simple_identifier))))
                           (simple_identifier)
                           (expression
                             left: (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))
+                                (package_scope
+                                  (simple_identifier))
+                                (hierarchical_identifier
+                                  (simple_identifier))))
                             right: (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))))))))))))
+                                (package_scope
+                                  (simple_identifier))
+                                (hierarchical_identifier
+                                  (simple_identifier))))))))))))))))
     (local_parameter_declaration
       (data_type_or_implicit
         (data_type
@@ -3086,25 +2906,17 @@ endmodule
                       (simple_identifier)
                       (expression
                         (primary
-                          (function_subroutine_call
-                            (subroutine_call
-                              (method_call
-                                (primary
-                                  (hierarchical_identifier
-                                    (simple_identifier)))
-                                (method_call_body
-                                  name: (simple_identifier)))))))
+                          (package_scope
+                            (simple_identifier))
+                          (hierarchical_identifier
+                            (simple_identifier))))
                       (simple_identifier)
                       (expression
                         (primary
-                          (function_subroutine_call
-                            (subroutine_call
-                              (method_call
-                                (primary
-                                  (hierarchical_identifier
-                                    (simple_identifier)))
-                                (method_call_body
-                                  name: (simple_identifier)))))))
+                          (package_scope
+                            (simple_identifier))
+                          (hierarchical_identifier
+                            (simple_identifier))))
                       (simple_identifier)
                       (expression
                         (primary
@@ -3133,14 +2945,10 @@ endmodule
                       (simple_identifier)
                       (expression
                         (primary
-                          (function_subroutine_call
-                            (subroutine_call
-                              (method_call
-                                (primary
-                                  (hierarchical_identifier
-                                    (simple_identifier)))
-                                (method_call_body
-                                  name: (simple_identifier)))))))
+                          (package_scope
+                            (simple_identifier))
+                          (hierarchical_identifier
+                            (simple_identifier))))
                       (simple_identifier)
                       (expression
                         (primary
@@ -3173,14 +2981,10 @@ endmodule
                       (simple_identifier)
                       (expression
                         (primary
-                          (function_subroutine_call
-                            (subroutine_call
-                              (method_call
-                                (primary
-                                  (hierarchical_identifier
-                                    (simple_identifier)))
-                                (method_call_body
-                                  name: (simple_identifier))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (hierarchical_identifier
+                            (simple_identifier)))))))))))))
     (module_instantiation
       instance_type: (simple_identifier)
       (parameter_value_assignment
@@ -3915,14 +3719,10 @@ endmodule
                 (concatenation
                   (expression
                     (primary
-                      (function_subroutine_call
-                        (subroutine_call
-                          (method_call
-                            (primary
-                              (hierarchical_identifier
-                                (simple_identifier)))
-                            (method_call_body
-                              name: (simple_identifier)))))))))))
+                      (package_scope
+                        (simple_identifier))
+                      (hierarchical_identifier
+                        (simple_identifier))))))))
           (named_port_connection
             port_name: (simple_identifier)
             connection: (expression
@@ -4271,15 +4071,9 @@ endmodule
                     (constant_bit_select
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))
                     (simple_identifier)))
                 (expression
                   (primary
@@ -4294,15 +4088,9 @@ endmodule
                     (constant_bit_select
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))
                     (simple_identifier)))
                 (expression
                   (primary
@@ -4372,15 +4160,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4391,15 +4173,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier))
                       (select
                         (constant_range
@@ -4424,15 +4200,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4443,15 +4213,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4462,15 +4226,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4481,15 +4239,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4500,15 +4252,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4519,15 +4265,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4538,15 +4278,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4557,15 +4291,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4576,15 +4304,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4595,15 +4317,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4614,15 +4330,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4633,15 +4343,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4652,15 +4356,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4671,15 +4369,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4690,15 +4382,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4709,15 +4395,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4728,15 +4408,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4747,15 +4421,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4766,15 +4434,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4785,15 +4447,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4804,15 +4460,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier))
                       (select
                         (constant_range
@@ -4837,15 +4487,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4856,15 +4500,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4875,15 +4513,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4894,15 +4526,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4913,15 +4539,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4932,15 +4552,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4951,15 +4565,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4970,15 +4578,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -4989,15 +4591,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -5008,15 +4604,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -5027,15 +4617,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -5046,15 +4630,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -5065,15 +4643,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -5084,15 +4656,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -5103,15 +4669,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -5122,15 +4682,9 @@ endmodule
                         (constant_bit_select
                           (constant_expression
                             (constant_primary
-                              (constant_function_call
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))))
+                              (package_scope
+                                (simple_identifier))
+                              (simple_identifier))))
                         (simple_identifier)))))
                 (named_port_connection
                   port_name: (simple_identifier)
@@ -5644,15 +5198,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -5675,15 +5223,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -5706,15 +5248,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -5737,15 +5273,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -5768,15 +5298,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -5799,15 +5323,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -5830,15 +5348,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -5861,15 +5373,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -5892,15 +5398,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -5923,15 +5423,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -5954,15 +5448,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -5985,15 +5473,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -6016,15 +5498,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -6035,15 +5511,9 @@ endmodule
                     (constant_bit_select
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))
                     (simple_identifier)))
                 (expression
                   (primary
@@ -6078,15 +5548,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -6109,15 +5573,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -6140,15 +5598,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -6171,15 +5623,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -6202,15 +5648,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -6221,15 +5661,9 @@ endmodule
                     (constant_bit_select
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))
                     (simple_identifier)))
                 (expression
                   (primary
@@ -6252,15 +5686,9 @@ endmodule
                     (constant_bit_select
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))
                     (simple_identifier)))
                 (expression
                   (primary
@@ -6283,15 +5711,9 @@ endmodule
                     (constant_bit_select
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))
                     (simple_identifier)))
                 (expression
                   (primary
@@ -6314,15 +5736,9 @@ endmodule
                     (constant_bit_select
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))
                     (simple_identifier)))
                 (expression
                   (primary
@@ -6345,15 +5761,9 @@ endmodule
                     (constant_bit_select
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))
                     (simple_identifier)))
                 (expression
                   (primary
@@ -6388,15 +5798,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -6419,15 +5823,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -6450,15 +5848,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -6481,15 +5873,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -6512,15 +5898,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -6543,15 +5923,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -6574,15 +5948,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -6605,15 +5973,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -6636,15 +5998,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -6667,15 +6023,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -6698,15 +6048,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -6729,15 +6073,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -6760,15 +6098,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier)))))))
           (continuous_assign
             (list_of_net_assignments
@@ -6779,15 +6111,9 @@ endmodule
                     (constant_bit_select
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))
                     (simple_identifier)))
                 (expression
                   (primary
@@ -6810,15 +6136,9 @@ endmodule
                     (constant_bit_select
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))
                     (simple_identifier)))
                 (expression
                   (primary
@@ -6841,15 +6161,9 @@ endmodule
                     (constant_bit_select
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))
                     (simple_identifier)))
                 (expression
                   (primary
@@ -6872,15 +6186,9 @@ endmodule
                     (constant_bit_select
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))
                     (simple_identifier)))
                 (expression
                   (primary
@@ -6903,15 +6211,9 @@ endmodule
                     (constant_bit_select
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))
                     (simple_identifier)))
                 (expression
                   (primary
@@ -6934,15 +6236,9 @@ endmodule
                     (constant_bit_select
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))
                     (simple_identifier)))
                 (expression
                   (primary
@@ -6965,15 +6261,9 @@ endmodule
                     (constant_bit_select
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))
                     (simple_identifier)))
                 (expression
                   (primary
@@ -7008,15 +6298,9 @@ endmodule
                       (constant_bit_select
                         (constant_expression
                           (constant_primary
-                            (constant_function_call
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))))
+                            (package_scope
+                              (simple_identifier))
+                            (simple_identifier))))
                       (simple_identifier))))))))))
     (data_declaration
       (data_type_or_implicit
@@ -7143,26 +6427,18 @@ endmodule
             port_name: (simple_identifier)
             connection: (expression
               (primary
-                (function_subroutine_call
-                  (subroutine_call
-                    (method_call
-                      (primary
-                        (hierarchical_identifier
-                          (simple_identifier)))
-                      (method_call_body
-                        name: (simple_identifier))))))))
+                (package_scope
+                  (simple_identifier))
+                (hierarchical_identifier
+                  (simple_identifier)))))
           (named_port_connection
             port_name: (simple_identifier)
             connection: (expression
               (primary
-                (function_subroutine_call
-                  (subroutine_call
-                    (method_call
-                      (primary
-                        (hierarchical_identifier
-                          (simple_identifier)))
-                      (method_call_body
-                        name: (simple_identifier))))))))
+                (package_scope
+                  (simple_identifier))
+                (hierarchical_identifier
+                  (simple_identifier)))))
           (named_port_connection
             port_name: (simple_identifier)
             connection: (expression
@@ -8587,14 +7863,10 @@ endmodule
             port_name: (simple_identifier)
             connection: (expression
               (primary
-                (function_subroutine_call
-                  (subroutine_call
-                    (method_call
-                      (primary
-                        (hierarchical_identifier
-                          (simple_identifier)))
-                      (method_call_body
-                        name: (simple_identifier))))))))
+                (package_scope
+                  (simple_identifier))
+                (hierarchical_identifier
+                  (simple_identifier)))))
           (one_line_comment)
           (named_port_connection
             port_name: (simple_identifier)
@@ -8915,14 +8187,10 @@ endmodule
                     (bit_select
                       (expression
                         (primary
-                          (function_subroutine_call
-                            (subroutine_call
-                              (method_call
-                                (primary
-                                  (hierarchical_identifier
-                                    (simple_identifier)))
-                                (method_call_body
-                                  name: (simple_identifier))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (hierarchical_identifier
+                            (simple_identifier)))))))))))))
     (text_macro_usage
       (simple_identifier)
       (list_of_actual_arguments
@@ -8937,14 +8205,10 @@ endmodule
                     (bit_select
                       (expression
                         (primary
-                          (function_subroutine_call
-                            (subroutine_call
-                              (method_call
-                                (primary
-                                  (hierarchical_identifier
-                                    (simple_identifier)))
-                                (method_call_body
-                                  name: (simple_identifier))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (hierarchical_identifier
+                            (simple_identifier)))))))))))
         (actual_argument
           (param_expression
             (mintypmax_expression
@@ -9017,14 +8281,10 @@ endmodule
                   (bit_select
                     (expression
                       (primary
-                        (function_subroutine_call
-                          (subroutine_call
-                            (method_call
-                              (primary
-                                (hierarchical_identifier
-                                  (simple_identifier)))
-                              (method_call_body
-                                name: (simple_identifier))))))))))))
+                        (package_scope
+                          (simple_identifier))
+                        (hierarchical_identifier
+                          (simple_identifier)))))))))
           (named_port_connection
             port_name: (simple_identifier)
             connection: (expression
@@ -9272,14 +8532,10 @@ endmodule
                   (bit_select
                     (expression
                       (primary
-                        (function_subroutine_call
-                          (subroutine_call
-                            (method_call
-                              (primary
-                                (hierarchical_identifier
-                                  (simple_identifier)))
-                              (method_call_body
-                                name: (simple_identifier))))))))))))
+                        (package_scope
+                          (simple_identifier))
+                        (hierarchical_identifier
+                          (simple_identifier)))))))))
           (named_port_connection
             port_name: (simple_identifier)
             connection: (expression
@@ -9290,14 +8546,10 @@ endmodule
                   (bit_select
                     (expression
                       (primary
-                        (function_subroutine_call
-                          (subroutine_call
-                            (method_call
-                              (primary
-                                (hierarchical_identifier
-                                  (simple_identifier)))
-                              (method_call_body
-                                name: (simple_identifier))))))))))))
+                        (package_scope
+                          (simple_identifier))
+                        (hierarchical_identifier
+                          (simple_identifier)))))))))
           (named_port_connection
             port_name: (simple_identifier)
             connection: (expression
@@ -9308,14 +8560,10 @@ endmodule
                   (bit_select
                     (expression
                       (primary
-                        (function_subroutine_call
-                          (subroutine_call
-                            (method_call
-                              (primary
-                                (hierarchical_identifier
-                                  (simple_identifier)))
-                              (method_call_body
-                                name: (simple_identifier))))))))))))
+                        (package_scope
+                          (simple_identifier))
+                        (hierarchical_identifier
+                          (simple_identifier)))))))))
           (named_port_connection
             port_name: (simple_identifier)
             connection: (expression
@@ -9326,14 +8574,10 @@ endmodule
                   (bit_select
                     (expression
                       (primary
-                        (function_subroutine_call
-                          (subroutine_call
-                            (method_call
-                              (primary
-                                (hierarchical_identifier
-                                  (simple_identifier)))
-                              (method_call_body
-                                name: (simple_identifier))))))))))))
+                        (package_scope
+                          (simple_identifier))
+                        (hierarchical_identifier
+                          (simple_identifier)))))))))
           (named_port_connection
             port_name: (simple_identifier)
             connection: (expression
@@ -9350,14 +8594,10 @@ endmodule
                   (bit_select
                     (expression
                       (primary
-                        (function_subroutine_call
-                          (subroutine_call
-                            (method_call
-                              (primary
-                                (hierarchical_identifier
-                                  (simple_identifier)))
-                              (method_call_body
-                                name: (simple_identifier))))))))))))
+                        (package_scope
+                          (simple_identifier))
+                        (hierarchical_identifier
+                          (simple_identifier)))))))))
           (named_port_connection
             port_name: (simple_identifier)
             connection: (expression
@@ -9368,14 +8608,10 @@ endmodule
                   (bit_select
                     (expression
                       (primary
-                        (function_subroutine_call
-                          (subroutine_call
-                            (method_call
-                              (primary
-                                (hierarchical_identifier
-                                  (simple_identifier)))
-                              (method_call_body
-                                name: (simple_identifier))))))))))))
+                        (package_scope
+                          (simple_identifier))
+                        (hierarchical_identifier
+                          (simple_identifier)))))))))
           (named_port_connection
             port_name: (simple_identifier)
             connection: (expression
@@ -9974,14 +9210,10 @@ endmodule
                   (bit_select
                     (expression
                       (primary
-                        (function_subroutine_call
-                          (subroutine_call
-                            (method_call
-                              (primary
-                                (hierarchical_identifier
-                                  (simple_identifier)))
-                              (method_call_body
-                                name: (simple_identifier))))))))))))
+                        (package_scope
+                          (simple_identifier))
+                        (hierarchical_identifier
+                          (simple_identifier)))))))))
           (named_port_connection
             port_name: (simple_identifier)
             connection: (expression

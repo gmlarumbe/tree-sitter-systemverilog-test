@@ -425,15 +425,9 @@ endmodule
                   (constant_mintypmax_expression
                     (constant_expression
                       (constant_primary
-                        (constant_function_call
-                          (function_subroutine_call
-                            (subroutine_call
-                              (method_call
-                                (primary
-                                  (hierarchical_identifier
-                                    (simple_identifier)))
-                                (method_call_body
-                                  name: (simple_identifier)))))))))))))))
+                        (package_scope
+                          (simple_identifier))
+                        (simple_identifier))))))))))
       (list_of_port_declarations
         (ansi_port_declaration
           (variable_port_header
@@ -1743,15 +1737,9 @@ endmodule
                   (constant_mintypmax_expression
                     (constant_expression
                       (constant_primary
-                        (constant_function_call
-                          (function_subroutine_call
-                            (subroutine_call
-                              (method_call
-                                (primary
-                                  (hierarchical_identifier
-                                    (simple_identifier)))
-                                (method_call_body
-                                  name: (simple_identifier)))))))))))))))
+                        (package_scope
+                          (simple_identifier))
+                        (simple_identifier))))))))))
       (list_of_port_declarations
         (ansi_port_declaration
           (variable_port_header

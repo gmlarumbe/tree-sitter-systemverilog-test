@@ -261,15 +261,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -290,15 +284,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -319,15 +307,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -364,15 +346,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (one_line_comment)
     (package_item
       (parameter_declaration
@@ -426,15 +402,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -487,15 +457,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -548,15 +512,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -609,15 +567,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -670,15 +622,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -731,15 +677,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -792,15 +732,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -853,15 +787,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -914,15 +842,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -975,15 +897,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (one_line_comment)
     (package_item
       (parameter_declaration
@@ -1029,15 +945,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -1074,15 +984,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -1119,15 +1023,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -1164,15 +1062,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -1209,15 +1101,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -1254,15 +1140,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -1299,15 +1179,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -1352,15 +1226,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -1405,15 +1273,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -1458,15 +1320,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (one_line_comment)
     (package_item
       (parameter_declaration
@@ -1504,15 +1360,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -1557,15 +1407,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -1610,15 +1454,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -1663,15 +1501,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (one_line_comment)
     (package_item
       (parameter_declaration
@@ -1717,15 +1549,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -1770,15 +1596,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -1823,15 +1643,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -1876,15 +1690,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -1929,15 +1737,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -1982,15 +1784,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -2035,15 +1831,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -2088,15 +1878,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -2141,15 +1925,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -2194,15 +1972,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -2247,15 +2019,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (one_line_comment)
     (package_item
       (parameter_declaration
@@ -2301,15 +2067,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -2354,15 +2114,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -2407,15 +2161,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -2460,15 +2208,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -2513,15 +2255,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -2566,15 +2302,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (one_line_comment)
     (package_item
       (parameter_declaration
@@ -2612,15 +2342,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -2657,15 +2381,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (one_line_comment)
     (package_item
       (parameter_declaration
@@ -2711,15 +2429,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -2764,15 +2476,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -2817,15 +2523,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -2870,15 +2570,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -2923,15 +2617,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -2976,15 +2664,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -3029,15 +2711,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -3074,15 +2750,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -3119,15 +2789,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -3164,15 +2828,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -3209,15 +2867,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -3254,15 +2906,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -3299,15 +2945,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -3336,15 +2976,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -3373,15 +3007,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -3410,15 +3038,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -3447,15 +3069,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -3484,15 +3100,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -3521,15 +3131,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -3558,15 +3162,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (one_line_comment)
     (package_item
       (parameter_declaration
@@ -3612,15 +3210,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -3665,15 +3257,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -3718,15 +3304,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -3771,15 +3351,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -3824,15 +3398,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (one_line_comment)
     (package_item
       (parameter_declaration
@@ -3894,15 +3462,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -3963,15 +3525,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -4032,15 +3588,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -4101,15 +3651,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -4170,15 +3714,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -4239,15 +3777,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -4308,15 +3840,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -4377,15 +3903,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -4446,15 +3966,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -4515,15 +4029,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -4584,15 +4092,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -4653,15 +4155,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -4722,15 +4218,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -4791,15 +4281,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -4860,15 +4344,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -4929,15 +4407,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -4998,15 +4470,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -5067,15 +4533,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -5136,15 +4596,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -5205,15 +4659,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -5274,15 +4722,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -5343,15 +4785,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (package_item
       (parameter_declaration
         (list_of_param_assignments
@@ -5412,15 +4848,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (one_line_comment)
     (package_item
       (parameter_declaration
@@ -5442,15 +4872,9 @@ endpackage
                                 value: (binary_value))))))
                       (constant_expression
                         (constant_primary
-                          (constant_function_call
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))))))))))))
+                          (package_scope
+                            (simple_identifier))
+                          (simple_identifier))))))))))))
     (one_line_comment)
     (package_item
       (parameter_declaration

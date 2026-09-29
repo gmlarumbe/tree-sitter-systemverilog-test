@@ -693,15 +693,9 @@ endmodule  // wt_dcache_missunit
                   (constant_mintypmax_expression
                     (constant_expression
                       (constant_primary
-                        (constant_function_call
-                          (function_subroutine_call
-                            (subroutine_call
-                              (method_call
-                                (primary
-                                  (hierarchical_identifier
-                                    (simple_identifier)))
-                                (method_call_body
-                                  name: (simple_identifier))))))))))))))
+                        (package_scope
+                          (simple_identifier))
+                        (simple_identifier)))))))))
         (parameter_port_declaration
           (parameter_declaration
             (list_of_param_assignments
@@ -3989,15 +3983,9 @@ endmodule  // wt_dcache_missunit
                       (simple_identifier))))
                 right: (constant_expression
                   (constant_primary
-                    (constant_function_call
-                      (function_subroutine_call
-                        (subroutine_call
-                          (method_call
-                            (primary
-                              (hierarchical_identifier
-                                (simple_identifier)))
-                            (method_call_body
-                              name: (simple_identifier)))))))))
+                    (package_scope
+                      (simple_identifier))
+                    (simple_identifier))))
               (generate_block
                 name: (simple_identifier)
                 (conditional_generate_construct

@@ -3822,14 +3822,10 @@ endmodule : axi_dw_downsizer
                                                                             (assignment_operator)
                                                                             (expression
                                                                               (primary
-                                                                                (function_subroutine_call
-                                                                                  (subroutine_call
-                                                                                    (method_call
-                                                                                      (primary
-                                                                                        (hierarchical_identifier
-                                                                                          (simple_identifier)))
-                                                                                      (method_call_body
-                                                                                        name: (simple_identifier))))))))))))
+                                                                                (package_scope
+                                                                                  (simple_identifier))
+                                                                                (hierarchical_identifier
+                                                                                  (simple_identifier)))))))))
                                                                   (statement_or_null
                                                                     (statement
                                                                       (statement_item
@@ -3846,14 +3842,10 @@ endmodule : axi_dw_downsizer
                                                                             (case_item_expression
                                                                               (expression
                                                                                 (primary
-                                                                                  (function_subroutine_call
-                                                                                    (subroutine_call
-                                                                                      (method_call
-                                                                                        (primary
-                                                                                          (hierarchical_identifier
-                                                                                            (simple_identifier)))
-                                                                                        (method_call_body
-                                                                                          name: (simple_identifier))))))))
+                                                                                  (package_scope
+                                                                                    (simple_identifier))
+                                                                                  (hierarchical_identifier
+                                                                                    (simple_identifier)))))
                                                                             (statement_or_null
                                                                               (statement
                                                                                 (statement_item
@@ -4185,14 +4177,10 @@ endmodule : axi_dw_downsizer
                                                                             (case_item_expression
                                                                               (expression
                                                                                 (primary
-                                                                                  (function_subroutine_call
-                                                                                    (subroutine_call
-                                                                                      (method_call
-                                                                                        (primary
-                                                                                          (hierarchical_identifier
-                                                                                            (simple_identifier)))
-                                                                                        (method_call_body
-                                                                                          name: (simple_identifier))))))))
+                                                                                  (package_scope
+                                                                                    (simple_identifier))
+                                                                                  (hierarchical_identifier
+                                                                                    (simple_identifier)))))
                                                                             (statement_or_null
                                                                               (statement
                                                                                 (statement_item
@@ -4507,14 +4495,10 @@ endmodule : axi_dw_downsizer
                                                                                                                               (assignment_operator)
                                                                                                                               (expression
                                                                                                                                 (primary
-                                                                                                                                  (function_subroutine_call
-                                                                                                                                    (subroutine_call
-                                                                                                                                      (method_call
-                                                                                                                                        (primary
-                                                                                                                                          (hierarchical_identifier
-                                                                                                                                            (simple_identifier)))
-                                                                                                                                        (method_call_body
-                                                                                                                                          name: (simple_identifier))))))))))))))))))))))))
+                                                                                                                                  (package_scope
+                                                                                                                                    (simple_identifier))
+                                                                                                                                  (hierarchical_identifier
+                                                                                                                                    (simple_identifier)))))))))))))))))))))
                                                                                             (statement_or_null
                                                                                               (statement
                                                                                                 (statement_item
@@ -4542,14 +4526,10 @@ endmodule : axi_dw_downsizer
                                                                             (case_item_expression
                                                                               (expression
                                                                                 (primary
-                                                                                  (function_subroutine_call
-                                                                                    (subroutine_call
-                                                                                      (method_call
-                                                                                        (primary
-                                                                                          (hierarchical_identifier
-                                                                                            (simple_identifier)))
-                                                                                        (method_call_body
-                                                                                          name: (simple_identifier))))))))
+                                                                                  (package_scope
+                                                                                    (simple_identifier))
+                                                                                  (hierarchical_identifier
+                                                                                    (simple_identifier)))))
                                                                             (statement_or_null
                                                                               (statement
                                                                                 (statement_item
@@ -4861,14 +4841,10 @@ endmodule : axi_dw_downsizer
                                             (assignment_operator)
                                             (expression
                                               (primary
-                                                (function_subroutine_call
-                                                  (subroutine_call
-                                                    (method_call
-                                                      (primary
-                                                        (hierarchical_identifier
-                                                          (simple_identifier)))
-                                                      (method_call_body
-                                                        name: (simple_identifier))))))))))))
+                                                (package_scope
+                                                  (simple_identifier))
+                                                (hierarchical_identifier
+                                                  (simple_identifier)))))))))
                                   (one_line_comment)
                                   (statement_or_null
                                     (statement
@@ -4899,14 +4875,10 @@ endmodule : axi_dw_downsizer
                                             (case_item_expression
                                               (expression
                                                 (primary
-                                                  (function_subroutine_call
-                                                    (subroutine_call
-                                                      (method_call
-                                                        (primary
-                                                          (hierarchical_identifier
-                                                            (simple_identifier)))
-                                                        (method_call_body
-                                                          name: (simple_identifier))))))))
+                                                  (package_scope
+                                                    (simple_identifier))
+                                                  (hierarchical_identifier
+                                                    (simple_identifier)))))
                                             (statement_or_null
                                               (statement
                                                 (statement_item
@@ -5238,14 +5210,10 @@ endmodule : axi_dw_downsizer
                                             (case_item_expression
                                               (expression
                                                 (primary
-                                                  (function_subroutine_call
-                                                    (subroutine_call
-                                                      (method_call
-                                                        (primary
-                                                          (hierarchical_identifier
-                                                            (simple_identifier)))
-                                                        (method_call_body
-                                                          name: (simple_identifier))))))))
+                                                  (package_scope
+                                                    (simple_identifier))
+                                                  (hierarchical_identifier
+                                                    (simple_identifier)))))
                                             (statement_or_null
                                               (statement
                                                 (statement_item
@@ -5560,14 +5528,10 @@ endmodule : axi_dw_downsizer
                                                                                               (assignment_operator)
                                                                                               (expression
                                                                                                 (primary
-                                                                                                  (function_subroutine_call
-                                                                                                    (subroutine_call
-                                                                                                      (method_call
-                                                                                                        (primary
-                                                                                                          (hierarchical_identifier
-                                                                                                            (simple_identifier)))
-                                                                                                        (method_call_body
-                                                                                                          name: (simple_identifier))))))))))))))))))))))))
+                                                                                                  (package_scope
+                                                                                                    (simple_identifier))
+                                                                                                  (hierarchical_identifier
+                                                                                                    (simple_identifier)))))))))))))))))))))
                                                             (statement_or_null
                                                               (statement
                                                                 (statement_item
@@ -5595,14 +5559,10 @@ endmodule : axi_dw_downsizer
                                             (case_item_expression
                                               (expression
                                                 (primary
-                                                  (function_subroutine_call
-                                                    (subroutine_call
-                                                      (method_call
-                                                        (primary
-                                                          (hierarchical_identifier
-                                                            (simple_identifier)))
-                                                        (method_call_body
-                                                          name: (simple_identifier))))))))
+                                                  (package_scope
+                                                    (simple_identifier))
+                                                  (hierarchical_identifier
+                                                    (simple_identifier)))))
                                             (statement_or_null
                                               (statement
                                                 (statement_item
@@ -6318,14 +6278,10 @@ endmodule : axi_dw_downsizer
                                                                                             (case_item_expression
                                                                                               (expression
                                                                                                 (primary
-                                                                                                  (function_subroutine_call
-                                                                                                    (subroutine_call
-                                                                                                      (method_call
-                                                                                                        (primary
-                                                                                                          (hierarchical_identifier
-                                                                                                            (simple_identifier)))
-                                                                                                        (method_call_body
-                                                                                                          name: (simple_identifier))))))))
+                                                                                                  (package_scope
+                                                                                                    (simple_identifier))
+                                                                                                  (hierarchical_identifier
+                                                                                                    (simple_identifier)))))
                                                                                             (statement_or_null
                                                                                               (statement
                                                                                                 (statement_item
@@ -6404,14 +6360,10 @@ endmodule : axi_dw_downsizer
                                                                                             (case_item_expression
                                                                                               (expression
                                                                                                 (primary
-                                                                                                  (function_subroutine_call
-                                                                                                    (subroutine_call
-                                                                                                      (method_call
-                                                                                                        (primary
-                                                                                                          (hierarchical_identifier
-                                                                                                            (simple_identifier)))
-                                                                                                        (method_call_body
-                                                                                                          name: (simple_identifier))))))))
+                                                                                                  (package_scope
+                                                                                                    (simple_identifier))
+                                                                                                  (hierarchical_identifier
+                                                                                                    (simple_identifier)))))
                                                                                             (statement_or_null
                                                                                               (statement
                                                                                                 (statement_item
@@ -8075,14 +8027,10 @@ endmodule : axi_dw_downsizer
                                                         (case_item_expression
                                                           (expression
                                                             (primary
-                                                              (function_subroutine_call
-                                                                (subroutine_call
-                                                                  (method_call
-                                                                    (primary
-                                                                      (hierarchical_identifier
-                                                                        (simple_identifier)))
-                                                                    (method_call_body
-                                                                      name: (simple_identifier))))))))
+                                                              (package_scope
+                                                                (simple_identifier))
+                                                              (hierarchical_identifier
+                                                                (simple_identifier)))))
                                                         (statement_or_null
                                                           (statement
                                                             (statement_item
@@ -8161,14 +8109,10 @@ endmodule : axi_dw_downsizer
                                                         (case_item_expression
                                                           (expression
                                                             (primary
-                                                              (function_subroutine_call
-                                                                (subroutine_call
-                                                                  (method_call
-                                                                    (primary
-                                                                      (hierarchical_identifier
-                                                                        (simple_identifier)))
-                                                                    (method_call_body
-                                                                      name: (simple_identifier))))))))
+                                                              (package_scope
+                                                                (simple_identifier))
+                                                              (hierarchical_identifier
+                                                                (simple_identifier)))))
                                                         (statement_or_null
                                                           (statement
                                                             (statement_item
@@ -8630,14 +8574,10 @@ endmodule : axi_dw_downsizer
                                       (assignment_operator)
                                       (expression
                                         (primary
-                                          (function_subroutine_call
-                                            (subroutine_call
-                                              (method_call
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier)))
-                                                (method_call_body
-                                                  name: (simple_identifier))))))))))))
+                                          (package_scope
+                                            (simple_identifier))
+                                          (hierarchical_identifier
+                                            (simple_identifier)))))))))
                             (statement_or_null
                               (statement
                                 (statement_item
@@ -8673,14 +8613,10 @@ endmodule : axi_dw_downsizer
                                                               (bit_select
                                                                 (expression
                                                                   (primary
-                                                                    (function_subroutine_call
-                                                                      (subroutine_call
-                                                                        (method_call
-                                                                          (primary
-                                                                            (hierarchical_identifier
-                                                                              (simple_identifier)))
-                                                                          (method_call_body
-                                                                            name: (simple_identifier)))))))))))))
+                                                                    (package_scope
+                                                                      (simple_identifier))
+                                                                    (hierarchical_identifier
+                                                                      (simple_identifier))))))))))
                                                     (statement_or_null
                                                       (statement
                                                         (statement_item
@@ -8922,14 +8858,10 @@ endmodule : axi_dw_downsizer
                                                                       (case_item_expression
                                                                         (expression
                                                                           (primary
-                                                                            (function_subroutine_call
-                                                                              (subroutine_call
-                                                                                (method_call
-                                                                                  (primary
-                                                                                    (hierarchical_identifier
-                                                                                      (simple_identifier)))
-                                                                                  (method_call_body
-                                                                                    name: (simple_identifier))))))))
+                                                                            (package_scope
+                                                                              (simple_identifier))
+                                                                            (hierarchical_identifier
+                                                                              (simple_identifier)))))
                                                                       (statement_or_null
                                                                         (statement
                                                                           (statement_item
@@ -9261,14 +9193,10 @@ endmodule : axi_dw_downsizer
                                                                       (case_item_expression
                                                                         (expression
                                                                           (primary
-                                                                            (function_subroutine_call
-                                                                              (subroutine_call
-                                                                                (method_call
-                                                                                  (primary
-                                                                                    (hierarchical_identifier
-                                                                                      (simple_identifier)))
-                                                                                  (method_call_body
-                                                                                    name: (simple_identifier))))))))
+                                                                            (package_scope
+                                                                              (simple_identifier))
+                                                                            (hierarchical_identifier
+                                                                              (simple_identifier)))))
                                                                       (statement_or_null
                                                                         (statement
                                                                           (statement_item
@@ -9583,14 +9511,10 @@ endmodule : axi_dw_downsizer
                                                                                                                         (assignment_operator)
                                                                                                                         (expression
                                                                                                                           (primary
-                                                                                                                            (function_subroutine_call
-                                                                                                                              (subroutine_call
-                                                                                                                                (method_call
-                                                                                                                                  (primary
-                                                                                                                                    (hierarchical_identifier
-                                                                                                                                      (simple_identifier)))
-                                                                                                                                  (method_call_body
-                                                                                                                                    name: (simple_identifier))))))))))))))))))))))))
+                                                                                                                            (package_scope
+                                                                                                                              (simple_identifier))
+                                                                                                                            (hierarchical_identifier
+                                                                                                                              (simple_identifier)))))))))))))))))))))
                                                                                       (statement_or_null
                                                                                         (statement
                                                                                           (statement_item
@@ -9618,14 +9542,10 @@ endmodule : axi_dw_downsizer
                                                                       (case_item_expression
                                                                         (expression
                                                                           (primary
-                                                                            (function_subroutine_call
-                                                                              (subroutine_call
-                                                                                (method_call
-                                                                                  (primary
-                                                                                    (hierarchical_identifier
-                                                                                      (simple_identifier)))
-                                                                                  (method_call_body
-                                                                                    name: (simple_identifier))))))))
+                                                                            (package_scope
+                                                                              (simple_identifier))
+                                                                            (hierarchical_identifier
+                                                                              (simple_identifier)))))
                                                                       (statement_or_null
                                                                         (statement
                                                                           (statement_item

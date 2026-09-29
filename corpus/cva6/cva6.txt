@@ -1877,14 +1877,10 @@ endmodule  // ariane
                                   arguments: (list_of_arguments
                                     (expression
                                       (primary
-                                        (function_subroutine_call
-                                          (subroutine_call
-                                            (method_call
-                                              (primary
-                                                (hierarchical_identifier
-                                                  (simple_identifier)))
-                                              (method_call_body
-                                                name: (simple_identifier)))))))))))))))))))))
+                                        (package_scope
+                                          (simple_identifier))
+                                        (hierarchical_identifier
+                                          (simple_identifier))))))))))))))))))
         (one_line_comment)
         (parameter_port_declaration
           (parameter_declaration
@@ -5701,14 +5697,10 @@ endmodule  // ariane
                                   (simple_identifier)))
                               (expression
                                 (primary
-                                  (function_subroutine_call
-                                    (subroutine_call
-                                      (method_call
-                                        (primary
-                                          (hierarchical_identifier
-                                            (simple_identifier)))
-                                        (method_call_body
-                                          name: (simple_identifier)))))))))))
+                                  (package_scope
+                                    (simple_identifier))
+                                  (hierarchical_identifier
+                                    (simple_identifier))))))))
                       (simple_identifier)
                       (expression
                         left: (expression
@@ -5750,14 +5742,10 @@ endmodule  // ariane
                                   (simple_identifier)))
                               (expression
                                 (primary
-                                  (function_subroutine_call
-                                    (subroutine_call
-                                      (method_call
-                                        (primary
-                                          (hierarchical_identifier
-                                            (simple_identifier)))
-                                        (method_call_body
-                                          name: (simple_identifier)))))))))))
+                                  (package_scope
+                                    (simple_identifier))
+                                  (hierarchical_identifier
+                                    (simple_identifier))))))))
                       (simple_identifier)
                       (expression
                         left: (expression
@@ -5799,14 +5787,10 @@ endmodule  // ariane
                                   (simple_identifier)))
                               (expression
                                 (primary
-                                  (function_subroutine_call
-                                    (subroutine_call
-                                      (method_call
-                                        (primary
-                                          (hierarchical_identifier
-                                            (simple_identifier)))
-                                        (method_call_body
-                                          name: (simple_identifier)))))))))))
+                                  (package_scope
+                                    (simple_identifier))
+                                  (hierarchical_identifier
+                                    (simple_identifier))))))))
                       (simple_identifier)
                       (expression
                         left: (expression
@@ -5848,14 +5832,10 @@ endmodule  // ariane
                                   (simple_identifier)))
                               (expression
                                 (primary
-                                  (function_subroutine_call
-                                    (subroutine_call
-                                      (method_call
-                                        (primary
-                                          (hierarchical_identifier
-                                            (simple_identifier)))
-                                        (method_call_body
-                                          name: (simple_identifier)))))))))))
+                                  (package_scope
+                                    (simple_identifier))
+                                  (hierarchical_identifier
+                                    (simple_identifier))))))))
                       (simple_identifier)
                       (expression
                         left: (expression
@@ -5897,14 +5877,10 @@ endmodule  // ariane
                                   (simple_identifier)))
                               (expression
                                 (primary
-                                  (function_subroutine_call
-                                    (subroutine_call
-                                      (method_call
-                                        (primary
-                                          (hierarchical_identifier
-                                            (simple_identifier)))
-                                        (method_call_body
-                                          name: (simple_identifier)))))))))))
+                                  (package_scope
+                                    (simple_identifier))
+                                  (hierarchical_identifier
+                                    (simple_identifier))))))))
                       (simple_identifier)
                       (expression
                         left: (expression
@@ -5946,14 +5922,10 @@ endmodule  // ariane
                                   (simple_identifier)))
                               (expression
                                 (primary
-                                  (function_subroutine_call
-                                    (subroutine_call
-                                      (method_call
-                                        (primary
-                                          (hierarchical_identifier
-                                            (simple_identifier)))
-                                        (method_call_body
-                                          name: (simple_identifier)))))))))))
+                                  (package_scope
+                                    (simple_identifier))
+                                  (hierarchical_identifier
+                                    (simple_identifier))))))))
                       (simple_identifier)
                       (expression
                         left: (expression
@@ -5995,14 +5967,10 @@ endmodule  // ariane
                                   (simple_identifier)))
                               (expression
                                 (primary
-                                  (function_subroutine_call
-                                    (subroutine_call
-                                      (method_call
-                                        (primary
-                                          (hierarchical_identifier
-                                            (simple_identifier)))
-                                        (method_call_body
-                                          name: (simple_identifier)))))))))))
+                                  (package_scope
+                                    (simple_identifier))
+                                  (hierarchical_identifier
+                                    (simple_identifier))))))))
                       (simple_identifier)
                       (expression
                         left: (expression
@@ -6044,14 +6012,10 @@ endmodule  // ariane
                                   (simple_identifier)))
                               (expression
                                 (primary
-                                  (function_subroutine_call
-                                    (subroutine_call
-                                      (method_call
-                                        (primary
-                                          (hierarchical_identifier
-                                            (simple_identifier)))
-                                        (method_call_body
-                                          name: (simple_identifier)))))))))))
+                                  (package_scope
+                                    (simple_identifier))
+                                  (hierarchical_identifier
+                                    (simple_identifier))))))))
                       (simple_identifier)
                       (expression
                         left: (expression
@@ -6093,14 +6057,10 @@ endmodule  // ariane
                                   (simple_identifier)))
                               (expression
                                 (primary
-                                  (function_subroutine_call
-                                    (subroutine_call
-                                      (method_call
-                                        (primary
-                                          (hierarchical_identifier
-                                            (simple_identifier)))
-                                        (method_call_body
-                                          name: (simple_identifier)))))))))))
+                                  (package_scope
+                                    (simple_identifier))
+                                  (hierarchical_identifier
+                                    (simple_identifier))))))))
                       (simple_identifier)
                       (expression
                         left: (expression
@@ -6142,14 +6102,10 @@ endmodule  // ariane
                                   (simple_identifier)))
                               (expression
                                 (primary
-                                  (function_subroutine_call
-                                    (subroutine_call
-                                      (method_call
-                                        (primary
-                                          (hierarchical_identifier
-                                            (simple_identifier)))
-                                        (method_call_body
-                                          name: (simple_identifier))))))))))))))))))))
+                                  (package_scope
+                                    (simple_identifier))
+                                  (hierarchical_identifier
+                                    (simple_identifier)))))))))))))))))
     (one_line_comment)
     (one_line_comment)
     (one_line_comment)
@@ -13774,15 +13730,9 @@ endmodule  // ariane
                 (simple_identifier))))
           right: (constant_expression
             (constant_primary
-              (constant_function_call
-                (function_subroutine_call
-                  (subroutine_call
-                    (method_call
-                      (primary
-                        (hierarchical_identifier
-                          (simple_identifier)))
-                      (method_call_body
-                        name: (simple_identifier)))))))))
+              (package_scope
+                (simple_identifier))
+              (simple_identifier))))
         (generate_block
           name: (simple_identifier)
           (one_line_comment)
@@ -14060,15 +14010,9 @@ endmodule  // ariane
                           (simple_identifier))))
                     right: (constant_expression
                       (constant_primary
-                        (constant_function_call
-                          (function_subroutine_call
-                            (subroutine_call
-                              (method_call
-                                (primary
-                                  (hierarchical_identifier
-                                    (simple_identifier)))
-                                (method_call_body
-                                  name: (simple_identifier)))))))))
+                        (package_scope
+                          (simple_identifier))
+                        (simple_identifier))))
                   right: (constant_expression
                     left: (constant_expression
                       (constant_primary
@@ -14077,15 +14021,9 @@ endmodule  // ariane
                           (simple_identifier))))
                     right: (constant_expression
                       (constant_primary
-                        (constant_function_call
-                          (function_subroutine_call
-                            (subroutine_call
-                              (method_call
-                                (primary
-                                  (hierarchical_identifier
-                                    (simple_identifier)))
-                                (method_call_body
-                                  name: (simple_identifier))))))))))
+                        (package_scope
+                          (simple_identifier))
+                        (simple_identifier)))))
                 right: (constant_expression
                   left: (constant_expression
                     (constant_primary
@@ -14094,15 +14032,9 @@ endmodule  // ariane
                         (simple_identifier))))
                   right: (constant_expression
                     (constant_primary
-                      (constant_function_call
-                        (function_subroutine_call
-                          (subroutine_call
-                            (method_call
-                              (primary
-                                (hierarchical_identifier
-                                  (simple_identifier)))
-                              (method_call_body
-                                name: (simple_identifier))))))))))
+                      (package_scope
+                        (simple_identifier))
+                      (simple_identifier)))))
               (generate_block
                 name: (simple_identifier)
                 (module_instantiation
@@ -16190,14 +16122,10 @@ endmodule  // ariane
                                                               (case_item_expression
                                                                 (expression
                                                                   (primary
-                                                                    (function_subroutine_call
-                                                                      (subroutine_call
-                                                                        (method_call
-                                                                          (primary
-                                                                            (hierarchical_identifier
-                                                                              (simple_identifier)))
-                                                                          (method_call_body
-                                                                            name: (simple_identifier))))))))
+                                                                    (package_scope
+                                                                      (simple_identifier))
+                                                                    (hierarchical_identifier
+                                                                      (simple_identifier)))))
                                                               (statement_or_null
                                                                 (statement
                                                                   (statement_item
@@ -16217,14 +16145,10 @@ endmodule  // ariane
                                                               (case_item_expression
                                                                 (expression
                                                                   (primary
-                                                                    (function_subroutine_call
-                                                                      (subroutine_call
-                                                                        (method_call
-                                                                          (primary
-                                                                            (hierarchical_identifier
-                                                                              (simple_identifier)))
-                                                                          (method_call_body
-                                                                            name: (simple_identifier))))))))
+                                                                    (package_scope
+                                                                      (simple_identifier))
+                                                                    (hierarchical_identifier
+                                                                      (simple_identifier)))))
                                                               (statement_or_null
                                                                 (statement
                                                                   (statement_item
@@ -16254,14 +16178,10 @@ endmodule  // ariane
                                                               (case_item_expression
                                                                 (expression
                                                                   (primary
-                                                                    (function_subroutine_call
-                                                                      (subroutine_call
-                                                                        (method_call
-                                                                          (primary
-                                                                            (hierarchical_identifier
-                                                                              (simple_identifier)))
-                                                                          (method_call_body
-                                                                            name: (simple_identifier))))))))
+                                                                    (package_scope
+                                                                      (simple_identifier))
+                                                                    (hierarchical_identifier
+                                                                      (simple_identifier)))))
                                                               (statement_or_null
                                                                 (statement
                                                                   (statement_item
