@@ -3272,7 +3272,8 @@ endclass : uvm_text_recorder
                                               (expression
                                                 (primary
                                                   (hierarchical_identifier
-                                                    (simple_identifier))))
+                                                    (simple_identifier)))))
+                                            (bit_select
                                               (expression
                                                 (primary
                                                   (function_subroutine_call
@@ -3317,7 +3318,8 @@ endclass : uvm_text_recorder
                                               (expression
                                                 (primary
                                                   (hierarchical_identifier
-                                                    (simple_identifier))))
+                                                    (simple_identifier)))))
+                                            (bit_select
                                               (expression
                                                 (primary
                                                   (function_subroutine_call
@@ -3949,7 +3951,8 @@ endclass : uvm_text_recorder
                                       (expression
                                         (primary
                                           (hierarchical_identifier
-                                            (simple_identifier))))
+                                            (simple_identifier)))))
+                                    (bit_select
                                       (expression
                                         (primary
                                           (hierarchical_identifier

@@ -1114,7 +1114,8 @@ endmodule
                                           (primary_literal
                                             (integral_number
                                               (decimal_number
-                                                (unsigned_number))))))
+                                                (unsigned_number)))))))
+                                    (bit_select
                                       (expression
                                         left: (expression
                                           left: (expression
@@ -1263,7 +1264,8 @@ endmodule
                                   (primary_literal
                                     (integral_number
                                       (decimal_number
-                                        (unsigned_number))))))
+                                        (unsigned_number)))))))
+                            (bit_select
                               (expression
                                 left: (expression
                                   left: (expression

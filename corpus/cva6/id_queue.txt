@@ -2026,7 +2026,8 @@ endmodule
                                                                                                     (constant_expression
                                                                                                       (constant_primary
                                                                                                         (simple_identifier))))
-                                                                                                  (simple_identifier))))
+                                                                                                  (simple_identifier)))))
+                                                                                          (bit_select
                                                                                             (expression
                                                                                               (primary
                                                                                                 (primary_literal
@@ -2344,7 +2345,8 @@ endmodule
                                                                                                     (constant_expression
                                                                                                       (constant_primary
                                                                                                         (simple_identifier))))
-                                                                                                  (simple_identifier))))
+                                                                                                  (simple_identifier)))))
+                                                                                          (bit_select
                                                                                             (expression
                                                                                               (primary
                                                                                                 (primary_literal
@@ -3636,7 +3638,8 @@ endmodule
                                                       (expression
                                                         (primary
                                                           (hierarchical_identifier
-                                                            (simple_identifier))))
+                                                            (simple_identifier)))))
+                                                    (bit_select
                                                       (expression
                                                         (primary
                                                           (primary_literal

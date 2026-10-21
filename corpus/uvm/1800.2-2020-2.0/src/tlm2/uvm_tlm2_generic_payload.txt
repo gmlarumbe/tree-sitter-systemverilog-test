@@ -2892,12 +2892,10 @@ endclass
                                     argument: (primary
                                       (function_subroutine_call
                                         (subroutine_call
-                                          (method_call
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (method_call_body
-                                              name: (simple_identifier)))))))
+                                          (tf_call
+                                            (hierarchical_identifier
+                                              (simple_identifier)
+                                              (simple_identifier)))))))
                                   right: (expression
                                     (primary
                                       (mintypmax_expression
@@ -2906,12 +2904,10 @@ endclass
                                             (primary
                                               (function_subroutine_call
                                                 (subroutine_call
-                                                  (method_call
-                                                    (primary
-                                                      (hierarchical_identifier
-                                                        (simple_identifier)))
-                                                    (method_call_body
-                                                      name: (simple_identifier)))))))
+                                                  (tf_call
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)))))))
                                           right: (expression
                                             (primary
                                               (function_subroutine_call
@@ -3047,12 +3043,10 @@ endclass
                                     argument: (primary
                                       (function_subroutine_call
                                         (subroutine_call
-                                          (method_call
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (method_call_body
-                                              name: (simple_identifier)))))))
+                                          (tf_call
+                                            (hierarchical_identifier
+                                              (simple_identifier)
+                                              (simple_identifier)))))))
                                   right: (expression
                                     (primary
                                       (mintypmax_expression
@@ -3061,12 +3055,10 @@ endclass
                                             (primary
                                               (function_subroutine_call
                                                 (subroutine_call
-                                                  (method_call
-                                                    (primary
-                                                      (hierarchical_identifier
-                                                        (simple_identifier)))
-                                                    (method_call_body
-                                                      name: (simple_identifier)))))))
+                                                  (tf_call
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)))))))
                                           right: (expression
                                             (primary
                                               (function_subroutine_call
@@ -3285,12 +3277,10 @@ endclass
                                     (primary
                                       (function_subroutine_call
                                         (subroutine_call
-                                          (method_call
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (method_call_body
-                                              name: (simple_identifier)))))))
+                                          (tf_call
+                                            (hierarchical_identifier
+                                              (simple_identifier)
+                                              (simple_identifier)))))))
                                   right: (expression
                                     (primary
                                       (function_subroutine_call
@@ -3423,12 +3413,10 @@ endclass
                                                           (primary
                                                             (function_subroutine_call
                                                               (subroutine_call
-                                                                (method_call
-                                                                  (primary
-                                                                    (hierarchical_identifier
-                                                                      (simple_identifier)))
-                                                                  (method_call_body
-                                                                    name: (simple_identifier)))))))
+                                                                (tf_call
+                                                                  (hierarchical_identifier
+                                                                    (simple_identifier)
+                                                                    (simple_identifier)))))))
                                                         right: (expression
                                                           (primary
                                                             (function_subroutine_call
@@ -3541,12 +3529,10 @@ endclass
                                 (primary
                                   (function_subroutine_call
                                     (subroutine_call
-                                      (method_call
-                                        (primary
-                                          (hierarchical_identifier
-                                            (simple_identifier)))
-                                        (method_call_body
-                                          name: (simple_identifier)))))))
+                                      (tf_call
+                                        (hierarchical_identifier
+                                          (simple_identifier)
+                                          (simple_identifier)))))))
                               right: (expression
                                 (primary
                                   (primary_literal

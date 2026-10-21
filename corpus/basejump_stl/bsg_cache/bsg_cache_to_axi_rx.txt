@@ -1089,8 +1089,8 @@ endmodule
               (cast
                 (casting_type
                   (constant_mintypmax_expression
-                    (constant_expression
-                      (constant_primary
+                    (expression
+                      (primary
                         (primary_literal
                           (integral_number
                             (decimal_number
@@ -1117,8 +1117,8 @@ endmodule
               (cast
                 (casting_type
                   (constant_mintypmax_expression
-                    (constant_expression
-                      (constant_primary
+                    (expression
+                      (primary
                         (primary_literal
                           (integral_number
                             (decimal_number

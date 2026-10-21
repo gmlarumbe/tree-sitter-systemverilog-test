@@ -3496,12 +3496,10 @@ endfunction : execute_on
                                                                                                             (primary
                                                                                                               (function_subroutine_call
                                                                                                                 (subroutine_call
-                                                                                                                  (method_call
-                                                                                                                    (primary
-                                                                                                                      (hierarchical_identifier
-                                                                                                                        (simple_identifier)))
-                                                                                                                    (method_call_body
-                                                                                                                      name: (simple_identifier)))))))
+                                                                                                                  (tf_call
+                                                                                                                    (hierarchical_identifier
+                                                                                                                      (simple_identifier)
+                                                                                                                      (simple_identifier)))))))
                                                                                                           right: (expression
                                                                                                             (primary
                                                                                                               (hierarchical_identifier
@@ -3904,12 +3902,10 @@ endfunction : execute_on
                                                                                                                                           (primary
                                                                                                                                             (function_subroutine_call
                                                                                                                                               (subroutine_call
-                                                                                                                                                (method_call
-                                                                                                                                                  (primary
-                                                                                                                                                    (hierarchical_identifier
-                                                                                                                                                      (simple_identifier)))
-                                                                                                                                                  (method_call_body
-                                                                                                                                                    name: (simple_identifier)))))))
+                                                                                                                                                (tf_call
+                                                                                                                                                  (hierarchical_identifier
+                                                                                                                                                    (simple_identifier)
+                                                                                                                                                    (simple_identifier)))))))
                                                                                                                                         right: (expression
                                                                                                                                           (primary
                                                                                                                                             (primary_literal

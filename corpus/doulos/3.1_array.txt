@@ -117,13 +117,15 @@ assign A = B[7:0];        // B[7:0] is also an unpacked aray
                     (primary_literal
                       (integral_number
                         (decimal_number
-                          (unsigned_number))))))
+                          (unsigned_number)))))))
+              (bit_select
                 (expression
                   (primary
                     (primary_literal
                       (integral_number
                         (decimal_number
-                          (unsigned_number))))))
+                          (unsigned_number)))))))
+              (bit_select
                 (expression
                   (primary
                     (primary_literal
@@ -142,13 +144,15 @@ assign A = B[7:0];        // B[7:0] is also an unpacked aray
                       (primary_literal
                         (integral_number
                           (decimal_number
-                            (unsigned_number))))))
+                            (unsigned_number)))))))
+                (bit_select
                   (expression
                     (primary
                       (primary_literal
                         (integral_number
                           (decimal_number
-                            (unsigned_number))))))
+                            (unsigned_number)))))))
+                (bit_select
                   (expression
                     (primary
                       (primary_literal

@@ -2169,7 +2169,8 @@ endclass
                                                                           (system_tf_call
                                                                             (system_tf_identifier)
                                                                             (data_type
-                                                                              (integer_atom_type))))))))
+                                                                              (integer_atom_type)))))))))
+                                                              (bit_select
                                                                 (expression
                                                                   left: (expression
                                                                     (primary
@@ -2520,7 +2521,8 @@ endclass
                                                                           (system_tf_call
                                                                             (system_tf_identifier)
                                                                             (data_type
-                                                                              (integer_atom_type))))))))
+                                                                              (integer_atom_type)))))))))
+                                                              (bit_select
                                                                 (expression
                                                                   left: (expression
                                                                     (primary
@@ -3866,7 +3868,8 @@ endclass
                                                                                                 (system_tf_call
                                                                                                   (system_tf_identifier)
                                                                                                   (data_type
-                                                                                                    (integer_atom_type))))))))
+                                                                                                    (integer_atom_type)))))))))
+                                                                                    (bit_select
                                                                                       (expression
                                                                                         left: (expression
                                                                                           (primary
@@ -3925,7 +3928,8 @@ endclass
                                                                                                 (system_tf_call
                                                                                                   (system_tf_identifier)
                                                                                                   (data_type
-                                                                                                    (integer_atom_type))))))))
+                                                                                                    (integer_atom_type)))))))))
+                                                                                    (bit_select
                                                                                       (expression
                                                                                         left: (expression
                                                                                           (primary
@@ -4258,7 +4262,8 @@ endclass
                                                                                                 (system_tf_call
                                                                                                   (system_tf_identifier)
                                                                                                   (data_type
-                                                                                                    (integer_atom_type))))))))
+                                                                                                    (integer_atom_type)))))))))
+                                                                                    (bit_select
                                                                                       (expression
                                                                                         left: (expression
                                                                                           (primary
@@ -4317,7 +4322,8 @@ endclass
                                                                                                 (system_tf_call
                                                                                                   (system_tf_identifier)
                                                                                                   (data_type
-                                                                                                    (integer_atom_type))))))))
+                                                                                                    (integer_atom_type)))))))))
+                                                                                    (bit_select
                                                                                       (expression
                                                                                         left: (expression
                                                                                           (primary

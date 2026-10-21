@@ -1261,12 +1261,10 @@ endclass : uvm_tr_database
                                     (primary
                                       (function_subroutine_call
                                         (subroutine_call
-                                          (method_call
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (method_call_body
-                                              name: (simple_identifier)))))))
+                                          (tf_call
+                                            (hierarchical_identifier
+                                              (simple_identifier)
+                                              (simple_identifier)))))))
                                   right: (expression
                                     (primary))))))))
                       (statement_or_null
@@ -1366,12 +1364,10 @@ endclass : uvm_tr_database
                                     (primary
                                       (function_subroutine_call
                                         (subroutine_call
-                                          (method_call
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (method_call_body
-                                              name: (simple_identifier)))))))
+                                          (tf_call
+                                            (hierarchical_identifier
+                                              (simple_identifier)
+                                              (simple_identifier)))))))
                                   right: (expression
                                     (primary))))))))
                       (statement_or_null

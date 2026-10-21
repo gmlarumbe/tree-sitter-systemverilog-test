@@ -10366,7 +10366,8 @@ endmodule
                                           (primary_literal
                                             (integral_number
                                               (decimal_number
-                                                (unsigned_number))))))
+                                                (unsigned_number)))))))
+                                    (bit_select
                                       (expression
                                         (primary
                                           (primary_literal
@@ -10475,7 +10476,8 @@ endmodule
                                           (primary_literal
                                             (integral_number
                                               (decimal_number
-                                                (unsigned_number))))))
+                                                (unsigned_number)))))))
+                                    (bit_select
                                       (expression
                                         (primary
                                           (primary_literal
@@ -10560,7 +10562,8 @@ endmodule
                                                   (primary_literal
                                                     (integral_number
                                                       (decimal_number
-                                                        (unsigned_number))))))
+                                                        (unsigned_number)))))))
+                                            (bit_select
                                               (expression
                                                 (primary
                                                   (primary_literal

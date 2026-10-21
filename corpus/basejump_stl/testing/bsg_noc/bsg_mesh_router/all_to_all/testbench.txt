@@ -924,7 +924,8 @@ endmodule
                               (expression
                                 (primary
                                   (hierarchical_identifier
-                                    (simple_identifier))))
+                                    (simple_identifier)))))
+                            (bit_select
                               (expression
                                 (primary
                                   (hierarchical_identifier
@@ -940,7 +941,8 @@ endmodule
                               (expression
                                 (primary
                                   (hierarchical_identifier
-                                    (simple_identifier))))
+                                    (simple_identifier)))))
+                            (bit_select
                               (expression
                                 (primary
                                   (hierarchical_identifier
@@ -952,9 +954,10 @@ endmodule
                           (cast
                             (casting_type
                               (constant_mintypmax_expression
-                                (constant_expression
-                                  (constant_primary
-                                    (simple_identifier)))))
+                                (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))))
                             (expression
                               (primary
                                 (hierarchical_identifier
@@ -966,9 +969,10 @@ endmodule
                           (cast
                             (casting_type
                               (constant_mintypmax_expression
-                                (constant_expression
-                                  (constant_primary
-                                    (simple_identifier)))))
+                                (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))))
                             (expression
                               (primary
                                 (hierarchical_identifier
@@ -984,7 +988,8 @@ endmodule
                               (expression
                                 (primary
                                   (hierarchical_identifier
-                                    (simple_identifier))))
+                                    (simple_identifier)))))
+                            (bit_select
                               (expression
                                 (primary
                                   (hierarchical_identifier
@@ -1104,7 +1109,8 @@ endmodule
                                         (expression
                                           (primary
                                             (hierarchical_identifier
-                                              (simple_identifier))))
+                                              (simple_identifier)))))
+                                      (bit_select
                                         (expression
                                           left: (expression
                                             (primary
@@ -1115,7 +1121,8 @@ endmodule
                                               (primary_literal
                                                 (integral_number
                                                   (decimal_number
-                                                    (unsigned_number)))))))
+                                                    (unsigned_number))))))))
+                                      (bit_select
                                         (expression
                                           (primary
                                             (hierarchical_identifier
@@ -1184,7 +1191,8 @@ endmodule
                                         (expression
                                           (primary
                                             (hierarchical_identifier
-                                              (simple_identifier))))
+                                              (simple_identifier)))))
+                                      (bit_select
                                         (expression
                                           left: (expression
                                             (primary
@@ -1195,7 +1203,8 @@ endmodule
                                               (primary_literal
                                                 (integral_number
                                                   (decimal_number
-                                                    (unsigned_number)))))))
+                                                    (unsigned_number))))))))
+                                      (bit_select
                                         (expression
                                           (primary
                                             (hierarchical_identifier
@@ -1267,11 +1276,13 @@ endmodule
                                               (primary_literal
                                                 (integral_number
                                                   (decimal_number
-                                                    (unsigned_number)))))))
+                                                    (unsigned_number))))))))
+                                      (bit_select
                                         (expression
                                           (primary
                                             (hierarchical_identifier
-                                              (simple_identifier))))
+                                              (simple_identifier)))))
+                                      (bit_select
                                         (expression
                                           (primary
                                             (hierarchical_identifier
@@ -1347,11 +1358,13 @@ endmodule
                                               (primary_literal
                                                 (integral_number
                                                   (decimal_number
-                                                    (unsigned_number)))))))
+                                                    (unsigned_number))))))))
+                                      (bit_select
                                         (expression
                                           (primary
                                             (hierarchical_identifier
-                                              (simple_identifier))))
+                                              (simple_identifier)))))
+                                      (bit_select
                                         (expression
                                           (primary
                                             (hierarchical_identifier
@@ -1406,7 +1419,8 @@ endmodule
                                         (expression
                                           (primary
                                             (hierarchical_identifier
-                                              (simple_identifier))))
+                                              (simple_identifier)))))
+                                      (bit_select
                                         (expression
                                           left: (expression
                                             (primary
@@ -1415,7 +1429,8 @@ endmodule
                                           right: (expression
                                             (primary
                                               (hierarchical_identifier
-                                                (simple_identifier)))))
+                                                (simple_identifier))))))
+                                      (bit_select
                                         (expression
                                           (primary
                                             (hierarchical_identifier
@@ -1481,7 +1496,8 @@ endmodule
                                         (expression
                                           (primary
                                             (hierarchical_identifier
-                                              (simple_identifier))))
+                                              (simple_identifier)))))
+                                      (bit_select
                                         (expression
                                           left: (expression
                                             (primary
@@ -1490,7 +1506,8 @@ endmodule
                                           right: (expression
                                             (primary
                                               (hierarchical_identifier
-                                                (simple_identifier)))))
+                                                (simple_identifier))))))
+                                      (bit_select
                                         (expression
                                           (primary
                                             (hierarchical_identifier
@@ -1571,11 +1588,13 @@ endmodule
                                           right: (expression
                                             (primary
                                               (hierarchical_identifier
-                                                (simple_identifier)))))
+                                                (simple_identifier))))))
+                                      (bit_select
                                         (expression
                                           (primary
                                             (hierarchical_identifier
-                                              (simple_identifier))))
+                                              (simple_identifier)))))
+                                      (bit_select
                                         (expression
                                           (primary
                                             (hierarchical_identifier
@@ -1646,11 +1665,13 @@ endmodule
                                           right: (expression
                                             (primary
                                               (hierarchical_identifier
-                                                (simple_identifier)))))
+                                                (simple_identifier))))))
+                                      (bit_select
                                         (expression
                                           (primary
                                             (hierarchical_identifier
-                                              (simple_identifier))))
+                                              (simple_identifier)))))
+                                      (bit_select
                                         (expression
                                           (primary
                                             (hierarchical_identifier

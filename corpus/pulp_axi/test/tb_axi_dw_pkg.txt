@@ -6184,14 +6184,9 @@ endpackage: tb_axi_dw_pkg
                                                                                                         (casting_type)
                                                                                                         (expression
                                                                                                           (primary
-                                                                                                            (function_subroutine_call
-                                                                                                              (subroutine_call
-                                                                                                                (method_call
-                                                                                                                  (primary
-                                                                                                                    (hierarchical_identifier
-                                                                                                                      (simple_identifier)))
-                                                                                                                  (method_call_body
-                                                                                                                    name: (simple_identifier))))))))))
+                                                                                                            (hierarchical_identifier
+                                                                                                              (simple_identifier)
+                                                                                                              (simple_identifier)))))))
                                                                                                   right: (expression
                                                                                                     (primary
                                                                                                       (hierarchical_identifier
@@ -7674,14 +7669,9 @@ endpackage: tb_axi_dw_pkg
                                                                                                         (casting_type)
                                                                                                         (expression
                                                                                                           (primary
-                                                                                                            (function_subroutine_call
-                                                                                                              (subroutine_call
-                                                                                                                (method_call
-                                                                                                                  (primary
-                                                                                                                    (hierarchical_identifier
-                                                                                                                      (simple_identifier)))
-                                                                                                                  (method_call_body
-                                                                                                                    name: (simple_identifier))))))))))
+                                                                                                            (hierarchical_identifier
+                                                                                                              (simple_identifier)
+                                                                                                              (simple_identifier)))))))
                                                                                                   right: (expression
                                                                                                     (primary
                                                                                                       (hierarchical_identifier
@@ -9509,14 +9499,9 @@ endpackage: tb_axi_dw_pkg
                                                                                     (expression
                                                                                       left: (expression
                                                                                         (primary
-                                                                                          (function_subroutine_call
-                                                                                            (subroutine_call
-                                                                                              (method_call
-                                                                                                (primary
-                                                                                                  (hierarchical_identifier
-                                                                                                    (simple_identifier)))
-                                                                                                (method_call_body
-                                                                                                  name: (simple_identifier)))))))
+                                                                                          (hierarchical_identifier
+                                                                                            (simple_identifier)
+                                                                                            (simple_identifier))))
                                                                                       right: (expression
                                                                                         (primary
                                                                                           (primary_literal
@@ -11863,14 +11848,9 @@ endpackage: tb_axi_dw_pkg
                                                                                     (expression
                                                                                       left: (expression
                                                                                         (primary
-                                                                                          (function_subroutine_call
-                                                                                            (subroutine_call
-                                                                                              (method_call
-                                                                                                (primary
-                                                                                                  (hierarchical_identifier
-                                                                                                    (simple_identifier)))
-                                                                                                (method_call_body
-                                                                                                  name: (simple_identifier)))))))
+                                                                                          (hierarchical_identifier
+                                                                                            (simple_identifier)
+                                                                                            (simple_identifier))))
                                                                                       right: (expression
                                                                                         (primary
                                                                                           (primary_literal

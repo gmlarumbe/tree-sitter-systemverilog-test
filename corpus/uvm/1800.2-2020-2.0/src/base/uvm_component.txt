@@ -13786,7 +13786,8 @@ function void uvm_component::report();              return; endfunction
                                 (expression
                                   (primary
                                     (hierarchical_identifier
-                                      (simple_identifier))))
+                                      (simple_identifier)))))
+                              (bit_select
                                 (expression
                                   (primary
                                     (hierarchical_identifier
@@ -13831,7 +13832,8 @@ function void uvm_component::report();              return; endfunction
                         (expression
                           (primary
                             (hierarchical_identifier
-                              (simple_identifier))))
+                              (simple_identifier)))))
+                      (bit_select
                         (expression
                           (primary
                             (hierarchical_identifier
@@ -13956,15 +13958,18 @@ function void uvm_component::report();              return; endfunction
                                         (hierarchical_identifier
                                           (simple_identifier)))
                                       (method_call_body
-                                        name: (simple_identifier)))))))
+                                        name: (simple_identifier))))))))
+                          (bit_select
                             (expression
                               (primary
                                 (function_subroutine_call
                                   (subroutine_call
-                                    (tf_call
-                                      (hierarchical_identifier
-                                        (simple_identifier)
-                                        (simple_identifier)))))))))))
+                                    (method_call
+                                      (primary
+                                        (hierarchical_identifier
+                                          (simple_identifier)))
+                                      (method_call_body
+                                        name: (simple_identifier)))))))))))
                     right: (expression
                       (primary
                         (hierarchical_identifier
@@ -19335,12 +19340,10 @@ function void uvm_component::report();              return; endfunction
                               (primary
                                 (function_subroutine_call
                                   (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))
+                                    (tf_call
+                                      (hierarchical_identifier
+                                        (simple_identifier)
+                                        (simple_identifier)))))))
                             right: (expression
                               (primary
                                 (primary_literal
@@ -19702,14 +19705,9 @@ function void uvm_component::report();              return; endfunction
                                                           left: (expression
                                                             left: (expression
                                                               (primary
-                                                                (function_subroutine_call
-                                                                  (subroutine_call
-                                                                    (method_call
-                                                                      (primary
-                                                                        (hierarchical_identifier
-                                                                          (simple_identifier)))
-                                                                      (method_call_body
-                                                                        name: (simple_identifier)))))))
+                                                                (hierarchical_identifier
+                                                                  (simple_identifier)
+                                                                  (simple_identifier))))
                                                             right: (expression
                                                               (primary
                                                                 (primary_literal
@@ -19734,14 +19732,9 @@ function void uvm_component::report();              return; endfunction
                                                           left: (expression
                                                             left: (expression
                                                               (primary
-                                                                (function_subroutine_call
-                                                                  (subroutine_call
-                                                                    (method_call
-                                                                      (primary
-                                                                        (hierarchical_identifier
-                                                                          (simple_identifier)))
-                                                                      (method_call_body
-                                                                        name: (simple_identifier)))))))
+                                                                (hierarchical_identifier
+                                                                  (simple_identifier)
+                                                                  (simple_identifier))))
                                                             right: (expression
                                                               (primary
                                                                 (primary_literal

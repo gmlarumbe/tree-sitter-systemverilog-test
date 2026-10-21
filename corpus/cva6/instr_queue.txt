@@ -3579,13 +3579,19 @@ endmodule
                                   (expression
                                     (primary
                                       (hierarchical_identifier
-                                        (simple_identifier))))
+                                        (simple_identifier)))))
+                                (bit_select
                                   (expression
                                     left: (expression
                                       (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)
-                                          (simple_identifier))))
+                                        (function_subroutine_call
+                                          (subroutine_call
+                                            (method_call
+                                              (primary
+                                                (hierarchical_identifier
+                                                  (simple_identifier)))
+                                              (method_call_body
+                                                name: (simple_identifier)))))))
                                     right: (expression
                                       (primary
                                         (primary_literal
@@ -3953,7 +3959,8 @@ endmodule
                                                         (primary_literal
                                                           (integral_number
                                                             (decimal_number
-                                                              (unsigned_number))))))
+                                                              (unsigned_number)))))))
+                                                  (bit_select
                                                     (expression
                                                       (primary
                                                         (hierarchical_identifier
@@ -4395,7 +4402,8 @@ endmodule
                                                                         (primary_literal
                                                                           (integral_number
                                                                             (decimal_number
-                                                                              (unsigned_number))))))
+                                                                              (unsigned_number)))))))
+                                                                  (bit_select
                                                                     (expression
                                                                       (primary
                                                                         (hierarchical_identifier

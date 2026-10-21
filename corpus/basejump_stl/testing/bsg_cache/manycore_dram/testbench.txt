@@ -1172,23 +1172,20 @@ endmodule
                           (unsigned_number)))))))
               (generate_block
                 (continuous_assign
-                  (list_of_variable_assignments
-                    (variable_assignment
-                      (variable_lvalue
-                        (hierarchical_identifier
-                          (simple_identifier))
-                        (select
-                          (bit_select
-                            (expression
-                              (primary
-                                (hierarchical_identifier
-                                  (simple_identifier))))
-                            (expression
-                              (primary
+                  (list_of_net_assignments
+                    (net_assignment
+                      (net_lvalue
+                        (simple_identifier)
+                        (constant_select
+                          (constant_bit_select
+                            (constant_expression
+                              (constant_primary
+                                (simple_identifier)))
+                            (constant_expression
+                              (constant_primary
                                 (package_scope
                                   (simple_identifier))
-                                (hierarchical_identifier
-                                  (simple_identifier)))))))
+                                (simple_identifier))))))
                       (expression
                         (primary
                           (hierarchical_identifier
@@ -1205,7 +1202,8 @@ endmodule
                                     (primary_literal
                                       (integral_number
                                         (decimal_number
-                                          (unsigned_number)))))))
+                                          (unsigned_number))))))))
+                            (bit_select
                               (expression
                                 (primary
                                   (package_scope
@@ -1230,23 +1228,20 @@ endmodule
                             (unsigned_number))))))))
               (generate_block
                 (continuous_assign
-                  (list_of_variable_assignments
-                    (variable_assignment
-                      (variable_lvalue
-                        (hierarchical_identifier
-                          (simple_identifier))
-                        (select
-                          (bit_select
-                            (expression
-                              (primary
-                                (hierarchical_identifier
-                                  (simple_identifier))))
-                            (expression
-                              (primary
+                  (list_of_net_assignments
+                    (net_assignment
+                      (net_lvalue
+                        (simple_identifier)
+                        (constant_select
+                          (constant_bit_select
+                            (constant_expression
+                              (constant_primary
+                                (simple_identifier)))
+                            (constant_expression
+                              (constant_primary
                                 (package_scope
                                   (simple_identifier))
-                                (hierarchical_identifier
-                                  (simple_identifier)))))))
+                                (simple_identifier))))))
                       (expression
                         (primary
                           (hierarchical_identifier
@@ -1263,7 +1258,8 @@ endmodule
                                     (primary_literal
                                       (integral_number
                                         (decimal_number
-                                          (unsigned_number)))))))
+                                          (unsigned_number))))))))
+                            (bit_select
                               (expression
                                 (primary
                                   (package_scope
@@ -1355,7 +1351,8 @@ endmodule
                                 (expression
                                   (primary
                                     (hierarchical_identifier
-                                      (simple_identifier))))
+                                      (simple_identifier)))))
+                              (bit_select
                                 (expression
                                   (primary
                                     (package_scope
@@ -1373,7 +1370,8 @@ endmodule
                                 (expression
                                   (primary
                                     (hierarchical_identifier
-                                      (simple_identifier))))
+                                      (simple_identifier)))))
+                              (bit_select
                                 (expression
                                   (primary
                                     (package_scope
@@ -1451,7 +1449,8 @@ endmodule
                           (expression
                             (primary
                               (hierarchical_identifier
-                                (simple_identifier))))
+                                (simple_identifier)))))
+                        (bit_select
                           (expression
                             (primary
                               (package_scope
@@ -1469,7 +1468,8 @@ endmodule
                           (expression
                             (primary
                               (hierarchical_identifier
-                                (simple_identifier))))
+                                (simple_identifier)))))
+                        (bit_select
                           (expression
                             (primary
                               (package_scope
@@ -1564,7 +1564,8 @@ endmodule
                                 (expression
                                   (primary
                                     (hierarchical_identifier
-                                      (simple_identifier))))
+                                      (simple_identifier)))))
+                              (bit_select
                                 (expression
                                   (primary
                                     (package_scope
@@ -1582,7 +1583,8 @@ endmodule
                                 (expression
                                   (primary
                                     (hierarchical_identifier
-                                      (simple_identifier))))
+                                      (simple_identifier)))))
+                              (bit_select
                                 (expression
                                   (primary
                                     (package_scope
@@ -2073,9 +2075,10 @@ endmodule
                       (cast
                         (casting_type
                           (constant_mintypmax_expression
-                            (constant_expression
-                              (constant_primary
-                                (simple_identifier)))))
+                            (expression
+                              (primary
+                                (hierarchical_identifier
+                                  (simple_identifier))))))
                         (expression
                           (primary
                             (hierarchical_identifier
@@ -2087,9 +2090,10 @@ endmodule
                       (cast
                         (casting_type
                           (constant_mintypmax_expression
-                            (constant_expression
-                              (constant_primary
-                                (simple_identifier)))))
+                            (expression
+                              (primary
+                                (hierarchical_identifier
+                                  (simple_identifier))))))
                         (expression
                           (primary
                             (primary_literal
@@ -2107,7 +2111,8 @@ endmodule
                           (expression
                             (primary
                               (hierarchical_identifier
-                                (simple_identifier))))
+                                (simple_identifier)))))
+                        (bit_select
                           (expression
                             (primary
                               (package_scope
@@ -2125,7 +2130,8 @@ endmodule
                           (expression
                             (primary
                               (hierarchical_identifier
-                                (simple_identifier))))
+                                (simple_identifier)))))
+                        (bit_select
                           (expression
                             (primary
                               (package_scope

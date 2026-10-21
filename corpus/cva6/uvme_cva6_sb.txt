@@ -1946,14 +1946,9 @@ endtask : run_phase
                                                         (mintypmax_expression
                                                           (expression
                                                             (primary
-                                                              (function_subroutine_call
-                                                                (subroutine_call
-                                                                  (method_call
-                                                                    (primary
-                                                                      (hierarchical_identifier
-                                                                        (simple_identifier)))
-                                                                    (method_call_body
-                                                                      name: (simple_identifier))))))))))))))))
+                                                              (hierarchical_identifier
+                                                                (simple_identifier)
+                                                                (simple_identifier)))))))))))))
                                         (statement_or_null
                                           (statement
                                             (statement_item
@@ -2164,14 +2159,9 @@ endtask : run_phase
                                                         (mintypmax_expression
                                                           (expression
                                                             (primary
-                                                              (function_subroutine_call
-                                                                (subroutine_call
-                                                                  (method_call
-                                                                    (primary
-                                                                      (hierarchical_identifier
-                                                                        (simple_identifier)))
-                                                                    (method_call_body
-                                                                      name: (simple_identifier))))))))))))))))
+                                                              (hierarchical_identifier
+                                                                (simple_identifier)
+                                                                (simple_identifier)))))))))))))
                                         (statement_or_null
                                           (statement
                                             (statement_item
@@ -3505,12 +3495,10 @@ endtask : run_phase
                                 (primary
                                   (function_subroutine_call
                                     (subroutine_call
-                                      (method_call
-                                        (primary
-                                          (hierarchical_identifier
-                                            (simple_identifier)))
-                                        (method_call_body
-                                          name: (simple_identifier)))))))
+                                      (tf_call
+                                        (hierarchical_identifier
+                                          (simple_identifier)
+                                          (simple_identifier)))))))
                               right: (expression
                                 left: (expression
                                   (primary
@@ -3578,12 +3566,10 @@ endtask : run_phase
                                                 (primary
                                                   (function_subroutine_call
                                                     (subroutine_call
-                                                      (method_call
-                                                        (primary
-                                                          (hierarchical_identifier
-                                                            (simple_identifier)))
-                                                        (method_call_body
-                                                          name: (simple_identifier)))))))
+                                                      (tf_call
+                                                        (hierarchical_identifier
+                                                          (simple_identifier)
+                                                          (simple_identifier)))))))
                                               right: (expression
                                                 left: (expression
                                                   (primary
@@ -4399,12 +4385,10 @@ endtask : run_phase
                                             (primary
                                               (function_subroutine_call
                                                 (subroutine_call
-                                                  (method_call
-                                                    (primary
-                                                      (hierarchical_identifier
-                                                        (simple_identifier)))
-                                                    (method_call_body
-                                                      name: (simple_identifier)))))))
+                                                  (tf_call
+                                                    (hierarchical_identifier
+                                                      (simple_identifier)
+                                                      (simple_identifier)))))))
                                           right: (expression
                                             left: (expression
                                               (primary
@@ -4647,14 +4631,9 @@ endtask : run_phase
                                                                         (mintypmax_expression
                                                                           (expression
                                                                             (primary
-                                                                              (function_subroutine_call
-                                                                                (subroutine_call
-                                                                                  (method_call
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))
-                                                                                    (method_call_body
-                                                                                      name: (simple_identifier))))))))))))))))
+                                                                              (hierarchical_identifier
+                                                                                (simple_identifier)
+                                                                                (simple_identifier)))))))))))))
                                                         (statement_or_null
                                                           (statement
                                                             (statement_item
@@ -4831,14 +4810,9 @@ endtask : run_phase
                                                                         (mintypmax_expression
                                                                           (expression
                                                                             (primary
-                                                                              (function_subroutine_call
-                                                                                (subroutine_call
-                                                                                  (method_call
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))
-                                                                                    (method_call_body
-                                                                                      name: (simple_identifier))))))))))))))))
+                                                                              (hierarchical_identifier
+                                                                                (simple_identifier)
+                                                                                (simple_identifier)))))))))))))
                                                         (statement_or_null
                                                           (statement
                                                             (statement_item
@@ -5278,14 +5252,9 @@ endtask : run_phase
                                                         (mintypmax_expression
                                                           (expression
                                                             (primary
-                                                              (function_subroutine_call
-                                                                (subroutine_call
-                                                                  (method_call
-                                                                    (primary
-                                                                      (hierarchical_identifier
-                                                                        (simple_identifier)))
-                                                                    (method_call_body
-                                                                      name: (simple_identifier))))))))))))))))
+                                                              (hierarchical_identifier
+                                                                (simple_identifier)
+                                                                (simple_identifier)))))))))))))
                                         (statement_or_null
                                           (statement
                                             (statement_item
@@ -5496,14 +5465,9 @@ endtask : run_phase
                                                         (mintypmax_expression
                                                           (expression
                                                             (primary
-                                                              (function_subroutine_call
-                                                                (subroutine_call
-                                                                  (method_call
-                                                                    (primary
-                                                                      (hierarchical_identifier
-                                                                        (simple_identifier)))
-                                                                    (method_call_body
-                                                                      name: (simple_identifier))))))))))))))))
+                                                              (hierarchical_identifier
+                                                                (simple_identifier)
+                                                                (simple_identifier)))))))))))))
                                         (statement_or_null
                                           (statement
                                             (statement_item

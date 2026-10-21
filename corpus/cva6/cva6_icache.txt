@@ -1883,14 +1883,9 @@ endmodule  // cva6_icache
                   (mintypmax_expression
                     (expression
                       (primary
-                        (function_subroutine_call
-                          (subroutine_call
-                            (method_call
-                              (primary
-                                (hierarchical_identifier
-                                  (simple_identifier)))
-                              (method_call_body
-                                name: (simple_identifier))))))))))
+                        (hierarchical_identifier
+                          (simple_identifier)
+                          (simple_identifier)))))))
               (expression
                 (primary
                   (hierarchical_identifier
@@ -2035,14 +2030,9 @@ endmodule  // cva6_icache
                     (expression
                       left: (expression
                         (primary
-                          (function_subroutine_call
-                            (subroutine_call
-                              (method_call
-                                (primary
-                                  (hierarchical_identifier
-                                    (simple_identifier)))
-                                (method_call_body
-                                  name: (simple_identifier)))))))
+                          (hierarchical_identifier
+                            (simple_identifier)
+                            (simple_identifier))))
                       right: (expression
                         (primary
                           (hierarchical_identifier
@@ -2139,14 +2129,9 @@ endmodule  // cva6_icache
                           (expression
                             left: (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))
+                                (hierarchical_identifier
+                                  (simple_identifier)
+                                  (simple_identifier))))
                             right: (expression
                               (primary
                                 (hierarchical_identifier
@@ -2159,14 +2144,9 @@ endmodule  // cva6_icache
                             (expression
                               left: (expression
                                 (primary
-                                  (function_subroutine_call
-                                    (subroutine_call
-                                      (method_call
-                                        (primary
-                                          (hierarchical_identifier
-                                            (simple_identifier)))
-                                        (method_call_body
-                                          name: (simple_identifier)))))))
+                                  (hierarchical_identifier
+                                    (simple_identifier)
+                                    (simple_identifier))))
                               right: (expression
                                 (primary
                                   (hierarchical_identifier
@@ -2358,14 +2338,9 @@ endmodule  // cva6_icache
                           (expression
                             left: (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))
+                                (hierarchical_identifier
+                                  (simple_identifier)
+                                  (simple_identifier))))
                             right: (expression
                               (primary
                                 (hierarchical_identifier
@@ -3250,14 +3225,9 @@ endmodule  // cva6_icache
                                                   left: (expression
                                                     operator: (unary_operator)
                                                     argument: (primary
-                                                      (function_subroutine_call
-                                                        (subroutine_call
-                                                          (method_call
-                                                            (primary
-                                                              (hierarchical_identifier
-                                                                (simple_identifier)))
-                                                            (method_call_body
-                                                              name: (simple_identifier)))))))
+                                                      (hierarchical_identifier
+                                                        (simple_identifier)
+                                                        (simple_identifier))))
                                                   right: (expression
                                                     (primary
                                                       (mintypmax_expression
@@ -3268,14 +3238,9 @@ endmodule  // cva6_icache
                                                                 (expression
                                                                   left: (expression
                                                                     (primary
-                                                                      (function_subroutine_call
-                                                                        (subroutine_call
-                                                                          (method_call
-                                                                            (primary
-                                                                              (hierarchical_identifier
-                                                                                (simple_identifier)))
-                                                                            (method_call_body
-                                                                              name: (simple_identifier)))))))
+                                                                      (hierarchical_identifier
+                                                                        (simple_identifier)
+                                                                        (simple_identifier))))
                                                                   right: (expression
                                                                     operator: (unary_operator)
                                                                     argument: (primary
@@ -3287,14 +3252,9 @@ endmodule  // cva6_icache
                                                                 (expression
                                                                   operator: (unary_operator)
                                                                   argument: (primary
-                                                                    (function_subroutine_call
-                                                                      (subroutine_call
-                                                                        (method_call
-                                                                          (primary
-                                                                            (hierarchical_identifier
-                                                                              (simple_identifier)))
-                                                                          (method_call_body
-                                                                            name: (simple_identifier))))))))))))))))))))
+                                                                    (hierarchical_identifier
+                                                                      (simple_identifier)
+                                                                      (simple_identifier)))))))))))))))))
                                       (statement_or_null
                                         (statement
                                           (statement_item
@@ -3688,14 +3648,9 @@ endmodule  // cva6_icache
                                                               (expression
                                                                 left: (expression
                                                                   (primary
-                                                                    (function_subroutine_call
-                                                                      (subroutine_call
-                                                                        (method_call
-                                                                          (primary
-                                                                            (hierarchical_identifier
-                                                                              (simple_identifier)))
-                                                                          (method_call_body
-                                                                            name: (simple_identifier)))))))
+                                                                    (hierarchical_identifier
+                                                                      (simple_identifier)
+                                                                      (simple_identifier))))
                                                                 right: (expression
                                                                   (primary
                                                                     (hierarchical_identifier
@@ -4055,20 +4010,10 @@ endmodule  // cva6_icache
                         (expression
                           left: (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (function_subroutine_call
-                                        (subroutine_call
-                                          (method_call
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (method_call_body
-                                              name: (simple_identifier))))))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (hierarchical_identifier
+                                (simple_identifier)
+                                (simple_identifier)
+                                (simple_identifier))))
                           right: (expression
                             (primary
                               (hierarchical_identifier
@@ -4085,20 +4030,10 @@ endmodule  // cva6_icache
                             (expression
                               left: (expression
                                 (primary
-                                  (function_subroutine_call
-                                    (subroutine_call
-                                      (method_call
-                                        (primary
-                                          (function_subroutine_call
-                                            (subroutine_call
-                                              (method_call
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier)))
-                                                (method_call_body
-                                                  name: (simple_identifier))))))
-                                        (method_call_body
-                                          name: (simple_identifier)))))))
+                                  (hierarchical_identifier
+                                    (simple_identifier)
+                                    (simple_identifier)
+                                    (simple_identifier))))
                               right: (expression
                                 (primary
                                   (hierarchical_identifier
@@ -4485,10 +4420,8 @@ endmodule  // cva6_icache
                           (concatenation
                             (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (tf_call
-                                      (simple_identifier))))))
+                                (hierarchical_identifier
+                                  (simple_identifier))))
                             (expression
                               (primary
                                 (primary_literal
@@ -4535,10 +4468,8 @@ endmodule  // cva6_icache
                               (concatenation
                                 (expression
                                   (primary
-                                    (function_subroutine_call
-                                      (subroutine_call
-                                        (tf_call
-                                          (simple_identifier))))))
+                                    (hierarchical_identifier
+                                      (simple_identifier))))
                                 (expression
                                   (primary
                                     (primary_literal
@@ -5009,12 +4940,18 @@ endmodule  // cva6_icache
                       (expression
                         (primary
                           (hierarchical_identifier
-                            (simple_identifier))))
+                            (simple_identifier)))))
+                    (bit_select
                       (expression
                         (primary
-                          (hierarchical_identifier
-                            (simple_identifier)
-                            (simple_identifier)))))))))))
+                          (function_subroutine_call
+                            (subroutine_call
+                              (method_call
+                                (primary
+                                  (hierarchical_identifier
+                                    (simple_identifier)))
+                                (method_call_body
+                                  name: (simple_identifier))))))))))))))
         (one_line_comment)
         (module_instantiation
           instance_type: (simple_identifier)
@@ -5462,20 +5399,10 @@ endmodule  // cva6_icache
                         (expression
                           left: (expression
                             (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (function_subroutine_call
-                                        (subroutine_call
-                                          (method_call
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (method_call_body
-                                              name: (simple_identifier))))))
-                                    (method_call_body
-                                      name: (simple_identifier)))))))
+                              (hierarchical_identifier
+                                (simple_identifier)
+                                (simple_identifier)
+                                (simple_identifier))))
                           right: (expression
                             (primary
                               (hierarchical_identifier
@@ -5522,20 +5449,10 @@ endmodule  // cva6_icache
                       (expression
                         left: (expression
                           (primary
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (function_subroutine_call
-                                      (subroutine_call
-                                        (method_call
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier)))
-                                          (method_call_body
-                                            name: (simple_identifier))))))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))
+                            (hierarchical_identifier
+                              (simple_identifier)
+                              (simple_identifier)
+                              (simple_identifier))))
                         right: (expression
                           (primary
                             (hierarchical_identifier
@@ -5992,7 +5909,8 @@ endmodule  // cva6_icache
                                                                                   (expression
                                                                                     (primary
                                                                                       (hierarchical_identifier
-                                                                                        (simple_identifier))))
+                                                                                        (simple_identifier)))))
+                                                                                (bit_select
                                                                                   (expression
                                                                                     (primary
                                                                                       (hierarchical_identifier
@@ -6019,7 +5937,8 @@ endmodule  // cva6_icache
                                                                                   (expression
                                                                                     (primary
                                                                                       (hierarchical_identifier
-                                                                                        (simple_identifier))))
+                                                                                        (simple_identifier)))))
+                                                                                (bit_select
                                                                                   (expression
                                                                                     (primary
                                                                                       (hierarchical_identifier
@@ -6076,7 +5995,8 @@ endmodule  // cva6_icache
                                   (expression
                                     (primary
                                       (hierarchical_identifier
-                                        (simple_identifier))))
+                                        (simple_identifier)))))
+                                (bit_select
                                   (expression
                                     (primary
                                       (hierarchical_identifier
@@ -6094,7 +6014,8 @@ endmodule  // cva6_icache
                           (expression
                             (primary
                               (hierarchical_identifier
-                                (simple_identifier))))
+                                (simple_identifier)))))
+                        (bit_select
                           (expression
                             (primary
                               (hierarchical_identifier

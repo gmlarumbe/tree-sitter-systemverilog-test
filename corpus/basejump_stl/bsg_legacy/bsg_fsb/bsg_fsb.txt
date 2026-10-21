@@ -476,9 +476,10 @@ endmodule
                         (constant_cast
                           (casting_type
                             (constant_mintypmax_expression
-                              (constant_expression
-                                (constant_primary
-                                  (simple_identifier)))))
+                              (expression
+                                (primary
+                                  (hierarchical_identifier
+                                    (simple_identifier))))))
                           (constant_expression
                             (constant_primary
                               (primary_literal
@@ -497,9 +498,10 @@ endmodule
                         (constant_cast
                           (casting_type
                             (constant_mintypmax_expression
-                              (constant_expression
-                                (constant_primary
-                                  (simple_identifier)))))
+                              (expression
+                                (primary
+                                  (hierarchical_identifier
+                                    (simple_identifier))))))
                           (constant_expression
                             (constant_primary
                               (primary_literal
@@ -2269,9 +2271,10 @@ endmodule
                         (constant_cast
                           (casting_type
                             (constant_mintypmax_expression
-                              (constant_expression
-                                (constant_primary
-                                  (simple_identifier)))))
+                              (expression
+                                (primary
+                                  (hierarchical_identifier
+                                    (simple_identifier))))))
                           (constant_expression
                             (constant_primary
                               (primary_literal
@@ -2290,9 +2293,10 @@ endmodule
                         (constant_cast
                           (casting_type
                             (constant_mintypmax_expression
-                              (constant_expression
-                                (constant_primary
-                                  (simple_identifier)))))
+                              (expression
+                                (primary
+                                  (hierarchical_identifier
+                                    (simple_identifier))))))
                           (constant_expression
                             (constant_primary
                               (primary_literal
