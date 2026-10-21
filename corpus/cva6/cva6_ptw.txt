@@ -3120,7 +3120,8 @@ endmodule
                                                                             (expression
                                                                               (primary
                                                                                 (hierarchical_identifier
-                                                                                  (simple_identifier))))
+                                                                                  (simple_identifier)))))
+                                                                          (bit_select
                                                                             (expression
                                                                               (primary
                                                                                 (hierarchical_identifier
@@ -3198,7 +3199,8 @@ endmodule
                                                                             (expression
                                                                               (primary
                                                                                 (hierarchical_identifier
-                                                                                  (simple_identifier))))
+                                                                                  (simple_identifier)))))
+                                                                          (bit_select
                                                                             (expression
                                                                               (primary
                                                                                 (hierarchical_identifier
@@ -3263,7 +3265,8 @@ endmodule
                                                                             (expression
                                                                               (primary
                                                                                 (hierarchical_identifier
-                                                                                  (simple_identifier))))
+                                                                                  (simple_identifier)))))
+                                                                          (bit_select
                                                                             (expression
                                                                               (primary
                                                                                 (hierarchical_identifier
@@ -4431,10 +4434,10 @@ endmodule
                                                                                   (cast
                                                                                     (casting_type
                                                                                       (constant_mintypmax_expression
-                                                                                        (constant_expression
-                                                                                          (constant_primary
-                                                                                            (simple_identifier)
-                                                                                            (constant_select
+                                                                                        (expression
+                                                                                          (primary
+                                                                                            (hierarchical_identifier
+                                                                                              (simple_identifier)
                                                                                               (simple_identifier))))))
                                                                                     (expression
                                                                                       (primary
@@ -4545,10 +4548,10 @@ endmodule
                                                                                   (cast
                                                                                     (casting_type
                                                                                       (constant_mintypmax_expression
-                                                                                        (constant_expression
-                                                                                          (constant_primary
-                                                                                            (simple_identifier)
-                                                                                            (constant_select
+                                                                                        (expression
+                                                                                          (primary
+                                                                                            (hierarchical_identifier
+                                                                                              (simple_identifier)
                                                                                               (simple_identifier))))))
                                                                                     (expression
                                                                                       (primary
@@ -4760,10 +4763,10 @@ endmodule
                                                                                   (cast
                                                                                     (casting_type
                                                                                       (constant_mintypmax_expression
-                                                                                        (constant_expression
-                                                                                          (constant_primary
-                                                                                            (simple_identifier)
-                                                                                            (constant_select
+                                                                                        (expression
+                                                                                          (primary
+                                                                                            (hierarchical_identifier
+                                                                                              (simple_identifier)
                                                                                               (simple_identifier))))))
                                                                                     (expression
                                                                                       (primary
@@ -4870,10 +4873,10 @@ endmodule
                                                                                           (cast
                                                                                             (casting_type
                                                                                               (constant_mintypmax_expression
-                                                                                                (constant_expression
-                                                                                                  (constant_primary
-                                                                                                    (simple_identifier)
-                                                                                                    (constant_select
+                                                                                                (expression
+                                                                                                  (primary
+                                                                                                    (hierarchical_identifier
+                                                                                                      (simple_identifier)
                                                                                                       (simple_identifier))))))
                                                                                             (expression
                                                                                               (primary
@@ -4940,10 +4943,10 @@ endmodule
                                                                                           (cast
                                                                                             (casting_type
                                                                                               (constant_mintypmax_expression
-                                                                                                (constant_expression
-                                                                                                  (constant_primary
-                                                                                                    (simple_identifier)
-                                                                                                    (constant_select
+                                                                                                (expression
+                                                                                                  (primary
+                                                                                                    (hierarchical_identifier
+                                                                                                      (simple_identifier)
                                                                                                       (simple_identifier))))))
                                                                                             (expression
                                                                                               (primary
@@ -5287,14 +5290,9 @@ endmodule
                                                                     left: (expression
                                                                       operator: (unary_operator)
                                                                       argument: (primary
-                                                                        (function_subroutine_call
-                                                                          (subroutine_call
-                                                                            (method_call
-                                                                              (primary
-                                                                                (hierarchical_identifier
-                                                                                  (simple_identifier)))
-                                                                              (method_call_body
-                                                                                name: (simple_identifier)))))))
+                                                                        (hierarchical_identifier
+                                                                          (simple_identifier)
+                                                                          (simple_identifier))))
                                                                     right: (expression
                                                                       (primary
                                                                         (hierarchical_identifier
@@ -5307,14 +5305,9 @@ endmodule
                                                                   left: (expression
                                                                     operator: (unary_operator)
                                                                     argument: (primary
-                                                                      (function_subroutine_call
-                                                                        (subroutine_call
-                                                                          (method_call
-                                                                            (primary
-                                                                              (hierarchical_identifier
-                                                                                (simple_identifier)))
-                                                                            (method_call_body
-                                                                              name: (simple_identifier)))))))
+                                                                      (hierarchical_identifier
+                                                                        (simple_identifier)
+                                                                        (simple_identifier))))
                                                                   right: (expression
                                                                     left: (expression
                                                                       (primary
@@ -5657,10 +5650,10 @@ endmodule
                                                                                                                                                     (cast
                                                                                                                                                       (casting_type
                                                                                                                                                         (constant_mintypmax_expression
-                                                                                                                                                          (constant_expression
-                                                                                                                                                            (constant_primary
-                                                                                                                                                              (simple_identifier)
-                                                                                                                                                              (constant_select
+                                                                                                                                                          (expression
+                                                                                                                                                            (primary
+                                                                                                                                                              (hierarchical_identifier
+                                                                                                                                                                (simple_identifier)
                                                                                                                                                                 (simple_identifier))))))
                                                                                                                                                       (expression
                                                                                                                                                         (primary
@@ -6116,14 +6109,9 @@ endmodule
                                                                                                                         (expression
                                                                                                                           left: (expression
                                                                                                                             (primary
-                                                                                                                              (function_subroutine_call
-                                                                                                                                (subroutine_call
-                                                                                                                                  (method_call
-                                                                                                                                    (primary
-                                                                                                                                      (hierarchical_identifier
-                                                                                                                                        (simple_identifier)))
-                                                                                                                                    (method_call_body
-                                                                                                                                      name: (simple_identifier)))))))
+                                                                                                                              (hierarchical_identifier
+                                                                                                                                (simple_identifier)
+                                                                                                                                (simple_identifier))))
                                                                                                                           right: (expression
                                                                                                                             operator: (unary_operator)
                                                                                                                             argument: (primary
@@ -6135,14 +6123,9 @@ endmodule
                                                                                                                         (expression
                                                                                                                           left: (expression
                                                                                                                             (primary
-                                                                                                                              (function_subroutine_call
-                                                                                                                                (subroutine_call
-                                                                                                                                  (method_call
-                                                                                                                                    (primary
-                                                                                                                                      (hierarchical_identifier
-                                                                                                                                        (simple_identifier)))
-                                                                                                                                    (method_call_body
-                                                                                                                                      name: (simple_identifier)))))))
+                                                                                                                              (hierarchical_identifier
+                                                                                                                                (simple_identifier)
+                                                                                                                                (simple_identifier))))
                                                                                                                           right: (expression
                                                                                                                             (primary
                                                                                                                               (mintypmax_expression
@@ -6305,14 +6288,9 @@ endmodule
                                                                                                                   left: (expression
                                                                                                                     operator: (unary_operator)
                                                                                                                     argument: (primary
-                                                                                                                      (function_subroutine_call
-                                                                                                                        (subroutine_call
-                                                                                                                          (method_call
-                                                                                                                            (primary
-                                                                                                                              (hierarchical_identifier
-                                                                                                                                (simple_identifier)))
-                                                                                                                            (method_call_body
-                                                                                                                              name: (simple_identifier)))))))
+                                                                                                                      (hierarchical_identifier
+                                                                                                                        (simple_identifier)
+                                                                                                                        (simple_identifier))))
                                                                                                                   right: (expression
                                                                                                                     operator: (unary_operator)
                                                                                                                     argument: (primary
@@ -6930,7 +6908,8 @@ endmodule
                                                                                                                                                                             (primary_literal
                                                                                                                                                                               (integral_number
                                                                                                                                                                                 (decimal_number
-                                                                                                                                                                                  (unsigned_number))))))
+                                                                                                                                                                                  (unsigned_number)))))))
+                                                                                                                                                                      (bit_select
                                                                                                                                                                         (expression
                                                                                                                                                                           (primary
                                                                                                                                                                             (hierarchical_identifier
@@ -6948,10 +6927,10 @@ endmodule
                                                                                                                                                                     (cast
                                                                                                                                                                       (casting_type
                                                                                                                                                                         (constant_mintypmax_expression
-                                                                                                                                                                          (constant_expression
-                                                                                                                                                                            (constant_primary
-                                                                                                                                                                              (simple_identifier)
-                                                                                                                                                                              (constant_select
+                                                                                                                                                                          (expression
+                                                                                                                                                                            (primary
+                                                                                                                                                                              (hierarchical_identifier
+                                                                                                                                                                                (simple_identifier)
                                                                                                                                                                                 (simple_identifier))))))
                                                                                                                                                                       (expression
                                                                                                                                                                         (primary
@@ -7062,10 +7041,10 @@ endmodule
                                                                                                                                                                     (cast
                                                                                                                                                                       (casting_type
                                                                                                                                                                         (constant_mintypmax_expression
-                                                                                                                                                                          (constant_expression
-                                                                                                                                                                            (constant_primary
-                                                                                                                                                                              (simple_identifier)
-                                                                                                                                                                              (constant_select
+                                                                                                                                                                          (expression
+                                                                                                                                                                            (primary
+                                                                                                                                                                              (hierarchical_identifier
+                                                                                                                                                                                (simple_identifier)
                                                                                                                                                                                 (simple_identifier))))))
                                                                                                                                                                       (expression
                                                                                                                                                                         (primary
@@ -7131,7 +7110,8 @@ endmodule
                                                                                                                                                                             (primary_literal
                                                                                                                                                                               (integral_number
                                                                                                                                                                                 (decimal_number
-                                                                                                                                                                                  (unsigned_number))))))
+                                                                                                                                                                                  (unsigned_number)))))))
+                                                                                                                                                                      (bit_select
                                                                                                                                                                         (expression
                                                                                                                                                                           (primary
                                                                                                                                                                             (hierarchical_identifier
@@ -7149,10 +7129,10 @@ endmodule
                                                                                                                                                                     (cast
                                                                                                                                                                       (casting_type
                                                                                                                                                                         (constant_mintypmax_expression
-                                                                                                                                                                          (constant_expression
-                                                                                                                                                                            (constant_primary
-                                                                                                                                                                              (simple_identifier)
-                                                                                                                                                                              (constant_select
+                                                                                                                                                                          (expression
+                                                                                                                                                                            (primary
+                                                                                                                                                                              (hierarchical_identifier
+                                                                                                                                                                                (simple_identifier)
                                                                                                                                                                                 (simple_identifier))))))
                                                                                                                                                                       (expression
                                                                                                                                                                         (primary
@@ -7201,7 +7181,8 @@ endmodule
                                                                                                                                                         (expression
                                                                                                                                                           (primary
                                                                                                                                                             (hierarchical_identifier
-                                                                                                                                                              (simple_identifier))))
+                                                                                                                                                              (simple_identifier)))))
+                                                                                                                                                      (bit_select
                                                                                                                                                         (expression
                                                                                                                                                           (primary
                                                                                                                                                             (hierarchical_identifier
@@ -7219,10 +7200,10 @@ endmodule
                                                                                                                                                     (cast
                                                                                                                                                       (casting_type
                                                                                                                                                         (constant_mintypmax_expression
-                                                                                                                                                          (constant_expression
-                                                                                                                                                            (constant_primary
-                                                                                                                                                              (simple_identifier)
-                                                                                                                                                              (constant_select
+                                                                                                                                                          (expression
+                                                                                                                                                            (primary
+                                                                                                                                                              (hierarchical_identifier
+                                                                                                                                                                (simple_identifier)
                                                                                                                                                                 (simple_identifier))))))
                                                                                                                                                       (expression
                                                                                                                                                         (primary
@@ -7278,7 +7259,8 @@ endmodule
                                                                                                                                                               (primary_literal
                                                                                                                                                                 (integral_number
                                                                                                                                                                   (decimal_number
-                                                                                                                                                                    (unsigned_number)))))))
+                                                                                                                                                                    (unsigned_number))))))))
+                                                                                                                                                      (bit_select
                                                                                                                                                         (expression
                                                                                                                                                           (primary
                                                                                                                                                             (hierarchical_identifier
@@ -7296,10 +7278,10 @@ endmodule
                                                                                                                                                     (cast
                                                                                                                                                       (casting_type
                                                                                                                                                         (constant_mintypmax_expression
-                                                                                                                                                          (constant_expression
-                                                                                                                                                            (constant_primary
-                                                                                                                                                              (simple_identifier)
-                                                                                                                                                              (constant_select
+                                                                                                                                                          (expression
+                                                                                                                                                            (primary
+                                                                                                                                                              (hierarchical_identifier
+                                                                                                                                                                (simple_identifier)
                                                                                                                                                                 (simple_identifier))))))
                                                                                                                                                       (expression
                                                                                                                                                         (primary
@@ -7340,7 +7322,8 @@ endmodule
                                                                                                                                   (primary_literal
                                                                                                                                     (integral_number
                                                                                                                                       (decimal_number
-                                                                                                                                        (unsigned_number))))))
+                                                                                                                                        (unsigned_number)))))))
+                                                                                                                            (bit_select
                                                                                                                               (expression
                                                                                                                                 (primary
                                                                                                                                   (hierarchical_identifier
@@ -7358,10 +7341,10 @@ endmodule
                                                                                                                           (cast
                                                                                                                             (casting_type
                                                                                                                               (constant_mintypmax_expression
-                                                                                                                                (constant_expression
-                                                                                                                                  (constant_primary
-                                                                                                                                    (simple_identifier)
-                                                                                                                                    (constant_select
+                                                                                                                                (expression
+                                                                                                                                  (primary
+                                                                                                                                    (hierarchical_identifier
+                                                                                                                                      (simple_identifier)
                                                                                                                                       (simple_identifier))))))
                                                                                                                             (expression
                                                                                                                               (primary
@@ -7387,14 +7370,9 @@ endmodule
                                                                                                                   left: (expression
                                                                                                                     left: (expression
                                                                                                                       (primary
-                                                                                                                        (function_subroutine_call
-                                                                                                                          (subroutine_call
-                                                                                                                            (method_call
-                                                                                                                              (primary
-                                                                                                                                (hierarchical_identifier
-                                                                                                                                  (simple_identifier)))
-                                                                                                                              (method_call_body
-                                                                                                                                name: (simple_identifier)))))))
+                                                                                                                        (hierarchical_identifier
+                                                                                                                          (simple_identifier)
+                                                                                                                          (simple_identifier))))
                                                                                                                     right: (expression
                                                                                                                       (primary
                                                                                                                         (hierarchical_identifier

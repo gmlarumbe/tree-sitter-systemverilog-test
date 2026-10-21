@@ -783,9 +783,10 @@ endmodule // bsg_mem_banked_crossbar
                       (cast
                         (casting_type
                           (constant_mintypmax_expression
-                            (constant_expression
-                              (constant_primary
-                                (simple_identifier)))))
+                            (expression
+                              (primary
+                                (hierarchical_identifier
+                                  (simple_identifier))))))
                         (expression
                           left: (expression
                             (primary
@@ -808,9 +809,10 @@ endmodule // bsg_mem_banked_crossbar
                       (cast
                         (casting_type
                           (constant_mintypmax_expression
-                            (constant_expression
-                              (constant_primary
-                                (simple_identifier)))))
+                            (expression
+                              (primary
+                                (hierarchical_identifier
+                                  (simple_identifier))))))
                         (expression
                           (primary
                             (primary_literal

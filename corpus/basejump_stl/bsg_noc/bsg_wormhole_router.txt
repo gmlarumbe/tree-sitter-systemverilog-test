@@ -1186,7 +1186,8 @@ endmodule
                                           (primary_literal
                                             (integral_number
                                               (decimal_number
-                                                (unsigned_number))))))
+                                                (unsigned_number)))))))
+                                    (bit_select
                                       (expression
                                         (primary
                                           (hierarchical_identifier
@@ -1288,7 +1289,8 @@ endmodule
                                 (primary_literal
                                   (integral_number
                                     (decimal_number
-                                      (unsigned_number))))))
+                                      (unsigned_number)))))))
+                          (bit_select
                             (expression
                               (primary
                                 (hierarchical_identifier
@@ -1907,7 +1909,8 @@ endmodule
                                 (primary_literal
                                   (integral_number
                                     (decimal_number
-                                      (unsigned_number))))))
+                                      (unsigned_number)))))))
+                          (bit_select
                             (expression
                               (primary
                                 (hierarchical_identifier
@@ -2058,7 +2061,8 @@ endmodule
                                 (primary_literal
                                   (integral_number
                                     (decimal_number
-                                      (unsigned_number))))))
+                                      (unsigned_number)))))))
+                          (bit_select
                             (expression
                               (primary
                                 (hierarchical_identifier
@@ -2150,7 +2154,8 @@ endmodule
                                                       (primary_literal
                                                         (integral_number
                                                           (decimal_number
-                                                            (unsigned_number))))))
+                                                            (unsigned_number)))))))
+                                                (bit_select
                                                   (expression
                                                     (primary
                                                       (hierarchical_identifier
@@ -2187,7 +2192,8 @@ endmodule
                                                           (primary_literal
                                                             (integral_number
                                                               (decimal_number
-                                                                (unsigned_number))))))
+                                                                (unsigned_number)))))))
+                                                    (bit_select
                                                       (expression
                                                         (primary
                                                           (hierarchical_identifier
@@ -2287,7 +2293,8 @@ endmodule
                                           (primary_literal
                                             (integral_number
                                               (decimal_number
-                                                (unsigned_number))))))
+                                                (unsigned_number)))))))
+                                    (bit_select
                                       (expression
                                         (primary
                                           (hierarchical_identifier
@@ -2387,7 +2394,8 @@ endmodule
                                 (primary_literal
                                   (integral_number
                                     (decimal_number
-                                      (unsigned_number))))))
+                                      (unsigned_number)))))))
+                          (bit_select
                             (expression
                               (primary
                                 (hierarchical_identifier
@@ -2433,7 +2441,8 @@ endmodule
                                 (primary_literal
                                   (integral_number
                                     (decimal_number
-                                      (unsigned_number))))))
+                                      (unsigned_number)))))))
+                          (bit_select
                             (expression
                               (primary
                                 (hierarchical_identifier
@@ -2473,7 +2482,8 @@ endmodule
                                 (primary_literal
                                   (integral_number
                                     (decimal_number
-                                      (unsigned_number))))))
+                                      (unsigned_number)))))))
+                          (bit_select
                             (expression
                               (primary
                                 (hierarchical_identifier
@@ -2521,7 +2531,8 @@ endmodule
                                 (primary_literal
                                   (integral_number
                                     (decimal_number
-                                      (unsigned_number))))))
+                                      (unsigned_number)))))))
+                          (bit_select
                             (expression
                               (primary
                                 (hierarchical_identifier
@@ -2802,7 +2813,8 @@ endmodule
                                 (primary_literal
                                   (integral_number
                                     (decimal_number
-                                      (unsigned_number))))))
+                                      (unsigned_number)))))))
+                          (bit_select
                             (expression
                               (primary
                                 (hierarchical_identifier

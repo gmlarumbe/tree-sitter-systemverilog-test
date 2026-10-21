@@ -1018,12 +1018,13 @@ endmodule
                           (cast
                             (casting_type
                               (constant_mintypmax_expression
-                                (constant_expression
-                                  left: (constant_expression
-                                    (constant_primary
-                                      (simple_identifier)))
-                                  right: (constant_expression
-                                    (constant_primary
+                                (expression
+                                  left: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier))))
+                                  right: (expression
+                                    (primary
                                       (primary_literal
                                         (integral_number
                                           (decimal_number
@@ -1069,9 +1070,10 @@ endmodule
                                           (cast
                                             (casting_type
                                               (constant_mintypmax_expression
-                                                (constant_expression
-                                                  (constant_primary
-                                                    (simple_identifier)))))
+                                                (expression
+                                                  (primary
+                                                    (hierarchical_identifier
+                                                      (simple_identifier))))))
                                             (expression
                                               (primary
                                                 (hierarchical_identifier
@@ -1097,9 +1099,10 @@ endmodule
                                                   (cast
                                                     (casting_type
                                                       (constant_mintypmax_expression
-                                                        (constant_expression
-                                                          (constant_primary
-                                                            (simple_identifier)))))
+                                                        (expression
+                                                          (primary
+                                                            (hierarchical_identifier
+                                                              (simple_identifier))))))
                                                     (expression
                                                       (primary
                                                         (hierarchical_identifier
@@ -1164,9 +1167,10 @@ endmodule
                                           (cast
                                             (casting_type
                                               (constant_mintypmax_expression
-                                                (constant_expression
-                                                  (constant_primary
-                                                    (simple_identifier)))))
+                                                (expression
+                                                  (primary
+                                                    (hierarchical_identifier
+                                                      (simple_identifier))))))
                                             (expression
                                               (primary
                                                 (hierarchical_identifier
@@ -1192,9 +1196,10 @@ endmodule
                                                   (cast
                                                     (casting_type
                                                       (constant_mintypmax_expression
-                                                        (constant_expression
-                                                          (constant_primary
-                                                            (simple_identifier)))))
+                                                        (expression
+                                                          (primary
+                                                            (hierarchical_identifier
+                                                              (simple_identifier))))))
                                                     (expression
                                                       (primary
                                                         (hierarchical_identifier
@@ -1339,9 +1344,10 @@ endmodule
                           (cast
                             (casting_type
                               (constant_mintypmax_expression
-                                (constant_expression
-                                  (constant_primary
-                                    (simple_identifier)))))
+                                (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))))
                             (expression
                               left: (expression
                                 (primary
@@ -1389,9 +1395,10 @@ endmodule
                           (cast
                             (casting_type
                               (constant_mintypmax_expression
-                                (constant_expression
-                                  (constant_primary
-                                    (simple_identifier)))))
+                                (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))))
                             (expression
                               left: (expression
                                 (primary
@@ -2394,12 +2401,13 @@ endmodule
                           (cast
                             (casting_type
                               (constant_mintypmax_expression
-                                (constant_expression
-                                  left: (constant_expression
-                                    (constant_primary
-                                      (simple_identifier)))
-                                  right: (constant_expression
-                                    (constant_primary
+                                (expression
+                                  left: (expression
+                                    (primary
+                                      (hierarchical_identifier
+                                        (simple_identifier))))
+                                  right: (expression
+                                    (primary
                                       (primary_literal
                                         (integral_number
                                           (decimal_number
@@ -2445,9 +2453,10 @@ endmodule
                                           (cast
                                             (casting_type
                                               (constant_mintypmax_expression
-                                                (constant_expression
-                                                  (constant_primary
-                                                    (simple_identifier)))))
+                                                (expression
+                                                  (primary
+                                                    (hierarchical_identifier
+                                                      (simple_identifier))))))
                                             (expression
                                               (primary
                                                 (hierarchical_identifier
@@ -2473,9 +2482,10 @@ endmodule
                                                   (cast
                                                     (casting_type
                                                       (constant_mintypmax_expression
-                                                        (constant_expression
-                                                          (constant_primary
-                                                            (simple_identifier)))))
+                                                        (expression
+                                                          (primary
+                                                            (hierarchical_identifier
+                                                              (simple_identifier))))))
                                                     (expression
                                                       (primary
                                                         (hierarchical_identifier
@@ -2540,9 +2550,10 @@ endmodule
                                           (cast
                                             (casting_type
                                               (constant_mintypmax_expression
-                                                (constant_expression
-                                                  (constant_primary
-                                                    (simple_identifier)))))
+                                                (expression
+                                                  (primary
+                                                    (hierarchical_identifier
+                                                      (simple_identifier))))))
                                             (expression
                                               (primary
                                                 (hierarchical_identifier
@@ -2568,9 +2579,10 @@ endmodule
                                                   (cast
                                                     (casting_type
                                                       (constant_mintypmax_expression
-                                                        (constant_expression
-                                                          (constant_primary
-                                                            (simple_identifier)))))
+                                                        (expression
+                                                          (primary
+                                                            (hierarchical_identifier
+                                                              (simple_identifier))))))
                                                     (expression
                                                       (primary
                                                         (hierarchical_identifier
@@ -2714,9 +2726,10 @@ endmodule
                           (cast
                             (casting_type
                               (constant_mintypmax_expression
-                                (constant_expression
-                                  (constant_primary
-                                    (simple_identifier)))))
+                                (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))))
                             (expression
                               left: (expression
                                 (primary
@@ -2764,9 +2777,10 @@ endmodule
                           (cast
                             (casting_type
                               (constant_mintypmax_expression
-                                (constant_expression
-                                  (constant_primary
-                                    (simple_identifier)))))
+                                (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))))
                             (expression
                               left: (expression
                                 (primary

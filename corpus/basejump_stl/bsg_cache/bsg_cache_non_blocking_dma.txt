@@ -1988,8 +1988,8 @@ endmodule
                           (cast
                             (casting_type
                               (constant_mintypmax_expression
-                                (constant_expression
-                                  (constant_primary
+                                (expression
+                                  (primary
                                     (primary_literal
                                       (integral_number
                                         (decimal_number
@@ -2027,9 +2027,10 @@ endmodule
                           (cast
                             (casting_type
                               (constant_mintypmax_expression
-                                (constant_expression
-                                  (constant_primary
-                                    (simple_identifier)))))
+                                (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier))))))
                             (expression
                               (primary
                                 (primary_literal
@@ -2199,14 +2200,9 @@ endmodule
                                                     (conditional_expression
                                                       (expression
                                                         (primary
-                                                          (function_subroutine_call
-                                                            (subroutine_call
-                                                              (method_call
-                                                                (primary
-                                                                  (hierarchical_identifier
-                                                                    (simple_identifier)))
-                                                                (method_call_body
-                                                                  name: (simple_identifier)))))))
+                                                          (hierarchical_identifier
+                                                            (simple_identifier)
+                                                            (simple_identifier))))
                                                       (expression
                                                         (primary
                                                           (hierarchical_identifier
@@ -2318,14 +2314,9 @@ endmodule
                                                     (conditional_expression
                                                       (expression
                                                         (primary
-                                                          (function_subroutine_call
-                                                            (subroutine_call
-                                                              (method_call
-                                                                (primary
-                                                                  (hierarchical_identifier
-                                                                    (simple_identifier)))
-                                                                (method_call_body
-                                                                  name: (simple_identifier)))))))
+                                                          (hierarchical_identifier
+                                                            (simple_identifier)
+                                                            (simple_identifier))))
                                                       (expression
                                                         (primary
                                                           (hierarchical_identifier
@@ -2609,14 +2600,9 @@ endmodule
                                                     (conditional_expression
                                                       (expression
                                                         (primary
-                                                          (function_subroutine_call
-                                                            (subroutine_call
-                                                              (method_call
-                                                                (primary
-                                                                  (hierarchical_identifier
-                                                                    (simple_identifier)))
-                                                                (method_call_body
-                                                                  name: (simple_identifier)))))))
+                                                          (hierarchical_identifier
+                                                            (simple_identifier)
+                                                            (simple_identifier))))
                                                       (expression
                                                         (primary
                                                           (hierarchical_identifier

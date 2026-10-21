@@ -3887,14 +3887,9 @@ endclass
                                             (expression
                                               left: (expression
                                                 (primary
-                                                  (function_subroutine_call
-                                                    (subroutine_call
-                                                      (method_call
-                                                        (primary
-                                                          (hierarchical_identifier
-                                                            (simple_identifier)))
-                                                        (method_call_body
-                                                          name: (simple_identifier)))))))
+                                                  (hierarchical_identifier
+                                                    (simple_identifier)
+                                                    (simple_identifier))))
                                               right: (expression
                                                 (primary)))))))))))
                             (statement_or_null
@@ -4470,12 +4465,10 @@ endclass
                                                             (primary
                                                               (function_subroutine_call
                                                                 (subroutine_call
-                                                                  (method_call
-                                                                    (primary
-                                                                      (hierarchical_identifier
-                                                                        (simple_identifier)))
-                                                                    (method_call_body
-                                                                      name: (simple_identifier)))))))
+                                                                  (tf_call
+                                                                    (hierarchical_identifier
+                                                                      (simple_identifier)
+                                                                      (simple_identifier)))))))
                                                           right: (expression
                                                             (primary
                                                               (hierarchical_identifier
@@ -5044,7 +5037,8 @@ endclass
                                                       (expression
                                                         (primary
                                                           (hierarchical_identifier
-                                                            (simple_identifier))))
+                                                            (simple_identifier)))))
+                                                    (bit_select
                                                       (expression
                                                         (primary
                                                           (hierarchical_identifier
@@ -9167,14 +9161,9 @@ endclass
                                 (expression
                                   left: (expression
                                     (primary
-                                      (function_subroutine_call
-                                        (subroutine_call
-                                          (method_call
-                                            (primary
-                                              (hierarchical_identifier
-                                                (simple_identifier)))
-                                            (method_call_body
-                                              name: (simple_identifier)))))))
+                                      (hierarchical_identifier
+                                        (simple_identifier)
+                                        (simple_identifier))))
                                   right: (expression
                                     (primary))))))))
                       (statement_or_null

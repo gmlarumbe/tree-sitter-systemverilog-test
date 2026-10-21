@@ -2653,14 +2653,9 @@ endmodule  // wt_dcache_mem
                                       (expression
                                         left: (expression
                                           (primary
-                                            (function_subroutine_call
-                                              (subroutine_call
-                                                (method_call
-                                                  (primary
-                                                    (hierarchical_identifier
-                                                      (simple_identifier)))
-                                                  (method_call_body
-                                                    name: (simple_identifier)))))))
+                                            (hierarchical_identifier
+                                              (simple_identifier)
+                                              (simple_identifier))))
                                         right: (expression
                                           (primary
                                             (primary_literal
@@ -3958,7 +3953,8 @@ endmodule  // wt_dcache_mem
                                 (constant_primary
                                   (simple_identifier)
                                   (constant_select
-                                    (simple_identifier))))))))
+                                    (simple_identifier)))))))))
+                    (bit_select
                       (expression
                         (primary
                           (hierarchical_identifier
@@ -4001,7 +3997,8 @@ endmodule  // wt_dcache_mem
                                 (constant_primary
                                   (simple_identifier)
                                   (constant_select
-                                    (simple_identifier))))))))
+                                    (simple_identifier)))))))))
+                    (bit_select
                       (expression
                         (primary
                           (hierarchical_identifier
@@ -4255,14 +4252,9 @@ endmodule  // wt_dcache_mem
                               (expression
                                 left: (expression
                                   (primary
-                                    (function_subroutine_call
-                                      (subroutine_call
-                                        (method_call
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier)))
-                                          (method_call_body
-                                            name: (simple_identifier)))))))
+                                    (hierarchical_identifier
+                                      (simple_identifier)
+                                      (simple_identifier))))
                                 right: (expression
                                   (primary
                                     (hierarchical_identifier
@@ -5052,12 +5044,18 @@ endmodule  // wt_dcache_mem
                       (expression
                         (primary
                           (hierarchical_identifier
-                            (simple_identifier))))
+                            (simple_identifier)))))
+                    (bit_select
                       (expression
                         (primary
-                          (hierarchical_identifier
-                            (simple_identifier)
-                            (simple_identifier)))))))))))
+                          (function_subroutine_call
+                            (subroutine_call
+                              (method_call
+                                (primary
+                                  (hierarchical_identifier
+                                    (simple_identifier)))
+                                (method_call_body
+                                  name: (simple_identifier))))))))))))))
         (one_line_comment)
         (module_instantiation
           instance_type: (simple_identifier)
@@ -5898,7 +5896,8 @@ endmodule  // wt_dcache_mem
                                                                                   (expression
                                                                                     (primary
                                                                                       (hierarchical_identifier
-                                                                                        (simple_identifier))))
+                                                                                        (simple_identifier)))))
+                                                                                (bit_select
                                                                                   (expression
                                                                                     (primary
                                                                                       (hierarchical_identifier
@@ -5925,7 +5924,8 @@ endmodule  // wt_dcache_mem
                                                                                   (expression
                                                                                     (primary
                                                                                       (hierarchical_identifier
-                                                                                        (simple_identifier))))
+                                                                                        (simple_identifier)))))
+                                                                                (bit_select
                                                                                   (expression
                                                                                     (primary
                                                                                       (hierarchical_identifier
@@ -5982,7 +5982,8 @@ endmodule  // wt_dcache_mem
                                   (expression
                                     (primary
                                       (hierarchical_identifier
-                                        (simple_identifier))))
+                                        (simple_identifier)))))
+                                (bit_select
                                   (expression
                                     (primary
                                       (hierarchical_identifier
@@ -6000,7 +6001,8 @@ endmodule  // wt_dcache_mem
                           (expression
                             (primary
                               (hierarchical_identifier
-                                (simple_identifier))))
+                                (simple_identifier)))))
+                        (bit_select
                           (expression
                             (primary
                               (hierarchical_identifier

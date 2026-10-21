@@ -4540,14 +4540,9 @@ endmodule
                                                                                                                         (conditional_expression
                                                                                                                           (expression
                                                                                                                             (primary
-                                                                                                                              (function_subroutine_call
-                                                                                                                                (subroutine_call
-                                                                                                                                  (method_call
-                                                                                                                                    (primary
-                                                                                                                                      (hierarchical_identifier
-                                                                                                                                        (simple_identifier)))
-                                                                                                                                    (method_call_body
-                                                                                                                                      name: (simple_identifier)))))))
+                                                                                                                              (hierarchical_identifier
+                                                                                                                                (simple_identifier)
+                                                                                                                                (simple_identifier))))
                                                                                                                           (expression
                                                                                                                             (primary
                                                                                                                               (package_scope
@@ -5586,10 +5581,10 @@ endmodule
                           (cast
                             (casting_type
                               (constant_mintypmax_expression
-                                (constant_expression
-                                  (constant_primary
-                                    (simple_identifier)
-                                    (constant_select
+                                (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier)
                                       (simple_identifier))))))
                             (expression
                               (primary
@@ -5659,10 +5654,10 @@ endmodule
                           (cast
                             (casting_type
                               (constant_mintypmax_expression
-                                (constant_expression
-                                  (constant_primary
-                                    (simple_identifier)
-                                    (constant_select
+                                (expression
+                                  (primary
+                                    (hierarchical_identifier
+                                      (simple_identifier)
                                       (simple_identifier))))))
                             (expression
                               (primary
@@ -6225,14 +6220,9 @@ endmodule
                                                                                   left: (expression
                                                                                     operator: (unary_operator)
                                                                                     argument: (primary
-                                                                                      (function_subroutine_call
-                                                                                        (subroutine_call
-                                                                                          (method_call
-                                                                                            (primary
-                                                                                              (hierarchical_identifier
-                                                                                                (simple_identifier)))
-                                                                                            (method_call_body
-                                                                                              name: (simple_identifier)))))))
+                                                                                      (hierarchical_identifier
+                                                                                        (simple_identifier)
+                                                                                        (simple_identifier))))
                                                                                   right: (expression
                                                                                     (primary
                                                                                       (hierarchical_identifier
@@ -6475,14 +6465,9 @@ endmodule
                                                                                     left: (expression
                                                                                       operator: (unary_operator)
                                                                                       argument: (primary
-                                                                                        (function_subroutine_call
-                                                                                          (subroutine_call
-                                                                                            (method_call
-                                                                                              (primary
-                                                                                                (hierarchical_identifier
-                                                                                                  (simple_identifier)))
-                                                                                              (method_call_body
-                                                                                                name: (simple_identifier)))))))
+                                                                                        (hierarchical_identifier
+                                                                                          (simple_identifier)
+                                                                                          (simple_identifier))))
                                                                                     right: (expression
                                                                                       (primary
                                                                                         (hierarchical_identifier
@@ -7310,14 +7295,9 @@ endmodule
                                                                                                                                         (conditional_expression
                                                                                                                                           (expression
                                                                                                                                             (primary
-                                                                                                                                              (function_subroutine_call
-                                                                                                                                                (subroutine_call
-                                                                                                                                                  (method_call
-                                                                                                                                                    (primary
-                                                                                                                                                      (hierarchical_identifier
-                                                                                                                                                        (simple_identifier)))
-                                                                                                                                                    (method_call_body
-                                                                                                                                                      name: (simple_identifier)))))))
+                                                                                                                                              (hierarchical_identifier
+                                                                                                                                                (simple_identifier)
+                                                                                                                                                (simple_identifier))))
                                                                                                                                           (expression
                                                                                                                                             (primary
                                                                                                                                               (package_scope
@@ -7703,14 +7683,9 @@ endmodule
                                                                                                                                         (conditional_expression
                                                                                                                                           (expression
                                                                                                                                             (primary
-                                                                                                                                              (function_subroutine_call
-                                                                                                                                                (subroutine_call
-                                                                                                                                                  (method_call
-                                                                                                                                                    (primary
-                                                                                                                                                      (hierarchical_identifier
-                                                                                                                                                        (simple_identifier)))
-                                                                                                                                                    (method_call_body
-                                                                                                                                                      name: (simple_identifier)))))))
+                                                                                                                                              (hierarchical_identifier
+                                                                                                                                                (simple_identifier)
+                                                                                                                                                (simple_identifier))))
                                                                                                                                           (expression
                                                                                                                                             (primary
                                                                                                                                               (package_scope

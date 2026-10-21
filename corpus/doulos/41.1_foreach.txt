@@ -148,7 +148,8 @@ foreach (Mult[i,j])
                       (expression
                         (primary
                           (hierarchical_identifier
-                            (simple_identifier))))
+                            (simple_identifier)))))
+                    (bit_select
                       (expression
                         (primary
                           (hierarchical_identifier

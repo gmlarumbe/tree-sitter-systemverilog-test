@@ -4018,7 +4018,8 @@ endfunction
                                                                     (system_tf_call
                                                                       (system_tf_identifier)
                                                                       (data_type
-                                                                        (integer_atom_type))))))))
+                                                                        (integer_atom_type)))))))))
+                                                        (bit_select
                                                           (expression
                                                             left: (expression
                                                               (primary
@@ -4293,7 +4294,8 @@ endfunction
                                                                     (system_tf_call
                                                                       (system_tf_identifier)
                                                                       (data_type
-                                                                        (integer_atom_type))))))))
+                                                                        (integer_atom_type)))))))))
+                                                        (bit_select
                                                           (expression
                                                             left: (expression
                                                               (primary
@@ -4983,12 +4985,10 @@ endfunction
                                                       (primary
                                                         (function_subroutine_call
                                                           (subroutine_call
-                                                            (method_call
-                                                              (primary
-                                                                (hierarchical_identifier
-                                                                  (simple_identifier)))
-                                                              (method_call_body
-                                                                name: (simple_identifier)))))))
+                                                            (tf_call
+                                                              (hierarchical_identifier
+                                                                (simple_identifier)
+                                                                (simple_identifier)))))))
                                                     right: (expression
                                                       (primary
                                                         (hierarchical_identifier
@@ -6120,7 +6120,8 @@ endfunction
                                                                                   (system_tf_call
                                                                                     (system_tf_identifier)
                                                                                     (data_type
-                                                                                      (integer_atom_type))))))))
+                                                                                      (integer_atom_type)))))))))
+                                                                      (bit_select
                                                                         (expression
                                                                           left: (expression
                                                                             (primary
@@ -6414,7 +6415,8 @@ endfunction
                                                                                   (system_tf_call
                                                                                     (system_tf_identifier)
                                                                                     (data_type
-                                                                                      (integer_atom_type))))))))
+                                                                                      (integer_atom_type)))))))))
+                                                                      (bit_select
                                                                         (expression
                                                                           left: (expression
                                                                             (primary

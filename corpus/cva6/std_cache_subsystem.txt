@@ -1790,14 +1790,9 @@ endmodule  // std_cache_subsystem
                   (expression
                     left: (expression
                       (primary
-                        (function_subroutine_call
-                          (subroutine_call
-                            (method_call
-                              (primary
-                                (hierarchical_identifier
-                                  (simple_identifier)))
-                              (method_call_body
-                                name: (simple_identifier)))))))
+                        (hierarchical_identifier
+                          (simple_identifier)
+                          (simple_identifier))))
                     right: (expression
                       (primary
                         (hierarchical_identifier
@@ -1846,14 +1841,9 @@ endmodule  // std_cache_subsystem
                       (conditional_expression
                         (expression
                           (primary
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier)))))))
+                            (hierarchical_identifier
+                              (simple_identifier)
+                              (simple_identifier))))
                         (expression
                           (primary
                             (hierarchical_identifier
@@ -2658,14 +2648,9 @@ endmodule  // std_cache_subsystem
                           (expression
                             operator: (unary_operator)
                             argument: (primary
-                              (function_subroutine_call
-                                (subroutine_call
-                                  (method_call
-                                    (primary
-                                      (hierarchical_identifier
-                                        (simple_identifier)))
-                                    (method_call_body
-                                      name: (simple_identifier))))))))))
+                              (hierarchical_identifier
+                                (simple_identifier)
+                                (simple_identifier)))))))
                     right: (expression
                       (primary
                         (primary_literal

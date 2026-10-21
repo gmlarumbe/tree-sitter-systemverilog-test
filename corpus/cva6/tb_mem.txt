@@ -1241,7 +1241,8 @@ endmodule // mem_emul
                                                                                                                         (primary_literal
                                                                                                                           (integral_number
                                                                                                                             (decimal_number
-                                                                                                                              (unsigned_number)))))))
+                                                                                                                              (unsigned_number))))))))
+                                                                                                                (bit_select
                                                                                                                   (expression
                                                                                                                     (primary
                                                                                                                       (hierarchical_identifier
@@ -1403,7 +1404,8 @@ endmodule // mem_emul
                                                                                                                         (primary_literal
                                                                                                                           (integral_number
                                                                                                                             (decimal_number
-                                                                                                                              (unsigned_number)))))))
+                                                                                                                              (unsigned_number))))))))
+                                                                                                                (bit_select
                                                                                                                   (expression
                                                                                                                     (primary
                                                                                                                       (hierarchical_identifier
@@ -2293,7 +2295,8 @@ endmodule // mem_emul
                                                                                                       (expression
                                                                                                         (primary
                                                                                                           (hierarchical_identifier
-                                                                                                            (simple_identifier))))
+                                                                                                            (simple_identifier)))))
+                                                                                                    (bit_select
                                                                                                       (expression
                                                                                                         (primary
                                                                                                           (hierarchical_identifier

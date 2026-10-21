@@ -500,11 +500,13 @@ endclass
                               (expression
                                 (primary
                                   (hierarchical_identifier
-                                    (simple_identifier))))
+                                    (simple_identifier)))))
+                            (bit_select
                               (expression
                                 (primary
                                   (hierarchical_identifier
-                                    (simple_identifier))))
+                                    (simple_identifier)))))
+                            (bit_select
                               (expression
                                 (primary
                                   (function_subroutine_call
@@ -631,11 +633,13 @@ endclass
                               (expression
                                 (primary
                                   (hierarchical_identifier
-                                    (simple_identifier))))
+                                    (simple_identifier)))))
+                            (bit_select
                               (expression
                                 (primary
                                   (hierarchical_identifier
-                                    (simple_identifier))))
+                                    (simple_identifier)))))
+                            (bit_select
                               (expression
                                 (primary
                                   (function_subroutine_call
@@ -791,11 +795,13 @@ endclass
                                               (expression
                                                 (primary
                                                   (hierarchical_identifier
-                                                    (simple_identifier))))
+                                                    (simple_identifier)))))
+                                            (bit_select
                                               (expression
                                                 (primary
                                                   (hierarchical_identifier
-                                                    (simple_identifier))))
+                                                    (simple_identifier)))))
+                                            (bit_select
                                               (expression
                                                 (primary
                                                   (hierarchical_identifier

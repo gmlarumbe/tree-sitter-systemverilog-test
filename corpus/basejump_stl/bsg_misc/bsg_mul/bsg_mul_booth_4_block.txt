@@ -282,7 +282,8 @@ endmodule // bsg_mul_booth_4_block
                             (expression
                               (primary
                                 (hierarchical_identifier
-                                  (simple_identifier))))
+                                  (simple_identifier)))))
+                          (bit_select
                             (expression
                               (primary
                                 (primary_literal
@@ -346,7 +347,8 @@ endmodule // bsg_mul_booth_4_block
                                               (expression
                                                 (primary
                                                   (hierarchical_identifier
-                                                    (simple_identifier))))
+                                                    (simple_identifier)))))
+                                            (bit_select
                                               (expression
                                                 (primary
                                                   (primary_literal
@@ -362,7 +364,8 @@ endmodule // bsg_mul_booth_4_block
                                               (expression
                                                 (primary
                                                   (hierarchical_identifier
-                                                    (simple_identifier))))
+                                                    (simple_identifier)))))
+                                            (bit_select
                                               (expression
                                                 (primary
                                                   (primary_literal
@@ -474,7 +477,8 @@ endmodule // bsg_mul_booth_4_block
                                                           (expression
                                                             (primary
                                                               (hierarchical_identifier
-                                                                (simple_identifier))))
+                                                                (simple_identifier)))))
+                                                        (bit_select
                                                           (expression
                                                             (primary
                                                               (primary_literal
@@ -490,7 +494,8 @@ endmodule // bsg_mul_booth_4_block
                                                           (expression
                                                             (primary
                                                               (hierarchical_identifier
-                                                                (simple_identifier))))
+                                                                (simple_identifier)))))
+                                                        (bit_select
                                                           (expression
                                                             (primary
                                                               (primary_literal

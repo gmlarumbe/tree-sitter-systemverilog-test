@@ -1472,14 +1472,9 @@ endmodule  // wt_l15_adapter
                       (mintypmax_expression
                         (expression
                           (primary
-                            (function_subroutine_call
-                              (subroutine_call
-                                (method_call
-                                  (primary
-                                    (hierarchical_identifier
-                                      (simple_identifier)))
-                                  (method_call_body
-                                    name: (simple_identifier))))))))))
+                            (hierarchical_identifier
+                              (simple_identifier)
+                              (simple_identifier)))))))
                   (expression
                     (primary
                       (primary_literal
@@ -3132,14 +3127,9 @@ endmodule  // wt_l15_adapter
                               left: (expression
                                 left: (expression
                                   (primary
-                                    (function_subroutine_call
-                                      (subroutine_call
-                                        (method_call
-                                          (primary
-                                            (hierarchical_identifier
-                                              (simple_identifier)))
-                                          (method_call_body
-                                            name: (simple_identifier)))))))
+                                    (hierarchical_identifier
+                                      (simple_identifier)
+                                      (simple_identifier))))
                                 right: (expression
                                   (primary
                                     (hierarchical_identifier
@@ -3217,14 +3207,9 @@ endmodule  // wt_l15_adapter
                           (expression
                             left: (expression
                               (primary
-                                (function_subroutine_call
-                                  (subroutine_call
-                                    (method_call
-                                      (primary
-                                        (hierarchical_identifier
-                                          (simple_identifier)))
-                                      (method_call_body
-                                        name: (simple_identifier)))))))
+                                (hierarchical_identifier
+                                  (simple_identifier)
+                                  (simple_identifier))))
                             right: (expression
                               (primary
                                 (hierarchical_identifier
@@ -3336,14 +3321,9 @@ endmodule  // wt_l15_adapter
                 (expression_or_dist
                   (expression
                     (primary
-                      (function_subroutine_call
-                        (subroutine_call
-                          (method_call
-                            (primary
-                              (hierarchical_identifier
-                                (simple_identifier)))
-                            (method_call_body
-                              name: (simple_identifier)))))))))
+                      (hierarchical_identifier
+                        (simple_identifier)
+                        (simple_identifier))))))
               (property_expr
                 (sequence_expr
                   (expression_or_dist
@@ -3421,14 +3401,9 @@ endmodule  // wt_l15_adapter
                 (expression_or_dist
                   (expression
                     (primary
-                      (function_subroutine_call
-                        (subroutine_call
-                          (method_call
-                            (primary
-                              (hierarchical_identifier
-                                (simple_identifier)))
-                            (method_call_body
-                              name: (simple_identifier)))))))))
+                      (hierarchical_identifier
+                        (simple_identifier)
+                        (simple_identifier))))))
               (property_expr
                 (sequence_expr
                   (expression_or_dist

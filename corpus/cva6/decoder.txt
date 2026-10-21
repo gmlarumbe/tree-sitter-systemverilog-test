@@ -3653,14 +3653,9 @@ endmodule
                                                                                                     (expression
                                                                                                       left: (expression
                                                                                                         (primary
-                                                                                                          (function_subroutine_call
-                                                                                                            (subroutine_call
-                                                                                                              (method_call
-                                                                                                                (primary
-                                                                                                                  (hierarchical_identifier
-                                                                                                                    (simple_identifier)))
-                                                                                                                (method_call_body
-                                                                                                                  name: (simple_identifier)))))))
+                                                                                                          (hierarchical_identifier
+                                                                                                            (simple_identifier)
+                                                                                                            (simple_identifier))))
                                                                                                       right: (expression
                                                                                                         left: (expression
                                                                                                           (primary
@@ -3678,14 +3673,9 @@ endmodule
                                                                                                     (expression
                                                                                                       left: (expression
                                                                                                         (primary
-                                                                                                          (function_subroutine_call
-                                                                                                            (subroutine_call
-                                                                                                              (method_call
-                                                                                                                (primary
-                                                                                                                  (hierarchical_identifier
-                                                                                                                    (simple_identifier)))
-                                                                                                                (method_call_body
-                                                                                                                  name: (simple_identifier)))))))
+                                                                                                          (hierarchical_identifier
+                                                                                                            (simple_identifier)
+                                                                                                            (simple_identifier))))
                                                                                                       right: (expression
                                                                                                         left: (expression
                                                                                                           (primary
@@ -4204,14 +4194,9 @@ endmodule
                                                                                                                                         left: (expression
                                                                                                                                           left: (expression
                                                                                                                                             (primary
-                                                                                                                                              (function_subroutine_call
-                                                                                                                                                (subroutine_call
-                                                                                                                                                  (method_call
-                                                                                                                                                    (primary
-                                                                                                                                                      (hierarchical_identifier
-                                                                                                                                                        (simple_identifier)))
-                                                                                                                                                    (method_call_body
-                                                                                                                                                      name: (simple_identifier)))))))
+                                                                                                                                              (hierarchical_identifier
+                                                                                                                                                (simple_identifier)
+                                                                                                                                                (simple_identifier))))
                                                                                                                                           right: (expression
                                                                                                                                             (primary
                                                                                                                                               (mintypmax_expression
@@ -6353,14 +6338,9 @@ endmodule
                                                                                         (expression
                                                                                           left: (expression
                                                                                             (primary
-                                                                                              (function_subroutine_call
-                                                                                                (subroutine_call
-                                                                                                  (method_call
-                                                                                                    (primary
-                                                                                                      (hierarchical_identifier
-                                                                                                        (simple_identifier)))
-                                                                                                    (method_call_body
-                                                                                                      name: (simple_identifier)))))))
+                                                                                              (hierarchical_identifier
+                                                                                                (simple_identifier)
+                                                                                                (simple_identifier))))
                                                                                           right: (expression
                                                                                             (primary
                                                                                               (mintypmax_expression
@@ -9411,20 +9391,10 @@ endmodule
                                                                                                     left: (expression
                                                                                                       left: (expression
                                                                                                         (primary
-                                                                                                          (function_subroutine_call
-                                                                                                            (subroutine_call
-                                                                                                              (method_call
-                                                                                                                (primary
-                                                                                                                  (function_subroutine_call
-                                                                                                                    (subroutine_call
-                                                                                                                      (method_call
-                                                                                                                        (primary
-                                                                                                                          (hierarchical_identifier
-                                                                                                                            (simple_identifier)))
-                                                                                                                        (method_call_body
-                                                                                                                          name: (simple_identifier))))))
-                                                                                                                (method_call_body
-                                                                                                                  name: (simple_identifier)))))))
+                                                                                                          (hierarchical_identifier
+                                                                                                            (simple_identifier)
+                                                                                                            (simple_identifier)
+                                                                                                            (simple_identifier))))
                                                                                                       right: (expression
                                                                                                         (primary
                                                                                                           (primary_literal
@@ -9443,20 +9413,10 @@ endmodule
                                                                                                                   (expression
                                                                                                                     left: (expression
                                                                                                                       (primary
-                                                                                                                        (function_subroutine_call
-                                                                                                                          (subroutine_call
-                                                                                                                            (method_call
-                                                                                                                              (primary
-                                                                                                                                (function_subroutine_call
-                                                                                                                                  (subroutine_call
-                                                                                                                                    (method_call
-                                                                                                                                      (primary
-                                                                                                                                        (hierarchical_identifier
-                                                                                                                                          (simple_identifier)))
-                                                                                                                                      (method_call_body
-                                                                                                                                        name: (simple_identifier))))))
-                                                                                                                              (method_call_body
-                                                                                                                                name: (simple_identifier)))))))
+                                                                                                                        (hierarchical_identifier
+                                                                                                                          (simple_identifier)
+                                                                                                                          (simple_identifier)
+                                                                                                                          (simple_identifier))))
                                                                                                                     right: (expression
                                                                                                                       (primary
                                                                                                                         (primary_literal
@@ -9513,20 +9473,10 @@ endmodule
                                                                                                   (expression
                                                                                                     left: (expression
                                                                                                       (primary
-                                                                                                        (function_subroutine_call
-                                                                                                          (subroutine_call
-                                                                                                            (method_call
-                                                                                                              (primary
-                                                                                                                (function_subroutine_call
-                                                                                                                  (subroutine_call
-                                                                                                                    (method_call
-                                                                                                                      (primary
-                                                                                                                        (hierarchical_identifier
-                                                                                                                          (simple_identifier)))
-                                                                                                                      (method_call_body
-                                                                                                                        name: (simple_identifier))))))
-                                                                                                              (method_call_body
-                                                                                                                name: (simple_identifier)))))))
+                                                                                                        (hierarchical_identifier
+                                                                                                          (simple_identifier)
+                                                                                                          (simple_identifier)
+                                                                                                          (simple_identifier))))
                                                                                                     right: (expression
                                                                                                       (primary
                                                                                                         (primary_literal
@@ -11664,20 +11614,10 @@ endmodule
                                                                   (expression
                                                                     left: (expression
                                                                       (primary
-                                                                        (function_subroutine_call
-                                                                          (subroutine_call
-                                                                            (method_call
-                                                                              (primary
-                                                                                (function_subroutine_call
-                                                                                  (subroutine_call
-                                                                                    (method_call
-                                                                                      (primary
-                                                                                        (hierarchical_identifier
-                                                                                          (simple_identifier)))
-                                                                                      (method_call_body
-                                                                                        name: (simple_identifier))))))
-                                                                              (method_call_body
-                                                                                name: (simple_identifier)))))))
+                                                                        (hierarchical_identifier
+                                                                          (simple_identifier)
+                                                                          (simple_identifier)
+                                                                          (simple_identifier))))
                                                                     right: (expression
                                                                       (primary
                                                                         (primary_literal
@@ -16114,14 +16054,9 @@ endmodule
                                                                         (expression
                                                                           left: (expression
                                                                             (primary
-                                                                              (function_subroutine_call
-                                                                                (subroutine_call
-                                                                                  (method_call
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))
-                                                                                    (method_call_body
-                                                                                      name: (simple_identifier)))))))
+                                                                              (hierarchical_identifier
+                                                                                (simple_identifier)
+                                                                                (simple_identifier))))
                                                                           right: (expression
                                                                             (primary
                                                                               (mintypmax_expression
@@ -16631,14 +16566,9 @@ endmodule
                                                                         (expression
                                                                           left: (expression
                                                                             (primary
-                                                                              (function_subroutine_call
-                                                                                (subroutine_call
-                                                                                  (method_call
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))
-                                                                                    (method_call_body
-                                                                                      name: (simple_identifier)))))))
+                                                                              (hierarchical_identifier
+                                                                                (simple_identifier)
+                                                                                (simple_identifier))))
                                                                           right: (expression
                                                                             (primary
                                                                               (mintypmax_expression
@@ -17156,14 +17086,9 @@ endmodule
                                                                         (expression
                                                                           left: (expression
                                                                             (primary
-                                                                              (function_subroutine_call
-                                                                                (subroutine_call
-                                                                                  (method_call
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))
-                                                                                    (method_call_body
-                                                                                      name: (simple_identifier)))))))
+                                                                              (hierarchical_identifier
+                                                                                (simple_identifier)
+                                                                                (simple_identifier))))
                                                                           right: (expression
                                                                             (primary
                                                                               (mintypmax_expression
@@ -17893,14 +17818,9 @@ endmodule
                                                                         (expression
                                                                           left: (expression
                                                                             (primary
-                                                                              (function_subroutine_call
-                                                                                (subroutine_call
-                                                                                  (method_call
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))
-                                                                                    (method_call_body
-                                                                                      name: (simple_identifier)))))))
+                                                                              (hierarchical_identifier
+                                                                                (simple_identifier)
+                                                                                (simple_identifier))))
                                                                           right: (expression
                                                                             (primary
                                                                               (mintypmax_expression
@@ -18379,20 +18299,10 @@ endmodule
                                                                                                                   (inside_expression
                                                                                                                     (expression
                                                                                                                       (primary
-                                                                                                                        (function_subroutine_call
-                                                                                                                          (subroutine_call
-                                                                                                                            (method_call
-                                                                                                                              (primary
-                                                                                                                                (function_subroutine_call
-                                                                                                                                  (subroutine_call
-                                                                                                                                    (method_call
-                                                                                                                                      (primary
-                                                                                                                                        (hierarchical_identifier
-                                                                                                                                          (simple_identifier)))
-                                                                                                                                      (method_call_body
-                                                                                                                                        name: (simple_identifier))))))
-                                                                                                                              (method_call_body
-                                                                                                                                name: (simple_identifier)))))))
+                                                                                                                        (hierarchical_identifier
+                                                                                                                          (simple_identifier)
+                                                                                                                          (simple_identifier)
+                                                                                                                          (simple_identifier))))
                                                                                                                     (range_list
                                                                                                                       (value_range
                                                                                                                         (expression
@@ -18462,20 +18372,10 @@ endmodule
                                                                                                                   (inside_expression
                                                                                                                     (expression
                                                                                                                       (primary
-                                                                                                                        (function_subroutine_call
-                                                                                                                          (subroutine_call
-                                                                                                                            (method_call
-                                                                                                                              (primary
-                                                                                                                                (function_subroutine_call
-                                                                                                                                  (subroutine_call
-                                                                                                                                    (method_call
-                                                                                                                                      (primary
-                                                                                                                                        (hierarchical_identifier
-                                                                                                                                          (simple_identifier)))
-                                                                                                                                      (method_call_body
-                                                                                                                                        name: (simple_identifier))))))
-                                                                                                                              (method_call_body
-                                                                                                                                name: (simple_identifier)))))))
+                                                                                                                        (hierarchical_identifier
+                                                                                                                          (simple_identifier)
+                                                                                                                          (simple_identifier)
+                                                                                                                          (simple_identifier))))
                                                                                                                     (range_list
                                                                                                                       (value_range
                                                                                                                         (expression
@@ -18588,20 +18488,10 @@ endmodule
                                                                                                                   (inside_expression
                                                                                                                     (expression
                                                                                                                       (primary
-                                                                                                                        (function_subroutine_call
-                                                                                                                          (subroutine_call
-                                                                                                                            (method_call
-                                                                                                                              (primary
-                                                                                                                                (function_subroutine_call
-                                                                                                                                  (subroutine_call
-                                                                                                                                    (method_call
-                                                                                                                                      (primary
-                                                                                                                                        (hierarchical_identifier
-                                                                                                                                          (simple_identifier)))
-                                                                                                                                      (method_call_body
-                                                                                                                                        name: (simple_identifier))))))
-                                                                                                                              (method_call_body
-                                                                                                                                name: (simple_identifier)))))))
+                                                                                                                        (hierarchical_identifier
+                                                                                                                          (simple_identifier)
+                                                                                                                          (simple_identifier)
+                                                                                                                          (simple_identifier))))
                                                                                                                     (range_list
                                                                                                                       (value_range
                                                                                                                         (expression
@@ -18671,20 +18561,10 @@ endmodule
                                                                                                                   (inside_expression
                                                                                                                     (expression
                                                                                                                       (primary
-                                                                                                                        (function_subroutine_call
-                                                                                                                          (subroutine_call
-                                                                                                                            (method_call
-                                                                                                                              (primary
-                                                                                                                                (function_subroutine_call
-                                                                                                                                  (subroutine_call
-                                                                                                                                    (method_call
-                                                                                                                                      (primary
-                                                                                                                                        (hierarchical_identifier
-                                                                                                                                          (simple_identifier)))
-                                                                                                                                      (method_call_body
-                                                                                                                                        name: (simple_identifier))))))
-                                                                                                                              (method_call_body
-                                                                                                                                name: (simple_identifier)))))))
+                                                                                                                        (hierarchical_identifier
+                                                                                                                          (simple_identifier)
+                                                                                                                          (simple_identifier)
+                                                                                                                          (simple_identifier))))
                                                                                                                     (range_list
                                                                                                                       (value_range
                                                                                                                         (expression
@@ -19140,20 +19020,10 @@ endmodule
                                                                                                                   (inside_expression
                                                                                                                     (expression
                                                                                                                       (primary
-                                                                                                                        (function_subroutine_call
-                                                                                                                          (subroutine_call
-                                                                                                                            (method_call
-                                                                                                                              (primary
-                                                                                                                                (function_subroutine_call
-                                                                                                                                  (subroutine_call
-                                                                                                                                    (method_call
-                                                                                                                                      (primary
-                                                                                                                                        (hierarchical_identifier
-                                                                                                                                          (simple_identifier)))
-                                                                                                                                      (method_call_body
-                                                                                                                                        name: (simple_identifier))))))
-                                                                                                                              (method_call_body
-                                                                                                                                name: (simple_identifier)))))))
+                                                                                                                        (hierarchical_identifier
+                                                                                                                          (simple_identifier)
+                                                                                                                          (simple_identifier)
+                                                                                                                          (simple_identifier))))
                                                                                                                     (range_list
                                                                                                                       (value_range
                                                                                                                         (expression
@@ -19223,20 +19093,10 @@ endmodule
                                                                                                                   (inside_expression
                                                                                                                     (expression
                                                                                                                       (primary
-                                                                                                                        (function_subroutine_call
-                                                                                                                          (subroutine_call
-                                                                                                                            (method_call
-                                                                                                                              (primary
-                                                                                                                                (function_subroutine_call
-                                                                                                                                  (subroutine_call
-                                                                                                                                    (method_call
-                                                                                                                                      (primary
-                                                                                                                                        (hierarchical_identifier
-                                                                                                                                          (simple_identifier)))
-                                                                                                                                      (method_call_body
-                                                                                                                                        name: (simple_identifier))))))
-                                                                                                                              (method_call_body
-                                                                                                                                name: (simple_identifier)))))))
+                                                                                                                        (hierarchical_identifier
+                                                                                                                          (simple_identifier)
+                                                                                                                          (simple_identifier)
+                                                                                                                          (simple_identifier))))
                                                                                                                     (range_list
                                                                                                                       (value_range
                                                                                                                         (expression
@@ -19526,14 +19386,9 @@ endmodule
                                                                                                   (expression
                                                                                                     left: (expression
                                                                                                       (primary
-                                                                                                        (function_subroutine_call
-                                                                                                          (subroutine_call
-                                                                                                            (method_call
-                                                                                                              (primary
-                                                                                                                (hierarchical_identifier
-                                                                                                                  (simple_identifier)))
-                                                                                                              (method_call_body
-                                                                                                                name: (simple_identifier)))))))
+                                                                                                        (hierarchical_identifier
+                                                                                                          (simple_identifier)
+                                                                                                          (simple_identifier))))
                                                                                                     right: (expression
                                                                                                       left: (expression
                                                                                                         (primary
@@ -19590,14 +19445,9 @@ endmodule
                                                                                                   (expression
                                                                                                     left: (expression
                                                                                                       (primary
-                                                                                                        (function_subroutine_call
-                                                                                                          (subroutine_call
-                                                                                                            (method_call
-                                                                                                              (primary
-                                                                                                                (hierarchical_identifier
-                                                                                                                  (simple_identifier)))
-                                                                                                              (method_call_body
-                                                                                                                name: (simple_identifier)))))))
+                                                                                                        (hierarchical_identifier
+                                                                                                          (simple_identifier)
+                                                                                                          (simple_identifier))))
                                                                                                     right: (expression
                                                                                                       left: (expression
                                                                                                         (primary
@@ -19765,20 +19615,10 @@ endmodule
                                                                                                   left: (expression
                                                                                                     left: (expression
                                                                                                       (primary
-                                                                                                        (function_subroutine_call
-                                                                                                          (subroutine_call
-                                                                                                            (method_call
-                                                                                                              (primary
-                                                                                                                (function_subroutine_call
-                                                                                                                  (subroutine_call
-                                                                                                                    (method_call
-                                                                                                                      (primary
-                                                                                                                        (hierarchical_identifier
-                                                                                                                          (simple_identifier)))
-                                                                                                                      (method_call_body
-                                                                                                                        name: (simple_identifier))))))
-                                                                                                              (method_call_body
-                                                                                                                name: (simple_identifier)))))))
+                                                                                                        (hierarchical_identifier
+                                                                                                          (simple_identifier)
+                                                                                                          (simple_identifier)
+                                                                                                          (simple_identifier))))
                                                                                                     right: (expression
                                                                                                       (primary
                                                                                                         (primary_literal
@@ -19793,14 +19633,9 @@ endmodule
                                                                                                         (expression
                                                                                                           left: (expression
                                                                                                             (primary
-                                                                                                              (function_subroutine_call
-                                                                                                                (subroutine_call
-                                                                                                                  (method_call
-                                                                                                                    (primary
-                                                                                                                      (hierarchical_identifier
-                                                                                                                        (simple_identifier)))
-                                                                                                                    (method_call_body
-                                                                                                                      name: (simple_identifier)))))))
+                                                                                                              (hierarchical_identifier
+                                                                                                                (simple_identifier)
+                                                                                                                (simple_identifier))))
                                                                                                           right: (expression
                                                                                                             left: (expression
                                                                                                               (primary
@@ -23879,14 +23714,9 @@ endmodule
                                                                                 (expression
                                                                                   left: (expression
                                                                                     (primary
-                                                                                      (function_subroutine_call
-                                                                                        (subroutine_call
-                                                                                          (method_call
-                                                                                            (primary
-                                                                                              (hierarchical_identifier
-                                                                                                (simple_identifier)))
-                                                                                            (method_call_body
-                                                                                              name: (simple_identifier)))))))
+                                                                                      (hierarchical_identifier
+                                                                                        (simple_identifier)
+                                                                                        (simple_identifier))))
                                                                                   right: (expression
                                                                                     (primary
                                                                                       (hierarchical_identifier
@@ -24816,14 +24646,9 @@ endmodule
                                                                                                               (expression
                                                                                                                 left: (expression
                                                                                                                   (primary
-                                                                                                                    (function_subroutine_call
-                                                                                                                      (subroutine_call
-                                                                                                                        (method_call
-                                                                                                                          (primary
-                                                                                                                            (hierarchical_identifier
-                                                                                                                              (simple_identifier)))
-                                                                                                                          (method_call_body
-                                                                                                                            name: (simple_identifier)))))))
+                                                                                                                    (hierarchical_identifier
+                                                                                                                      (simple_identifier)
+                                                                                                                      (simple_identifier))))
                                                                                                                 right: (expression
                                                                                                                   left: (expression
                                                                                                                     (primary
@@ -24986,14 +24811,9 @@ endmodule
                                                                                                         (expression
                                                                                                           left: (expression
                                                                                                             (primary
-                                                                                                              (function_subroutine_call
-                                                                                                                (subroutine_call
-                                                                                                                  (method_call
-                                                                                                                    (primary
-                                                                                                                      (hierarchical_identifier
-                                                                                                                        (simple_identifier)))
-                                                                                                                    (method_call_body
-                                                                                                                      name: (simple_identifier)))))))
+                                                                                                              (hierarchical_identifier
+                                                                                                                (simple_identifier)
+                                                                                                                (simple_identifier))))
                                                                                                           right: (expression
                                                                                                             left: (expression
                                                                                                               (primary
@@ -25111,14 +24931,9 @@ endmodule
                                                                                                 left: (expression
                                                                                                   left: (expression
                                                                                                     (primary
-                                                                                                      (function_subroutine_call
-                                                                                                        (subroutine_call
-                                                                                                          (method_call
-                                                                                                            (primary
-                                                                                                              (hierarchical_identifier
-                                                                                                                (simple_identifier)))
-                                                                                                            (method_call_body
-                                                                                                              name: (simple_identifier)))))))
+                                                                                                      (hierarchical_identifier
+                                                                                                        (simple_identifier)
+                                                                                                        (simple_identifier))))
                                                                                                   right: (expression
                                                                                                     (primary
                                                                                                       (hierarchical_identifier
@@ -25141,14 +24956,9 @@ endmodule
                                                                                               (expression
                                                                                                 left: (expression
                                                                                                   (primary
-                                                                                                    (function_subroutine_call
-                                                                                                      (subroutine_call
-                                                                                                        (method_call
-                                                                                                          (primary
-                                                                                                            (hierarchical_identifier
-                                                                                                              (simple_identifier)))
-                                                                                                          (method_call_body
-                                                                                                            name: (simple_identifier)))))))
+                                                                                                    (hierarchical_identifier
+                                                                                                      (simple_identifier)
+                                                                                                      (simple_identifier))))
                                                                                                 right: (expression
                                                                                                   left: (expression
                                                                                                     (primary

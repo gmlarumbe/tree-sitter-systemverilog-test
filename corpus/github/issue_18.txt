@@ -52,14 +52,9 @@ assign a = (a.a[a] == a[a::a-1]);
             (mintypmax_expression
               (expression
                 (primary
-                  (function_subroutine_call
-                    (subroutine_call
-                      (method_call
-                        (primary
-                          (hierarchical_identifier
-                            (simple_identifier)))
-                        (method_call_body
-                          name: (simple_identifier)))))))))))))
+                  (hierarchical_identifier
+                    (simple_identifier)
+                    (simple_identifier))))))))))
   (continuous_assign
     (list_of_net_assignments
       (net_assignment
@@ -263,26 +258,11 @@ assign a = (a.a[a] == a[a::a-1]);
             (mintypmax_expression
               (expression
                 (primary
-                  (function_subroutine_call
-                    (subroutine_call
-                      (method_call
-                        (primary
-                          (function_subroutine_call
-                            (subroutine_call
-                              (method_call
-                                (primary
-                                  (function_subroutine_call
-                                    (subroutine_call
-                                      (method_call
-                                        (primary
-                                          (hierarchical_identifier
-                                            (simple_identifier)))
-                                        (method_call_body
-                                          name: (simple_identifier))))))
-                                (method_call_body
-                                  name: (simple_identifier))))))
-                        (method_call_body
-                          name: (simple_identifier)))))))))))))
+                  (hierarchical_identifier
+                    (simple_identifier)
+                    (simple_identifier)
+                    (simple_identifier)
+                    (simple_identifier))))))))))
   (continuous_assign
     (list_of_net_assignments
       (net_assignment

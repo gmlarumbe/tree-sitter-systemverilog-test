@@ -2615,7 +2615,8 @@ endmodule
                                                                                 (hierarchical_identifier
                                                                                   (simple_identifier)))
                                                                               (method_call_body
-                                                                                name: (simple_identifier)))))))
+                                                                                name: (simple_identifier))))))))
+                                                                  (bit_select
                                                                     (expression
                                                                       (primary
                                                                         (primary_literal
@@ -2674,7 +2675,8 @@ endmodule
                                                                             (hierarchical_identifier
                                                                               (simple_identifier)))
                                                                           (method_call_body
-                                                                            name: (simple_identifier)))))))
+                                                                            name: (simple_identifier))))))))
+                                                              (bit_select
                                                                 (expression
                                                                   (primary
                                                                     (primary_literal
@@ -3560,7 +3562,8 @@ endmodule
                                                                                                 (method_call_body
                                                                                                   name: (simple_identifier))))))
                                                                                         (method_call_body
-                                                                                          name: (simple_identifier)))))))
+                                                                                          name: (simple_identifier))))))))
+                                                                            (bit_select
                                                                               (expression
                                                                                 (primary
                                                                                   (primary_literal
@@ -3904,7 +3907,8 @@ endmodule
                                                                             (hierarchical_identifier
                                                                               (simple_identifier)))
                                                                           (method_call_body
-                                                                            name: (simple_identifier)))))))
+                                                                            name: (simple_identifier))))))))
+                                                              (bit_select
                                                                 (expression
                                                                   (primary
                                                                     (primary_literal

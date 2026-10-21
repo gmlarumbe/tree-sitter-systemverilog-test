@@ -11958,12 +11958,10 @@ endfunction
                                 (primary
                                   (function_subroutine_call
                                     (subroutine_call
-                                      (method_call
-                                        (primary
-                                          (hierarchical_identifier
-                                            (simple_identifier)))
-                                        (method_call_body
-                                          name: (simple_identifier)))))))
+                                      (tf_call
+                                        (hierarchical_identifier
+                                          (simple_identifier)
+                                          (simple_identifier)))))))
                               right: (expression
                                 (primary
                                   (hierarchical_identifier
@@ -14188,19 +14186,17 @@ endfunction
                                                   (primary
                                                     (function_subroutine_call
                                                       (subroutine_call
-                                                        (method_call
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)))
-                                                          (method_call_body
-                                                            name: (simple_identifier)
-                                                            arguments: (list_of_arguments
-                                                              (expression
-                                                                (primary
-                                                                  (primary_literal
-                                                                    (integral_number
-                                                                      (decimal_number
-                                                                        (unsigned_number)))))))))))))
+                                                        (tf_call
+                                                          (hierarchical_identifier
+                                                            (simple_identifier)
+                                                            (simple_identifier))
+                                                          (list_of_arguments
+                                                            (expression
+                                                              (primary
+                                                                (primary_literal
+                                                                  (integral_number
+                                                                    (decimal_number
+                                                                      (unsigned_number))))))))))))
                                                 right: (expression
                                                   (primary
                                                     (hierarchical_identifier
@@ -14711,19 +14707,17 @@ endfunction
                                                                                 (primary
                                                                                   (function_subroutine_call
                                                                                     (subroutine_call
-                                                                                      (method_call
-                                                                                        (primary
-                                                                                          (hierarchical_identifier
-                                                                                            (simple_identifier)))
-                                                                                        (method_call_body
-                                                                                          name: (simple_identifier)
-                                                                                          arguments: (list_of_arguments
-                                                                                            (expression
-                                                                                              (primary
-                                                                                                (primary_literal
-                                                                                                  (integral_number
-                                                                                                    (decimal_number
-                                                                                                      (unsigned_number)))))))))))))
+                                                                                      (tf_call
+                                                                                        (hierarchical_identifier
+                                                                                          (simple_identifier)
+                                                                                          (simple_identifier))
+                                                                                        (list_of_arguments
+                                                                                          (expression
+                                                                                            (primary
+                                                                                              (primary_literal
+                                                                                                (integral_number
+                                                                                                  (decimal_number
+                                                                                                    (unsigned_number))))))))))))
                                                                               right: (expression
                                                                                 (primary
                                                                                   (hierarchical_identifier
@@ -15783,14 +15777,9 @@ endfunction
                                                           (expression
                                                             left: (expression
                                                               (primary
-                                                                (function_subroutine_call
-                                                                  (subroutine_call
-                                                                    (method_call
-                                                                      (primary
-                                                                        (hierarchical_identifier
-                                                                          (simple_identifier)))
-                                                                      (method_call_body
-                                                                        name: (simple_identifier)))))))
+                                                                (hierarchical_identifier
+                                                                  (simple_identifier)
+                                                                  (simple_identifier))))
                                                             right: (expression
                                                               (primary))))))
                                                     (expression
@@ -18677,12 +18666,10 @@ endfunction
                                         (primary
                                           (function_subroutine_call
                                             (subroutine_call
-                                              (method_call
-                                                (primary
-                                                  (hierarchical_identifier
-                                                    (simple_identifier)))
-                                                (method_call_body
-                                                  name: (simple_identifier)))))))
+                                              (tf_call
+                                                (hierarchical_identifier
+                                                  (simple_identifier)
+                                                  (simple_identifier)))))))
                                       right: (expression
                                         (primary
                                           (function_subroutine_call
@@ -18874,19 +18861,17 @@ endfunction
                                                   (primary
                                                     (function_subroutine_call
                                                       (subroutine_call
-                                                        (method_call
-                                                          (primary
-                                                            (hierarchical_identifier
-                                                              (simple_identifier)))
-                                                          (method_call_body
-                                                            name: (simple_identifier)
-                                                            arguments: (list_of_arguments
-                                                              (expression
-                                                                (primary
-                                                                  (primary_literal
-                                                                    (integral_number
-                                                                      (decimal_number
-                                                                        (unsigned_number)))))))))))))
+                                                        (tf_call
+                                                          (hierarchical_identifier
+                                                            (simple_identifier)
+                                                            (simple_identifier))
+                                                          (list_of_arguments
+                                                            (expression
+                                                              (primary
+                                                                (primary_literal
+                                                                  (integral_number
+                                                                    (decimal_number
+                                                                      (unsigned_number))))))))))))
                                                 right: (expression
                                                   (primary
                                                     (function_subroutine_call
@@ -19037,14 +19022,9 @@ endfunction
                                                           (expression
                                                             left: (expression
                                                               (primary
-                                                                (function_subroutine_call
-                                                                  (subroutine_call
-                                                                    (method_call
-                                                                      (primary
-                                                                        (hierarchical_identifier
-                                                                          (simple_identifier)))
-                                                                      (method_call_body
-                                                                        name: (simple_identifier)))))))
+                                                                (hierarchical_identifier
+                                                                  (simple_identifier)
+                                                                  (simple_identifier))))
                                                             right: (expression
                                                               (primary))))))
                                                     (expression
@@ -19765,12 +19745,10 @@ endfunction
                                                                             (primary
                                                                               (function_subroutine_call
                                                                                 (subroutine_call
-                                                                                  (method_call
-                                                                                    (primary
-                                                                                      (hierarchical_identifier
-                                                                                        (simple_identifier)))
-                                                                                    (method_call_body
-                                                                                      name: (simple_identifier)))))))
+                                                                                  (tf_call
+                                                                                    (hierarchical_identifier
+                                                                                      (simple_identifier)
+                                                                                      (simple_identifier)))))))
                                                                           right: (expression
                                                                             (primary))))))
                                                                   (expression
