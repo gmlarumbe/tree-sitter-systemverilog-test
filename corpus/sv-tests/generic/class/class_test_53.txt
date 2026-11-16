@@ -128,26 +128,30 @@ endmodule
           (list_of_type_assignments
             (type_assignment
               name: (simple_identifier)
-              value: (simple_identifier))))))
+              value: (data_type
+                (simple_identifier)))))))
     (class_item
       (parameter_declaration
         (type_parameter_declaration
           (list_of_type_assignments
             (type_assignment
               name: (simple_identifier)
-              value: (simple_identifier))
+              value: (data_type
+                (simple_identifier)))
             (type_assignment
               name: (simple_identifier)
-              value: (simple_identifier))))))
+              value: (data_type
+                (simple_identifier)))))))
     (class_item
       (local_parameter_declaration
         (type_parameter_declaration
           (list_of_type_assignments
             (type_assignment
               name: (simple_identifier)
-              value: (class_type
-                (simple_identifier)
-                (simple_identifier)))
+              value: (data_type
+                (class_type
+                  (simple_identifier)
+                  (simple_identifier))))
             (type_assignment
               name: (simple_identifier)
               value: (data_type
@@ -162,23 +166,24 @@ endmodule
                 (integer_atom_type)))
             (type_assignment
               name: (simple_identifier)
-              value: (class_type
-                (simple_identifier)
-                (simple_identifier)
-                (parameter_value_assignment
-                  (list_of_parameter_value_assignments
-                    (ordered_parameter_assignment
-                      (param_expression
-                        (mintypmax_expression
-                          (expression
-                            left: (expression
-                              (primary
-                                (hierarchical_identifier
-                                  (simple_identifier))))
-                            right: (expression
-                              (primary
-                                (hierarchical_identifier
-                                  (simple_identifier)))))))))))))))))
+              value: (data_type
+                (class_type
+                  (simple_identifier)
+                  (simple_identifier)
+                  (parameter_value_assignment
+                    (list_of_parameter_value_assignments
+                      (ordered_parameter_assignment
+                        (param_expression
+                          (mintypmax_expression
+                            (expression
+                              left: (expression
+                                (primary
+                                  (hierarchical_identifier
+                                    (simple_identifier))))
+                              right: (expression
+                                (primary
+                                  (hierarchical_identifier
+                                    (simple_identifier))))))))))))))))))
   (module_declaration
     (module_ansi_header
       (module_keyword)

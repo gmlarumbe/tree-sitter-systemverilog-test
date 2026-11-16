@@ -4186,7 +4186,8 @@ endclass : uvm_shared
           (list_of_type_assignments
             (type_assignment
               name: (simple_identifier)
-              value: (simple_identifier))))))
+              value: (data_type
+                (simple_identifier)))))))
     (class_item
       (class_property
         (class_item_qualifier)

@@ -1342,7 +1342,8 @@ endclass
       (class_property
         (data_declaration
           (type_declaration
-            (simple_identifier)
+            (data_type
+              (simple_identifier))
             type_name: (simple_identifier)))))
     (class_item
       (class_property
@@ -1759,7 +1760,8 @@ endclass
       (class_property
         (data_declaration
           (type_declaration
-            (simple_identifier)
+            (data_type
+              (simple_identifier))
             type_name: (simple_identifier)))))
     (class_item
       (class_property
@@ -2026,7 +2028,8 @@ endclass
       (class_property
         (data_declaration
           (type_declaration
-            (simple_identifier)
+            (data_type
+              (simple_identifier))
             type_name: (simple_identifier)))))
     (class_item
       (class_property
@@ -2437,7 +2440,8 @@ endclass
       (class_property
         (data_declaration
           (type_declaration
-            (simple_identifier)
+            (data_type
+              (simple_identifier))
             type_name: (simple_identifier)
             (queue_dimension)))))
     (class_item

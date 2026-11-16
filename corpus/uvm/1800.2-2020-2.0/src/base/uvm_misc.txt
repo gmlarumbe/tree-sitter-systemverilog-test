@@ -591,17 +591,18 @@ endfunction
   (one_line_comment)
   (data_declaration
     (type_declaration
-      (class_type
-        (simple_identifier)
-        (parameter_value_assignment
-          (list_of_parameter_value_assignments
-            (ordered_parameter_assignment
-              (param_expression
-                (mintypmax_expression
-                  (expression
-                    (primary
-                      (hierarchical_identifier
-                        (simple_identifier))))))))))
+      (data_type
+        (class_type
+          (simple_identifier)
+          (parameter_value_assignment
+            (list_of_parameter_value_assignments
+              (ordered_parameter_assignment
+                (param_expression
+                  (mintypmax_expression
+                    (expression
+                      (primary
+                        (hierarchical_identifier
+                          (simple_identifier)))))))))))
       type_name: (simple_identifier)))
   (data_declaration
     (type_declaration
@@ -4331,7 +4332,8 @@ endfunction
       (class_property
         (data_declaration
           (type_declaration
-            (simple_identifier)
+            (data_type
+              (simple_identifier))
             type_name: (simple_identifier)
             (queue_dimension)))))
     (one_line_comment)

@@ -1248,7 +1248,8 @@ typedef uvm_time uvm_tlm_time;
                                 (simple_identifier))))))))))))))))
   (data_declaration
     (type_declaration
-      (simple_identifier)
+      (data_type
+        (simple_identifier))
       type_name: (simple_identifier)))
   (one_line_comment)
   (one_line_comment)

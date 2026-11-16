@@ -41,7 +41,8 @@ endmodule
       type_name: (simple_identifier)))
   (data_declaration
     (type_declaration
-      (simple_identifier)
+      (data_type
+        (simple_identifier))
       type_name: (simple_identifier)
       (associative_dimension
         (data_type

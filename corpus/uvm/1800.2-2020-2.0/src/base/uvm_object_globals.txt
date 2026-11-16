@@ -2076,7 +2076,8 @@ uvm_comparer uvm_default_comparer ;
   (one_line_comment)
   (data_declaration
     (type_declaration
-      (simple_identifier)
+      (data_type
+        (simple_identifier))
       type_name: (simple_identifier)))
   (one_line_comment)
   (one_line_comment)
@@ -2302,7 +2303,8 @@ uvm_comparer uvm_default_comparer ;
       (simple_identifier)))
   (data_declaration
     (type_declaration
-      (simple_identifier)
+      (data_type
+        (simple_identifier))
       type_name: (simple_identifier)))
   (one_line_comment)
   (conditional_compilation_directive)
@@ -2410,7 +2412,8 @@ uvm_comparer uvm_default_comparer ;
       type_name: (simple_identifier)))
   (data_declaration
     (type_declaration
-      (simple_identifier)
+      (data_type
+        (simple_identifier))
       type_name: (simple_identifier)))
   (one_line_comment)
   (one_line_comment)

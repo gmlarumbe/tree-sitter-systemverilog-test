@@ -392,7 +392,8 @@ endclass
           (list_of_type_assignments
             (type_assignment
               name: (simple_identifier)
-              value: (simple_identifier)))))
+              value: (data_type
+                (simple_identifier))))))
       (parameter_port_declaration
         (type_parameter_declaration
           (list_of_type_assignments
@@ -492,13 +493,15 @@ endclass
           (list_of_type_assignments
             (type_assignment
               name: (simple_identifier)
-              value: (simple_identifier)))))
+              value: (data_type
+                (simple_identifier))))))
       (parameter_port_declaration
         (type_parameter_declaration
           (list_of_type_assignments
             (type_assignment
               name: (simple_identifier)
-              value: (simple_identifier)))))
+              value: (data_type
+                (simple_identifier))))))
       (parameter_port_declaration
         (type_parameter_declaration
           (list_of_type_assignments
@@ -619,13 +622,15 @@ endclass
           (list_of_type_assignments
             (type_assignment
               name: (simple_identifier)
-              value: (simple_identifier)))))
+              value: (data_type
+                (simple_identifier))))))
       (parameter_port_declaration
         (type_parameter_declaration
           (list_of_type_assignments
             (type_assignment
               name: (simple_identifier)
-              value: (simple_identifier)))))
+              value: (data_type
+                (simple_identifier))))))
       (parameter_port_declaration
         (type_parameter_declaration
           (list_of_type_assignments

@@ -1728,7 +1728,8 @@ endmodule
           (conditional_compilation_directive)
           (data_declaration
             (type_declaration
-              (simple_identifier)
+              (data_type
+                (simple_identifier))
               type_name: (simple_identifier)))
           (conditional_compilation_directive)
           (net_declaration
@@ -2951,7 +2952,8 @@ endmodule
           (conditional_compilation_directive)
           (data_declaration
             (type_declaration
-              (simple_identifier)
+              (data_type
+                (simple_identifier))
               type_name: (simple_identifier)))
           (conditional_compilation_directive)
           (net_declaration

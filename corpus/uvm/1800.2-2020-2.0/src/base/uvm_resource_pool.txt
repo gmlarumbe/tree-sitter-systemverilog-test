@@ -1409,9 +1409,10 @@ endclass
       (class_property
         (data_declaration
           (type_declaration
-            (class_type
-              (simple_identifier)
-              (simple_identifier))
+            (data_type
+              (class_type
+                (simple_identifier)
+                (simple_identifier)))
             type_name: (simple_identifier)))))
     (class_item
       (text_macro_definition
@@ -1442,9 +1443,10 @@ endclass
       (class_property
         (data_declaration
           (type_declaration
-            (class_type
-              (simple_identifier)
-              (simple_identifier))
+            (data_type
+              (class_type
+                (simple_identifier)
+                (simple_identifier)))
             type_name: (simple_identifier)))))
     (class_item
       (text_macro_definition

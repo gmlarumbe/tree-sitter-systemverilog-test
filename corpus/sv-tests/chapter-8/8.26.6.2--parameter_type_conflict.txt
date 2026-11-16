@@ -127,5 +127,6 @@ endmodule
                           (simple_identifier))))))))))
         (interface_class_item
           (type_declaration
-            (simple_identifier)
+            (data_type
+              (simple_identifier))
             type_name: (simple_identifier)))))))

@@ -7772,18 +7772,20 @@ endmodule
               (list_of_type_assignments
                 (type_assignment
                   name: (simple_identifier)
-                  value: (class_type
-                    (simple_identifier)
-                    (simple_identifier)))))))
+                  value: (data_type
+                    (class_type
+                      (simple_identifier)
+                      (simple_identifier))))))))
         (parameter_port_declaration
           (parameter_declaration
             (type_parameter_declaration
               (list_of_type_assignments
                 (type_assignment
                   name: (simple_identifier)
-                  value: (class_type
-                    (simple_identifier)
-                    (simple_identifier))))))))
+                  value: (data_type
+                    (class_type
+                      (simple_identifier)
+                      (simple_identifier)))))))))
       (list_of_port_declarations
         (ansi_port_declaration
           (variable_port_header

@@ -394,10 +394,12 @@ endfunction
           (list_of_type_assignments
             (type_assignment
               name: (simple_identifier)
-              value: (simple_identifier))
+              value: (data_type
+                (simple_identifier)))
             (type_assignment
               name: (simple_identifier)
-              value: (simple_identifier))))))
+              value: (data_type
+                (simple_identifier)))))))
     (class_type
       (simple_identifier)
       (parameter_value_assignment
@@ -420,24 +422,25 @@ endfunction
       (class_property
         (data_declaration
           (type_declaration
-            (class_type
-              (simple_identifier)
-              (parameter_value_assignment
-                (list_of_parameter_value_assignments
-                  (ordered_parameter_assignment
-                    (param_expression
-                      (mintypmax_expression
-                        (expression
-                          (primary
-                            (hierarchical_identifier
-                              (simple_identifier)))))))
-                  (ordered_parameter_assignment
-                    (param_expression
-                      (mintypmax_expression
-                        (expression
-                          (primary
-                            (hierarchical_identifier
-                              (simple_identifier))))))))))
+            (data_type
+              (class_type
+                (simple_identifier)
+                (parameter_value_assignment
+                  (list_of_parameter_value_assignments
+                    (ordered_parameter_assignment
+                      (param_expression
+                        (mintypmax_expression
+                          (expression
+                            (primary
+                              (hierarchical_identifier
+                                (simple_identifier)))))))
+                    (ordered_parameter_assignment
+                      (param_expression
+                        (mintypmax_expression
+                          (expression
+                            (primary
+                              (hierarchical_identifier
+                                (simple_identifier)))))))))))
             type_name: (simple_identifier)))))
     (class_item
       (text_macro_usage
@@ -706,17 +709,18 @@ endfunction
           name: (simple_identifier)))))
   (data_declaration
     (type_declaration
-      (class_type
-        (simple_identifier)
-        (parameter_value_assignment
-          (list_of_parameter_value_assignments
-            (ordered_parameter_assignment
-              (param_expression
-                (mintypmax_expression
-                  (expression
-                    (primary
-                      (hierarchical_identifier
-                        (simple_identifier))))))))))
+      (data_type
+        (class_type
+          (simple_identifier)
+          (parameter_value_assignment
+            (list_of_parameter_value_assignments
+              (ordered_parameter_assignment
+                (param_expression
+                  (mintypmax_expression
+                    (expression
+                      (primary
+                        (hierarchical_identifier
+                          (simple_identifier)))))))))))
       type_name: (simple_identifier)))
   (one_line_comment)
   (one_line_comment)
