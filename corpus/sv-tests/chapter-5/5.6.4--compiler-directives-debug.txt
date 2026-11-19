@@ -55,6 +55,10 @@ endmodule;
                                 (quoted_string_item)
                                 (string_escape_seq))))))
                       (expression
-                        (file_or_line_compiler_directive))
+                        (primary
+                          (primary_literal
+                            (file_or_line_compiler_directive))))
                       (expression
-                        (file_or_line_compiler_directive)))))))))))))
+                        (primary
+                          (primary_literal
+                            (file_or_line_compiler_directive)))))))))))))))

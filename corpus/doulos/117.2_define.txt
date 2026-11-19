@@ -1,3 +1,7 @@
+============================================
+doulos/117.2_define
+============================================
+
 // Section 117.2: `define
 
 // Text macro with arguments
@@ -7,3 +11,78 @@
 `nand(4) (g,f,c);
 
 
+
+----
+
+(source_file
+  (one_line_comment)
+  (one_line_comment)
+  (text_macro_definition
+    (text_macro_name
+      (simple_identifier)
+      (list_of_formal_arguments
+        (formal_argument
+          (simple_identifier))))
+    (macro_text))
+  (statement
+    (statement_item
+      (subroutine_call_statement
+        (subroutine_call
+          (tf_call
+            (hierarchical_identifier
+              (text_macro_usage
+                (simple_identifier)
+                (list_of_actual_arguments
+                  (actual_argument
+                    (param_expression
+                      (mintypmax_expression
+                        (expression
+                          (primary
+                            (primary_literal
+                              (integral_number
+                                (decimal_number
+                                  (unsigned_number))))))))))))
+            (list_of_arguments
+              (expression
+                (primary
+                  (hierarchical_identifier
+                    (simple_identifier))))
+              (expression
+                (primary
+                  (hierarchical_identifier
+                    (simple_identifier))))
+              (expression
+                (primary
+                  (hierarchical_identifier
+                    (simple_identifier))))))))))
+  (statement
+    (statement_item
+      (subroutine_call_statement
+        (subroutine_call
+          (tf_call
+            (hierarchical_identifier
+              (text_macro_usage
+                (simple_identifier)
+                (list_of_actual_arguments
+                  (actual_argument
+                    (param_expression
+                      (mintypmax_expression
+                        (expression
+                          (primary
+                            (primary_literal
+                              (integral_number
+                                (decimal_number
+                                  (unsigned_number))))))))))))
+            (list_of_arguments
+              (expression
+                (primary
+                  (hierarchical_identifier
+                    (simple_identifier))))
+              (expression
+                (primary
+                  (hierarchical_identifier
+                    (simple_identifier))))
+              (expression
+                (primary
+                  (hierarchical_identifier
+                    (simple_identifier)))))))))))
